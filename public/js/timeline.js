@@ -291,9 +291,11 @@ async function initTimeline() {
         };
 
         timeline.on('hoverItem', function (props) {
+            console.log("Hover event triggered:", props);
             const id = props.item;
             activeItemId = id;
             const item = itemsView.get(id); // Get processed item
+            console.log("Hovered item:", item);
             if (item) {
                 showTooltip(item, props.pageX, props.pageY);
             }
