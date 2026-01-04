@@ -2,7 +2,7 @@
   {
     "id": "Q8778",
     "content": "Galen",
-    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "title": "Galen\nBirth: 2th century AD - Death: 3th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 200,
@@ -13,7 +13,7 @@
   {
     "id": "Q405969",
     "content": "Aeneas Tacticus",
-    "title": "Birth: 5th century BC / Death: 4th century BC",
+    "title": "Aeneas Tacticus\nBirth: 5th century BC - Death: 4th century BC\n",
     "occupations": [],
     "start": -500,
     "end": -400,
@@ -24,7 +24,7 @@
   {
     "id": "Q859",
     "content": "Plato",
-    "title": "Birth: -426 / Death: -348s",
+    "title": "Plato\nBirth: -426 - Death: -348s\n",
     "occupations": [],
     "start": -426,
     "end": -348,
@@ -35,7 +35,7 @@
   {
     "id": "Q171241",
     "content": "Diodorus Siculus",
-    "title": "Birth: c. -89 / Death: c. -19",
+    "title": "Diodorus Siculus\nBirth: c. -89 - Death: c. -19\n",
     "occupations": [],
     "start": -89,
     "end": -19,
@@ -46,7 +46,7 @@
   {
     "id": "Q177847",
     "content": "Lucian of Samosata",
-    "title": "Birth: c. 120 / Death: 2th century AD",
+    "title": "Lucian of Samosata\nBirth: c. 120 - Death: 2th century AD\n",
     "occupations": [],
     "start": 120,
     "end": 100,
@@ -57,7 +57,7 @@
   {
     "id": "Q296478",
     "content": "Hanno the Navigator",
-    "title": "Birth: 5th century BC / Death: 5th century BC",
+    "title": "Hanno the Navigator\nBirth: 5th century BC - Death: 5th century BC\n",
     "occupations": [],
     "start": -500,
     "end": -500,
@@ -68,7 +68,7 @@
   {
     "id": "Q453311",
     "content": "Scylax of Caryanda",
-    "title": "Birth: 6th century BC / Death: 5th century BC",
+    "title": "Scylax of Caryanda\nBirth: 6th century BC - Death: 5th century BC\n",
     "occupations": [],
     "start": -600,
     "end": -500,
@@ -79,7 +79,7 @@
   {
     "id": "Q352621",
     "content": "Dicaearchus",
-    "title": "Birth: -344 / Death: -289",
+    "title": "Dicaearchus\nBirth: -344 - Death: -289\n",
     "occupations": [],
     "start": -344,
     "end": -289,
@@ -90,7 +90,7 @@
   {
     "id": "Q391216",
     "content": "Agatharchides",
-    "title": "Birth: -207 / Death: ?",
+    "title": "Agatharchides\nBirth: -207 - Death: ?\n",
     "occupations": [],
     "start": -207,
     "type": "point",
@@ -100,7 +100,7 @@
   {
     "id": "Q2877686",
     "content": "Pseudo-Scymnus",
-    "title": "Birth: 2th century BC / Death: -2",
+    "title": "Pseudo-Scymnus\nBirth: 2th century BC - Death: -2\n",
     "occupations": [],
     "start": -200,
     "end": -2,
@@ -111,7 +111,7 @@
   {
     "id": "Q1351420",
     "content": "Isidoros of Charax",
-    "title": "Birth: 1th century BC / Death: 1th century AD",
+    "title": "Isidoros of Charax\nBirth: 1th century BC - Death: 1th century AD\n",
     "occupations": [],
     "start": -100,
     "end": 0,
@@ -122,7 +122,7 @@
   {
     "id": "Q31845",
     "content": "Arrian",
-    "title": "Birth: c. 89 / Death: 180",
+    "title": "Arrian\nBirth: c. 89 - Death: 180\n",
     "occupations": [],
     "start": 89,
     "end": 180,
@@ -133,7 +133,7 @@
   {
     "id": "Q26204",
     "content": "Dionysius of Halicarnassus",
-    "title": "Birth: c. -59 / Death: -6",
+    "title": "Dionysius of Halicarnassus\nBirth: c. -59 - Death: -6\n",
     "occupations": [],
     "start": -59,
     "end": -6,
@@ -144,7 +144,7 @@
   {
     "id": "Q472809",
     "content": "Apollonius Dyscolus",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Apollonius Dyscolus\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -155,7 +155,7 @@
   {
     "id": "Q804146",
     "content": "Dionysius of Byzantium",
-    "title": "Birth: 2th century AD / Death: ?",
+    "title": "Dionysius of Byzantium\nBirth: 2th century AD - Death: ?\n",
     "occupations": [],
     "start": 100,
     "type": "range",
@@ -166,7 +166,7 @@
   {
     "id": "Q1226993",
     "content": "Dionysius Periegetes",
-    "title": "Birth: c. 100 / Death: 140",
+    "title": "Dionysius Periegetes\nBirth: c. 100 - Death: 140\n",
     "occupations": [],
     "start": 100,
     "end": 140,
@@ -177,7 +177,7 @@
   {
     "id": "Q40939",
     "content": "Aeschylus",
-    "title": "Birth: -524 / Death: -455",
+    "title": "Aeschylus\nBirth: -524 - Death: -455\n",
     "occupations": [],
     "start": -524,
     "end": -455,
@@ -188,7 +188,7 @@
   {
     "id": "Q868",
     "content": "Aristotle",
-    "title": "Birth: -382 / Death: -321",
+    "title": "Aristotle\nBirth: -382 - Death: -321\n",
     "occupations": [],
     "start": -382,
     "end": -321,
@@ -199,7 +199,7 @@
   {
     "id": "Q380826",
     "content": "Aelius Herodianus",
-    "title": "Birth: 180 / Death: 250",
+    "title": "Aelius Herodianus\nBirth: 180 - Death: 250\n",
     "occupations": [],
     "start": 180,
     "end": 250,
@@ -210,7 +210,7 @@
   {
     "id": "Q335156",
     "content": "Aristoxenus",
-    "title": "Birth: c. -359 / Death: c. -299",
+    "title": "Aristoxenus\nBirth: c. -359 - Death: c. -299\n",
     "occupations": [],
     "start": -359,
     "end": -299,
@@ -221,7 +221,7 @@
   {
     "id": "Q515542",
     "content": "Agathemerus",
-    "title": "Birth: 3th century AD / Death: 3th century AD",
+    "title": "Agathemerus\nBirth: 3th century AD - Death: 3th century AD\n",
     "occupations": [],
     "start": 200,
     "end": 200,
@@ -232,7 +232,7 @@
   {
     "id": "Q160362",
     "content": "Theophrastus",
-    "title": "Birth: c. -370 / Death: -286",
+    "title": "Theophrastus\nBirth: c. -370 - Death: -286\n",
     "occupations": [],
     "start": -370,
     "end": -286,
@@ -243,7 +243,7 @@
   {
     "id": "Q43423",
     "content": "Aesop",
-    "title": "Birth: c. -619 / Death: c. -563",
+    "title": "Aesop\nBirth: c. -619 - Death: c. -563\n",
     "occupations": [],
     "start": -619,
     "end": -563,
@@ -254,7 +254,7 @@
   {
     "id": "Q1226821",
     "content": "Diogenianus",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Diogenianus\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -265,7 +265,7 @@
   {
     "id": "Q189699",
     "content": "Zenobius",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Zenobius\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -276,7 +276,7 @@
   {
     "id": "Q45936",
     "content": "Strabo",
-    "title": "Birth: c. -62 / Death: 24",
+    "title": "Strabo\nBirth: c. -62 - Death: 24\n",
     "occupations": [],
     "start": -62,
     "end": 24,
@@ -287,7 +287,7 @@
   {
     "id": "Q310681",
     "content": "Bacchylides",
-    "title": "Birth: c. -515 / Death: c. -450",
+    "title": "Bacchylides\nBirth: c. -515 - Death: c. -450\n",
     "occupations": [],
     "start": -515,
     "end": -450,
@@ -298,7 +298,7 @@
   {
     "id": "Q367377",
     "content": "Hipponax",
-    "title": "Birth: 6th century BC / Death: 6th century BC",
+    "title": "Hipponax\nBirth: 6th century BC - Death: 6th century BC\n",
     "occupations": [],
     "start": -600,
     "end": -600,
@@ -309,7 +309,7 @@
   {
     "id": "Q354431",
     "content": "Aelius Aristides",
-    "title": "Birth: 117 / Death: 185",
+    "title": "Aelius Aristides\nBirth: 117 - Death: 185\n",
     "occupations": [],
     "start": 117,
     "end": 185,
@@ -320,7 +320,7 @@
   {
     "id": "Q294092",
     "content": "Critias",
-    "title": "Birth: -459 / Death: -402",
+    "title": "Critias\nBirth: -459 - Death: -402\n",
     "occupations": [],
     "start": -459,
     "end": -402,
@@ -331,7 +331,7 @@
   {
     "id": "Q432737",
     "content": "Lycophron",
-    "title": "Birth: -319 / Death: -279",
+    "title": "Lycophron\nBirth: -319 - Death: -279\n",
     "occupations": [],
     "start": -319,
     "end": -279,
@@ -342,7 +342,7 @@
   {
     "id": "Q84027027",
     "content": "Didymus of Alexandria",
-    "title": "Birth: 1th century BC / Death: 1th century AD",
+    "title": "Didymus of Alexandria\nBirth: 1th century BC - Death: 1th century AD\n",
     "occupations": [],
     "start": -100,
     "end": 0,
@@ -353,7 +353,7 @@
   {
     "id": "Q360366",
     "content": "Nicomachus",
-    "title": "Birth: c. 60 / Death: c. 120",
+    "title": "Nicomachus\nBirth: c. 60 - Death: c. 120\n",
     "occupations": [],
     "start": 60,
     "end": 120,
@@ -364,7 +364,7 @@
   {
     "id": "Q4223358",
     "content": "Cleonides",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Cleonides\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -375,7 +375,7 @@
   {
     "id": "Q34943",
     "content": "Ptolemy",
-    "title": "Birth: c. 100 / Death: c. 170",
+    "title": "Ptolemy\nBirth: c. 100 - Death: c. 170\n",
     "occupations": [],
     "start": 100,
     "end": 170,
@@ -386,7 +386,7 @@
   {
     "id": "Q185223",
     "content": "Cassius Dio",
-    "title": "Birth: c. 155 / Death: 3th century AD",
+    "title": "Cassius Dio\nBirth: c. 155 - Death: 3th century AD\n",
     "occupations": [],
     "start": 155,
     "end": 200,
@@ -397,7 +397,7 @@
   {
     "id": "Q456560",
     "content": "Myia",
-    "title": "Birth: 6th century BC / Death: 5th century BC",
+    "title": "Myia\nBirth: 6th century BC - Death: 5th century BC\n",
     "occupations": [],
     "start": -600,
     "end": -500,
@@ -408,7 +408,7 @@
   {
     "id": "Q312410",
     "content": "Epicharmus of Kos",
-    "title": "Birth: c. -539 / Death: c. -434",
+    "title": "Epicharmus of Kos\nBirth: c. -539 - Death: c. -434\n",
     "occupations": [],
     "start": -539,
     "end": -434,
@@ -419,7 +419,7 @@
   {
     "id": "Q192931",
     "content": "Pausanias",
-    "title": "Birth: c. 115 / Death: c. 180",
+    "title": "Pausanias\nBirth: c. 115 - Death: c. 180\n",
     "occupations": [],
     "start": 115,
     "end": 180,
@@ -430,7 +430,7 @@
   {
     "id": "Q134461",
     "content": "Josephus",
-    "title": "Birth: 37 / Death: 100",
+    "title": "Josephus\nBirth: 37 - Death: 100\n",
     "occupations": [],
     "start": 37,
     "end": 100,
@@ -441,7 +441,7 @@
   {
     "id": "Q641051",
     "content": "Arius Didymus",
-    "title": "Birth: -83s / Death: ?",
+    "title": "Arius Didymus\nBirth: -83s - Death: ?\n",
     "occupations": [],
     "start": -83,
     "type": "point",
@@ -451,7 +451,7 @@
   {
     "id": "Q221951",
     "content": "Achilles Tatius",
-    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "title": "Achilles Tatius\nBirth: 2th century AD - Death: 3th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 200,
@@ -462,7 +462,7 @@
   {
     "id": "Q192417",
     "content": "Callimachus",
-    "title": "Birth: c. -319 / Death: c. -242",
+    "title": "Callimachus\nBirth: c. -319 - Death: c. -242\n",
     "occupations": [],
     "start": -319,
     "end": -242,
@@ -473,7 +473,7 @@
   {
     "id": "Q211430",
     "content": "Demades",
-    "title": "Birth: -380s / Death: -316",
+    "title": "Demades\nBirth: -380s - Death: -316\n",
     "occupations": [],
     "start": -380,
     "end": -316,
@@ -484,7 +484,7 @@
   {
     "id": "Q43216",
     "content": "Epicurus",
-    "title": "Birth: -340 / Death: -269",
+    "title": "Epicurus\nBirth: -340 - Death: -269\n",
     "occupations": [],
     "start": -340,
     "end": -269,
@@ -495,7 +495,7 @@
   {
     "id": "Q310164",
     "content": "Lysias",
-    "title": "Birth: c. -444 / Death: -379",
+    "title": "Lysias\nBirth: c. -444 - Death: -379\n",
     "occupations": [],
     "start": -444,
     "end": -379,
@@ -506,7 +506,7 @@
   {
     "id": "Q118992",
     "content": "Menander",
-    "title": "Birth: -340s / Death: c. -290",
+    "title": "Menander\nBirth: -340s - Death: c. -290\n",
     "occupations": [],
     "start": -340,
     "end": -290,
@@ -517,7 +517,7 @@
   {
     "id": "Q548104",
     "content": "Julius Pollux",
-    "title": "Birth: 2th century AD / Death: 238",
+    "title": "Julius Pollux\nBirth: 2th century AD - Death: 238\n",
     "occupations": [],
     "start": 100,
     "end": 238,
@@ -528,7 +528,7 @@
   {
     "id": "Q131169",
     "content": "Polybius",
-    "title": "Birth: -211 / Death: -131",
+    "title": "Polybius\nBirth: -211 - Death: -131\n",
     "occupations": [],
     "start": -211,
     "end": -131,
@@ -539,7 +539,7 @@
   {
     "id": "Q236594",
     "content": "Sextus Empiricus",
-    "title": "Birth: c. 2th century AD / Death: c. 3th century AD",
+    "title": "Sextus Empiricus\nBirth: c. 2th century AD - Death: c. 3th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 200,
@@ -550,7 +550,7 @@
   {
     "id": "Q313782",
     "content": "Aelian",
-    "title": "Birth: 2th century AD / Death: 235",
+    "title": "Aelian\nBirth: 2th century AD - Death: 235\n",
     "occupations": [],
     "start": 100,
     "end": 235,
@@ -561,7 +561,7 @@
   {
     "id": "Q12506564",
     "content": "Pseudo-Apollodorus",
-    "title": "Birth: c. 1th century AD / Death: c. 2th century AD",
+    "title": "Pseudo-Apollodorus\nBirth: c. 1th century AD - Death: c. 2th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 100,
@@ -572,7 +572,7 @@
   {
     "id": "Q180109",
     "content": "Apollonius of Perga",
-    "title": "Birth: c. -259 / Death: c. -189",
+    "title": "Apollonius of Perga\nBirth: c. -259 - Death: c. -189\n",
     "occupations": [],
     "start": -259,
     "end": -189,
@@ -583,7 +583,7 @@
   {
     "id": "Q190368",
     "content": "Appian",
-    "title": "Birth: c. 95 / Death: c. 165",
+    "title": "Appian\nBirth: c. 95 - Death: c. 165\n",
     "occupations": [],
     "start": 95,
     "end": 165,
@@ -594,7 +594,7 @@
   {
     "id": "Q8739",
     "content": "Archimedes",
-    "title": "Birth: c. -284 / Death: -210",
+    "title": "Archimedes\nBirth: c. -284 - Death: -210\n",
     "occupations": [],
     "start": -284,
     "end": -210,
@@ -605,7 +605,7 @@
   {
     "id": "Q445848",
     "content": "Artemidorus",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Artemidorus\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -616,7 +616,7 @@
   {
     "id": "Q434567",
     "content": "Chariton",
-    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "title": "Chariton\nBirth: 1th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 100,
@@ -627,7 +627,7 @@
   {
     "id": "Q188883",
     "content": "Clement of Alexandria",
-    "title": "Birth: c. 150 / Death: c. 215",
+    "title": "Clement of Alexandria\nBirth: c. 150 - Death: c. 215\n",
     "occupations": [],
     "start": 150,
     "end": 215,
@@ -638,7 +638,7 @@
   {
     "id": "Q261224",
     "content": "Asclepiodotus",
-    "title": "Birth: 1th century BC / Death: ?",
+    "title": "Asclepiodotus\nBirth: 1th century BC - Death: ?\n",
     "occupations": [],
     "start": -100,
     "type": "range",
@@ -649,7 +649,7 @@
   {
     "id": "Q183144",
     "content": "Epictetus",
-    "title": "Birth: c. 50 / Death: 138",
+    "title": "Epictetus\nBirth: c. 50 - Death: 138\n",
     "occupations": [],
     "start": 50,
     "end": 138,
@@ -660,7 +660,7 @@
   {
     "id": "Q161853",
     "content": "Hero of Alexandria",
-    "title": "Birth: c. 10 / Death: c. 75",
+    "title": "Hero of Alexandria\nBirth: c. 10 - Death: c. 75\n",
     "occupations": [],
     "start": 10,
     "end": 75,
@@ -671,7 +671,7 @@
   {
     "id": "Q744540",
     "content": "Pseudo-Longinus",
-    "title": "Birth: 1th century AD / Death: 1th century AD",
+    "title": "Pseudo-Longinus\nBirth: 1th century AD - Death: 1th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 0,
@@ -682,7 +682,7 @@
   {
     "id": "Q314949",
     "content": "Longus",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Longus\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -693,7 +693,7 @@
   {
     "id": "Q1430",
     "content": "Marcus Aurelius",
-    "title": "Birth: 121 / Death: 180",
+    "title": "Marcus Aurelius\nBirth: 121 - Death: 180\n",
     "occupations": [],
     "start": 121,
     "end": 180,
@@ -704,7 +704,7 @@
   {
     "id": "Q456649",
     "content": "Maximus of Tyre",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Maximus of Tyre\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -715,7 +715,7 @@
   {
     "id": "Q1049225",
     "content": "Rufus of Ephesus",
-    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "title": "Rufus of Ephesus\nBirth: 1th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 100,
@@ -726,7 +726,7 @@
   {
     "id": "Q446595",
     "content": "Soranus of Ephesus",
-    "title": "Birth: 98 / Death: 2th century AD",
+    "title": "Soranus of Ephesus\nBirth: 98 - Death: 2th century AD\n",
     "occupations": [],
     "start": 98,
     "end": 100,
@@ -737,7 +737,7 @@
   {
     "id": "Q179149",
     "content": "Antisthenes",
-    "title": "Birth: -444 / Death: -364",
+    "title": "Antisthenes\nBirth: -444 - Death: -364\n",
     "occupations": [],
     "start": -444,
     "end": -364,
@@ -748,7 +748,7 @@
   {
     "id": "Q738027",
     "content": "Hermogenes of Tarsus",
-    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "title": "Hermogenes of Tarsus\nBirth: 2th century AD - Death: 3th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 200,
@@ -759,7 +759,7 @@
   {
     "id": "Q179785",
     "content": "Gorgias",
-    "title": "Birth: -484 / Death: c. -374",
+    "title": "Gorgias\nBirth: -484 - Death: c. -374\n",
     "occupations": [],
     "start": -484,
     "end": -374,
@@ -770,7 +770,7 @@
   {
     "id": "Q622258",
     "content": "Alexander Numenius",
-    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "title": "Alexander Numenius\nBirth: 1th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 100,
@@ -781,7 +781,7 @@
   {
     "id": "Q405173",
     "content": "Aelius Theon",
-    "title": "Birth: 1th century AD / Death: 1th century AD",
+    "title": "Aelius Theon\nBirth: 1th century AD - Death: 1th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 0,
@@ -803,7 +803,7 @@
   {
     "id": "Q192638",
     "content": "Apollonius of Rhodes",
-    "title": "Birth: -289 / Death: -214",
+    "title": "Apollonius of Rhodes\nBirth: -289 - Death: -214\n",
     "occupations": [],
     "start": -289,
     "end": -214,
@@ -814,7 +814,7 @@
   {
     "id": "Q41683",
     "content": "Thucydides",
-    "title": "Birth: -460s / Death: -394",
+    "title": "Thucydides\nBirth: -460s - Death: -394\n",
     "occupations": [],
     "start": -460,
     "end": -394,
@@ -825,7 +825,7 @@
   {
     "id": "Q59138",
     "content": "Diogenes Laërtius",
-    "title": "Birth: 180s / Death: 240s",
+    "title": "Diogenes Laërtius\nBirth: 180s - Death: 240s\n",
     "occupations": [],
     "start": 180,
     "end": 240,
@@ -836,7 +836,7 @@
   {
     "id": "Q219484",
     "content": "Theocritus",
-    "title": "Birth: 4th century BC / Death: 3th century BC",
+    "title": "Theocritus\nBirth: 4th century BC - Death: 3th century BC\n",
     "occupations": [],
     "start": -400,
     "end": -300,
@@ -847,7 +847,7 @@
   {
     "id": "Q48305",
     "content": "Euripides",
-    "title": "Birth: -483 / Death: -404",
+    "title": "Euripides\nBirth: -483 - Death: -404\n",
     "occupations": [],
     "start": -483,
     "end": -404,
@@ -858,7 +858,7 @@
   {
     "id": "Q41523",
     "content": "Plutarch",
-    "title": "Birth: 50 / Death: c. 2th century AD",
+    "title": "Plutarch\nBirth: 50 - Death: c. 2th century AD\n",
     "occupations": [],
     "start": 50,
     "end": 100,
@@ -869,7 +869,7 @@
   {
     "id": "Q294923",
     "content": "Athenaeus",
-    "title": "Birth: c. 170 / Death: 3th century AD",
+    "title": "Athenaeus\nBirth: c. 170 - Death: 3th century AD\n",
     "occupations": [],
     "start": 170,
     "end": 200,
@@ -880,7 +880,7 @@
   {
     "id": "Q221182",
     "content": "Isocrates",
-    "title": "Birth: -435 / Death: -337",
+    "title": "Isocrates\nBirth: -435 - Death: -337\n",
     "occupations": [],
     "start": -435,
     "end": -337,
@@ -891,7 +891,7 @@
   {
     "id": "Q7235",
     "content": "Sophocles",
-    "title": "Birth: c. -495 / Death: c. -405",
+    "title": "Sophocles\nBirth: c. -495 - Death: c. -405\n",
     "occupations": [],
     "start": -495,
     "end": -405,
@@ -902,7 +902,7 @@
   {
     "id": "Q6691",
     "content": "Homer",
-    "title": "Birth: c. 9th century BC / Death: c. 8th century BC",
+    "title": "Homer\nBirth: c. 9th century BC - Death: c. 8th century BC\n",
     "occupations": [],
     "start": -900,
     "end": -800,
@@ -913,7 +913,7 @@
   {
     "id": "Q117253",
     "content": "Demosthenes",
-    "title": "Birth: -383 / Death: -321",
+    "title": "Demosthenes\nBirth: -383 - Death: -321\n",
     "occupations": [],
     "start": -383,
     "end": -321,
@@ -924,7 +924,7 @@
   {
     "id": "Q313056",
     "content": "Herodian",
-    "title": "Birth: c. 170 / Death: c. 250",
+    "title": "Herodian\nBirth: c. 170 - Death: c. 250\n",
     "occupations": [],
     "start": 170,
     "end": 250,
@@ -935,7 +935,7 @@
   {
     "id": "Q26825",
     "content": "Herodotus",
-    "title": "Birth: c. -483 / Death: c. -424",
+    "title": "Herodotus\nBirth: c. -483 - Death: c. -424\n",
     "occupations": [],
     "start": -483,
     "end": -424,
@@ -946,7 +946,7 @@
   {
     "id": "Q365097",
     "content": "Isaeus",
-    "title": "Birth: c. -419 / Death: c. -339",
+    "title": "Isaeus\nBirth: c. -419 - Death: c. -339\n",
     "occupations": [],
     "start": -419,
     "end": -339,
@@ -957,7 +957,7 @@
   {
     "id": "Q189597",
     "content": "Philo of Alexandria",
-    "title": "Birth: c. -14 / Death: c. 50",
+    "title": "Philo of Alexandria\nBirth: c. -14 - Death: c. 50\n",
     "occupations": [],
     "start": -14,
     "end": 50,
@@ -968,7 +968,7 @@
   {
     "id": "Q43353",
     "content": "Aristophanes",
-    "title": "Birth: c. -449 / Death: c. -385",
+    "title": "Aristophanes\nBirth: c. -449 - Death: c. -385\n",
     "occupations": [],
     "start": -449,
     "end": -385,
@@ -979,7 +979,7 @@
   {
     "id": "Q44233",
     "content": "Hesiod",
-    "title": "Birth: c. -775 / Death: ?",
+    "title": "Hesiod\nBirth: c. -775 - Death: ?\n",
     "occupations": [],
     "start": -775,
     "type": "point",
@@ -989,7 +989,7 @@
   {
     "id": "Q363818",
     "content": "Nicander",
-    "title": "Birth: -249 / Death: -169",
+    "title": "Nicander\nBirth: -249 - Death: -169\n",
     "occupations": [],
     "start": -249,
     "end": -169,
@@ -1000,7 +1000,7 @@
   {
     "id": "Q116508",
     "content": "Oppian",
-    "title": "Birth: 2th century AD / Death: ?",
+    "title": "Oppian\nBirth: 2th century AD - Death: ?\n",
     "occupations": [],
     "start": 100,
     "type": "range",
@@ -1011,7 +1011,7 @@
   {
     "id": "Q17996276",
     "content": "Oppian of Apamea",
-    "title": "Birth: 2 / Death: ?",
+    "title": "Oppian of Apamea\nBirth: 2 - Death: ?\n",
     "occupations": [],
     "start": 2,
     "type": "point",
@@ -1021,7 +1021,7 @@
   {
     "id": "Q317089",
     "content": "Aeschines",
-    "title": "Birth: -389 / Death: c. -321",
+    "title": "Aeschines\nBirth: -389 - Death: c. -321\n",
     "occupations": [],
     "start": -389,
     "end": -321,
@@ -1032,7 +1032,7 @@
   {
     "id": "Q391654",
     "content": "Andocides",
-    "title": "Birth: c. -439 / Death: c. -390",
+    "title": "Andocides\nBirth: c. -439 - Death: c. -390\n",
     "occupations": [],
     "start": -439,
     "end": -390,
@@ -1043,7 +1043,7 @@
   {
     "id": "Q335560",
     "content": "Antiphon of Rhamnus",
-    "title": "Birth: c. -479 / Death: -410",
+    "title": "Antiphon of Rhamnus\nBirth: c. -479 - Death: -410\n",
     "occupations": [],
     "start": -479,
     "end": -410,
@@ -1054,7 +1054,7 @@
   {
     "id": "Q473421",
     "content": "Dinarchus",
-    "title": "Birth: c. -359 / Death: c. -291",
+    "title": "Dinarchus\nBirth: c. -359 - Death: c. -291\n",
     "occupations": [],
     "start": -359,
     "end": -291,
@@ -1065,7 +1065,7 @@
   {
     "id": "Q314447",
     "content": "Hypereides",
-    "title": "Birth: -387 / Death: -321",
+    "title": "Hypereides\nBirth: -387 - Death: -321\n",
     "occupations": [],
     "start": -387,
     "end": -321,
@@ -1076,7 +1076,7 @@
   {
     "id": "Q129772",
     "content": "Xenophon",
-    "title": "Birth: -430s / Death: c. -353",
+    "title": "Xenophon\nBirth: -430s - Death: c. -353\n",
     "occupations": [],
     "start": -430,
     "end": -353,
@@ -1087,7 +1087,7 @@
   {
     "id": "Q134929",
     "content": "Pindar",
-    "title": "Birth: -521 / Death: -436",
+    "title": "Pindar\nBirth: -521 - Death: -436\n",
     "occupations": [],
     "start": -521,
     "end": -436,
@@ -1098,7 +1098,7 @@
   {
     "id": "Q373685",
     "content": "Lycurgus of Athens",
-    "title": "Birth: -389 / Death: -323",
+    "title": "Lycurgus of Athens\nBirth: -389 - Death: -323\n",
     "occupations": [],
     "start": -389,
     "end": -323,
@@ -1109,7 +1109,7 @@
   {
     "id": "Q957548",
     "content": "Moschus",
-    "title": "Birth: 2th century BC / Death: 2th century BC",
+    "title": "Moschus\nBirth: 2th century BC - Death: 2th century BC\n",
     "occupations": [],
     "start": -200,
     "end": -200,
@@ -1120,7 +1120,7 @@
   {
     "id": "Q463364",
     "content": "Bion of Smyrna",
-    "title": "Birth: -119 / Death: -56",
+    "title": "Bion of Smyrna\nBirth: -119 - Death: -56\n",
     "occupations": [],
     "start": -119,
     "end": -56,
@@ -1131,7 +1131,7 @@
   {
     "id": "Q325026",
     "content": "Anacharsis",
-    "title": "Birth: 7th century BC / Death: 6th century BC",
+    "title": "Anacharsis\nBirth: 7th century BC - Death: 6th century BC\n",
     "occupations": [],
     "start": -700,
     "end": -600,
@@ -1142,7 +1142,7 @@
   {
     "id": "Q1254602",
     "content": "Chion of Heraclea",
-    "title": "Birth: ? / Death: -352",
+    "title": "Chion of Heraclea\nBirth: ? - Death: -352\n",
     "occupations": [],
     "start": -352,
     "end": -352,
@@ -1153,7 +1153,7 @@
   {
     "id": "Q3365",
     "content": "Antiochus III the Great",
-    "title": "Birth: c. -241 / Death: -186",
+    "title": "Antiochus III the Great\nBirth: c. -241 - Death: -186\n",
     "occupations": [],
     "start": -241,
     "end": -186,
@@ -1164,7 +1164,7 @@
   {
     "id": "Q188472",
     "content": "Artaxerxes II of Persia",
-    "title": "Birth: -452 / Death: -357",
+    "title": "Artaxerxes II of Persia\nBirth: -452 - Death: -357\n",
     "occupations": [],
     "start": -452,
     "end": -357,
@@ -1175,7 +1175,7 @@
   {
     "id": "Q315822",
     "content": "Nicias",
-    "title": "Birth: 5th century BC / Death: -412",
+    "title": "Nicias\nBirth: 5th century BC - Death: -412\n",
     "occupations": [],
     "start": -500,
     "end": -412,
@@ -1186,7 +1186,7 @@
   {
     "id": "Q130650",
     "content": "Philip II of Macedon",
-    "title": "Birth: c. -382 / Death: -335",
+    "title": "Philip II of Macedon\nBirth: c. -382 - Death: -335\n",
     "occupations": [],
     "start": -382,
     "end": -335,
@@ -1197,7 +1197,7 @@
   {
     "id": "Q581732",
     "content": "Antipater of Tarsus",
-    "title": "Birth: 2th century BC / Death: -128",
+    "title": "Antipater of Tarsus\nBirth: 2th century BC - Death: -128\n",
     "occupations": [],
     "start": -200,
     "end": -128,
@@ -1208,7 +1208,7 @@
   {
     "id": "Q15078686",
     "content": "Antiphon",
-    "title": "Birth: 5th century BC / Death: c. 5th century BC",
+    "title": "Antiphon\nBirth: 5th century BC - Death: c. 5th century BC\n",
     "occupations": [],
     "start": -500,
     "end": -500,
@@ -1219,7 +1219,7 @@
   {
     "id": "Q140188",
     "content": "Aristarchus of Samos",
-    "title": "Birth: c. -309 / Death: c. -229",
+    "title": "Aristarchus of Samos\nBirth: c. -309 - Death: c. -229\n",
     "occupations": [],
     "start": -309,
     "end": -229,
@@ -1230,7 +1230,7 @@
   {
     "id": "Q666667",
     "content": "Aristocles of Messene",
-    "title": "Birth: 2th century AD / Death: ?",
+    "title": "Aristocles of Messene\nBirth: 2th century AD - Death: ?\n",
     "occupations": [],
     "start": 100,
     "type": "range",
@@ -1241,7 +1241,7 @@
   {
     "id": "Q646951",
     "content": "Ariston of Chios",
-    "title": "Birth: c. -299 / Death: 3th century BC",
+    "title": "Ariston of Chios\nBirth: c. -299 - Death: 3th century BC\n",
     "occupations": [],
     "start": -299,
     "end": -300,
@@ -1274,7 +1274,7 @@
   {
     "id": "Q451390",
     "content": "Autolycus of Pitane",
-    "title": "Birth: c. -359 / Death: c. -289",
+    "title": "Autolycus of Pitane\nBirth: c. -359 - Death: c. -289\n",
     "occupations": [],
     "start": -359,
     "end": -289,
@@ -1296,7 +1296,7 @@
   {
     "id": "Q211411",
     "content": "Chrysippus of Soli",
-    "title": "Birth: -280 / Death: -203",
+    "title": "Chrysippus of Soli\nBirth: -280 - Death: -203\n",
     "occupations": [],
     "start": -280,
     "end": -203,
@@ -1307,7 +1307,7 @@
   {
     "id": "Q310149",
     "content": "Cleanthes",
-    "title": "Birth: -330 / Death: -231",
+    "title": "Cleanthes\nBirth: -330 - Death: -231\n",
     "occupations": [],
     "start": -330,
     "end": -231,
@@ -1318,7 +1318,7 @@
   {
     "id": "Q42887",
     "content": "Clement I",
-    "title": "Birth: 1th century AD / Death: 99",
+    "title": "Clement I\nBirth: 1th century AD - Death: 99\n",
     "occupations": [],
     "start": 0,
     "end": 99,
@@ -1329,7 +1329,7 @@
   {
     "id": "Q31278",
     "content": "Cleomedes",
-    "title": "Birth: 1th century AD / Death: 1th century AD",
+    "title": "Cleomedes\nBirth: 1th century AD - Death: 1th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 0,
@@ -1340,7 +1340,7 @@
   {
     "id": "Q434773",
     "content": "Crantor",
-    "title": "Birth: c. -343 / Death: c. -274",
+    "title": "Crantor\nBirth: c. -343 - Death: c. -274\n",
     "occupations": [],
     "start": -343,
     "end": -274,
@@ -1351,7 +1351,7 @@
   {
     "id": "Q41980",
     "content": "Democritus",
-    "title": "Birth: -460s / Death: -360s",
+    "title": "Democritus\nBirth: -460s - Death: -360s\n",
     "occupations": [],
     "start": -460,
     "end": -360,
@@ -1362,7 +1362,7 @@
   {
     "id": "Q191964",
     "content": "Diogenes of Apollonia",
-    "title": "Birth: -459 / Death: 5th century BC",
+    "title": "Diogenes of Apollonia\nBirth: -459 - Death: 5th century BC\n",
     "occupations": [],
     "start": -459,
     "end": -500,
@@ -1373,7 +1373,7 @@
   {
     "id": "Q434203",
     "content": "Diogenes of Babylon",
-    "title": "Birth: -239 / Death: -149",
+    "title": "Diogenes of Babylon\nBirth: -239 - Death: -149\n",
     "occupations": [],
     "start": -239,
     "end": -149,
@@ -1384,7 +1384,7 @@
   {
     "id": "Q679837",
     "content": "Dionysius of Corinth",
-    "title": "Birth: 2th century AD / Death: 171",
+    "title": "Dionysius of Corinth\nBirth: 2th century AD - Death: 171\n",
     "occupations": [],
     "start": 100,
     "end": 171,
@@ -1395,7 +1395,7 @@
   {
     "id": "Q921532",
     "content": "Dorotheus of Sidon",
-    "title": "Birth: 50 / Death: ?",
+    "title": "Dorotheus of Sidon\nBirth: 50 - Death: ?\n",
     "occupations": [],
     "start": 50,
     "type": "point",
@@ -1405,7 +1405,7 @@
   {
     "id": "Q319406",
     "content": "Epimenides of Crete",
-    "title": "Birth: 7th century BC / Death: 6th century BC",
+    "title": "Epimenides of Crete\nBirth: 7th century BC - Death: 6th century BC\n",
     "occupations": [],
     "start": -700,
     "end": -600,
@@ -1416,7 +1416,7 @@
   {
     "id": "Q379987",
     "content": "Geminus of Rhodos",
-    "title": "Birth: ? / Death: c. 60",
+    "title": "Geminus of Rhodos\nBirth: ? - Death: c. 60\n",
     "occupations": [],
     "start": 60,
     "end": 60,
@@ -1438,7 +1438,7 @@
   {
     "id": "Q471916",
     "content": "Hecataeus of Abdera",
-    "title": "Birth: 4th century BC / Death: 3th century BC",
+    "title": "Hecataeus of Abdera\nBirth: 4th century BC - Death: 3th century BC\n",
     "occupations": [],
     "start": -400,
     "end": -300,
@@ -1449,7 +1449,7 @@
   {
     "id": "Q549010",
     "content": "Hephaestion",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Hephaestion\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -1460,7 +1460,7 @@
   {
     "id": "Q316334",
     "content": "Heraclides Ponticus",
-    "title": "Birth: -384 / Death: c. -321",
+    "title": "Heraclides Ponticus\nBirth: -384 - Death: c. -321\n",
     "occupations": [],
     "start": -384,
     "end": -321,
@@ -1482,7 +1482,7 @@
   {
     "id": "Q504771",
     "content": "Philo of Byblos",
-    "title": "Birth: 50 / Death: 140",
+    "title": "Philo of Byblos\nBirth: 50 - Death: 140\n",
     "occupations": [],
     "start": 50,
     "end": 140,
@@ -1493,7 +1493,7 @@
   {
     "id": "Q1799472",
     "content": "Hermas",
-    "title": "Birth: 1th century AD / Death: 1th century AD",
+    "title": "Hermas\nBirth: 1th century AD - Death: 1th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 0,
@@ -1504,7 +1504,7 @@
   {
     "id": "Q159905",
     "content": "Hipparchus",
-    "title": "Birth: c. -189 / Death: c. -119",
+    "title": "Hipparchus\nBirth: c. -189 - Death: c. -119\n",
     "occupations": [],
     "start": -189,
     "end": -119,
@@ -1515,7 +1515,7 @@
   {
     "id": "Q210573",
     "content": "Hippias",
-    "title": "Birth: -442 / Death: -398",
+    "title": "Hippias\nBirth: -442 - Death: -398\n",
     "occupations": [],
     "start": -442,
     "end": -398,
@@ -1526,7 +1526,7 @@
   {
     "id": "Q44170",
     "content": "Ignatius of Antioch",
-    "title": "Birth: c. 35 / Death: 108",
+    "title": "Ignatius of Antioch\nBirth: c. 35 - Death: 108\n",
     "occupations": [],
     "start": 35,
     "end": 108,
@@ -1537,7 +1537,7 @@
   {
     "id": "Q182123",
     "content": "Irenaeus",
-    "title": "Birth: c. 130 / Death: c. 202",
+    "title": "Irenaeus\nBirth: c. 130 - Death: c. 202\n",
     "occupations": [],
     "start": 130,
     "end": 202,
@@ -1548,7 +1548,7 @@
   {
     "id": "Q3851977",
     "content": "Matron of Pitane",
-    "title": "Birth: 4th century BC / Death: 4th century BC",
+    "title": "Matron of Pitane\nBirth: 4th century BC - Death: 4th century BC\n",
     "occupations": [],
     "start": -400,
     "end": -400,
@@ -1559,7 +1559,7 @@
   {
     "id": "Q707344",
     "content": "Numenius of Apamea",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Numenius of Apamea\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -1570,7 +1570,7 @@
   {
     "id": "Q2559200",
     "content": "Oenomaus of Gadara",
-    "title": "Birth: ? / Death: 2th century AD",
+    "title": "Oenomaus of Gadara\nBirth: ? - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -1581,7 +1581,7 @@
   {
     "id": "Q580565",
     "content": "Palaephatus",
-    "title": "Birth: 4th century BC / Death: 4th century BC",
+    "title": "Palaephatus\nBirth: 4th century BC - Death: 4th century BC\n",
     "occupations": [],
     "start": -400,
     "end": -400,
@@ -1592,7 +1592,7 @@
   {
     "id": "Q444459",
     "content": "Alcidamas",
-    "title": "Birth: 5th century BC / Death: 4th century BC",
+    "title": "Alcidamas\nBirth: 5th century BC - Death: 4th century BC\n",
     "occupations": [],
     "start": -500,
     "end": -400,
@@ -1603,7 +1603,7 @@
   {
     "id": "Q334457",
     "content": "Dio Chrysostom",
-    "title": "Birth: c. 40 / Death: c. 120",
+    "title": "Dio Chrysostom\nBirth: c. 40 - Death: c. 120\n",
     "occupations": [],
     "start": 40,
     "end": 120,
@@ -1614,7 +1614,7 @@
   {
     "id": "Q455523",
     "content": "Babrius",
-    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "title": "Babrius\nBirth: 1th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 100,
@@ -1625,7 +1625,7 @@
   {
     "id": "Q735515",
     "content": "Aspasius",
-    "title": "Birth: c. 80 / Death: c. 150",
+    "title": "Aspasius\nBirth: c. 80 - Death: c. 150\n",
     "occupations": [],
     "start": 80,
     "end": 150,
@@ -1636,7 +1636,7 @@
   {
     "id": "Q537755",
     "content": "Polyaenus",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Polyaenus\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -1647,7 +1647,7 @@
   {
     "id": "Q202001",
     "content": "Archytas",
-    "title": "Birth: c. -429 / Death: c. -344",
+    "title": "Archytas\nBirth: c. -429 - Death: c. -344\n",
     "occupations": [],
     "start": -429,
     "end": -344,
@@ -1658,7 +1658,7 @@
   {
     "id": "Q41155",
     "content": "Heraclitus",
-    "title": "Birth: c. -534 / Death: c. -470s",
+    "title": "Heraclitus\nBirth: c. -534 - Death: c. -470s\n",
     "occupations": [],
     "start": -534,
     "end": -470,
@@ -1669,7 +1669,7 @@
   {
     "id": "Q5264",
     "content": "Hippocrates",
-    "title": "Birth: c. -459 / Death: c. -369",
+    "title": "Hippocrates\nBirth: c. -459 - Death: c. -369\n",
     "occupations": [],
     "start": -459,
     "end": -369,
@@ -1680,7 +1680,7 @@
   {
     "id": "Q381874",
     "content": "Gaius Musonius Rufus",
-    "title": "Birth: 25 / Death: 95",
+    "title": "Gaius Musonius Rufus\nBirth: 25 - Death: 95\n",
     "occupations": [],
     "start": 25,
     "end": 95,
@@ -1691,7 +1691,7 @@
   {
     "id": "Q328793",
     "content": "Periander",
-    "title": "Birth: 7th century BC / Death: -582",
+    "title": "Periander\nBirth: 7th century BC - Death: -582\n",
     "occupations": [],
     "start": -700,
     "end": -582,
@@ -1702,7 +1702,7 @@
   {
     "id": "Q10261",
     "content": "Pythagoras",
-    "title": "Birth: c. -579 / Death: -490s",
+    "title": "Pythagoras\nBirth: c. -579 - Death: -490s\n",
     "occupations": [],
     "start": -579,
     "end": -490,
@@ -1713,7 +1713,7 @@
   {
     "id": "Q720939",
     "content": "Lysis of Taras",
-    "title": "Birth: 5th century BC / Death: 4th century BC",
+    "title": "Lysis of Taras\nBirth: 5th century BC - Death: 4th century BC\n",
     "occupations": [],
     "start": -500,
     "end": -400,
@@ -1724,7 +1724,7 @@
   {
     "id": "Q214121",
     "content": "Xenocrates",
-    "title": "Birth: -395 / Death: -313",
+    "title": "Xenocrates\nBirth: -395 - Death: -313\n",
     "occupations": [],
     "start": -395,
     "end": -313,
@@ -1735,7 +1735,7 @@
   {
     "id": "Q2274948",
     "content": "Philostratus",
-    "title": "Birth: c. 170 / Death: 250s",
+    "title": "Philostratus\nBirth: c. 170 - Death: 250s\n",
     "occupations": [],
     "start": 170,
     "end": 250,
@@ -1757,7 +1757,7 @@
   {
     "id": "Q559866",
     "content": "Alciphron",
-    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "title": "Alciphron\nBirth: 2th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -1768,7 +1768,7 @@
   {
     "id": "Q463564",
     "content": "Xenophon of Ephesus",
-    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "title": "Xenophon of Ephesus\nBirth: 2th century AD - Death: 3th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 200,
@@ -1790,7 +1790,7 @@
   {
     "id": "Q313018",
     "content": "Aristophanes of Byzantium",
-    "title": "Birth: -259 / Death: c. -179",
+    "title": "Aristophanes of Byzantium\nBirth: -259 - Death: c. -179\n",
     "occupations": [],
     "start": -259,
     "end": -179,
@@ -1801,7 +1801,7 @@
   {
     "id": "Q185117",
     "content": "Justin Martyr",
-    "title": "Birth: c. 100 / Death: c. 165",
+    "title": "Justin Martyr\nBirth: c. 100 - Death: c. 165\n",
     "occupations": [],
     "start": 100,
     "end": 165,
@@ -1812,7 +1812,7 @@
   {
     "id": "Q1371938",
     "content": "Tryphiodorus",
-    "title": "Birth: 3th century AD / Death: 4th century AD",
+    "title": "Tryphiodorus\nBirth: 3th century AD - Death: 4th century AD\n",
     "occupations": [],
     "start": 200,
     "end": 300,
@@ -1823,7 +1823,7 @@
   {
     "id": "Q373042",
     "content": "Onasander",
-    "title": "Birth: ? / Death: 1th century AD",
+    "title": "Onasander\nBirth: ? - Death: 1th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 0,
@@ -1834,7 +1834,7 @@
   {
     "id": "Q1129405",
     "content": "Lesbonax",
-    "title": "Birth: ? / Death: 2th century AD",
+    "title": "Lesbonax\nBirth: ? - Death: 2th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 100,
@@ -1856,7 +1856,7 @@
   {
     "id": "Q180671",
     "content": "Aratus",
-    "title": "Birth: c. -314 / Death: c. -239",
+    "title": "Aratus\nBirth: c. -314 - Death: c. -239\n",
     "occupations": [],
     "start": -314,
     "end": -239,
@@ -1867,7 +1867,7 @@
   {
     "id": "Q729109",
     "content": "Parthenius of Nicaea",
-    "title": "Birth: 1th century BC / Death: 1th century BC",
+    "title": "Parthenius of Nicaea\nBirth: 1th century BC - Death: 1th century BC\n",
     "occupations": [],
     "start": -100,
     "end": -100,
@@ -1878,7 +1878,7 @@
   {
     "id": "Q297776",
     "content": "Pedanius Dioscorides",
-    "title": "Birth: c. 40 / Death: c. 90",
+    "title": "Pedanius Dioscorides\nBirth: c. 40 - Death: c. 90\n",
     "occupations": [],
     "start": 40,
     "end": 90,
@@ -1889,7 +1889,7 @@
   {
     "id": "Q743993",
     "content": "Crateuas",
-    "title": "Birth: 2th century BC / Death: 1th century BC",
+    "title": "Crateuas\nBirth: 2th century BC - Death: 1th century BC\n",
     "occupations": [],
     "start": -200,
     "end": -100,
@@ -1900,7 +1900,7 @@
   {
     "id": "Q313011",
     "content": "Heliodorus of Emesa",
-    "title": "Birth: c. 3th century AD / Death: c. 3th century AD",
+    "title": "Heliodorus of Emesa\nBirth: c. 3th century AD - Death: c. 3th century AD\n",
     "occupations": [],
     "start": 200,
     "end": 200,
@@ -1911,7 +1911,7 @@
   {
     "id": "Q1271013",
     "content": "Adrianus of Tyre",
-    "title": "Birth: 113 / Death: 193",
+    "title": "Adrianus of Tyre\nBirth: 113 - Death: 193\n",
     "occupations": [],
     "start": 113,
     "end": 193,
@@ -1933,7 +1933,7 @@
   {
     "id": "Q657941",
     "content": "Albinus",
-    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "title": "Albinus\nBirth: 1th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 100,
@@ -1955,7 +1955,7 @@
   {
     "id": "Q505931",
     "content": "Aretaeus of Cappadocia",
-    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "title": "Aretaeus of Cappadocia\nBirth: 1th century AD - Death: 2th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 100,
@@ -1966,7 +1966,7 @@
   {
     "id": "Q351469",
     "content": "Adamantius",
-    "title": "Birth: 4th century AD / Death: 5th century AD",
+    "title": "Adamantius\nBirth: 4th century AD - Death: 5th century AD\n",
     "occupations": [],
     "start": 300,
     "end": 400,
@@ -1977,7 +1977,7 @@
   {
     "id": "Q317146",
     "content": "Alexandros of Aphrodisias",
-    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "title": "Alexandros of Aphrodisias\nBirth: 2th century AD - Death: 3th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 200,
@@ -1988,7 +1988,7 @@
   {
     "id": "Q61474378",
     "content": "Cassius Iatrosophista",
-    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "title": "Cassius Iatrosophista\nBirth: 2th century AD - Death: 3th century AD\n",
     "occupations": [],
     "start": 100,
     "end": 200,
@@ -1999,7 +1999,7 @@
   {
     "id": "Q125551",
     "content": "Parmenides",
-    "title": "Birth: c. -514 / Death: c. -469",
+    "title": "Parmenides\nBirth: c. -514 - Death: c. -469\n",
     "occupations": [],
     "start": -514,
     "end": -469,
@@ -2010,7 +2010,7 @@
   {
     "id": "Q451550",
     "content": "Philodemus",
-    "title": "Birth: c. -109 / Death: -34",
+    "title": "Philodemus\nBirth: c. -109 - Death: -34\n",
     "occupations": [],
     "start": -109,
     "end": -34,
@@ -2021,7 +2021,7 @@
   {
     "id": "Q212338",
     "content": "Philolaus",
-    "title": "Birth: c. -469 / Death: c. -389",
+    "title": "Philolaus\nBirth: c. -469 - Death: c. -389\n",
     "occupations": [],
     "start": -469,
     "end": -389,
@@ -2032,7 +2032,7 @@
   {
     "id": "Q691292",
     "content": "Philostratus of Lemnos",
-    "title": "Birth: c. 190 / Death: c. 230",
+    "title": "Philostratus of Lemnos\nBirth: c. 190 - Death: c. 230\n",
     "occupations": [],
     "start": 190,
     "end": 230,
@@ -2054,7 +2054,7 @@
   {
     "id": "Q772775",
     "content": "Polemon of Laodicea",
-    "title": "Birth: c. 90 / Death: c. 144",
+    "title": "Polemon of Laodicea\nBirth: c. 90 - Death: c. 144\n",
     "occupations": [],
     "start": 90,
     "end": 144,
@@ -2065,7 +2065,7 @@
   {
     "id": "Q192371",
     "content": "Polycarp",
-    "title": "Birth: 70 / Death: c. 155",
+    "title": "Polycarp\nBirth: 70 - Death: c. 155\n",
     "occupations": [],
     "start": 70,
     "end": 155,
@@ -2076,7 +2076,7 @@
   {
     "id": "Q943719",
     "content": "Polycrates of Ephesus",
-    "title": "Birth: 125 / Death: 196",
+    "title": "Polycrates of Ephesus\nBirth: 125 - Death: 196\n",
     "occupations": [],
     "start": 125,
     "end": 196,
@@ -2087,7 +2087,7 @@
   {
     "id": "Q297402",
     "content": "Prodicus",
-    "title": "Birth: -463 / Death: c. -379",
+    "title": "Prodicus\nBirth: -463 - Death: c. -379\n",
     "occupations": [],
     "start": -463,
     "end": -379,
@@ -2098,7 +2098,7 @@
   {
     "id": "Q104163113",
     "content": "Serapion Astrologus",
-    "title": "Birth: 2th century BC / Death: 1th century AD",
+    "title": "Serapion Astrologus\nBirth: 2th century BC - Death: 1th century AD\n",
     "occupations": [],
     "start": -200,
     "end": 0,
@@ -2109,7 +2109,7 @@
   {
     "id": "Q325955",
     "content": "Speusippus",
-    "title": "Birth: -406 / Death: -338",
+    "title": "Speusippus\nBirth: -406 - Death: -338\n",
     "occupations": [],
     "start": -406,
     "end": -338,
@@ -2120,7 +2120,7 @@
   {
     "id": "Q2367894",
     "content": "Teles of Megara",
-    "title": "Birth: 3th century BC / Death: ?",
+    "title": "Teles of Megara\nBirth: 3th century BC - Death: ?\n",
     "occupations": [],
     "start": -300,
     "type": "range",
@@ -2131,7 +2131,7 @@
   {
     "id": "Q36303",
     "content": "Thales",
-    "title": "Birth: -629 / Death: -545",
+    "title": "Thales\nBirth: -629 - Death: -545\n",
     "occupations": [],
     "start": -629,
     "end": -545,
@@ -2142,7 +2142,7 @@
   {
     "id": "Q1266186",
     "content": "Theodosius of Bithynia",
-    "title": "Birth: c. -159 / Death: c. -89",
+    "title": "Theodosius of Bithynia\nBirth: c. -159 - Death: c. -89\n",
     "occupations": [],
     "start": -159,
     "end": -89,
@@ -2153,7 +2153,7 @@
   {
     "id": "Q705950",
     "content": "Theon of Smyrna",
-    "title": "Birth: c. 70 / Death: c. 135",
+    "title": "Theon of Smyrna\nBirth: c. 70 - Death: c. 135\n",
     "occupations": [],
     "start": 70,
     "end": 135,
@@ -2164,7 +2164,7 @@
   {
     "id": "Q220787",
     "content": "Theophilus of Antioch",
-    "title": "Birth: 2th century AD / Death: 183",
+    "title": "Theophilus of Antioch\nBirth: 2th century AD - Death: 183\n",
     "occupations": [],
     "start": 100,
     "end": 183,
@@ -2175,7 +2175,7 @@
   {
     "id": "Q1051470",
     "content": "Vettius Valens",
-    "title": "Birth: 120 / Death: 175",
+    "title": "Vettius Valens\nBirth: 120 - Death: 175\n",
     "occupations": [],
     "start": 120,
     "end": 175,
@@ -2186,7 +2186,7 @@
   {
     "id": "Q272087",
     "content": "Tatian",
-    "title": "Birth: c. 120 / Death: c. 173",
+    "title": "Tatian\nBirth: c. 120 - Death: c. 173\n",
     "occupations": [],
     "start": 120,
     "end": 173,
@@ -2197,7 +2197,7 @@
   {
     "id": "Q8747",
     "content": "Euclid",
-    "title": "Birth: 4th century BC / Death: -284",
+    "title": "Euclid\nBirth: 4th century BC - Death: -284\n",
     "occupations": [],
     "start": -400,
     "end": -284,
@@ -2208,7 +2208,7 @@
   {
     "id": "Q134189",
     "content": "Plotinus",
-    "title": "Birth: 205 / Death: 270",
+    "title": "Plotinus\nBirth: 205 - Death: 270\n",
     "occupations": [],
     "start": 205,
     "end": 270,
@@ -2219,7 +2219,7 @@
   {
     "id": "Q365183",
     "content": "Themistius",
-    "title": "Birth: 317 / Death: 388",
+    "title": "Themistius\nBirth: 317 - Death: 388\n",
     "occupations": [],
     "start": 317,
     "end": 388,
@@ -2230,7 +2230,7 @@
   {
     "id": "Q33941",
     "content": "Julian",
-    "title": "Birth: 331 / Death: 363",
+    "title": "Julian\nBirth: 331 - Death: 363\n",
     "occupations": [],
     "start": 331,
     "end": 363,
@@ -2241,7 +2241,7 @@
   {
     "id": "Q142999",
     "content": "Eusebius of Caesarea",
-    "title": "Birth: 275s / Death: 339",
+    "title": "Eusebius of Caesarea\nBirth: 275s - Death: 339\n",
     "occupations": [],
     "start": 275,
     "end": 339,
@@ -2252,7 +2252,7 @@
   {
     "id": "Q313922",
     "content": "Epiphanius of Salamis",
-    "title": "Birth: c. 315 / Death: 403",
+    "title": "Epiphanius of Salamis\nBirth: c. 315 - Death: 403\n",
     "occupations": [],
     "start": 315,
     "end": 403,
@@ -2263,7 +2263,7 @@
   {
     "id": "Q44011",
     "content": "Gregory of Nazianzus",
-    "title": "Birth: 330 / Death: 390",
+    "title": "Gregory of Nazianzus\nBirth: 330 - Death: 390\n",
     "occupations": [],
     "start": 330,
     "end": 390,
@@ -2274,7 +2274,7 @@
   {
     "id": "Q310916",
     "content": "Iamblichus",
-    "title": "Birth: c. 245 / Death: c. 325",
+    "title": "Iamblichus\nBirth: c. 245 - Death: c. 325\n",
     "occupations": [],
     "start": 245,
     "end": 325,
@@ -2285,7 +2285,7 @@
   {
     "id": "Q649082",
     "content": "Apsines",
-    "title": "Birth: c. 190 / Death: c. 250",
+    "title": "Apsines\nBirth: c. 190 - Death: c. 250\n",
     "occupations": [],
     "start": 190,
     "end": 250,
@@ -2296,7 +2296,7 @@
   {
     "id": "Q211783",
     "content": "Pappus of Alexandria",
-    "title": "Birth: c. 290 / Death: c. 350",
+    "title": "Pappus of Alexandria\nBirth: c. 290 - Death: c. 350\n",
     "occupations": [],
     "start": 290,
     "end": 350,
@@ -2307,7 +2307,7 @@
   {
     "id": "Q203445",
     "content": "Porphyry",
-    "title": "Birth: c. 233 / Death: c. 301",
+    "title": "Porphyry\nBirth: c. 233 - Death: c. 301\n",
     "occupations": [],
     "start": 233,
     "end": 301,
@@ -2318,7 +2318,7 @@
   {
     "id": "Q44024",
     "content": "Athanasius of Alexandria",
-    "title": "Birth: 296 / Death: 373",
+    "title": "Athanasius of Alexandria\nBirth: 296 - Death: 373\n",
     "occupations": [],
     "start": 296,
     "end": 373,
@@ -2329,7 +2329,7 @@
   {
     "id": "Q369129",
     "content": "Dexippus (philosopher)",
-    "title": "Birth: 4th century AD / Death: 4th century AD",
+    "title": "Dexippus (philosopher)\nBirth: 4th century AD - Death: 4th century AD\n",
     "occupations": [],
     "start": 300,
     "end": 300,
@@ -2340,7 +2340,7 @@
   {
     "id": "Q178217",
     "content": "Diophantus of Alexandria",
-    "title": "Birth: 3th century AD / Death: c. 284",
+    "title": "Diophantus of Alexandria\nBirth: 3th century AD - Death: c. 284\n",
     "occupations": [],
     "start": 200,
     "end": 284,
@@ -2351,7 +2351,7 @@
   {
     "id": "Q44258",
     "content": "Basil of Caesarea",
-    "title": "Birth: 330 / Death: 379",
+    "title": "Basil of Caesarea\nBirth: 330 - Death: 379\n",
     "occupations": [],
     "start": 330,
     "end": 379,
@@ -2362,7 +2362,7 @@
   {
     "id": "Q519513",
     "content": "Marcellus of Ancyra",
-    "title": "Birth: 285 / Death: 374",
+    "title": "Marcellus of Ancyra\nBirth: 285 - Death: 374\n",
     "occupations": [],
     "start": 285,
     "end": 374,
@@ -2373,7 +2373,7 @@
   {
     "id": "Q170472",
     "content": "Origen",
-    "title": "Birth: 185 / Death: 254",
+    "title": "Origen\nBirth: 185 - Death: 254\n",
     "occupations": [],
     "start": 185,
     "end": 254,
@@ -2384,7 +2384,7 @@
   {
     "id": "Q312916",
     "content": "Nonnus of Panopolis",
-    "title": "Birth: 5th century AD / Death: 5th century AD",
+    "title": "Nonnus of Panopolis\nBirth: 5th century AD - Death: 5th century AD\n",
     "occupations": [],
     "start": 400,
     "end": 400,
@@ -2395,7 +2395,7 @@
   {
     "id": "Q352702",
     "content": "Quintus Smyrnaeus",
-    "title": "Birth: 4th century AD / Death: 4th century AD",
+    "title": "Quintus Smyrnaeus\nBirth: 4th century AD - Death: 4th century AD\n",
     "occupations": [],
     "start": 300,
     "end": 300,
@@ -2406,7 +2406,7 @@
   {
     "id": "Q354350",
     "content": "Sozomen",
-    "title": "Birth: c. 400 / Death: c. 450",
+    "title": "Sozomen\nBirth: c. 400 - Death: c. 450\n",
     "occupations": [],
     "start": 400,
     "end": 450,
@@ -2417,7 +2417,7 @@
   {
     "id": "Q782401",
     "content": "Sallustius",
-    "title": "Birth: 4th century AD / Death: 4th century AD",
+    "title": "Sallustius\nBirth: 4th century AD - Death: 4th century AD\n",
     "occupations": [],
     "start": 300,
     "end": 300,
@@ -2428,7 +2428,7 @@
   {
     "id": "Q343018",
     "content": "Eunapius",
-    "title": "Birth: c. 349 / Death: 420s",
+    "title": "Eunapius\nBirth: c. 349 - Death: 420s\n",
     "occupations": [],
     "start": 349,
     "end": 420,
@@ -2439,7 +2439,7 @@
   {
     "id": "Q336198",
     "content": "Socrates of Constantinople",
-    "title": "Birth: c. 380 / Death: c. 450",
+    "title": "Socrates of Constantinople\nBirth: c. 380 - Death: c. 450\n",
     "occupations": [],
     "start": 380,
     "end": 450,
@@ -2450,7 +2450,7 @@
   {
     "id": "Q380943",
     "content": "Philostorgius",
-    "title": "Birth: c. 368 / Death: c. 433",
+    "title": "Philostorgius\nBirth: c. 368 - Death: c. 433\n",
     "occupations": [],
     "start": 368,
     "end": 433,
@@ -2461,7 +2461,7 @@
   {
     "id": "Q207113",
     "content": "Hippolytus",
-    "title": "Birth: ? / Death: 235",
+    "title": "Hippolytus\nBirth: ? - Death: 235\n",
     "occupations": [],
     "start": 235,
     "end": 235,
@@ -2472,7 +2472,7 @@
   {
     "id": "Q450311",
     "content": "Alypius",
-    "title": "Birth: 4th century AD / Death: 4th century AD",
+    "title": "Alypius\nBirth: 4th century AD - Death: 4th century AD\n",
     "occupations": [],
     "start": 300,
     "end": 300,
@@ -2494,7 +2494,7 @@
   {
     "id": "Q436634",
     "content": "Cassius Longinus",
-    "title": "Birth: 213 / Death: 273",
+    "title": "Cassius Longinus\nBirth: 213 - Death: 273\n",
     "occupations": [],
     "start": 213,
     "end": 273,
@@ -2505,7 +2505,7 @@
   {
     "id": "Q1496242",
     "content": "Callinicus",
-    "title": "Birth: 3th century AD / Death: ?",
+    "title": "Callinicus\nBirth: 3th century AD - Death: ?\n",
     "occupations": [],
     "start": 200,
     "type": "range",
@@ -2516,7 +2516,7 @@
   {
     "id": "Q263892",
     "content": "Libanius",
-    "title": "Birth: c. 315 / Death: 393",
+    "title": "Libanius\nBirth: c. 315 - Death: 393\n",
     "occupations": [],
     "start": 315,
     "end": 393,
@@ -2527,7 +2527,7 @@
   {
     "id": "Q923839",
     "content": "Menander Rhetor",
-    "title": "Birth: 4th century AD / Death: 4th century AD",
+    "title": "Menander Rhetor\nBirth: 4th century AD - Death: 4th century AD\n",
     "occupations": [],
     "start": 300,
     "end": 300,
@@ -2549,7 +2549,7 @@
   {
     "id": "Q248733",
     "content": "Eusebius of Myndus",
-    "title": "Birth: 300 / Death: ?",
+    "title": "Eusebius of Myndus\nBirth: 300 - Death: ?\n",
     "occupations": [],
     "start": 300,
     "type": "point",
@@ -2559,7 +2559,7 @@
   {
     "id": "Q728059",
     "content": "Musaeus of Athens",
-    "title": "Birth: 5th century BC / Death: ?",
+    "title": "Musaeus of Athens\nBirth: 5th century BC - Death: ?\n",
     "occupations": [],
     "start": -500,
     "type": "range",
@@ -2570,7 +2570,7 @@
   {
     "id": "Q179284",
     "content": "Anna Komnene",
-    "title": "Birth: 1083 / Death: c. 1153",
+    "title": "Anna Komnene\nBirth: 1083 - Death: c. 1153\n",
     "occupations": [],
     "start": 1083,
     "end": 1153,
@@ -2581,7 +2581,7 @@
   {
     "id": "Q365678",
     "content": "Evagrius Scholasticus",
-    "title": "Birth: 536 / Death: 594",
+    "title": "Evagrius Scholasticus\nBirth: 536 - Death: 594\n",
     "occupations": [],
     "start": 536,
     "end": 594,
@@ -2592,7 +2592,7 @@
   {
     "id": "Q1499216",
     "content": "Gelasius of Cyzicus",
-    "title": "Birth: 5th century AD / Death: 475",
+    "title": "Gelasius of Cyzicus\nBirth: 5th century AD - Death: 475\n",
     "occupations": [],
     "start": 400,
     "end": 475,
@@ -2614,7 +2614,7 @@
   {
     "id": "Q51884",
     "content": "John of Damascus",
-    "title": "Birth: c. 675 / Death: 749",
+    "title": "John of Damascus\nBirth: c. 675 - Death: 749\n",
     "occupations": [],
     "start": 675,
     "end": 749,
@@ -2625,7 +2625,7 @@
   {
     "id": "Q518300",
     "content": "Methodius of Olympus",
-    "title": "Birth: 260 / Death: 311",
+    "title": "Methodius of Olympus\nBirth: 260 - Death: 311\n",
     "occupations": [],
     "start": 260,
     "end": 311,
@@ -2636,7 +2636,7 @@
   {
     "id": "Q1314034",
     "content": "Severus",
-    "title": "Birth: 100 / Death: ?",
+    "title": "Severus\nBirth: 100 - Death: ?\n",
     "occupations": [],
     "start": 100,
     "type": "point",
@@ -2657,7 +2657,7 @@
   {
     "id": "Q1247278",
     "content": "Theophylact of Ohrid",
-    "title": "Birth: 1055 / Death: 1107",
+    "title": "Theophylact of Ohrid\nBirth: 1055 - Death: 1107\n",
     "occupations": [],
     "start": 1055,
     "end": 1107,
@@ -2668,7 +2668,7 @@
   {
     "id": "Q32052",
     "content": "John Zonaras",
-    "title": "Birth: c. 1074 / Death: c. 1145",
+    "title": "John Zonaras\nBirth: c. 1074 - Death: c. 1145\n",
     "occupations": [],
     "start": 1074,
     "end": 1145,
@@ -2679,7 +2679,7 @@
   {
     "id": "Q1165497",
     "content": "Marcianus of Heraclea",
-    "title": "Birth: 4th century AD / Death: 5th century AD",
+    "title": "Marcianus of Heraclea\nBirth: 4th century AD - Death: 5th century AD\n",
     "occupations": [],
     "start": 300,
     "end": 400,
@@ -2690,7 +2690,7 @@
   {
     "id": "Q351518",
     "content": "Simplicius of Cilicia",
-    "title": "Birth: c. 480 / Death: c. 560",
+    "title": "Simplicius of Cilicia\nBirth: c. 480 - Death: c. 560\n",
     "occupations": [],
     "start": 480,
     "end": 560,
@@ -2701,7 +2701,7 @@
   {
     "id": "Q317632",
     "content": "John Philoponus",
-    "title": "Birth: c. 490 / Death: c. 570",
+    "title": "John Philoponus\nBirth: c. 490 - Death: c. 570\n",
     "occupations": [],
     "start": 490,
     "end": 570,
@@ -2712,7 +2712,7 @@
   {
     "id": "Q123147",
     "content": "Ammonius Hermiae",
-    "title": "Birth: 435 / Death: 523",
+    "title": "Ammonius Hermiae\nBirth: 435 - Death: 523\n",
     "occupations": [],
     "start": 435,
     "end": 523,
@@ -2723,7 +2723,7 @@
   {
     "id": "Q1373037",
     "content": "Syrianus",
-    "title": "Birth: 5th century AD / Death: 437",
+    "title": "Syrianus\nBirth: 5th century AD - Death: 437\n",
     "occupations": [],
     "start": 400,
     "end": 437,
@@ -2734,7 +2734,7 @@
   {
     "id": "Q732098",
     "content": "Asclepius of Tralles",
-    "title": "Birth: 5th century AD / Death: 6th century AD",
+    "title": "Asclepius of Tralles\nBirth: 5th century AD - Death: 6th century AD\n",
     "occupations": [],
     "start": 400,
     "end": 500,
@@ -2745,7 +2745,7 @@
   {
     "id": "Q974775",
     "content": "Olympiodorus the Younger",
-    "title": "Birth: 495 / Death: 570",
+    "title": "Olympiodorus the Younger\nBirth: 495 - Death: 570\n",
     "occupations": [],
     "start": 495,
     "end": 570,
@@ -2756,7 +2756,7 @@
   {
     "id": "Q974885",
     "content": "Elias",
-    "title": "Birth: 6th century AD / Death: 6th century AD",
+    "title": "Elias\nBirth: 6th century AD - Death: 6th century AD\n",
     "occupations": [],
     "start": 500,
     "end": 500,
@@ -2767,7 +2767,7 @@
   {
     "id": "Q1173486",
     "content": "David Anhaght",
-    "title": "Birth: 6th century AD / Death: 6th century AD",
+    "title": "David Anhaght\nBirth: 6th century AD - Death: 6th century AD\n",
     "occupations": [],
     "start": 500,
     "end": 500,
@@ -2778,7 +2778,7 @@
   {
     "id": "Q233136",
     "content": "Agathias",
-    "title": "Birth: 536 / Death: 582",
+    "title": "Agathias\nBirth: 536 - Death: 582\n",
     "occupations": [],
     "start": 536,
     "end": 582,
@@ -2789,7 +2789,7 @@
   {
     "id": "Q186153",
     "content": "Procopius",
-    "title": "Birth: 5th century AD / Death: 562",
+    "title": "Procopius\nBirth: 5th century AD - Death: 562\n",
     "occupations": [],
     "start": 400,
     "end": 562,
@@ -2800,7 +2800,7 @@
   {
     "id": "Q7563126",
     "content": "Sophonias",
-    "title": "Birth: 13th century AD / Death: 14th century AD",
+    "title": "Sophonias\nBirth: 13th century AD - Death: 14th century AD\n",
     "occupations": [],
     "start": 1200,
     "end": 1300,
@@ -2811,7 +2811,7 @@
   {
     "id": "Q3561265",
     "content": "Eustratius of Nicaea",
-    "title": "Birth: c. 1050 / Death: 1120s",
+    "title": "Eustratius of Nicaea\nBirth: c. 1050 - Death: 1120s\n",
     "occupations": [],
     "start": 1050,
     "end": 1120,
@@ -2822,7 +2822,7 @@
   {
     "id": "Q6835560",
     "content": "Michael of Ephesus",
-    "title": "Birth: 1050 / Death: 1129",
+    "title": "Michael of Ephesus\nBirth: 1050 - Death: 1129\n",
     "occupations": [],
     "start": 1050,
     "end": 1129,
@@ -2833,7 +2833,7 @@
   {
     "id": "Q271809",
     "content": "Proclus",
-    "title": "Birth: 412 / Death: 485",
+    "title": "Proclus\nBirth: 412 - Death: 485\n",
     "occupations": [],
     "start": 412,
     "end": 485,
@@ -2844,7 +2844,7 @@
   {
     "id": "Q510719",
     "content": "Eutocius of Ascalon",
-    "title": "Birth: c. 480 / Death: 6th century AD",
+    "title": "Eutocius of Ascalon\nBirth: c. 480 - Death: 6th century AD\n",
     "occupations": [],
     "start": 480,
     "end": 500,
@@ -2855,7 +2855,7 @@
   {
     "id": "Q581833",
     "content": "Marinus of Neapolis",
-    "title": "Birth: c. 440 / Death: c. 500",
+    "title": "Marinus of Neapolis\nBirth: c. 440 - Death: c. 500\n",
     "occupations": [],
     "start": 440,
     "end": 500,
@@ -2866,7 +2866,7 @@
   {
     "id": "Q1779484",
     "content": "Coluthus",
-    "title": "Birth: 5th century AD / Death: 6th century AD",
+    "title": "Coluthus\nBirth: 5th century AD - Death: 6th century AD\n",
     "occupations": [],
     "start": 400,
     "end": 500,
@@ -2877,7 +2877,7 @@
   {
     "id": "Q226858",
     "content": "Zosimus",
-    "title": "Birth: c. 460 / Death: c. 520",
+    "title": "Zosimus\nBirth: c. 460 - Death: c. 520\n",
     "occupations": [],
     "start": 460,
     "end": 520,
@@ -2888,7 +2888,7 @@
   {
     "id": "Q317029",
     "content": "Theodoret",
-    "title": "Birth: c. 393 / Death: 457",
+    "title": "Theodoret\nBirth: c. 393 - Death: 457\n",
     "occupations": [],
     "start": 393,
     "end": 457,
@@ -2899,7 +2899,7 @@
   {
     "id": "Q44079",
     "content": "Cyril of Alexandria",
-    "title": "Birth: 376 / Death: 444",
+    "title": "Cyril of Alexandria\nBirth: 376 - Death: 444\n",
     "occupations": [],
     "start": 376,
     "end": 444,
@@ -2910,7 +2910,7 @@
   {
     "id": "Q713482",
     "content": "Callistratus",
-    "title": "Birth: 10th century AD / Death: 10th century AD",
+    "title": "Callistratus\nBirth: 10th century AD - Death: 10th century AD\n",
     "occupations": [],
     "start": 900,
     "end": 900,
@@ -2921,7 +2921,7 @@
   {
     "id": "Q531732",
     "content": "Gregory II of Constantinople",
-    "title": "Birth: 1241 / Death: 1290",
+    "title": "Gregory II of Constantinople\nBirth: 1241 - Death: 1290\n",
     "occupations": [],
     "start": 1241,
     "end": 1290,
@@ -2932,7 +2932,7 @@
   {
     "id": "Q330289",
     "content": "Stephen of Alexandria",
-    "title": "Birth: 6th century AD / Death: 622",
+    "title": "Stephen of Alexandria\nBirth: 6th century AD - Death: 622\n",
     "occupations": [],
     "start": 500,
     "end": 622,
@@ -2943,7 +2943,7 @@
   {
     "id": "Q47160",
     "content": "Plautus",
-    "title": "Birth: -249 / Death: -183",
+    "title": "Plautus\nBirth: -249 - Death: -183\n",
     "occupations": [],
     "start": -249,
     "end": -183,
@@ -2954,7 +2954,7 @@
   {
     "id": "Q172048",
     "content": "Terence",
-    "title": "Birth: -184 / Death: -158",
+    "title": "Terence\nBirth: -184 - Death: -158\n",
     "occupations": [],
     "start": -184,
     "end": -158,
@@ -2965,7 +2965,7 @@
   {
     "id": "Q1048",
     "content": "Julius Caesar",
-    "title": "Birth: -101 / Death: -43",
+    "title": "Julius Caesar\nBirth: -101 - Death: -43\n",
     "occupations": [],
     "start": -101,
     "end": -43,
@@ -2976,7 +2976,7 @@
   {
     "id": "Q163079",
     "content": "Catullus",
-    "title": "Birth: c. -83 / Death: c. -53",
+    "title": "Catullus\nBirth: c. -83 - Death: c. -53\n",
     "occupations": [],
     "start": -83,
     "end": -53,
@@ -2987,7 +2987,7 @@
   {
     "id": "Q1541",
     "content": "Cicero",
-    "title": "Birth: -106 / Death: -42",
+    "title": "Cicero\nBirth: -106 - Death: -42\n",
     "occupations": [],
     "start": -106,
     "end": -42,
@@ -2998,7 +2998,7 @@
   {
     "id": "Q316054",
     "content": "Quintus Tullius Cicero",
-    "title": "Birth: c. -101 / Death: -42",
+    "title": "Quintus Tullius Cicero\nBirth: c. -101 - Death: -42\n",
     "occupations": [],
     "start": -101,
     "end": -42,
@@ -3009,7 +3009,7 @@
   {
     "id": "Q47154",
     "content": "Lucretius",
-    "title": "Birth: -93 / Death: -54",
+    "title": "Lucretius\nBirth: -93 - Death: -54\n",
     "occupations": [],
     "start": -93,
     "end": -54,
@@ -3020,7 +3020,7 @@
   {
     "id": "Q109594",
     "content": "Cornelius Nepos",
-    "title": "Birth: c. -99 / Death: c. -24",
+    "title": "Cornelius Nepos\nBirth: c. -99 - Death: c. -24\n",
     "occupations": [],
     "start": -99,
     "end": -24,
@@ -3031,7 +3031,7 @@
   {
     "id": "Q8827",
     "content": "Propertius",
-    "title": "Birth: c. -46 / Death: -15",
+    "title": "Propertius\nBirth: c. -46 - Death: -15\n",
     "occupations": [],
     "start": -46,
     "end": -15,
@@ -3042,7 +3042,7 @@
   {
     "id": "Q7170",
     "content": "Sallust",
-    "title": "Birth: -85 / Death: -34",
+    "title": "Sallust\nBirth: -85 - Death: -34\n",
     "occupations": [],
     "start": -85,
     "end": -34,
@@ -3053,7 +3053,7 @@
   {
     "id": "Q109598",
     "content": "Tibullus",
-    "title": "Birth: c. -54 / Death: -18",
+    "title": "Tibullus\nBirth: c. -54 - Death: -18\n",
     "occupations": [],
     "start": -54,
     "end": -18,
@@ -3064,7 +3064,7 @@
   {
     "id": "Q1398",
     "content": "Virgil",
-    "title": "Birth: -69 / Death: -18",
+    "title": "Virgil\nBirth: -69 - Death: -18\n",
     "occupations": [],
     "start": -69,
     "end": -18,
@@ -3075,7 +3075,7 @@
   {
     "id": "Q312420",
     "content": "Aulus Cornelius Celsus",
-    "title": "Birth: -24 / Death: c. 50",
+    "title": "Aulus Cornelius Celsus\nBirth: -24 - Death: c. 50\n",
     "occupations": [],
     "start": -24,
     "end": 50,
@@ -3086,7 +3086,7 @@
   {
     "id": "Q318317",
     "content": "Columella",
-    "title": "Birth: 4 / Death: 70",
+    "title": "Columella\nBirth: 4 - Death: 70\n",
     "occupations": [],
     "start": 4,
     "end": 70,
@@ -3097,7 +3097,7 @@
   {
     "id": "Q5959",
     "content": "Quintus Curtius Rufus",
-    "title": "Birth: 1th century AD / Death: 1th century AD",
+    "title": "Quintus Curtius Rufus\nBirth: 1th century AD - Death: 1th century AD\n",
     "occupations": [],
     "start": 0,
     "end": 0,
@@ -3108,7 +3108,7 @@
   {
     "id": "Q6197",
     "content": "Horace",
-    "title": "Birth: -64 / Death: -7",
+    "title": "Horace\nBirth: -64 - Death: -7\n",
     "occupations": [],
     "start": -64,
     "end": -7,
@@ -3119,7 +3119,7 @@
   {
     "id": "Q2039",
     "content": "Titus Livius",
-    "title": "Birth: -58 / Death: 17",
+    "title": "Titus Livius\nBirth: -58 - Death: 17\n",
     "occupations": [],
     "start": -58,
     "end": 17,
@@ -3130,7 +3130,7 @@
   {
     "id": "Q188646",
     "content": "Lucan",
-    "title": "Birth: 39 / Death: 65",
+    "title": "Lucan\nBirth: 39 - Death: 65\n",
     "occupations": [],
     "start": 39,
     "end": 65,
@@ -3141,7 +3141,7 @@
   {
     "id": "Q7198",
     "content": "Ovid",
-    "title": "Birth: -42 / Death: 17",
+    "title": "Ovid\nBirth: -42 - Death: 17\n",
     "occupations": [],
     "start": -42,
     "end": 17,
@@ -3152,7 +3152,7 @@
   {
     "id": "Q332785",
     "content": "Persius",
-    "title": "Birth: 34 / Death: 62",
+    "title": "Persius\nBirth: 34 - Death: 62\n",
     "occupations": [],
     "start": 34,
     "end": 62,
@@ -3163,7 +3163,7 @@
   {
     "id": "Q47180",
     "content": "Petronius",
-    "title": "Birth: c. 27 / Death: 66",
+    "title": "Petronius\nBirth: c. 27 - Death: 66\n",
     "occupations": [],
     "start": 27,
     "end": 66,
@@ -3174,7 +3174,7 @@
   {
     "id": "Q52166",
     "content": "Phaedrus",
-    "title": "Birth: -20s / Death: 50",
+    "title": "Phaedrus\nBirth: -20s - Death: 50\n",
     "occupations": [],
     "start": -20,
     "end": 50,
@@ -3185,7 +3185,7 @@
   {
     "id": "Q82778",
     "content": "Pliny the Elder",
-    "title": "Birth: c. 24 / Death: 79",
+    "title": "Pliny the Elder\nBirth: c. 24 - Death: 79\n",
     "occupations": [],
     "start": 24,
     "end": 79,
@@ -3196,7 +3196,7 @@
   {
     "id": "Q193769",
     "content": "Quintilian",
-    "title": "Birth: c. 35 / Death: c. 96",
+    "title": "Quintilian\nBirth: c. 35 - Death: c. 96\n",
     "occupations": [],
     "start": 35,
     "end": 96,
@@ -3207,7 +3207,7 @@
   {
     "id": "Q273671",
     "content": "Seneca the Elder",
-    "title": "Birth: c. -53 / Death: c. 39",
+    "title": "Seneca the Elder\nBirth: c. -53 - Death: c. 39\n",
     "occupations": [],
     "start": -53,
     "end": 39,
@@ -3218,7 +3218,7 @@
   {
     "id": "Q2054",
     "content": "Seneca",
-    "title": "Birth: -4s / Death: 65",
+    "title": "Seneca\nBirth: -4s - Death: 65\n",
     "occupations": [],
     "start": -4,
     "end": 65,
@@ -3229,7 +3229,7 @@
   {
     "id": "Q243203",
     "content": "Publius Papinius Statius",
-    "title": "Birth: c. 40 / Death: 96",
+    "title": "Publius Papinius Statius\nBirth: c. 40 - Death: 96\n",
     "occupations": [],
     "start": 40,
     "end": 96,
@@ -3240,7 +3240,7 @@
   {
     "id": "Q316090",
     "content": "Gaius Valerius Flaccus",
-    "title": "Birth: c. 45 / Death: c. 95",
+    "title": "Gaius Valerius Flaccus\nBirth: c. 45 - Death: c. 95\n",
     "occupations": [],
     "start": 45,
     "end": 95,
@@ -3251,7 +3251,7 @@
   {
     "id": "Q379991",
     "content": "Valerius Maximus",
-    "title": "Birth: 1th century BC / Death: 1th century AD",
+    "title": "Valerius Maximus\nBirth: 1th century BC - Death: 1th century AD\n",
     "occupations": [],
     "start": -100,
     "end": 0,
@@ -3262,7 +3262,7 @@
   {
     "id": "Q47163",
     "content": "Vitruvius",
-    "title": "Birth: c. -79 / Death: c. -14",
+    "title": "Vitruvius\nBirth: c. -79 - Death: c. -14\n",
     "occupations": [],
     "start": -79,
     "end": -14,
@@ -3273,7 +3273,7 @@
   {
     "id": "Q170512",
     "content": "Apuleius",
-    "title": "Birth: 2th century AD / Death: c. 170",
+    "title": "Apuleius\nBirth: 2th century AD - Death: c. 170\n",
     "occupations": [],
     "start": 100,
     "end": 170,
@@ -3284,7 +3284,7 @@
   {
     "id": "Q316483",
     "content": "Lucius Annaeus Florus",
-    "title": "Birth: c. 74 / Death: c. 140",
+    "title": "Lucius Annaeus Florus\nBirth: c. 74 - Death: c. 140\n",
     "occupations": [],
     "start": 74,
     "end": 140,
@@ -3295,7 +3295,7 @@
   {
     "id": "Q294800",
     "content": "Aulus Gellius",
-    "title": "Birth: c. 130 / Death: c. 170",
+    "title": "Aulus Gellius\nBirth: c. 130 - Death: c. 170\n",
     "occupations": [],
     "start": 130,
     "end": 170,
@@ -3306,7 +3306,7 @@
   {
     "id": "Q193800",
     "content": "Juvenal",
-    "title": "Birth: c. 55 / Death: 2th century AD",
+    "title": "Juvenal\nBirth: c. 55 - Death: 2th century AD\n",
     "occupations": [],
     "start": 55,
     "end": 100,
@@ -3317,7 +3317,7 @@
   {
     "id": "Q2098",
     "content": "Martial",
-    "title": "Birth: ? / Death: 104",
+    "title": "Martial\nBirth: ? - Death: 104\n",
     "occupations": [],
     "start": 104,
     "end": 104,
@@ -3328,7 +3328,7 @@
   {
     "id": "Q168707",
     "content": "Pliny the Younger",
-    "title": "Birth: c. 61 / Death: c. 113",
+    "title": "Pliny the Younger\nBirth: c. 61 - Death: c. 113\n",
     "occupations": [],
     "start": 61,
     "end": 113,
@@ -3339,7 +3339,7 @@
   {
     "id": "Q316123",
     "content": "Silius Italicus",
-    "title": "Birth: 26 / Death: 101",
+    "title": "Silius Italicus\nBirth: 26 - Death: 101\n",
     "occupations": [],
     "start": 26,
     "end": 101,
@@ -3350,7 +3350,7 @@
   {
     "id": "Q10133",
     "content": "Suetonius",
-    "title": "Birth: c. 69 / Death: c. 126",
+    "title": "Suetonius\nBirth: c. 69 - Death: c. 126\n",
     "occupations": [],
     "start": 69,
     "end": 126,
@@ -3361,7 +3361,7 @@
   {
     "id": "Q2161",
     "content": "Tacitus",
-    "title": "Birth: c. 56 / Death: c. 120",
+    "title": "Tacitus\nBirth: c. 56 - Death: c. 120\n",
     "occupations": [],
     "start": 56,
     "end": 120,
