@@ -216,8 +216,10 @@ async function initTimeline() {
             height: '100%',
             zoomMin: 1000 * 60 * 60 * 24 * 365 * 10, // 10 years min zoom
             zoomMax: 1000 * 60 * 60 * 24 * 365 * 3000, // 3000 years max zoom
-            start: createDate(-500), // Default view: Classical antiquity
-            end: createDate(0),
+            min: createDate(-1000), // Limit view to 1000 BC
+            max: createDate(1350),  // Limit view to 1350 AD
+            start: createDate(-300), // Default view start
+            end: createDate(300),    // Default view end (Centered on AD 1)
             format: {
                 minorLabels: formatAxis,
                 majorLabels: formatAxis
