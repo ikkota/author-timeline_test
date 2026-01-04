@@ -1,0 +1,3065 @@
+[
+  {
+    "id": "Q8778",
+    "content": "Galen",
+    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "start": 100,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q405969",
+    "content": "Aeneas Tacticus",
+    "title": "Birth: 5th century BC / Death: 4th century BC",
+    "start": -500,
+    "end": -400,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q859",
+    "content": "Plato",
+    "title": "Birth: -426 / Death: -348s",
+    "start": -426,
+    "end": -348,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q171241",
+    "content": "Diodorus Siculus",
+    "title": "Birth: c. -89 / Death: c. -19",
+    "start": -89,
+    "end": -19,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q177847",
+    "content": "Lucian of Samosata",
+    "title": "Birth: c. 120 / Death: 2th century AD",
+    "start": 120,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q296478",
+    "content": "Hanno the Navigator",
+    "title": "Birth: 5th century BC / Death: 5th century BC",
+    "start": -500,
+    "end": -500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q453311",
+    "content": "Scylax of Caryanda",
+    "title": "Birth: 6th century BC / Death: 5th century BC",
+    "start": -600,
+    "end": -500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q352621",
+    "content": "Dicaearchus",
+    "title": "Birth: -344 / Death: -289",
+    "start": -344,
+    "end": -289,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q391216",
+    "content": "Agatharchides",
+    "title": "Birth: -207 / Death: ?",
+    "start": -207,
+    "type": "point",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q2877686",
+    "content": "Pseudo-Scymnus",
+    "title": "Birth: 2th century BC / Death: -2",
+    "start": -200,
+    "end": -2,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1351420",
+    "content": "Isidoros of Charax",
+    "title": "Birth: 1th century BC / Death: 1th century AD",
+    "start": -100,
+    "end": 0,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q31845",
+    "content": "Arrian",
+    "title": "Birth: c. 89 / Death: 180",
+    "start": 89,
+    "end": 180,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q26204",
+    "content": "Dionysius of Halicarnassus",
+    "title": "Birth: c. -59 / Death: -6",
+    "start": -59,
+    "end": -6,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q472809",
+    "content": "Apollonius Dyscolus",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q804146",
+    "content": "Dionysius of Byzantium",
+    "title": "Birth: 2th century AD / Death: ?",
+    "start": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx century",
+    "end": 200
+  },
+  {
+    "id": "Q1226993",
+    "content": "Dionysius Periegetes",
+    "title": "Birth: c. 100 / Death: 140",
+    "start": 100,
+    "end": 140,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q40939",
+    "content": "Aeschylus",
+    "title": "Birth: -524 / Death: -455",
+    "start": -524,
+    "end": -455,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q868",
+    "content": "Aristotle",
+    "title": "Birth: -382 / Death: -321",
+    "start": -382,
+    "end": -321,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q380826",
+    "content": "Aelius Herodianus",
+    "title": "Birth: 180 / Death: 250",
+    "start": 180,
+    "end": 250,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q335156",
+    "content": "Aristoxenus",
+    "title": "Birth: c. -359 / Death: c. -299",
+    "start": -359,
+    "end": -299,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q515542",
+    "content": "Agathemerus",
+    "title": "Birth: 3th century AD / Death: 3th century AD",
+    "start": 200,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q160362",
+    "content": "Theophrastus",
+    "title": "Birth: c. -370 / Death: -286",
+    "start": -370,
+    "end": -286,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q43423",
+    "content": "Aesop",
+    "title": "Birth: c. -619 / Death: c. -563",
+    "start": -619,
+    "end": -563,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1226821",
+    "content": "Diogenianus",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q189699",
+    "content": "Zenobius",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q45936",
+    "content": "Strabo",
+    "title": "Birth: c. -62 / Death: 24",
+    "start": -62,
+    "end": 24,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q310681",
+    "content": "Bacchylides",
+    "title": "Birth: c. -515 / Death: c. -450",
+    "start": -515,
+    "end": -450,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q367377",
+    "content": "Hipponax",
+    "title": "Birth: 6th century BC / Death: 6th century BC",
+    "start": -600,
+    "end": -600,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q354431",
+    "content": "Aelius Aristides",
+    "title": "Birth: 117 / Death: 185",
+    "start": 117,
+    "end": 185,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q294092",
+    "content": "Critias",
+    "title": "Birth: -459 / Death: -402",
+    "start": -459,
+    "end": -402,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q432737",
+    "content": "Lycophron",
+    "title": "Birth: -319 / Death: -279",
+    "start": -319,
+    "end": -279,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q84027027",
+    "content": "Didymus of Alexandria",
+    "title": "Birth: 1th century BC / Death: 1th century AD",
+    "start": -100,
+    "end": 0,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q360366",
+    "content": "Nicomachus",
+    "title": "Birth: c. 60 / Death: c. 120",
+    "start": 60,
+    "end": 120,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q4223358",
+    "content": "Cleonides",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q34943",
+    "content": "Ptolemy",
+    "title": "Birth: c. 100 / Death: c. 170",
+    "start": 100,
+    "end": 170,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q185223",
+    "content": "Cassius Dio",
+    "title": "Birth: c. 155 / Death: 3th century AD",
+    "start": 155,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q456560",
+    "content": "Myia",
+    "title": "Birth: 6th century BC / Death: 5th century BC",
+    "start": -600,
+    "end": -500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q312410",
+    "content": "Epicharmus of Kos",
+    "title": "Birth: c. -539 / Death: c. -434",
+    "start": -539,
+    "end": -434,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q192931",
+    "content": "Pausanias",
+    "title": "Birth: c. 115 / Death: c. 180",
+    "start": 115,
+    "end": 180,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q134461",
+    "content": "Josephus",
+    "title": "Birth: 37 / Death: 100",
+    "start": 37,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q641051",
+    "content": "Arius Didymus",
+    "title": "Birth: -83s / Death: ?",
+    "start": -83,
+    "type": "point",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q221951",
+    "content": "Achilles Tatius",
+    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "start": 100,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q192417",
+    "content": "Callimachus",
+    "title": "Birth: c. -319 / Death: c. -242",
+    "start": -319,
+    "end": -242,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q211430",
+    "content": "Demades",
+    "title": "Birth: -380s / Death: -316",
+    "start": -380,
+    "end": -316,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q43216",
+    "content": "Epicurus",
+    "title": "Birth: -340 / Death: -269",
+    "start": -340,
+    "end": -269,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q310164",
+    "content": "Lysias",
+    "title": "Birth: c. -444 / Death: -379",
+    "start": -444,
+    "end": -379,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q118992",
+    "content": "Menander",
+    "title": "Birth: -340s / Death: c. -290",
+    "start": -340,
+    "end": -290,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q548104",
+    "content": "Julius Pollux",
+    "title": "Birth: 2th century AD / Death: 238",
+    "start": 100,
+    "end": 238,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q131169",
+    "content": "Polybius",
+    "title": "Birth: -211 / Death: -131",
+    "start": -211,
+    "end": -131,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q236594",
+    "content": "Sextus Empiricus",
+    "title": "Birth: c. 2th century AD / Death: c. 3th century AD",
+    "start": 100,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q313782",
+    "content": "Aelian",
+    "title": "Birth: 2th century AD / Death: 235",
+    "start": 100,
+    "end": 235,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q12506564",
+    "content": "Pseudo-Apollodorus",
+    "title": "Birth: c. 1th century AD / Death: c. 2th century AD",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q180109",
+    "content": "Apollonius of Perga",
+    "title": "Birth: c. -259 / Death: c. -189",
+    "start": -259,
+    "end": -189,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q190368",
+    "content": "Appian",
+    "title": "Birth: c. 95 / Death: c. 165",
+    "start": 95,
+    "end": 165,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q8739",
+    "content": "Archimedes",
+    "title": "Birth: c. -284 / Death: -210",
+    "start": -284,
+    "end": -210,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q445848",
+    "content": "Artemidorus",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q434567",
+    "content": "Chariton",
+    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q188883",
+    "content": "Clement of Alexandria",
+    "title": "Birth: c. 150 / Death: c. 215",
+    "start": 150,
+    "end": 215,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q261224",
+    "content": "Asclepiodotus",
+    "title": "Birth: 1th century BC / Death: ?",
+    "start": -100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx century",
+    "end": 0
+  },
+  {
+    "id": "Q183144",
+    "content": "Epictetus",
+    "title": "Birth: c. 50 / Death: 138",
+    "start": 50,
+    "end": 138,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q161853",
+    "content": "Hero of Alexandria",
+    "title": "Birth: c. 10 / Death: c. 75",
+    "start": 10,
+    "end": 75,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q744540",
+    "content": "Pseudo-Longinus",
+    "title": "Birth: 1th century AD / Death: 1th century AD",
+    "start": 0,
+    "end": 0,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q314949",
+    "content": "Longus",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1430",
+    "content": "Marcus Aurelius",
+    "title": "Birth: 121 / Death: 180",
+    "start": 121,
+    "end": 180,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q456649",
+    "content": "Maximus of Tyre",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1049225",
+    "content": "Rufus of Ephesus",
+    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q446595",
+    "content": "Soranus of Ephesus",
+    "title": "Birth: 98 / Death: 2th century AD",
+    "start": 98,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q179149",
+    "content": "Antisthenes",
+    "title": "Birth: -444 / Death: -364",
+    "start": -444,
+    "end": -364,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q738027",
+    "content": "Hermogenes of Tarsus",
+    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "start": 100,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q179785",
+    "content": "Gorgias",
+    "title": "Birth: -484 / Death: c. -374",
+    "start": -484,
+    "end": -374,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q622258",
+    "content": "Alexander Numenius",
+    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q405173",
+    "content": "Aelius Theon",
+    "title": "Birth: 1th century AD / Death: 1th century AD",
+    "start": 0,
+    "end": 0,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1294734",
+    "content": "Tryphon",
+    "title": "Floruit: 1th century BC",
+    "source": "floruit",
+    "start": -100,
+    "end": 0,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q192638",
+    "content": "Apollonius of Rhodes",
+    "title": "Birth: -289 / Death: -214",
+    "start": -289,
+    "end": -214,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q41683",
+    "content": "Thucydides",
+    "title": "Birth: -460s / Death: -394",
+    "start": -460,
+    "end": -394,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q59138",
+    "content": "Diogenes Laërtius",
+    "title": "Birth: 180s / Death: 240s",
+    "start": 180,
+    "end": 240,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q219484",
+    "content": "Theocritus",
+    "title": "Birth: 4th century BC / Death: 3th century BC",
+    "start": -400,
+    "end": -300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q48305",
+    "content": "Euripides",
+    "title": "Birth: -483 / Death: -404",
+    "start": -483,
+    "end": -404,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q41523",
+    "content": "Plutarch",
+    "title": "Birth: 50 / Death: c. 2th century AD",
+    "start": 50,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q294923",
+    "content": "Athenaeus",
+    "title": "Birth: c. 170 / Death: 3th century AD",
+    "start": 170,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q221182",
+    "content": "Isocrates",
+    "title": "Birth: -435 / Death: -337",
+    "start": -435,
+    "end": -337,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q7235",
+    "content": "Sophocles",
+    "title": "Birth: c. -495 / Death: c. -405",
+    "start": -495,
+    "end": -405,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q6691",
+    "content": "Homer",
+    "title": "Birth: c. 9th century BC / Death: c. 8th century BC",
+    "start": -900,
+    "end": -800,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q117253",
+    "content": "Demosthenes",
+    "title": "Birth: -383 / Death: -321",
+    "start": -383,
+    "end": -321,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q313056",
+    "content": "Herodian",
+    "title": "Birth: c. 170 / Death: c. 250",
+    "start": 170,
+    "end": 250,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q26825",
+    "content": "Herodotus",
+    "title": "Birth: c. -483 / Death: c. -424",
+    "start": -483,
+    "end": -424,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q365097",
+    "content": "Isaeus",
+    "title": "Birth: c. -419 / Death: c. -339",
+    "start": -419,
+    "end": -339,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q189597",
+    "content": "Philo of Alexandria",
+    "title": "Birth: c. -14 / Death: c. 50",
+    "start": -14,
+    "end": 50,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q43353",
+    "content": "Aristophanes",
+    "title": "Birth: c. -449 / Death: c. -385",
+    "start": -449,
+    "end": -385,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q44233",
+    "content": "Hesiod",
+    "title": "Birth: c. -775 / Death: ?",
+    "start": -775,
+    "type": "point",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q363818",
+    "content": "Nicander",
+    "title": "Birth: -249 / Death: -169",
+    "start": -249,
+    "end": -169,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q116508",
+    "content": "Oppian",
+    "title": "Birth: 2th century AD / Death: ?",
+    "start": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx century",
+    "end": 200
+  },
+  {
+    "id": "Q17996276",
+    "content": "Oppian of Apamea",
+    "title": "Birth: 2 / Death: ?",
+    "start": 2,
+    "type": "point",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q317089",
+    "content": "Aeschines",
+    "title": "Birth: -389 / Death: c. -321",
+    "start": -389,
+    "end": -321,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q391654",
+    "content": "Andocides",
+    "title": "Birth: c. -439 / Death: c. -390",
+    "start": -439,
+    "end": -390,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q335560",
+    "content": "Antiphon of Rhamnus",
+    "title": "Birth: c. -479 / Death: -410",
+    "start": -479,
+    "end": -410,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q473421",
+    "content": "Dinarchus",
+    "title": "Birth: c. -359 / Death: c. -291",
+    "start": -359,
+    "end": -291,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q314447",
+    "content": "Hypereides",
+    "title": "Birth: -387 / Death: -321",
+    "start": -387,
+    "end": -321,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q129772",
+    "content": "Xenophon",
+    "title": "Birth: -430s / Death: c. -353",
+    "start": -430,
+    "end": -353,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q134929",
+    "content": "Pindar",
+    "title": "Birth: -521 / Death: -436",
+    "start": -521,
+    "end": -436,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q373685",
+    "content": "Lycurgus of Athens",
+    "title": "Birth: -389 / Death: -323",
+    "start": -389,
+    "end": -323,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q957548",
+    "content": "Moschus",
+    "title": "Birth: 2th century BC / Death: 2th century BC",
+    "start": -200,
+    "end": -200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q463364",
+    "content": "Bion of Smyrna",
+    "title": "Birth: -119 / Death: -56",
+    "start": -119,
+    "end": -56,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q325026",
+    "content": "Anacharsis",
+    "title": "Birth: 7th century BC / Death: 6th century BC",
+    "start": -700,
+    "end": -600,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1254602",
+    "content": "Chion of Heraclea",
+    "title": "Birth: ? / Death: -352",
+    "start": -352,
+    "end": -352,
+    "type": "point",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q3365",
+    "content": "Antiochus III the Great",
+    "title": "Birth: c. -241 / Death: -186",
+    "start": -241,
+    "end": -186,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q188472",
+    "content": "Artaxerxes II of Persia",
+    "title": "Birth: -452 / Death: -357",
+    "start": -452,
+    "end": -357,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q315822",
+    "content": "Nicias",
+    "title": "Birth: 5th century BC / Death: -412",
+    "start": -500,
+    "end": -412,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q130650",
+    "content": "Philip II of Macedon",
+    "title": "Birth: c. -382 / Death: -335",
+    "start": -382,
+    "end": -335,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q581732",
+    "content": "Antipater of Tarsus",
+    "title": "Birth: 2th century BC / Death: -128",
+    "start": -200,
+    "end": -128,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q15078686",
+    "content": "Antiphon",
+    "title": "Birth: 5th century BC / Death: c. 5th century BC",
+    "start": -500,
+    "end": -500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q140188",
+    "content": "Aristarchus of Samos",
+    "title": "Birth: c. -309 / Death: c. -229",
+    "start": -309,
+    "end": -229,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q666667",
+    "content": "Aristocles of Messene",
+    "title": "Birth: 2th century AD / Death: ?",
+    "start": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx century",
+    "end": 200
+  },
+  {
+    "id": "Q646951",
+    "content": "Ariston of Chios",
+    "title": "Birth: c. -299 / Death: 3th century BC",
+    "start": -299,
+    "end": -300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q3622711",
+    "content": "Aristonicus of Alexandria",
+    "title": "Floruit: 1th century AD",
+    "source": "floruit",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q309772",
+    "content": "Athenagoras of Athens",
+    "title": "Floruit: 2th century AD",
+    "source": "floruit",
+    "start": 100,
+    "end": 200,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q451390",
+    "content": "Autolycus of Pitane",
+    "title": "Birth: c. -359 / Death: c. -289",
+    "start": -359,
+    "end": -289,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q61474568",
+    "content": "Cebes",
+    "title": "Floruit: 1th century AD",
+    "source": "floruit",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q211411",
+    "content": "Chrysippus of Soli",
+    "title": "Birth: -280 / Death: -203",
+    "start": -280,
+    "end": -203,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q310149",
+    "content": "Cleanthes",
+    "title": "Birth: -330 / Death: -231",
+    "start": -330,
+    "end": -231,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q42887",
+    "content": "Clement I",
+    "title": "Birth: 1th century AD / Death: 99",
+    "start": 0,
+    "end": 99,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q31278",
+    "content": "Cleomedes",
+    "title": "Birth: 1th century AD / Death: 1th century AD",
+    "start": 0,
+    "end": 0,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q434773",
+    "content": "Crantor",
+    "title": "Birth: c. -343 / Death: c. -274",
+    "start": -343,
+    "end": -274,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q41980",
+    "content": "Democritus",
+    "title": "Birth: -460s / Death: -360s",
+    "start": -460,
+    "end": -360,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q191964",
+    "content": "Diogenes of Apollonia",
+    "title": "Birth: -459 / Death: 5th century BC",
+    "start": -459,
+    "end": -500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q434203",
+    "content": "Diogenes of Babylon",
+    "title": "Birth: -239 / Death: -149",
+    "start": -239,
+    "end": -149,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q679837",
+    "content": "Dionysius of Corinth",
+    "title": "Birth: 2th century AD / Death: 171",
+    "start": 100,
+    "end": 171,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q921532",
+    "content": "Dorotheus of Sidon",
+    "title": "Birth: 50 / Death: ?",
+    "start": 50,
+    "type": "point",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q319406",
+    "content": "Epimenides of Crete",
+    "title": "Birth: 7th century BC / Death: 6th century BC",
+    "start": -700,
+    "end": -600,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q379987",
+    "content": "Geminus of Rhodos",
+    "title": "Birth: ? / Death: c. 60",
+    "start": 60,
+    "end": 60,
+    "type": "point",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q721412",
+    "content": "Harpocration",
+    "title": "Floruit: 2th century AD",
+    "source": "floruit",
+    "start": 100,
+    "end": 200,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q471916",
+    "content": "Hecataeus of Abdera",
+    "title": "Birth: 4th century BC / Death: 3th century BC",
+    "start": -400,
+    "end": -300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q549010",
+    "content": "Hephaestion",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q316334",
+    "content": "Heraclides Ponticus",
+    "title": "Birth: -384 / Death: c. -321",
+    "start": -384,
+    "end": -321,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1057422",
+    "content": "Heraclitus",
+    "title": "Floruit: 1th century AD",
+    "source": "floruit",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q504771",
+    "content": "Philo of Byblos",
+    "title": "Birth: 50 / Death: 140",
+    "start": 50,
+    "end": 140,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q1799472",
+    "content": "Hermas",
+    "title": "Birth: 1th century AD / Death: 1th century AD",
+    "start": 0,
+    "end": 0,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q159905",
+    "content": "Hipparchus",
+    "title": "Birth: c. -189 / Death: c. -119",
+    "start": -189,
+    "end": -119,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q210573",
+    "content": "Hippias",
+    "title": "Birth: -442 / Death: -398",
+    "start": -442,
+    "end": -398,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q44170",
+    "content": "Ignatius of Antioch",
+    "title": "Birth: c. 35 / Death: 108",
+    "start": 35,
+    "end": 108,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q182123",
+    "content": "Irenaeus",
+    "title": "Birth: c. 130 / Death: c. 202",
+    "start": 130,
+    "end": 202,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q3851977",
+    "content": "Matron of Pitane",
+    "title": "Birth: 4th century BC / Death: 4th century BC",
+    "start": -400,
+    "end": -400,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q707344",
+    "content": "Numenius of Apamea",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q2559200",
+    "content": "Oenomaus of Gadara",
+    "title": "Birth: ? / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "point",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q580565",
+    "content": "Palaephatus",
+    "title": "Birth: 4th century BC / Death: 4th century BC",
+    "start": -400,
+    "end": -400,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q444459",
+    "content": "Alcidamas",
+    "title": "Birth: 5th century BC / Death: 4th century BC",
+    "start": -500,
+    "end": -400,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q334457",
+    "content": "Dio Chrysostom",
+    "title": "Birth: c. 40 / Death: c. 120",
+    "start": 40,
+    "end": 120,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q455523",
+    "content": "Babrius",
+    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q735515",
+    "content": "Aspasius",
+    "title": "Birth: c. 80 / Death: c. 150",
+    "start": 80,
+    "end": 150,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q537755",
+    "content": "Polyaenus",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q202001",
+    "content": "Archytas",
+    "title": "Birth: c. -429 / Death: c. -344",
+    "start": -429,
+    "end": -344,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q41155",
+    "content": "Heraclitus",
+    "title": "Birth: c. -534 / Death: c. -470s",
+    "start": -534,
+    "end": -470,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q5264",
+    "content": "Hippocrates",
+    "title": "Birth: c. -459 / Death: c. -369",
+    "start": -459,
+    "end": -369,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q381874",
+    "content": "Gaius Musonius Rufus",
+    "title": "Birth: 25 / Death: 95",
+    "start": 25,
+    "end": 95,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q328793",
+    "content": "Periander",
+    "title": "Birth: 7th century BC / Death: -582",
+    "start": -700,
+    "end": -582,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q10261",
+    "content": "Pythagoras",
+    "title": "Birth: c. -579 / Death: -490s",
+    "start": -579,
+    "end": -490,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q720939",
+    "content": "Lysis of Taras",
+    "title": "Birth: 5th century BC / Death: 4th century BC",
+    "start": -500,
+    "end": -400,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q214121",
+    "content": "Xenocrates",
+    "title": "Birth: -395 / Death: -313",
+    "start": -395,
+    "end": -313,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q2274948",
+    "content": "Philostratus",
+    "title": "Birth: c. 170 / Death: 250s",
+    "start": 170,
+    "end": 250,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q3854645",
+    "content": "Menecrates of Syracuse",
+    "title": "Floruit: 4th century BC",
+    "source": "floruit",
+    "start": -400,
+    "end": -300,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q559866",
+    "content": "Alciphron",
+    "title": "Birth: 2th century AD / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q463564",
+    "content": "Xenophon of Ephesus",
+    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "start": 100,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q107676132",
+    "content": "Anonymus Londinensis",
+    "title": "Floruit: 1th century AD",
+    "source": "floruit",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q313018",
+    "content": "Aristophanes of Byzantium",
+    "title": "Birth: -259 / Death: c. -179",
+    "start": -259,
+    "end": -179,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q185117",
+    "content": "Justin Martyr",
+    "title": "Birth: c. 100 / Death: c. 165",
+    "start": 100,
+    "end": 165,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1371938",
+    "content": "Tryphiodorus",
+    "title": "Birth: 3th century AD / Death: 4th century AD",
+    "start": 200,
+    "end": 300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q373042",
+    "content": "Onasander",
+    "title": "Birth: ? / Death: 1th century AD",
+    "start": 0,
+    "end": 0,
+    "type": "point",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1129405",
+    "content": "Lesbonax",
+    "title": "Birth: ? / Death: 2th century AD",
+    "start": 100,
+    "end": 100,
+    "type": "point",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1231472",
+    "content": "Philostratus the Younger",
+    "title": "Floruit: 3th century AD",
+    "source": "floruit",
+    "start": 200,
+    "end": 300,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q180671",
+    "content": "Aratus",
+    "title": "Birth: c. -314 / Death: c. -239",
+    "start": -314,
+    "end": -239,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q729109",
+    "content": "Parthenius of Nicaea",
+    "title": "Birth: 1th century BC / Death: 1th century BC",
+    "start": -100,
+    "end": -100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q297776",
+    "content": "Pedanius Dioscorides",
+    "title": "Birth: c. 40 / Death: c. 90",
+    "start": 40,
+    "end": 90,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q743993",
+    "content": "Crateuas",
+    "title": "Birth: 2th century BC / Death: 1th century BC",
+    "start": -200,
+    "end": -100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q313011",
+    "content": "Heliodorus of Emesa",
+    "title": "Birth: c. 3th century AD / Death: c. 3th century AD",
+    "start": 200,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1271013",
+    "content": "Adrianus of Tyre",
+    "title": "Birth: 113 / Death: 193",
+    "start": 113,
+    "end": 193,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q26427827",
+    "content": "Aglaias",
+    "title": "Floruit: 1th century AD",
+    "source": "floruit",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q657941",
+    "content": "Albinus",
+    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q695923",
+    "content": "Ammonius Grammaticus",
+    "title": "Floruit: 4th century AD",
+    "source": "floruit",
+    "start": 300,
+    "end": 400,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q505931",
+    "content": "Aretaeus of Cappadocia",
+    "title": "Birth: 1th century AD / Death: 2th century AD",
+    "start": 0,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q351469",
+    "content": "Adamantius",
+    "title": "Birth: 4th century AD / Death: 5th century AD",
+    "start": 300,
+    "end": 400,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q317146",
+    "content": "Alexandros of Aphrodisias",
+    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "start": 100,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q61474378",
+    "content": "Cassius Iatrosophista",
+    "title": "Birth: 2th century AD / Death: 3th century AD",
+    "start": 100,
+    "end": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q125551",
+    "content": "Parmenides",
+    "title": "Birth: c. -514 / Death: c. -469",
+    "start": -514,
+    "end": -469,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q451550",
+    "content": "Philodemus",
+    "title": "Birth: c. -109 / Death: -34",
+    "start": -109,
+    "end": -34,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q212338",
+    "content": "Philolaus",
+    "title": "Birth: c. -469 / Death: c. -389",
+    "start": -469,
+    "end": -389,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q691292",
+    "content": "Philostratus of Lemnos",
+    "title": "Birth: c. 190 / Death: c. 230",
+    "start": 190,
+    "end": 230,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1234940",
+    "content": "Philoxenus of Alexandria",
+    "title": "Floruit: 1th century BC",
+    "source": "floruit",
+    "start": -100,
+    "end": 0,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q772775",
+    "content": "Polemon of Laodicea",
+    "title": "Birth: c. 90 / Death: c. 144",
+    "start": 90,
+    "end": 144,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q192371",
+    "content": "Polycarp",
+    "title": "Birth: 70 / Death: c. 155",
+    "start": 70,
+    "end": 155,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q943719",
+    "content": "Polycrates of Ephesus",
+    "title": "Birth: 125 / Death: 196",
+    "start": 125,
+    "end": 196,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q297402",
+    "content": "Prodicus",
+    "title": "Birth: -463 / Death: c. -379",
+    "start": -463,
+    "end": -379,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q104163113",
+    "content": "Serapion Astrologus",
+    "title": "Birth: 2th century BC / Death: 1th century AD",
+    "start": -200,
+    "end": 0,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q325955",
+    "content": "Speusippus",
+    "title": "Birth: -406 / Death: -338",
+    "start": -406,
+    "end": -338,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q2367894",
+    "content": "Teles of Megara",
+    "title": "Birth: 3th century BC / Death: ?",
+    "start": -300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx century",
+    "end": -200
+  },
+  {
+    "id": "Q36303",
+    "content": "Thales",
+    "title": "Birth: -629 / Death: -545",
+    "start": -629,
+    "end": -545,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q1266186",
+    "content": "Theodosius of Bithynia",
+    "title": "Birth: c. -159 / Death: c. -89",
+    "start": -159,
+    "end": -89,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q705950",
+    "content": "Theon of Smyrna",
+    "title": "Birth: c. 70 / Death: c. 135",
+    "start": 70,
+    "end": 135,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q220787",
+    "content": "Theophilus of Antioch",
+    "title": "Birth: 2th century AD / Death: 183",
+    "start": 100,
+    "end": 183,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1051470",
+    "content": "Vettius Valens",
+    "title": "Birth: 120 / Death: 175",
+    "start": 120,
+    "end": 175,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q272087",
+    "content": "Tatian",
+    "title": "Birth: c. 120 / Death: c. 173",
+    "start": 120,
+    "end": 173,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q8747",
+    "content": "Euclid",
+    "title": "Birth: 4th century BC / Death: -284",
+    "start": -400,
+    "end": -284,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q134189",
+    "content": "Plotinus",
+    "title": "Birth: 205 / Death: 270",
+    "start": 205,
+    "end": 270,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q365183",
+    "content": "Themistius",
+    "title": "Birth: 317 / Death: 388",
+    "start": 317,
+    "end": 388,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q33941",
+    "content": "Julian",
+    "title": "Birth: 331 / Death: 363",
+    "start": 331,
+    "end": 363,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q142999",
+    "content": "Eusebius of Caesarea",
+    "title": "Birth: 275s / Death: 339",
+    "start": 275,
+    "end": 339,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q313922",
+    "content": "Epiphanius of Salamis",
+    "title": "Birth: c. 315 / Death: 403",
+    "start": 315,
+    "end": 403,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q44011",
+    "content": "Gregory of Nazianzus",
+    "title": "Birth: 330 / Death: 390",
+    "start": 330,
+    "end": 390,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q310916",
+    "content": "Iamblichus",
+    "title": "Birth: c. 245 / Death: c. 325",
+    "start": 245,
+    "end": 325,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q649082",
+    "content": "Apsines",
+    "title": "Birth: c. 190 / Death: c. 250",
+    "start": 190,
+    "end": 250,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q211783",
+    "content": "Pappus of Alexandria",
+    "title": "Birth: c. 290 / Death: c. 350",
+    "start": 290,
+    "end": 350,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q203445",
+    "content": "Porphyry",
+    "title": "Birth: c. 233 / Death: c. 301",
+    "start": 233,
+    "end": 301,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q44024",
+    "content": "Athanasius of Alexandria",
+    "title": "Birth: 296 / Death: 373",
+    "start": 296,
+    "end": 373,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q369129",
+    "content": "Dexippus (philosopher)",
+    "title": "Birth: 4th century AD / Death: 4th century AD",
+    "start": 300,
+    "end": 300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q178217",
+    "content": "Diophantus of Alexandria",
+    "title": "Birth: 3th century AD / Death: c. 284",
+    "start": 200,
+    "end": 284,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q44258",
+    "content": "Basil of Caesarea",
+    "title": "Birth: 330 / Death: 379",
+    "start": 330,
+    "end": 379,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q519513",
+    "content": "Marcellus of Ancyra",
+    "title": "Birth: 285 / Death: 374",
+    "start": 285,
+    "end": 374,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q170472",
+    "content": "Origen",
+    "title": "Birth: 185 / Death: 254",
+    "start": 185,
+    "end": 254,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q312916",
+    "content": "Nonnus of Panopolis",
+    "title": "Birth: 5th century AD / Death: 5th century AD",
+    "start": 400,
+    "end": 400,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q352702",
+    "content": "Quintus Smyrnaeus",
+    "title": "Birth: 4th century AD / Death: 4th century AD",
+    "start": 300,
+    "end": 300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q354350",
+    "content": "Sozomen",
+    "title": "Birth: c. 400 / Death: c. 450",
+    "start": 400,
+    "end": 450,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q782401",
+    "content": "Sallustius",
+    "title": "Birth: 4th century AD / Death: 4th century AD",
+    "start": 300,
+    "end": 300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q343018",
+    "content": "Eunapius",
+    "title": "Birth: c. 349 / Death: 420s",
+    "start": 349,
+    "end": 420,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q336198",
+    "content": "Socrates of Constantinople",
+    "title": "Birth: c. 380 / Death: c. 450",
+    "start": 380,
+    "end": 450,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q380943",
+    "content": "Philostorgius",
+    "title": "Birth: c. 368 / Death: c. 433",
+    "start": 368,
+    "end": 433,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q207113",
+    "content": "Hippolytus",
+    "title": "Birth: ? / Death: 235",
+    "start": 235,
+    "end": 235,
+    "type": "point",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q450311",
+    "content": "Alypius",
+    "title": "Birth: 4th century AD / Death: 4th century AD",
+    "start": 300,
+    "end": 300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q4134212",
+    "content": "Gaudentius",
+    "title": "Floruit: 3th century AD",
+    "source": "floruit",
+    "start": 200,
+    "end": 300,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q436634",
+    "content": "Cassius Longinus",
+    "title": "Birth: 213 / Death: 273",
+    "start": 213,
+    "end": 273,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q1496242",
+    "content": "Callinicus",
+    "title": "Birth: 3th century AD / Death: ?",
+    "start": 200,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx century",
+    "end": 300
+  },
+  {
+    "id": "Q263892",
+    "content": "Libanius",
+    "title": "Birth: c. 315 / Death: 393",
+    "start": 315,
+    "end": 393,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q923839",
+    "content": "Menander Rhetor",
+    "title": "Birth: 4th century AD / Death: 4th century AD",
+    "start": 300,
+    "end": 300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q11951801",
+    "content": "Tiberius Rhetor",
+    "title": "Floruit: 3th century AD",
+    "source": "floruit",
+    "start": 200,
+    "end": 300,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q248733",
+    "content": "Eusebius of Myndus",
+    "title": "Birth: 300 / Death: ?",
+    "start": 300,
+    "type": "point",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q728059",
+    "content": "Musaeus of Athens",
+    "title": "Birth: 5th century BC / Death: ?",
+    "start": -500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx century",
+    "end": -400
+  },
+  {
+    "id": "Q179284",
+    "content": "Anna Komnene",
+    "title": "Birth: 1083 / Death: c. 1153",
+    "start": 1083,
+    "end": 1153,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q365678",
+    "content": "Evagrius Scholasticus",
+    "title": "Birth: 536 / Death: 594",
+    "start": 536,
+    "end": 594,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q1499216",
+    "content": "Gelasius of Cyzicus",
+    "title": "Birth: 5th century AD / Death: 475",
+    "start": 400,
+    "end": 475,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q3558842",
+    "content": "Mark the Deacon",
+    "title": "Floruit: 5th century AD",
+    "source": "floruit",
+    "start": 400,
+    "end": 500,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q51884",
+    "content": "John of Damascus",
+    "title": "Birth: c. 675 / Death: 749",
+    "start": 675,
+    "end": 749,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q518300",
+    "content": "Methodius of Olympus",
+    "title": "Birth: 260 / Death: 311",
+    "start": 260,
+    "end": 311,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q1314034",
+    "content": "Severus",
+    "title": "Birth: 100 / Death: ?",
+    "start": 100,
+    "type": "point",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q127250656",
+    "content": "Michael Andreopoulos",
+    "title": "Floruit: 11th century AD",
+    "source": "floruit",
+    "start": 1000,
+    "end": 1100,
+    "type": "range",
+    "className": "floruit"
+  },
+  {
+    "id": "Q1247278",
+    "content": "Theophylact of Ohrid",
+    "title": "Birth: 1055 / Death: 1107",
+    "start": 1055,
+    "end": 1107,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q32052",
+    "content": "John Zonaras",
+    "title": "Birth: c. 1074 / Death: c. 1145",
+    "start": 1074,
+    "end": 1145,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1165497",
+    "content": "Marcianus of Heraclea",
+    "title": "Birth: 4th century AD / Death: 5th century AD",
+    "start": 300,
+    "end": 400,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q351518",
+    "content": "Simplicius of Cilicia",
+    "title": "Birth: c. 480 / Death: c. 560",
+    "start": 480,
+    "end": 560,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q317632",
+    "content": "John Philoponus",
+    "title": "Birth: c. 490 / Death: c. 570",
+    "start": 490,
+    "end": 570,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q123147",
+    "content": "Ammonius Hermiae",
+    "title": "Birth: 435 / Death: 523",
+    "start": 435,
+    "end": 523,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q1373037",
+    "content": "Syrianus",
+    "title": "Birth: 5th century AD / Death: 437",
+    "start": 400,
+    "end": 437,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q732098",
+    "content": "Asclepius of Tralles",
+    "title": "Birth: 5th century AD / Death: 6th century AD",
+    "start": 400,
+    "end": 500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q974775",
+    "content": "Olympiodorus the Younger",
+    "title": "Birth: 495 / Death: 570",
+    "start": 495,
+    "end": 570,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q974885",
+    "content": "Elias",
+    "title": "Birth: 6th century AD / Death: 6th century AD",
+    "start": 500,
+    "end": 500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1173486",
+    "content": "David Anhaght",
+    "title": "Birth: 6th century AD / Death: 6th century AD",
+    "start": 500,
+    "end": 500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q233136",
+    "content": "Agathias",
+    "title": "Birth: 536 / Death: 582",
+    "start": 536,
+    "end": 582,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q186153",
+    "content": "Procopius",
+    "title": "Birth: 5th century AD / Death: 562",
+    "start": 400,
+    "end": 562,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q7563126",
+    "content": "Sophonias",
+    "title": "Birth: 13th century AD / Death: 14th century AD",
+    "start": 1200,
+    "end": 1300,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q3561265",
+    "content": "Eustratius of Nicaea",
+    "title": "Birth: c. 1050 / Death: 1120s",
+    "start": 1050,
+    "end": 1120,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q6835560",
+    "content": "Michael of Ephesus",
+    "title": "Birth: 1050 / Death: 1129",
+    "start": 1050,
+    "end": 1129,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q271809",
+    "content": "Proclus",
+    "title": "Birth: 412 / Death: 485",
+    "start": 412,
+    "end": 485,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q510719",
+    "content": "Eutocius of Ascalon",
+    "title": "Birth: c. 480 / Death: 6th century AD",
+    "start": 480,
+    "end": 500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q581833",
+    "content": "Marinus of Neapolis",
+    "title": "Birth: c. 440 / Death: c. 500",
+    "start": 440,
+    "end": 500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1779484",
+    "content": "Coluthus",
+    "title": "Birth: 5th century AD / Death: 6th century AD",
+    "start": 400,
+    "end": 500,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q226858",
+    "content": "Zosimus",
+    "title": "Birth: c. 460 / Death: c. 520",
+    "start": 460,
+    "end": 520,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q317029",
+    "content": "Theodoret",
+    "title": "Birth: c. 393 / Death: 457",
+    "start": 393,
+    "end": 457,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q44079",
+    "content": "Cyril of Alexandria",
+    "title": "Birth: 376 / Death: 444",
+    "start": 376,
+    "end": 444,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q713482",
+    "content": "Callistratus",
+    "title": "Birth: 10th century AD / Death: 10th century AD",
+    "start": 900,
+    "end": 900,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q531732",
+    "content": "Gregory II of Constantinople",
+    "title": "Birth: 1241 / Death: 1290",
+    "start": 1241,
+    "end": 1290,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q330289",
+    "content": "Stephen of Alexandria",
+    "title": "Birth: 6th century AD / Death: 622",
+    "start": 500,
+    "end": 622,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q47160",
+    "content": "Plautus",
+    "title": "Birth: -249 / Death: -183",
+    "start": -249,
+    "end": -183,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q172048",
+    "content": "Terence",
+    "title": "Birth: -184 / Death: -158",
+    "start": -184,
+    "end": -158,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q1048",
+    "content": "Julius Caesar",
+    "title": "Birth: -101 / Death: -43",
+    "start": -101,
+    "end": -43,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q163079",
+    "content": "Catullus",
+    "title": "Birth: c. -83 / Death: c. -53",
+    "start": -83,
+    "end": -53,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1541",
+    "content": "Cicero",
+    "title": "Birth: -106 / Death: -42",
+    "start": -106,
+    "end": -42,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q316054",
+    "content": "Quintus Tullius Cicero",
+    "title": "Birth: c. -101 / Death: -42",
+    "start": -101,
+    "end": -42,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q47154",
+    "content": "Lucretius",
+    "title": "Birth: -93 / Death: -54",
+    "start": -93,
+    "end": -54,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q109594",
+    "content": "Cornelius Nepos",
+    "title": "Birth: c. -99 / Death: c. -24",
+    "start": -99,
+    "end": -24,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q8827",
+    "content": "Propertius",
+    "title": "Birth: c. -46 / Death: -15",
+    "start": -46,
+    "end": -15,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q7170",
+    "content": "Sallust",
+    "title": "Birth: -85 / Death: -34",
+    "start": -85,
+    "end": -34,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q109598",
+    "content": "Tibullus",
+    "title": "Birth: c. -54 / Death: -18",
+    "start": -54,
+    "end": -18,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q1398",
+    "content": "Virgil",
+    "title": "Birth: -69 / Death: -18",
+    "start": -69,
+    "end": -18,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q312420",
+    "content": "Aulus Cornelius Celsus",
+    "title": "Birth: -24 / Death: c. 50",
+    "start": -24,
+    "end": 50,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q318317",
+    "content": "Columella",
+    "title": "Birth: 4 / Death: 70",
+    "start": 4,
+    "end": 70,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q5959",
+    "content": "Quintus Curtius Rufus",
+    "title": "Birth: 1th century AD / Death: 1th century AD",
+    "start": 0,
+    "end": 0,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q6197",
+    "content": "Horace",
+    "title": "Birth: -64 / Death: -7",
+    "start": -64,
+    "end": -7,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q2039",
+    "content": "Titus Livius",
+    "title": "Birth: -58 / Death: 17",
+    "start": -58,
+    "end": 17,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q188646",
+    "content": "Lucan",
+    "title": "Birth: 39 / Death: 65",
+    "start": 39,
+    "end": 65,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q7198",
+    "content": "Ovid",
+    "title": "Birth: -42 / Death: 17",
+    "start": -42,
+    "end": 17,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q332785",
+    "content": "Persius",
+    "title": "Birth: 34 / Death: 62",
+    "start": 34,
+    "end": 62,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q47180",
+    "content": "Petronius",
+    "title": "Birth: c. 27 / Death: 66",
+    "start": 27,
+    "end": 66,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q52166",
+    "content": "Phaedrus",
+    "title": "Birth: -20s / Death: 50",
+    "start": -20,
+    "end": 50,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q82778",
+    "content": "Pliny the Elder",
+    "title": "Birth: c. 24 / Death: 79",
+    "start": 24,
+    "end": 79,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q193769",
+    "content": "Quintilian",
+    "title": "Birth: c. 35 / Death: c. 96",
+    "start": 35,
+    "end": 96,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q273671",
+    "content": "Seneca the Elder",
+    "title": "Birth: c. -53 / Death: c. 39",
+    "start": -53,
+    "end": 39,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q2054",
+    "content": "Seneca",
+    "title": "Birth: -4s / Death: 65",
+    "start": -4,
+    "end": 65,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q243203",
+    "content": "Publius Papinius Statius",
+    "title": "Birth: c. 40 / Death: 96",
+    "start": 40,
+    "end": 96,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q316090",
+    "content": "Gaius Valerius Flaccus",
+    "title": "Birth: c. 45 / Death: c. 95",
+    "start": 45,
+    "end": 95,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q379991",
+    "content": "Valerius Maximus",
+    "title": "Birth: 1th century BC / Death: 1th century AD",
+    "start": -100,
+    "end": 0,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q47163",
+    "content": "Vitruvius",
+    "title": "Birth: c. -79 / Death: c. -14",
+    "start": -79,
+    "end": -14,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q170512",
+    "content": "Apuleius",
+    "title": "Birth: 2th century AD / Death: c. 170",
+    "start": 100,
+    "end": 170,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q316483",
+    "content": "Lucius Annaeus Florus",
+    "title": "Birth: c. 74 / Death: c. 140",
+    "start": 74,
+    "end": 140,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q294800",
+    "content": "Aulus Gellius",
+    "title": "Birth: c. 130 / Death: c. 170",
+    "start": 130,
+    "end": 170,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q193800",
+    "content": "Juvenal",
+    "title": "Birth: c. 55 / Death: 2th century AD",
+    "start": 55,
+    "end": 100,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q2098",
+    "content": "Martial",
+    "title": "Birth: ? / Death: 104",
+    "start": 104,
+    "end": 104,
+    "type": "point",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q168707",
+    "content": "Pliny the Younger",
+    "title": "Birth: c. 61 / Death: c. 113",
+    "start": 61,
+    "end": 113,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q316123",
+    "content": "Silius Italicus",
+    "title": "Birth: 26 / Death: 101",
+    "start": 26,
+    "end": 101,
+    "type": "range",
+    "source": "birth-death",
+    "className": "exact"
+  },
+  {
+    "id": "Q10133",
+    "content": "Suetonius",
+    "title": "Birth: c. 69 / Death: c. 126",
+    "start": 69,
+    "end": 126,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  },
+  {
+    "id": "Q2161",
+    "content": "Tacitus",
+    "title": "Birth: c. 56 / Death: c. 120",
+    "start": 56,
+    "end": 120,
+    "type": "range",
+    "source": "birth-death",
+    "className": "approx"
+  }
+]

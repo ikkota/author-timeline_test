@@ -1,0 +1,54 @@
+/* Timeline Styles */
+
+/* Base item style */
+.vis-item {
+    border-color: #97B0F8;
+    background-color: #D5DDF6;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+/* Exact dates (Birth/Death known) */
+.vis-item.exact {
+    background-color: #C2D1F0;
+    border-color: #7A95D1;
+}
+
+/* Approximate dates (Circa / Century) */
+.vis-item.approx {
+    background-color: #FFF2CC;
+    border-color: #D6B656;
+    border-style: dashed;
+}
+
+/* Floruit (Estimated range) */
+.vis-item.floruit {
+    background-color: #E2F0D9;
+    border-color: #548235;
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 5px,
+      rgba(255,255,255,.5) 5px,
+      rgba(255,255,255,.5) 10px
+    );
+}
+
+/* Point items */
+.vis-item.vis-point {
+    color: #333;
+}
+
+/* Selected item */
+.vis-item.vis-selected {
+    background-color: #FFD966;
+    border-color: #FFC000;
+    z-index: 100;
+}
+
+.loading {
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.csv
+# Keep the final Excel, but maybe ignore intermediate ones if user wants? 
+# User said "author_metadata_final.xlsx is the source". I'll keep it.
+# Ignore the initial one maybe? Or keep all for reproducibility.
+# Ignoring typical windows junk
+Thumbs.db
+$RECYCLE.BIN/
+~$*
