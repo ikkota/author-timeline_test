@@ -311,34 +311,29 @@ async function initTimeline() {
 
         document.addEventListener('mouseup', () => {
             isDragging = false;
-            // Use setFullYear to ensure year is set correctly (avoiding 0-99 => 1900s issue)
-            const d = new Date(0);
-            d.setFullYear(jsYear, 0, 1);
-            d.setHours(0, 0, 0, 0);
-            return d;
-        }
+        });
 
         function formatAxis(date, scale, step) {
-                let d = date;
-                // Vis.js/Moment compatibility check
-                if (d && typeof d.toDate === 'function') {
-                    d = d.toDate();
-                } else if (typeof d === 'number') {
-                    d = new Date(d);
-                }
-
-                if (!d || typeof d.getFullYear !== 'function') {
-                    console.warn("Invalid date in formatAxis:", date);
-                    return "";
-                }
-
-                const year = d.getFullYear();
-                // JS Year 0 is 1 BC. -1 is 2 BC.
-                if (year <= 0) {
-                    return `${Math.abs(year - 1)} BC`;
-                }
-                return `${year} AD`;
+            let d = date;
+            // Vis.js/Moment compatibility check
+            if (d && typeof d.toDate === 'function') {
+                d = d.toDate();
+            } else if (typeof d === 'number') {
+                d = new Date(d);
             }
+
+            if (!d || typeof d.getFullYear !== 'function') {
+                console.warn("Invalid date in formatAxis:", date);
+                return "";
+            }
+
+            const year = d.getFullYear();
+            // JS Year 0 is 1 BC. -1 is 2 BC.
+            if (year <= 0) {
+                return `${Math.abs(year - 1)} BC`;
+            }
+            return `${year} AD`;
+        }
 
         const container = document.getElementById('timeline-container');
 
