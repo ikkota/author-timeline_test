@@ -93,7 +93,8 @@ async function initTimeline() {
 
             // Only add title if it exists (inferred items have no title)
             if (item.title && item.title.trim().length > 0) {
-                obj.title = item.title;
+                // Use tooltipText for custom tooltip, NOT title (which triggers native browser tooltip)
+                obj.tooltipText = item.title;
             }
 
             return obj;
@@ -148,80 +149,168 @@ async function initTimeline() {
         updateCount();
 
         // 5. Event Listeners
-        // Use delegation or direct listeners? Direct is fine since we just created them.
-        // Actually delegation on container is cleaner.
+
+        // Custom Tooltip Logic
+        const tooltip = document.createElement('div');
+        tooltip.id = 'custom-tooltip';
+        document.body.appendChild(tooltip);
+
+        let activeItemId = null;
+        let tooltipTimeout = null;
+
+        // Global function for filter interaction
+        window.filterByOccupation = function (occ) {
+            // Uncheck all
+            const checkboxes = filterContainer.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(cb => cb.checked = false);
+
+            // Check target
+            const target = Array.from(checkboxes).find(cb => cb.value === occ);
+            if (target) {
+                target.checked = true;
+            }
+            // Trigger refresh
+            itemsView.refresh();
+            updateCount();
+            timeline.fit(); // Fit timeline after filter change
+        };
+
+        const hideTooltip = () => {
+            tooltipTimeout = setTimeout(() => {
+                tooltip.style.display = 'none';
+                activeItemId = null;
+            }, 300); // 300ms delay to allow moving to tooltip
+        };
+
+        const showTooltip = (item, x, y) => {
+            if (tooltipTimeout) clearTimeout(tooltipTimeout);
+
+            // Construct Content
+            // Expected title format: "Name | Dates | Occupations"
+            // If inferred, title is missing -> No tooltip (as per prior logic)
+            if (!item.tooltipText) return;
+
+            const parts = item.tooltipText.split(' | ');
+            const name = parts[0] || item.content;
+            const dates = parts[1] || "";
+            // Use occupations array for robust linking
+            const occs = item.occupations || [];
+
+            let html = `<div class="tooltip-name">${name}</div>`;
+            if (dates) {
+                html += `<div class="tooltip-dates">${dates}</div>`;
+            }
+
+            if (occs.length > 0) {
+                html += `<div class="tooltip-occs">`;
+                occs.forEach(o => {
+                    // Escape quotes just in case
+                    const safeOcc = o.replace(/"/g, '&quot;');
+                    html += `<span class="tooltip-occ-tag" onclick="window.filterByOccupation('${safeOcc}')">${o}</span>`;
+                });
+                html += `</div>`;
+            }
+
+            tooltip.innerHTML = html;
+            tooltip.style.display = 'block';
+
+            // Position
+            // Prevent overflow
+            const rect = tooltip.getBoundingClientRect();
+            let left = x + 15;
+            let top = y + 15;
+
+            if (left + rect.width > window.innerWidth) {
+                left = x - rect.width - 15;
+            }
+            if (top + rect.height > window.innerHeight) {
+                top = y - rect.height - 15;
+            }
+
+            tooltip.style.left = left + 'px';
+            tooltip.style.top = top + 'px';
+        };
+
+        timeline.on('hoverItem', function (props) {
+            const id = props.item;
+            activeItemId = id;
+            const item = itemsView.get(id); // Get processed item
+            if (item) {
+                showTooltip(item, props.pageX, props.pageY);
+            }
+        });
+
+        timeline.on('blurItem', function (props) {
+            hideTooltip();
+        });
+
+        // Tooltip Interaction
+        tooltip.addEventListener('mouseenter', () => {
+            if (tooltipTimeout) clearTimeout(tooltipTimeout);
+        });
+
+        tooltip.addEventListener('mouseleave', () => {
+            hideTooltip();
+        });
+
+        // Filter Change Event
         filterContainer.addEventListener('change', () => {
             itemsView.refresh();
             updateCount();
-            timeline.fit();
+            timeline.fit(); // Fit timeline after filter change
         });
 
-        // Clear Filter
         document.getElementById('clear-filters').addEventListener('click', () => {
             const checkboxes = filterContainer.querySelectorAll('input[type="checkbox"]');
             checkboxes.forEach(cb => cb.checked = false);
             itemsView.refresh();
             updateCount();
-            timeline.fit();
+            timeline.fit(); // Fit timeline after filter change
         });
 
-        // --- Floating Panel Logic ---
-        const panel = document.getElementById('controls');
+        // Floating Panel Logic
+        const controls = document.getElementById('controls');
         const header = document.getElementById('panel-header');
-        const toggleBtn = document.getElementById('toggle-panel');
         const content = document.getElementById('panel-content');
 
-        // Toggle
-        toggleBtn.addEventListener('click', () => {
+        document.getElementById('toggle-panel').addEventListener('click', function () {
             if (content.style.display === "none") {
                 content.style.display = "block";
-                toggleBtn.textContent = "[-]";
+                this.textContent = "[-]";
             } else {
                 content.style.display = "none";
-                toggleBtn.textContent = "[+]";
+                this.textContent = "[+]";
             }
         });
 
-        // Drag
+        // Floating Panel Drag Logic
         let isDragging = false;
-        let startX, startY, startLeft, startTop;
+        let startX, startY, initialLeft, initialTop;
 
         header.addEventListener('mousedown', (e) => {
             isDragging = true;
             startX = e.clientX;
             startY = e.clientY;
-
-            // Get current computed style
-            const style = window.getComputedStyle(panel);
-            startLeft = parseInt(style.left);
-            startTop = parseInt(style.top);
-
-            document.addEventListener('mousemove', onMouseMove);
-            document.addEventListener('mouseup', onMouseUp);
+            const rect = controls.getBoundingClientRect();
+            initialLeft = rect.left;
+            initialTop = rect.top;
+            controls.style.right = 'auto'; // Disable right-lock
+            controls.style.left = initialLeft + 'px';
+            controls.style.top = initialTop + 'px';
+            e.preventDefault(); // Prevent text selection
         });
 
-        function onMouseMove(e) {
-            if (!isDragging) return;
-            const dx = e.clientX - startX;
-            const dy = e.clientY - startY;
+        document.addEventListener('mousemove', (e) => {
+            if (isDragging) {
+                const dx = e.clientX - startX;
+                const dy = e.clientY - startY;
+                controls.style.left = (initialLeft + dx) + 'px';
+                controls.style.top = (initialTop + dy) + 'px';
+            }
+        });
 
-            panel.style.left = `${startLeft + dx}px`;
-            panel.style.top = `${startTop + dy}px`;
-        }
-
-        function onMouseUp() {
+        document.addEventListener('mouseup', () => {
             isDragging = false;
-            document.removeEventListener('mousemove', onMouseMove);
-            document.removeEventListener('mouseup', onMouseUp);
-        }
-        // Helper to Create JS Date from Year
-        // Supports BC (negative years).
-        // JS Date: 1 AD = Year 1. 1 BC = Year 0. 2 BC = Year -1.
-        function createDate(year) {
-            if (year === undefined || year === null) return null;
-            // Convert dataset year (where -1 is 1 BC) to JS year (where 0 is 1 BC)
-            const jsYear = year < 0 ? year + 1 : year;
-
             // Use setFullYear to ensure year is set correctly (avoiding 0-99 => 1900s issue)
             const d = new Date(0);
             d.setFullYear(jsYear, 0, 1);
@@ -230,26 +319,26 @@ async function initTimeline() {
         }
 
         function formatAxis(date, scale, step) {
-            let d = date;
-            // Vis.js/Moment compatibility check
-            if (d && typeof d.toDate === 'function') {
-                d = d.toDate();
-            } else if (typeof d === 'number') {
-                d = new Date(d);
-            }
+                let d = date;
+                // Vis.js/Moment compatibility check
+                if (d && typeof d.toDate === 'function') {
+                    d = d.toDate();
+                } else if (typeof d === 'number') {
+                    d = new Date(d);
+                }
 
-            if (!d || typeof d.getFullYear !== 'function') {
-                console.warn("Invalid date in formatAxis:", date);
-                return "";
-            }
+                if (!d || typeof d.getFullYear !== 'function') {
+                    console.warn("Invalid date in formatAxis:", date);
+                    return "";
+                }
 
-            const year = d.getFullYear();
-            // JS Year 0 is 1 BC. -1 is 2 BC.
-            if (year <= 0) {
-                return `${Math.abs(year - 1)} BC`;
+                const year = d.getFullYear();
+                // JS Year 0 is 1 BC. -1 is 2 BC.
+                if (year <= 0) {
+                    return `${Math.abs(year - 1)} BC`;
+                }
+                return `${year} AD`;
             }
-            return `${year} AD`;
-        }
 
         const container = document.getElementById('timeline-container');
 

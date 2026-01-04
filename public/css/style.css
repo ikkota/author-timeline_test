@@ -25,13 +25,11 @@
 .vis-item.floruit {
     background-color: #E2F0D9;
     border-color: #548235;
-    background-image: repeating-linear-gradient(
-      45deg,
-      transparent,
-      transparent 5px,
-      rgba(255,255,255,.5) 5px,
-      rgba(255,255,255,.5) 10px
-    );
+    background-image: repeating-linear-gradient(45deg,
+            transparent,
+            transparent 5px,
+            rgba(255, 255, 255, .5) 5px,
+            rgba(255, 255, 255, .5) 10px);
 }
 
 /* Point items */
@@ -46,9 +44,79 @@
     z-index: 100;
 }
 
+
 .loading {
     padding: 20px;
     font-size: 18px;
     text-align: center;
     color: #666;
+}
+
+/* Reduced height for timeline bars */
+.vis-item .vis-item-content {
+    padding: 2px 5px !important;
+    /* Reduce padding */
+}
+
+.vis-item {
+    line-height: 1.2 !important;
+    font-size: 12px !important;
+    /* Attempt to reduce height visually without breaking layout */
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Custom Interactive Tooltip */
+#custom-tooltip {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.98);
+    border: 1px solid #aaa;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    z-index: 10000;
+    display: none;
+    max-width: 320px;
+    font-size: 13px;
+    pointer-events: auto;
+    /* Allow clicking inside */
+    font-family: sans-serif;
+    color: #333;
+}
+
+#custom-tooltip .tooltip-name {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 2px;
+}
+
+#custom-tooltip .tooltip-dates {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+#custom-tooltip .tooltip-occs {
+    margin-top: 4px;
+}
+
+.tooltip-occ-tag {
+    display: inline-block;
+    background: #eef;
+    color: #007bff;
+    padding: 1px 4px;
+    border-radius: 3px;
+    margin-right: 4px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-size: 11px;
+    border: 1px solid #dde;
+}
+
+.tooltip-occ-tag:hover {
+    background: #ddeeff;
+    color: #0056b3;
+    border-color: #bbf;
 }
