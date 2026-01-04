@@ -2,8 +2,15 @@
   {
     "id": "Q8778",
     "content": "Galen",
-    "title": "Galen\nBirth: 2th century AD - Death: 3th century AD\n",
-    "occupations": [],
+    "title": "Galen | 2th century AD - 3th century AD | biologist, neuroscientist, philosopher, physician, physician writer, surgeon",
+    "occupations": [
+      "biologist",
+      "neuroscientist",
+      "philosopher",
+      "physician",
+      "physician writer",
+      "surgeon"
+    ],
     "start": 100,
     "end": 200,
     "type": "range",
@@ -13,8 +20,10 @@
   {
     "id": "Q405969",
     "content": "Aeneas Tacticus",
-    "title": "Aeneas Tacticus\nBirth: 5th century BC - Death: 4th century BC\n",
-    "occupations": [],
+    "title": "Aeneas Tacticus | 5th century BC - 4th century BC | military writer",
+    "occupations": [
+      "military writer"
+    ],
     "start": -500,
     "end": -400,
     "type": "range",
@@ -24,8 +33,14 @@
   {
     "id": "Q859",
     "content": "Plato",
-    "title": "Plato\nBirth: -426 - Death: -348s\n",
-    "occupations": [],
+    "title": "Plato | -426 - -348s | epigrammatist, philosopher, philosopher of law, poet, writer",
+    "occupations": [
+      "epigrammatist",
+      "philosopher",
+      "philosopher of law",
+      "poet",
+      "writer"
+    ],
     "start": -426,
     "end": -348,
     "type": "range",
@@ -35,8 +50,12 @@
   {
     "id": "Q171241",
     "content": "Diodorus Siculus",
-    "title": "Diodorus Siculus\nBirth: c. -89 - Death: c. -19\n",
-    "occupations": [],
+    "title": "Diodorus Siculus | c. -89 - c. -19 | geographer, historian, mythographer",
+    "occupations": [
+      "geographer",
+      "historian",
+      "mythographer"
+    ],
     "start": -89,
     "end": -19,
     "type": "range",
@@ -46,8 +65,14 @@
   {
     "id": "Q177847",
     "content": "Lucian of Samosata",
-    "title": "Lucian of Samosata\nBirth: c. 120 - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Lucian of Samosata | c. 120 - 2th century AD | biographer, philosopher, poet, satirist, writer",
+    "occupations": [
+      "biographer",
+      "philosopher",
+      "poet",
+      "satirist",
+      "writer"
+    ],
     "start": 120,
     "end": 100,
     "type": "range",
@@ -57,8 +82,11 @@
   {
     "id": "Q296478",
     "content": "Hanno the Navigator",
-    "title": "Hanno the Navigator\nBirth: 5th century BC - Death: 5th century BC\n",
-    "occupations": [],
+    "title": "Hanno the Navigator | 5th century BC - 5th century BC | explorer, seafarer",
+    "occupations": [
+      "explorer",
+      "seafarer"
+    ],
     "start": -500,
     "end": -500,
     "type": "range",
@@ -68,8 +96,14 @@
   {
     "id": "Q453311",
     "content": "Scylax of Caryanda",
-    "title": "Scylax of Caryanda\nBirth: 6th century BC - Death: 5th century BC\n",
-    "occupations": [],
+    "title": "Scylax of Caryanda | 6th century BC - 5th century BC | biographer, explorer, historian, navigator, writer",
+    "occupations": [
+      "biographer",
+      "explorer",
+      "historian",
+      "navigator",
+      "writer"
+    ],
     "start": -600,
     "end": -500,
     "type": "range",
@@ -79,8 +113,13 @@
   {
     "id": "Q352621",
     "content": "Dicaearchus",
-    "title": "Dicaearchus\nBirth: -344 - Death: -289\n",
-    "occupations": [],
+    "title": "Dicaearchus | -344 - -289 | geographer, historian, mathematician, philosopher",
+    "occupations": [
+      "geographer",
+      "historian",
+      "mathematician",
+      "philosopher"
+    ],
     "start": -344,
     "end": -289,
     "type": "range",
@@ -90,8 +129,13 @@
   {
     "id": "Q391216",
     "content": "Agatharchides",
-    "title": "Agatharchides\nBirth: -207 - Death: ?\n",
-    "occupations": [],
+    "title": "Agatharchides | -207 - ? | geographer, historian, naturalist, philosopher",
+    "occupations": [
+      "geographer",
+      "historian",
+      "naturalist",
+      "philosopher"
+    ],
     "start": -207,
     "type": "point",
     "source": "birth-death",
@@ -100,8 +144,10 @@
   {
     "id": "Q2877686",
     "content": "Pseudo-Scymnus",
-    "title": "Pseudo-Scymnus\nBirth: 2th century BC - Death: -2\n",
-    "occupations": [],
+    "title": "Pseudo-Scymnus | 2th century BC - -2 | geographer",
+    "occupations": [
+      "geographer"
+    ],
     "start": -200,
     "end": -2,
     "type": "range",
@@ -111,8 +157,11 @@
   {
     "id": "Q1351420",
     "content": "Isidoros of Charax",
-    "title": "Isidoros of Charax\nBirth: 1th century BC - Death: 1th century AD\n",
-    "occupations": [],
+    "title": "Isidoros of Charax | 1th century BC - 1th century AD | explorer, geographer",
+    "occupations": [
+      "explorer",
+      "geographer"
+    ],
     "start": -100,
     "end": 0,
     "type": "range",
@@ -122,8 +171,14 @@
   {
     "id": "Q31845",
     "content": "Arrian",
-    "title": "Arrian\nBirth: c. 89 - Death: 180\n",
-    "occupations": [],
+    "title": "Arrian | c. 89 - 180 | historian, military personnel, philosopher, politician, writer",
+    "occupations": [
+      "historian",
+      "military personnel",
+      "philosopher",
+      "politician",
+      "writer"
+    ],
     "start": 89,
     "end": 180,
     "type": "range",
@@ -133,8 +188,14 @@
   {
     "id": "Q26204",
     "content": "Dionysius of Halicarnassus",
-    "title": "Dionysius of Halicarnassus\nBirth: c. -59 - Death: -6\n",
-    "occupations": [],
+    "title": "Dionysius of Halicarnassus | c. -59 - -6 | grammarian, historian, orator, rhetorician, writer",
+    "occupations": [
+      "grammarian",
+      "historian",
+      "orator",
+      "rhetorician",
+      "writer"
+    ],
     "start": -59,
     "end": -6,
     "type": "range",
@@ -144,8 +205,10 @@
   {
     "id": "Q472809",
     "content": "Apollonius Dyscolus",
-    "title": "Apollonius Dyscolus\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Apollonius Dyscolus | 2th century AD - 2th century AD | grammarian",
+    "occupations": [
+      "grammarian"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -155,8 +218,11 @@
   {
     "id": "Q804146",
     "content": "Dionysius of Byzantium",
-    "title": "Dionysius of Byzantium\nBirth: 2th century AD - Death: ?\n",
-    "occupations": [],
+    "title": "Dionysius of Byzantium | 2th century AD - ? | geographer, poet",
+    "occupations": [
+      "geographer",
+      "poet"
+    ],
     "start": 100,
     "type": "range",
     "source": "birth-death",
@@ -166,8 +232,12 @@
   {
     "id": "Q1226993",
     "content": "Dionysius Periegetes",
-    "title": "Dionysius Periegetes\nBirth: c. 100 - Death: 140\n",
-    "occupations": [],
+    "title": "Dionysius Periegetes | c. 100 - 140 | geographer, poet, writer",
+    "occupations": [
+      "geographer",
+      "poet",
+      "writer"
+    ],
     "start": 100,
     "end": 140,
     "type": "range",
@@ -177,8 +247,13 @@
   {
     "id": "Q40939",
     "content": "Aeschylus",
-    "title": "Aeschylus\nBirth: -524 - Death: -455\n",
-    "occupations": [],
+    "title": "Aeschylus | -524 - -455 | playwright, tragedy writer, warrior, writer",
+    "occupations": [
+      "playwright",
+      "tragedy writer",
+      "warrior",
+      "writer"
+    ],
     "start": -524,
     "end": -455,
     "type": "range",
@@ -188,8 +263,30 @@
   {
     "id": "Q868",
     "content": "Aristotle",
-    "title": "Aristotle\nBirth: -382 - Death: -321\n",
-    "occupations": [],
+    "title": "Aristotle | -382 - -321 | astronomer, biologist, cosmologist, epistemologist, ethicist, geographer, literary critic, logician, mathematician, ontologist, philosopher, philosopher of language, physicist, political philosopher, polymath, psychologist, teacher, theologian, tutor, writer, zoologist",
+    "occupations": [
+      "astronomer",
+      "biologist",
+      "cosmologist",
+      "epistemologist",
+      "ethicist",
+      "geographer",
+      "literary critic",
+      "logician",
+      "mathematician",
+      "ontologist",
+      "philosopher",
+      "philosopher of language",
+      "physicist",
+      "political philosopher",
+      "polymath",
+      "psychologist",
+      "teacher",
+      "theologian",
+      "tutor",
+      "writer",
+      "zoologist"
+    ],
     "start": -382,
     "end": -321,
     "type": "range",
@@ -199,8 +296,11 @@
   {
     "id": "Q380826",
     "content": "Aelius Herodianus",
-    "title": "Aelius Herodianus\nBirth: 180 - Death: 250\n",
-    "occupations": [],
+    "title": "Aelius Herodianus | 180 - 250 | grammarian, writer",
+    "occupations": [
+      "grammarian",
+      "writer"
+    ],
     "start": 180,
     "end": 250,
     "type": "range",
@@ -210,8 +310,13 @@
   {
     "id": "Q335156",
     "content": "Aristoxenus",
-    "title": "Aristoxenus\nBirth: c. -359 - Death: c. -299\n",
-    "occupations": [],
+    "title": "Aristoxenus | c. -359 - c. -299 | mathematician, music theorist, musicologist, philosopher",
+    "occupations": [
+      "mathematician",
+      "music theorist",
+      "musicologist",
+      "philosopher"
+    ],
     "start": -359,
     "end": -299,
     "type": "range",
@@ -221,8 +326,10 @@
   {
     "id": "Q515542",
     "content": "Agathemerus",
-    "title": "Agathemerus\nBirth: 3th century AD - Death: 3th century AD\n",
-    "occupations": [],
+    "title": "Agathemerus | 3th century AD - 3th century AD | geographer",
+    "occupations": [
+      "geographer"
+    ],
     "start": 200,
     "end": 200,
     "type": "range",
@@ -232,8 +339,13 @@
   {
     "id": "Q160362",
     "content": "Theophrastus",
-    "title": "Theophrastus\nBirth: c. -370 - Death: -286\n",
-    "occupations": [],
+    "title": "Theophrastus | c. -370 - -286 | botanist, philosopher, physicist, writer",
+    "occupations": [
+      "botanist",
+      "philosopher",
+      "physicist",
+      "writer"
+    ],
     "start": -370,
     "end": -286,
     "type": "range",
@@ -243,8 +355,13 @@
   {
     "id": "Q43423",
     "content": "Aesop",
-    "title": "Aesop\nBirth: c. -619 - Death: c. -563\n",
-    "occupations": [],
+    "title": "Aesop | c. -619 - c. -563 | fabulist, mythographer, philosopher, writer",
+    "occupations": [
+      "fabulist",
+      "mythographer",
+      "philosopher",
+      "writer"
+    ],
     "start": -619,
     "end": -563,
     "type": "range",
@@ -254,8 +371,12 @@
   {
     "id": "Q1226821",
     "content": "Diogenianus",
-    "title": "Diogenianus\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Diogenianus | 2th century AD - 2th century AD | grammarian, lexicographer, paremiographer",
+    "occupations": [
+      "grammarian",
+      "lexicographer",
+      "paremiographer"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -265,8 +386,11 @@
   {
     "id": "Q189699",
     "content": "Zenobius",
-    "title": "Zenobius\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Zenobius | 2th century AD - 2th century AD | paremiographer, rhetorician",
+    "occupations": [
+      "paremiographer",
+      "rhetorician"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -276,8 +400,13 @@
   {
     "id": "Q45936",
     "content": "Strabo",
-    "title": "Strabo\nBirth: c. -62 - Death: 24\n",
-    "occupations": [],
+    "title": "Strabo | c. -62 - 24 | geographer, historian, philosopher, writer",
+    "occupations": [
+      "geographer",
+      "historian",
+      "philosopher",
+      "writer"
+    ],
     "start": -62,
     "end": 24,
     "type": "range",
@@ -287,8 +416,13 @@
   {
     "id": "Q310681",
     "content": "Bacchylides",
-    "title": "Bacchylides\nBirth: c. -515 - Death: c. -450\n",
-    "occupations": [],
+    "title": "Bacchylides | c. -515 - c. -450 | dithyrambic poet, epigrammatist, poet, writer",
+    "occupations": [
+      "dithyrambic poet",
+      "epigrammatist",
+      "poet",
+      "writer"
+    ],
     "start": -515,
     "end": -450,
     "type": "range",
@@ -298,8 +432,10 @@
   {
     "id": "Q367377",
     "content": "Hipponax",
-    "title": "Hipponax\nBirth: 6th century BC - Death: 6th century BC\n",
-    "occupations": [],
+    "title": "Hipponax | 6th century BC - 6th century BC | poet",
+    "occupations": [
+      "poet"
+    ],
     "start": -600,
     "end": -600,
     "type": "range",
@@ -309,8 +445,11 @@
   {
     "id": "Q354431",
     "content": "Aelius Aristides",
-    "title": "Aelius Aristides\nBirth: 117 - Death: 185\n",
-    "occupations": [],
+    "title": "Aelius Aristides | 117 - 185 | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": 117,
     "end": 185,
     "type": "range",
@@ -320,8 +459,14 @@
   {
     "id": "Q294092",
     "content": "Critias",
-    "title": "Critias\nBirth: -459 - Death: -402\n",
-    "occupations": [],
+    "title": "Critias | -459 - -402 | philosopher, poet, politician, tragedy writer, writer",
+    "occupations": [
+      "philosopher",
+      "poet",
+      "politician",
+      "tragedy writer",
+      "writer"
+    ],
     "start": -459,
     "end": -402,
     "type": "range",
@@ -331,8 +476,12 @@
   {
     "id": "Q432737",
     "content": "Lycophron",
-    "title": "Lycophron\nBirth: -319 - Death: -279\n",
-    "occupations": [],
+    "title": "Lycophron | -319 - -279 | poet, tragedy writer, writer",
+    "occupations": [
+      "poet",
+      "tragedy writer",
+      "writer"
+    ],
     "start": -319,
     "end": -279,
     "type": "range",
@@ -342,8 +491,12 @@
   {
     "id": "Q84027027",
     "content": "Didymus of Alexandria",
-    "title": "Didymus of Alexandria\nBirth: 1th century BC - Death: 1th century AD\n",
-    "occupations": [],
+    "title": "Didymus of Alexandria | 1th century BC - 1th century AD | mathematician, metrologist, writer",
+    "occupations": [
+      "mathematician",
+      "metrologist",
+      "writer"
+    ],
     "start": -100,
     "end": 0,
     "type": "range",
@@ -353,8 +506,13 @@
   {
     "id": "Q360366",
     "content": "Nicomachus",
-    "title": "Nicomachus\nBirth: c. 60 - Death: c. 120\n",
-    "occupations": [],
+    "title": "Nicomachus | c. 60 - c. 120 | mathematician, music theorist, musicologist, philosopher",
+    "occupations": [
+      "mathematician",
+      "music theorist",
+      "musicologist",
+      "philosopher"
+    ],
     "start": 60,
     "end": 120,
     "type": "range",
@@ -364,8 +522,11 @@
   {
     "id": "Q4223358",
     "content": "Cleonides",
-    "title": "Cleonides\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Cleonides | 2th century AD - 2th century AD | music theorist, musicologist",
+    "occupations": [
+      "music theorist",
+      "musicologist"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -375,8 +536,18 @@
   {
     "id": "Q34943",
     "content": "Ptolemy",
-    "title": "Ptolemy\nBirth: c. 100 - Death: c. 170\n",
-    "occupations": [],
+    "title": "Ptolemy | c. 100 - c. 170 | astrologer, astronomer, epigrammatist, geographer, mathematician, music theorist, musicologist, philosopher, writer",
+    "occupations": [
+      "astrologer",
+      "astronomer",
+      "epigrammatist",
+      "geographer",
+      "mathematician",
+      "music theorist",
+      "musicologist",
+      "philosopher",
+      "writer"
+    ],
     "start": 100,
     "end": 170,
     "type": "range",
@@ -386,8 +557,12 @@
   {
     "id": "Q185223",
     "content": "Cassius Dio",
-    "title": "Cassius Dio\nBirth: c. 155 - Death: 3th century AD\n",
-    "occupations": [],
+    "title": "Cassius Dio | c. 155 - 3th century AD | historian, military personnel, politician",
+    "occupations": [
+      "historian",
+      "military personnel",
+      "politician"
+    ],
     "start": 155,
     "end": 200,
     "type": "range",
@@ -397,8 +572,12 @@
   {
     "id": "Q456560",
     "content": "Myia",
-    "title": "Myia\nBirth: 6th century BC - Death: 5th century BC\n",
-    "occupations": [],
+    "title": "Myia | 6th century BC - 5th century BC | mathematician, philosopher, writer",
+    "occupations": [
+      "mathematician",
+      "philosopher",
+      "writer"
+    ],
     "start": -600,
     "end": -500,
     "type": "range",
@@ -408,8 +587,14 @@
   {
     "id": "Q312410",
     "content": "Epicharmus of Kos",
-    "title": "Epicharmus of Kos\nBirth: c. -539 - Death: c. -434\n",
-    "occupations": [],
+    "title": "Epicharmus of Kos | c. -539 - c. -434 | comedy writer, dramaturge, mathematician, philosopher, writer",
+    "occupations": [
+      "comedy writer",
+      "dramaturge",
+      "mathematician",
+      "philosopher",
+      "writer"
+    ],
     "start": -539,
     "end": -434,
     "type": "range",
@@ -419,8 +604,12 @@
   {
     "id": "Q192931",
     "content": "Pausanias",
-    "title": "Pausanias\nBirth: c. 115 - Death: c. 180\n",
-    "occupations": [],
+    "title": "Pausanias | c. 115 - c. 180 | geographer, travel writer, writer",
+    "occupations": [
+      "geographer",
+      "travel writer",
+      "writer"
+    ],
     "start": 115,
     "end": 180,
     "type": "range",
@@ -430,8 +619,11 @@
   {
     "id": "Q134461",
     "content": "Josephus",
-    "title": "Josephus\nBirth: 37 - Death: 100\n",
-    "occupations": [],
+    "title": "Josephus | 37 - 100 | historian, writer",
+    "occupations": [
+      "historian",
+      "writer"
+    ],
     "start": 37,
     "end": 100,
     "type": "range",
@@ -441,8 +633,10 @@
   {
     "id": "Q641051",
     "content": "Arius Didymus",
-    "title": "Arius Didymus\nBirth: -83s - Death: ?\n",
-    "occupations": [],
+    "title": "Arius Didymus | -83s - ? | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": -83,
     "type": "point",
     "source": "birth-death",
@@ -451,8 +645,10 @@
   {
     "id": "Q221951",
     "content": "Achilles Tatius",
-    "title": "Achilles Tatius\nBirth: 2th century AD - Death: 3th century AD\n",
-    "occupations": [],
+    "title": "Achilles Tatius | 2th century AD - 3th century AD | writer",
+    "occupations": [
+      "writer"
+    ],
     "start": 100,
     "end": 200,
     "type": "range",
@@ -462,8 +658,15 @@
   {
     "id": "Q192417",
     "content": "Callimachus",
-    "title": "Callimachus\nBirth: c. -319 - Death: c. -242\n",
-    "occupations": [],
+    "title": "Callimachus | c. -319 - c. -242 | elegist, epigrammatist, librarian, mythographer, poet, writer",
+    "occupations": [
+      "elegist",
+      "epigrammatist",
+      "librarian",
+      "mythographer",
+      "poet",
+      "writer"
+    ],
     "start": -319,
     "end": -242,
     "type": "range",
@@ -473,8 +676,11 @@
   {
     "id": "Q211430",
     "content": "Demades",
-    "title": "Demades\nBirth: -380s - Death: -316\n",
-    "occupations": [],
+    "title": "Demades | -380s - -316 | orator, politician",
+    "occupations": [
+      "orator",
+      "politician"
+    ],
     "start": -380,
     "end": -316,
     "type": "range",
@@ -484,8 +690,11 @@
   {
     "id": "Q43216",
     "content": "Epicurus",
-    "title": "Epicurus\nBirth: -340 - Death: -269\n",
-    "occupations": [],
+    "title": "Epicurus | -340 - -269 | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": -340,
     "end": -269,
     "type": "range",
@@ -495,8 +704,12 @@
   {
     "id": "Q310164",
     "content": "Lysias",
-    "title": "Lysias\nBirth: c. -444 - Death: -379\n",
-    "occupations": [],
+    "title": "Lysias | c. -444 - -379 | logographer, orator, writer",
+    "occupations": [
+      "logographer",
+      "orator",
+      "writer"
+    ],
     "start": -444,
     "end": -379,
     "type": "range",
@@ -506,8 +719,11 @@
   {
     "id": "Q118992",
     "content": "Menander",
-    "title": "Menander\nBirth: -340s - Death: c. -290\n",
-    "occupations": [],
+    "title": "Menander | -340s - c. -290 | comedy writer, poet",
+    "occupations": [
+      "comedy writer",
+      "poet"
+    ],
     "start": -340,
     "end": -290,
     "type": "range",
@@ -517,8 +733,14 @@
   {
     "id": "Q548104",
     "content": "Julius Pollux",
-    "title": "Julius Pollux\nBirth: 2th century AD - Death: 238\n",
-    "occupations": [],
+    "title": "Julius Pollux | 2th century AD - 238 | lexicographer, orator, philosopher, sophist, writer",
+    "occupations": [
+      "lexicographer",
+      "orator",
+      "philosopher",
+      "sophist",
+      "writer"
+    ],
     "start": 100,
     "end": 238,
     "type": "range",
@@ -528,8 +750,12 @@
   {
     "id": "Q131169",
     "content": "Polybius",
-    "title": "Polybius\nBirth: -211 - Death: -131\n",
-    "occupations": [],
+    "title": "Polybius | -211 - -131 | historian, military personnel, writer",
+    "occupations": [
+      "historian",
+      "military personnel",
+      "writer"
+    ],
     "start": -211,
     "end": -131,
     "type": "range",
@@ -539,8 +765,13 @@
   {
     "id": "Q236594",
     "content": "Sextus Empiricus",
-    "title": "Sextus Empiricus\nBirth: c. 2th century AD - Death: c. 3th century AD\n",
-    "occupations": [],
+    "title": "Sextus Empiricus | c. 2th century AD - c. 3th century AD | philosopher, physician, physician writer, writer",
+    "occupations": [
+      "philosopher",
+      "physician",
+      "physician writer",
+      "writer"
+    ],
     "start": 100,
     "end": 200,
     "type": "range",
@@ -550,8 +781,15 @@
   {
     "id": "Q313782",
     "content": "Aelian",
-    "title": "Aelian\nBirth: 2th century AD - Death: 235\n",
-    "occupations": [],
+    "title": "Aelian | 2th century AD - 235 | historian, orator, poet, teacher, writer, zoologist",
+    "occupations": [
+      "historian",
+      "orator",
+      "poet",
+      "teacher",
+      "writer",
+      "zoologist"
+    ],
     "start": 100,
     "end": 235,
     "type": "range",
@@ -561,8 +799,12 @@
   {
     "id": "Q12506564",
     "content": "Pseudo-Apollodorus",
-    "title": "Pseudo-Apollodorus\nBirth: c. 1th century AD - Death: c. 2th century AD\n",
-    "occupations": [],
+    "title": "Pseudo-Apollodorus | c. 1th century AD - c. 2th century AD | historian, mythographer, writer",
+    "occupations": [
+      "historian",
+      "mythographer",
+      "writer"
+    ],
     "start": 0,
     "end": 100,
     "type": "range",
@@ -572,8 +814,11 @@
   {
     "id": "Q180109",
     "content": "Apollonius of Perga",
-    "title": "Apollonius of Perga\nBirth: c. -259 - Death: c. -189\n",
-    "occupations": [],
+    "title": "Apollonius of Perga | c. -259 - c. -189 | astronomer, mathematician",
+    "occupations": [
+      "astronomer",
+      "mathematician"
+    ],
     "start": -259,
     "end": -189,
     "type": "range",
@@ -583,8 +828,13 @@
   {
     "id": "Q190368",
     "content": "Appian",
-    "title": "Appian\nBirth: c. 95 - Death: c. 165\n",
-    "occupations": [],
+    "title": "Appian | c. 95 - c. 165 | civil servant, historian, lawyer, writer",
+    "occupations": [
+      "civil servant",
+      "historian",
+      "lawyer",
+      "writer"
+    ],
     "start": 95,
     "end": 165,
     "type": "range",
@@ -594,8 +844,16 @@
   {
     "id": "Q8739",
     "content": "Archimedes",
-    "title": "Archimedes\nBirth: c. -284 - Death: -210\n",
-    "occupations": [],
+    "title": "Archimedes | c. -284 - -210 | astronomer, engineer, inventor, mathematician, military engineer, philosopher, physicist",
+    "occupations": [
+      "astronomer",
+      "engineer",
+      "inventor",
+      "mathematician",
+      "military engineer",
+      "philosopher",
+      "physicist"
+    ],
     "start": -284,
     "end": -210,
     "type": "range",
@@ -605,8 +863,10 @@
   {
     "id": "Q445848",
     "content": "Artemidorus",
-    "title": "Artemidorus\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Artemidorus | 2th century AD - 2th century AD | writer",
+    "occupations": [
+      "writer"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -616,8 +876,11 @@
   {
     "id": "Q434567",
     "content": "Chariton",
-    "title": "Chariton\nBirth: 1th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Chariton | 1th century AD - 2th century AD | novelist, writer",
+    "occupations": [
+      "novelist",
+      "writer"
+    ],
     "start": 0,
     "end": 100,
     "type": "range",
@@ -627,8 +890,12 @@
   {
     "id": "Q188883",
     "content": "Clement of Alexandria",
-    "title": "Clement of Alexandria\nBirth: c. 150 - Death: c. 215\n",
-    "occupations": [],
+    "title": "Clement of Alexandria | c. 150 - c. 215 | philosopher, theologian, writer",
+    "occupations": [
+      "philosopher",
+      "theologian",
+      "writer"
+    ],
     "start": 150,
     "end": 215,
     "type": "range",
@@ -638,8 +905,12 @@
   {
     "id": "Q261224",
     "content": "Asclepiodotus",
-    "title": "Asclepiodotus\nBirth: 1th century BC - Death: ?\n",
-    "occupations": [],
+    "title": "Asclepiodotus | 1th century BC - ? | non-fiction writer, philosopher, writer",
+    "occupations": [
+      "non-fiction writer",
+      "philosopher",
+      "writer"
+    ],
     "start": -100,
     "type": "range",
     "source": "birth-death",
@@ -649,8 +920,11 @@
   {
     "id": "Q183144",
     "content": "Epictetus",
-    "title": "Epictetus\nBirth: c. 50 - Death: 138\n",
-    "occupations": [],
+    "title": "Epictetus | c. 50 - 138 | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": 50,
     "end": 138,
     "type": "range",
@@ -660,8 +934,14 @@
   {
     "id": "Q161853",
     "content": "Hero of Alexandria",
-    "title": "Hero of Alexandria\nBirth: c. 10 - Death: c. 75\n",
-    "occupations": [],
+    "title": "Hero of Alexandria | c. 10 - c. 75 | engineer, inventor, mathematician, mechanical automaton engineer, physicist",
+    "occupations": [
+      "engineer",
+      "inventor",
+      "mathematician",
+      "mechanical automaton engineer",
+      "physicist"
+    ],
     "start": 10,
     "end": 75,
     "type": "range",
@@ -671,8 +951,11 @@
   {
     "id": "Q744540",
     "content": "Pseudo-Longinus",
-    "title": "Pseudo-Longinus\nBirth: 1th century AD - Death: 1th century AD\n",
-    "occupations": [],
+    "title": "Pseudo-Longinus | 1th century AD - 1th century AD | literary critic, writer",
+    "occupations": [
+      "literary critic",
+      "writer"
+    ],
     "start": 0,
     "end": 0,
     "type": "range",
@@ -682,8 +965,10 @@
   {
     "id": "Q314949",
     "content": "Longus",
-    "title": "Longus\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Longus | 2th century AD - 2th century AD | writer",
+    "occupations": [
+      "writer"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -693,8 +978,13 @@
   {
     "id": "Q1430",
     "content": "Marcus Aurelius",
-    "title": "Marcus Aurelius\nBirth: 121 - Death: 180\n",
-    "occupations": [],
+    "title": "Marcus Aurelius | 121 - 180 | monarch, philosopher, politician, writer",
+    "occupations": [
+      "monarch",
+      "philosopher",
+      "politician",
+      "writer"
+    ],
     "start": 121,
     "end": 180,
     "type": "range",
@@ -704,8 +994,11 @@
   {
     "id": "Q456649",
     "content": "Maximus of Tyre",
-    "title": "Maximus of Tyre\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Maximus of Tyre | 2th century AD - 2th century AD | orator, philosopher",
+    "occupations": [
+      "orator",
+      "philosopher"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -715,8 +1008,10 @@
   {
     "id": "Q1049225",
     "content": "Rufus of Ephesus",
-    "title": "Rufus of Ephesus\nBirth: 1th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Rufus of Ephesus | 1th century AD - 2th century AD | physician writer",
+    "occupations": [
+      "physician writer"
+    ],
     "start": 0,
     "end": 100,
     "type": "range",
@@ -726,8 +1021,11 @@
   {
     "id": "Q446595",
     "content": "Soranus of Ephesus",
-    "title": "Soranus of Ephesus\nBirth: 98 - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Soranus of Ephesus | 98 - 2th century AD | gynecologist, physician",
+    "occupations": [
+      "gynecologist",
+      "physician"
+    ],
     "start": 98,
     "end": 100,
     "type": "range",
@@ -737,8 +1035,10 @@
   {
     "id": "Q179149",
     "content": "Antisthenes",
-    "title": "Antisthenes\nBirth: -444 - Death: -364\n",
-    "occupations": [],
+    "title": "Antisthenes | -444 - -364 | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": -444,
     "end": -364,
     "type": "range",
@@ -748,8 +1048,10 @@
   {
     "id": "Q738027",
     "content": "Hermogenes of Tarsus",
-    "title": "Hermogenes of Tarsus\nBirth: 2th century AD - Death: 3th century AD\n",
-    "occupations": [],
+    "title": "Hermogenes of Tarsus | 2th century AD - 3th century AD | rhetorician",
+    "occupations": [
+      "rhetorician"
+    ],
     "start": 100,
     "end": 200,
     "type": "range",
@@ -759,8 +1061,10 @@
   {
     "id": "Q179785",
     "content": "Gorgias",
-    "title": "Gorgias\nBirth: -484 - Death: c. -374\n",
-    "occupations": [],
+    "title": "Gorgias | -484 - c. -374 | sophist",
+    "occupations": [
+      "sophist"
+    ],
     "start": -484,
     "end": -374,
     "type": "range",
@@ -770,8 +1074,10 @@
   {
     "id": "Q622258",
     "content": "Alexander Numenius",
-    "title": "Alexander Numenius\nBirth: 1th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Alexander Numenius | 1th century AD - 2th century AD | rhetorician",
+    "occupations": [
+      "rhetorician"
+    ],
     "start": 0,
     "end": 100,
     "type": "range",
@@ -781,8 +1087,11 @@
   {
     "id": "Q405173",
     "content": "Aelius Theon",
-    "title": "Aelius Theon\nBirth: 1th century AD - Death: 1th century AD\n",
-    "occupations": [],
+    "title": "Aelius Theon | 1th century AD - 1th century AD | rhetorician, writer",
+    "occupations": [
+      "rhetorician",
+      "writer"
+    ],
     "start": 0,
     "end": 0,
     "type": "range",
@@ -793,7 +1102,9 @@
     "id": "Q1294734",
     "content": "Tryphon",
     "title": "Floruit: 1th century BC",
-    "occupations": [],
+    "occupations": [
+      "grammarian"
+    ],
     "source": "floruit",
     "start": -100,
     "end": 0,
@@ -803,8 +1114,14 @@
   {
     "id": "Q192638",
     "content": "Apollonius of Rhodes",
-    "title": "Apollonius of Rhodes\nBirth: -289 - Death: -214\n",
-    "occupations": [],
+    "title": "Apollonius of Rhodes | -289 - -214 | grammarian, librarian, mythographer, poet, writer",
+    "occupations": [
+      "grammarian",
+      "librarian",
+      "mythographer",
+      "poet",
+      "writer"
+    ],
     "start": -289,
     "end": -214,
     "type": "range",
@@ -814,8 +1131,11 @@
   {
     "id": "Q41683",
     "content": "Thucydides",
-    "title": "Thucydides\nBirth: -460s - Death: -394\n",
-    "occupations": [],
+    "title": "Thucydides | -460s - -394 | historian, writer",
+    "occupations": [
+      "historian",
+      "writer"
+    ],
     "start": -460,
     "end": -394,
     "type": "range",
@@ -825,8 +1145,13 @@
   {
     "id": "Q59138",
     "content": "Diogenes Laërtius",
-    "title": "Diogenes Laërtius\nBirth: 180s - Death: 240s\n",
-    "occupations": [],
+    "title": "Diogenes Laërtius | 180s - 240s | biographer, historian, philosopher, philosophy historian",
+    "occupations": [
+      "biographer",
+      "historian",
+      "philosopher",
+      "philosophy historian"
+    ],
     "start": 180,
     "end": 240,
     "type": "range",
@@ -836,8 +1161,11 @@
   {
     "id": "Q219484",
     "content": "Theocritus",
-    "title": "Theocritus\nBirth: 4th century BC - Death: 3th century BC\n",
-    "occupations": [],
+    "title": "Theocritus | 4th century BC - 3th century BC | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": -400,
     "end": -300,
     "type": "range",
@@ -847,8 +1175,14 @@
   {
     "id": "Q48305",
     "content": "Euripides",
-    "title": "Euripides\nBirth: -483 - Death: -404\n",
-    "occupations": [],
+    "title": "Euripides | -483 - -404 | philosopher, playwright, poet, tragedy writer, writer",
+    "occupations": [
+      "philosopher",
+      "playwright",
+      "poet",
+      "tragedy writer",
+      "writer"
+    ],
     "start": -483,
     "end": -404,
     "type": "range",
@@ -858,8 +1192,16 @@
   {
     "id": "Q41523",
     "content": "Plutarch",
-    "title": "Plutarch\nBirth: 50 - Death: c. 2th century AD\n",
-    "occupations": [],
+    "title": "Plutarch | 50 - c. 2th century AD | biographer, essayist, historian, magistrate, philosopher, priest, writer",
+    "occupations": [
+      "biographer",
+      "essayist",
+      "historian",
+      "magistrate",
+      "philosopher",
+      "priest",
+      "writer"
+    ],
     "start": 50,
     "end": 100,
     "type": "range",
@@ -869,8 +1211,12 @@
   {
     "id": "Q294923",
     "content": "Athenaeus",
-    "title": "Athenaeus\nBirth: c. 170 - Death: 3th century AD\n",
-    "occupations": [],
+    "title": "Athenaeus | c. 170 - 3th century AD | grammarian, orator, writer",
+    "occupations": [
+      "grammarian",
+      "orator",
+      "writer"
+    ],
     "start": 170,
     "end": 200,
     "type": "range",
@@ -880,8 +1226,11 @@
   {
     "id": "Q221182",
     "content": "Isocrates",
-    "title": "Isocrates\nBirth: -435 - Death: -337\n",
-    "occupations": [],
+    "title": "Isocrates | -435 - -337 | orator, writer",
+    "occupations": [
+      "orator",
+      "writer"
+    ],
     "start": -435,
     "end": -337,
     "type": "range",
@@ -891,8 +1240,14 @@
   {
     "id": "Q7235",
     "content": "Sophocles",
-    "title": "Sophocles\nBirth: c. -495 - Death: c. -405\n",
-    "occupations": [],
+    "title": "Sophocles | c. -495 - c. -405 | playwright, politician, priest, tragedy writer, writer",
+    "occupations": [
+      "playwright",
+      "politician",
+      "priest",
+      "tragedy writer",
+      "writer"
+    ],
     "start": -495,
     "end": -405,
     "type": "range",
@@ -902,8 +1257,12 @@
   {
     "id": "Q6691",
     "content": "Homer",
-    "title": "Homer\nBirth: c. 9th century BC - Death: c. 8th century BC\n",
-    "occupations": [],
+    "title": "Homer | c. 9th century BC - c. 8th century BC | author, poet, writer",
+    "occupations": [
+      "author",
+      "poet",
+      "writer"
+    ],
     "start": -900,
     "end": -800,
     "type": "range",
@@ -913,8 +1272,13 @@
   {
     "id": "Q117253",
     "content": "Demosthenes",
-    "title": "Demosthenes\nBirth: -383 - Death: -321\n",
-    "occupations": [],
+    "title": "Demosthenes | -383 - -321 | diplomat, orator, politician, writer",
+    "occupations": [
+      "diplomat",
+      "orator",
+      "politician",
+      "writer"
+    ],
     "start": -383,
     "end": -321,
     "type": "range",
@@ -924,8 +1288,11 @@
   {
     "id": "Q313056",
     "content": "Herodian",
-    "title": "Herodian\nBirth: c. 170 - Death: c. 250\n",
-    "occupations": [],
+    "title": "Herodian | c. 170 - c. 250 | historian, writer",
+    "occupations": [
+      "historian",
+      "writer"
+    ],
     "start": 170,
     "end": 250,
     "type": "range",
@@ -935,8 +1302,13 @@
   {
     "id": "Q26825",
     "content": "Herodotus",
-    "title": "Herodotus\nBirth: c. -483 - Death: c. -424\n",
-    "occupations": [],
+    "title": "Herodotus | c. -483 - c. -424 | geographer, historian, politician, writer",
+    "occupations": [
+      "geographer",
+      "historian",
+      "politician",
+      "writer"
+    ],
     "start": -483,
     "end": -424,
     "type": "range",
@@ -946,8 +1318,11 @@
   {
     "id": "Q365097",
     "content": "Isaeus",
-    "title": "Isaeus\nBirth: c. -419 - Death: c. -339\n",
-    "occupations": [],
+    "title": "Isaeus | c. -419 - c. -339 | orator, speechwriter",
+    "occupations": [
+      "orator",
+      "speechwriter"
+    ],
     "start": -419,
     "end": -339,
     "type": "range",
@@ -957,8 +1332,12 @@
   {
     "id": "Q189597",
     "content": "Philo of Alexandria",
-    "title": "Philo of Alexandria\nBirth: c. -14 - Death: c. 50\n",
-    "occupations": [],
+    "title": "Philo of Alexandria | c. -14 - c. 50 | historian, philosopher, writer",
+    "occupations": [
+      "historian",
+      "philosopher",
+      "writer"
+    ],
     "start": -14,
     "end": 50,
     "type": "range",
@@ -968,8 +1347,13 @@
   {
     "id": "Q43353",
     "content": "Aristophanes",
-    "title": "Aristophanes\nBirth: c. -449 - Death: c. -385\n",
-    "occupations": [],
+    "title": "Aristophanes | c. -449 - c. -385 | comedy writer, playwright, poet, writer",
+    "occupations": [
+      "comedy writer",
+      "playwright",
+      "poet",
+      "writer"
+    ],
     "start": -449,
     "end": -385,
     "type": "range",
@@ -979,8 +1363,13 @@
   {
     "id": "Q44233",
     "content": "Hesiod",
-    "title": "Hesiod\nBirth: c. -775 - Death: ?\n",
-    "occupations": [],
+    "title": "Hesiod | c. -775 - ? | mythographer, poet, rhapsode, writer",
+    "occupations": [
+      "mythographer",
+      "poet",
+      "rhapsode",
+      "writer"
+    ],
     "start": -775,
     "type": "point",
     "source": "birth-death",
@@ -989,8 +1378,13 @@
   {
     "id": "Q363818",
     "content": "Nicander",
-    "title": "Nicander\nBirth: -249 - Death: -169\n",
-    "occupations": [],
+    "title": "Nicander | -249 - -169 | epigrammatist, historian, physician, poet",
+    "occupations": [
+      "epigrammatist",
+      "historian",
+      "physician",
+      "poet"
+    ],
     "start": -249,
     "end": -169,
     "type": "range",
@@ -1000,8 +1394,11 @@
   {
     "id": "Q116508",
     "content": "Oppian",
-    "title": "Oppian\nBirth: 2th century AD - Death: ?\n",
-    "occupations": [],
+    "title": "Oppian | 2th century AD - ? | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": 100,
     "type": "range",
     "source": "birth-death",
@@ -1011,8 +1408,10 @@
   {
     "id": "Q17996276",
     "content": "Oppian of Apamea",
-    "title": "Oppian of Apamea\nBirth: 2 - Death: ?\n",
-    "occupations": [],
+    "title": "Oppian of Apamea | 2 - ? | poet",
+    "occupations": [
+      "poet"
+    ],
     "start": 2,
     "type": "point",
     "source": "birth-death",
@@ -1021,8 +1420,13 @@
   {
     "id": "Q317089",
     "content": "Aeschines",
-    "title": "Aeschines\nBirth: -389 - Death: c. -321\n",
-    "occupations": [],
+    "title": "Aeschines | -389 - c. -321 | diplomat, orator, politician, writer",
+    "occupations": [
+      "diplomat",
+      "orator",
+      "politician",
+      "writer"
+    ],
     "start": -389,
     "end": -321,
     "type": "range",
@@ -1032,8 +1436,10 @@
   {
     "id": "Q391654",
     "content": "Andocides",
-    "title": "Andocides\nBirth: c. -439 - Death: c. -390\n",
-    "occupations": [],
+    "title": "Andocides | c. -439 - c. -390 | orator",
+    "occupations": [
+      "orator"
+    ],
     "start": -439,
     "end": -390,
     "type": "range",
@@ -1043,8 +1449,11 @@
   {
     "id": "Q335560",
     "content": "Antiphon of Rhamnus",
-    "title": "Antiphon of Rhamnus\nBirth: c. -479 - Death: -410\n",
-    "occupations": [],
+    "title": "Antiphon of Rhamnus | c. -479 - -410 | orator, politician",
+    "occupations": [
+      "orator",
+      "politician"
+    ],
     "start": -479,
     "end": -410,
     "type": "range",
@@ -1054,8 +1463,10 @@
   {
     "id": "Q473421",
     "content": "Dinarchus",
-    "title": "Dinarchus\nBirth: c. -359 - Death: c. -291\n",
-    "occupations": [],
+    "title": "Dinarchus | c. -359 - c. -291 | orator",
+    "occupations": [
+      "orator"
+    ],
     "start": -359,
     "end": -291,
     "type": "range",
@@ -1065,8 +1476,13 @@
   {
     "id": "Q314447",
     "content": "Hypereides",
-    "title": "Hypereides\nBirth: -387 - Death: -321\n",
-    "occupations": [],
+    "title": "Hypereides | -387 - -321 | lawyer, military personnel, orator, politician",
+    "occupations": [
+      "lawyer",
+      "military personnel",
+      "orator",
+      "politician"
+    ],
     "start": -387,
     "end": -321,
     "type": "range",
@@ -1076,8 +1492,14 @@
   {
     "id": "Q129772",
     "content": "Xenophon",
-    "title": "Xenophon\nBirth: -430s - Death: c. -353\n",
-    "occupations": [],
+    "title": "Xenophon | -430s - c. -353 | historian, mercenary, military personnel, philosopher, writer",
+    "occupations": [
+      "historian",
+      "mercenary",
+      "military personnel",
+      "philosopher",
+      "writer"
+    ],
     "start": -430,
     "end": -353,
     "type": "range",
@@ -1087,8 +1509,12 @@
   {
     "id": "Q134929",
     "content": "Pindar",
-    "title": "Pindar\nBirth: -521 - Death: -436\n",
-    "occupations": [],
+    "title": "Pindar | -521 - -436 | mythographer, poet, writer",
+    "occupations": [
+      "mythographer",
+      "poet",
+      "writer"
+    ],
     "start": -521,
     "end": -436,
     "type": "range",
@@ -1098,8 +1524,12 @@
   {
     "id": "Q373685",
     "content": "Lycurgus of Athens",
-    "title": "Lycurgus of Athens\nBirth: -389 - Death: -323\n",
-    "occupations": [],
+    "title": "Lycurgus of Athens | -389 - -323 | orator, politician, writer",
+    "occupations": [
+      "orator",
+      "politician",
+      "writer"
+    ],
     "start": -389,
     "end": -323,
     "type": "range",
@@ -1109,8 +1539,11 @@
   {
     "id": "Q957548",
     "content": "Moschus",
-    "title": "Moschus\nBirth: 2th century BC - Death: 2th century BC\n",
-    "occupations": [],
+    "title": "Moschus | 2th century BC - 2th century BC | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": -200,
     "end": -200,
     "type": "range",
@@ -1120,8 +1553,11 @@
   {
     "id": "Q463364",
     "content": "Bion of Smyrna",
-    "title": "Bion of Smyrna\nBirth: -119 - Death: -56\n",
-    "occupations": [],
+    "title": "Bion of Smyrna | -119 - -56 | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": -119,
     "end": -56,
     "type": "range",
@@ -1131,8 +1567,11 @@
   {
     "id": "Q325026",
     "content": "Anacharsis",
-    "title": "Anacharsis\nBirth: 7th century BC - Death: 6th century BC\n",
-    "occupations": [],
+    "title": "Anacharsis | 7th century BC - 6th century BC | philosopher, politician",
+    "occupations": [
+      "philosopher",
+      "politician"
+    ],
     "start": -700,
     "end": -600,
     "type": "range",
@@ -1142,8 +1581,10 @@
   {
     "id": "Q1254602",
     "content": "Chion of Heraclea",
-    "title": "Chion of Heraclea\nBirth: ? - Death: -352\n",
-    "occupations": [],
+    "title": "Chion of Heraclea | ? - -352 | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": -352,
     "end": -352,
     "type": "point",
@@ -1153,8 +1594,10 @@
   {
     "id": "Q3365",
     "content": "Antiochus III the Great",
-    "title": "Antiochus III the Great\nBirth: c. -241 - Death: -186\n",
-    "occupations": [],
+    "title": "Antiochus III the Great | c. -241 - -186 | sovereign",
+    "occupations": [
+      "sovereign"
+    ],
     "start": -241,
     "end": -186,
     "type": "range",
@@ -1164,8 +1607,10 @@
   {
     "id": "Q188472",
     "content": "Artaxerxes II of Persia",
-    "title": "Artaxerxes II of Persia\nBirth: -452 - Death: -357\n",
-    "occupations": [],
+    "title": "Artaxerxes II of Persia | -452 - -357 | king",
+    "occupations": [
+      "king"
+    ],
     "start": -452,
     "end": -357,
     "type": "range",
@@ -1175,8 +1620,11 @@
   {
     "id": "Q315822",
     "content": "Nicias",
-    "title": "Nicias\nBirth: 5th century BC - Death: -412\n",
-    "occupations": [],
+    "title": "Nicias | 5th century BC - -412 | military personnel, politician",
+    "occupations": [
+      "military personnel",
+      "politician"
+    ],
     "start": -500,
     "end": -412,
     "type": "range",
@@ -1186,8 +1634,10 @@
   {
     "id": "Q130650",
     "content": "Philip II of Macedon",
-    "title": "Philip II of Macedon\nBirth: c. -382 - Death: -335\n",
-    "occupations": [],
+    "title": "Philip II of Macedon | c. -382 - -335 | monarch",
+    "occupations": [
+      "monarch"
+    ],
     "start": -382,
     "end": -335,
     "type": "range",
@@ -1197,8 +1647,10 @@
   {
     "id": "Q581732",
     "content": "Antipater of Tarsus",
-    "title": "Antipater of Tarsus\nBirth: 2th century BC - Death: -128\n",
-    "occupations": [],
+    "title": "Antipater of Tarsus | 2th century BC - -128 | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": -200,
     "end": -128,
     "type": "range",
@@ -1208,8 +1660,12 @@
   {
     "id": "Q15078686",
     "content": "Antiphon",
-    "title": "Antiphon\nBirth: 5th century BC - Death: c. 5th century BC\n",
-    "occupations": [],
+    "title": "Antiphon | 5th century BC - c. 5th century BC | mathematician, philosopher, writer",
+    "occupations": [
+      "mathematician",
+      "philosopher",
+      "writer"
+    ],
     "start": -500,
     "end": -500,
     "type": "range",
@@ -1219,8 +1675,10 @@
   {
     "id": "Q140188",
     "content": "Aristarchus of Samos",
-    "title": "Aristarchus of Samos\nBirth: c. -309 - Death: c. -229\n",
-    "occupations": [],
+    "title": "Aristarchus of Samos | c. -309 - c. -229 | astronomer",
+    "occupations": [
+      "astronomer"
+    ],
     "start": -309,
     "end": -229,
     "type": "range",
@@ -1230,8 +1688,10 @@
   {
     "id": "Q666667",
     "content": "Aristocles of Messene",
-    "title": "Aristocles of Messene\nBirth: 2th century AD - Death: ?\n",
-    "occupations": [],
+    "title": "Aristocles of Messene | 2th century AD - ? | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 100,
     "type": "range",
     "source": "birth-death",
@@ -1241,8 +1701,11 @@
   {
     "id": "Q646951",
     "content": "Ariston of Chios",
-    "title": "Ariston of Chios\nBirth: c. -299 - Death: 3th century BC\n",
-    "occupations": [],
+    "title": "Ariston of Chios | c. -299 - 3th century BC | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": -299,
     "end": -300,
     "type": "range",
@@ -1253,7 +1716,9 @@
     "id": "Q3622711",
     "content": "Aristonicus of Alexandria",
     "title": "Floruit: 1th century AD",
-    "occupations": [],
+    "occupations": [
+      "grammarian"
+    ],
     "source": "floruit",
     "start": 0,
     "end": 100,
@@ -1264,7 +1729,11 @@
     "id": "Q309772",
     "content": "Athenagoras of Athens",
     "title": "Floruit: 2th century AD",
-    "occupations": [],
+    "occupations": [
+      "philosopher",
+      "theologian",
+      "writer"
+    ],
     "source": "floruit",
     "start": 100,
     "end": 200,
@@ -1274,8 +1743,11 @@
   {
     "id": "Q451390",
     "content": "Autolycus of Pitane",
-    "title": "Autolycus of Pitane\nBirth: c. -359 - Death: c. -289\n",
-    "occupations": [],
+    "title": "Autolycus of Pitane | c. -359 - c. -289 | astronomer, mathematician",
+    "occupations": [
+      "astronomer",
+      "mathematician"
+    ],
     "start": -359,
     "end": -289,
     "type": "range",
@@ -1286,7 +1758,9 @@
     "id": "Q61474568",
     "content": "Cebes",
     "title": "Floruit: 1th century AD",
-    "occupations": [],
+    "occupations": [
+      "philosopher"
+    ],
     "source": "floruit",
     "start": 0,
     "end": 100,
@@ -1296,8 +1770,12 @@
   {
     "id": "Q211411",
     "content": "Chrysippus of Soli",
-    "title": "Chrysippus of Soli\nBirth: -280 - Death: -203\n",
-    "occupations": [],
+    "title": "Chrysippus of Soli | -280 - -203 | mathematician, philosopher, writer",
+    "occupations": [
+      "mathematician",
+      "philosopher",
+      "writer"
+    ],
     "start": -280,
     "end": -203,
     "type": "range",
@@ -1307,8 +1785,12 @@
   {
     "id": "Q310149",
     "content": "Cleanthes",
-    "title": "Cleanthes\nBirth: -330 - Death: -231\n",
-    "occupations": [],
+    "title": "Cleanthes | -330 - -231 | philosopher, pugilist, writer",
+    "occupations": [
+      "philosopher",
+      "pugilist",
+      "writer"
+    ],
     "start": -330,
     "end": -231,
     "type": "range",
@@ -1318,8 +1800,11 @@
   {
     "id": "Q42887",
     "content": "Clement I",
-    "title": "Clement I\nBirth: 1th century AD - Death: 99\n",
-    "occupations": [],
+    "title": "Clement I | 1th century AD - 99 | Catholic priest, theologian",
+    "occupations": [
+      "Catholic priest",
+      "theologian"
+    ],
     "start": 0,
     "end": 99,
     "type": "range",
@@ -1329,8 +1814,11 @@
   {
     "id": "Q31278",
     "content": "Cleomedes",
-    "title": "Cleomedes\nBirth: 1th century AD - Death: 1th century AD\n",
-    "occupations": [],
+    "title": "Cleomedes | 1th century AD - 1th century AD | astronomer, mathematician",
+    "occupations": [
+      "astronomer",
+      "mathematician"
+    ],
     "start": 0,
     "end": 0,
     "type": "range",
@@ -1340,8 +1828,10 @@
   {
     "id": "Q434773",
     "content": "Crantor",
-    "title": "Crantor\nBirth: c. -343 - Death: c. -274\n",
-    "occupations": [],
+    "title": "Crantor | c. -343 - c. -274 | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": -343,
     "end": -274,
     "type": "range",
@@ -1351,8 +1841,12 @@
   {
     "id": "Q41980",
     "content": "Democritus",
-    "title": "Democritus\nBirth: -460s - Death: -360s\n",
-    "occupations": [],
+    "title": "Democritus | -460s - -360s | art historian, mathematician, philosopher",
+    "occupations": [
+      "art historian",
+      "mathematician",
+      "philosopher"
+    ],
     "start": -460,
     "end": -360,
     "type": "range",
@@ -1362,8 +1856,10 @@
   {
     "id": "Q191964",
     "content": "Diogenes of Apollonia",
-    "title": "Diogenes of Apollonia\nBirth: -459 - Death: 5th century BC\n",
-    "occupations": [],
+    "title": "Diogenes of Apollonia | -459 - 5th century BC | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": -459,
     "end": -500,
     "type": "range",
@@ -1373,8 +1869,12 @@
   {
     "id": "Q434203",
     "content": "Diogenes of Babylon",
-    "title": "Diogenes of Babylon\nBirth: -239 - Death: -149\n",
-    "occupations": [],
+    "title": "Diogenes of Babylon | -239 - -149 | astrologer, diplomat, philosopher",
+    "occupations": [
+      "astrologer",
+      "diplomat",
+      "philosopher"
+    ],
     "start": -239,
     "end": -149,
     "type": "range",
@@ -1384,8 +1884,10 @@
   {
     "id": "Q679837",
     "content": "Dionysius of Corinth",
-    "title": "Dionysius of Corinth\nBirth: 2th century AD - Death: 171\n",
-    "occupations": [],
+    "title": "Dionysius of Corinth | 2th century AD - 171 | presbyter",
+    "occupations": [
+      "presbyter"
+    ],
     "start": 100,
     "end": 171,
     "type": "range",
@@ -1395,8 +1897,11 @@
   {
     "id": "Q921532",
     "content": "Dorotheus of Sidon",
-    "title": "Dorotheus of Sidon\nBirth: 50 - Death: ?\n",
-    "occupations": [],
+    "title": "Dorotheus of Sidon | 50 - ? | astrologer, astronomer",
+    "occupations": [
+      "astrologer",
+      "astronomer"
+    ],
     "start": 50,
     "type": "point",
     "source": "birth-death",
@@ -1405,8 +1910,12 @@
   {
     "id": "Q319406",
     "content": "Epimenides of Crete",
-    "title": "Epimenides of Crete\nBirth: 7th century BC - Death: 6th century BC\n",
-    "occupations": [],
+    "title": "Epimenides of Crete | 7th century BC - 6th century BC | philosopher, poet, writer",
+    "occupations": [
+      "philosopher",
+      "poet",
+      "writer"
+    ],
     "start": -700,
     "end": -600,
     "type": "range",
@@ -1416,8 +1925,12 @@
   {
     "id": "Q379987",
     "content": "Geminus of Rhodos",
-    "title": "Geminus of Rhodos\nBirth: ? - Death: c. 60\n",
-    "occupations": [],
+    "title": "Geminus of Rhodos | ? - c. 60 | astronomer, geographer, mathematician",
+    "occupations": [
+      "astronomer",
+      "geographer",
+      "mathematician"
+    ],
     "start": 60,
     "end": 60,
     "type": "point",
@@ -1428,7 +1941,10 @@
     "id": "Q721412",
     "content": "Harpocration",
     "title": "Floruit: 2th century AD",
-    "occupations": [],
+    "occupations": [
+      "orator",
+      "writer"
+    ],
     "source": "floruit",
     "start": 100,
     "end": 200,
@@ -1438,8 +1954,12 @@
   {
     "id": "Q471916",
     "content": "Hecataeus of Abdera",
-    "title": "Hecataeus of Abdera\nBirth: 4th century BC - Death: 3th century BC\n",
-    "occupations": [],
+    "title": "Hecataeus of Abdera | 4th century BC - 3th century BC | historian, philosopher, writer",
+    "occupations": [
+      "historian",
+      "philosopher",
+      "writer"
+    ],
     "start": -400,
     "end": -300,
     "type": "range",
@@ -1449,8 +1969,10 @@
   {
     "id": "Q549010",
     "content": "Hephaestion",
-    "title": "Hephaestion\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Hephaestion | 2th century AD - 2th century AD | grammarian",
+    "occupations": [
+      "grammarian"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -1460,8 +1982,11 @@
   {
     "id": "Q316334",
     "content": "Heraclides Ponticus",
-    "title": "Heraclides Ponticus\nBirth: -384 - Death: c. -321\n",
-    "occupations": [],
+    "title": "Heraclides Ponticus | -384 - c. -321 | astronomer, philosopher",
+    "occupations": [
+      "astronomer",
+      "philosopher"
+    ],
     "start": -384,
     "end": -321,
     "type": "range",
@@ -1472,7 +1997,9 @@
     "id": "Q1057422",
     "content": "Heraclitus",
     "title": "Floruit: 1th century AD",
-    "occupations": [],
+    "occupations": [
+      "philosopher"
+    ],
     "source": "floruit",
     "start": 0,
     "end": 100,
@@ -1482,8 +2009,13 @@
   {
     "id": "Q504771",
     "content": "Philo of Byblos",
-    "title": "Philo of Byblos\nBirth: 50 - Death: 140\n",
-    "occupations": [],
+    "title": "Philo of Byblos | 50 - 140 | lexicographer, military personnel, mythographer, writer",
+    "occupations": [
+      "lexicographer",
+      "military personnel",
+      "mythographer",
+      "writer"
+    ],
     "start": 50,
     "end": 140,
     "type": "range",
@@ -1493,8 +2025,10 @@
   {
     "id": "Q1799472",
     "content": "Hermas",
-    "title": "Hermas\nBirth: 1th century AD - Death: 1th century AD\n",
-    "occupations": [],
+    "title": "Hermas | 1th century AD - 1th century AD | writer",
+    "occupations": [
+      "writer"
+    ],
     "start": 0,
     "end": 0,
     "type": "range",
@@ -1504,8 +2038,12 @@
   {
     "id": "Q159905",
     "content": "Hipparchus",
-    "title": "Hipparchus\nBirth: c. -189 - Death: c. -119\n",
-    "occupations": [],
+    "title": "Hipparchus | c. -189 - c. -119 | astronomer, geographer, mathematician",
+    "occupations": [
+      "astronomer",
+      "geographer",
+      "mathematician"
+    ],
     "start": -189,
     "end": -119,
     "type": "range",
@@ -1515,8 +2053,16 @@
   {
     "id": "Q210573",
     "content": "Hippias",
-    "title": "Hippias\nBirth: -442 - Death: -398\n",
-    "occupations": [],
+    "title": "Hippias | -442 - -398 | astronomer, dithyrambic poet, doxographer, mathematician, philosopher, sophist, tragedy writer",
+    "occupations": [
+      "astronomer",
+      "dithyrambic poet",
+      "doxographer",
+      "mathematician",
+      "philosopher",
+      "sophist",
+      "tragedy writer"
+    ],
     "start": -442,
     "end": -398,
     "type": "range",
@@ -1526,8 +2072,11 @@
   {
     "id": "Q44170",
     "content": "Ignatius of Antioch",
-    "title": "Ignatius of Antioch\nBirth: c. 35 - Death: 108\n",
-    "occupations": [],
+    "title": "Ignatius of Antioch | c. 35 - 108 | presbyter, theologian",
+    "occupations": [
+      "presbyter",
+      "theologian"
+    ],
     "start": 35,
     "end": 108,
     "type": "range",
@@ -1537,8 +2086,12 @@
   {
     "id": "Q182123",
     "content": "Irenaeus",
-    "title": "Irenaeus\nBirth: c. 130 - Death: c. 202\n",
-    "occupations": [],
+    "title": "Irenaeus | c. 130 - c. 202 | philosopher, presbyter, theologian",
+    "occupations": [
+      "philosopher",
+      "presbyter",
+      "theologian"
+    ],
     "start": 130,
     "end": 202,
     "type": "range",
@@ -1548,8 +2101,10 @@
   {
     "id": "Q3851977",
     "content": "Matron of Pitane",
-    "title": "Matron of Pitane\nBirth: 4th century BC - Death: 4th century BC\n",
-    "occupations": [],
+    "title": "Matron of Pitane | 4th century BC - 4th century BC | poet",
+    "occupations": [
+      "poet"
+    ],
     "start": -400,
     "end": -400,
     "type": "range",
@@ -1559,8 +2114,10 @@
   {
     "id": "Q707344",
     "content": "Numenius of Apamea",
-    "title": "Numenius of Apamea\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Numenius of Apamea | 2th century AD - 2th century AD | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -1570,8 +2127,10 @@
   {
     "id": "Q2559200",
     "content": "Oenomaus of Gadara",
-    "title": "Oenomaus of Gadara\nBirth: ? - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Oenomaus of Gadara | ? - 2th century AD | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 100,
     "end": 100,
     "type": "point",
@@ -1581,8 +2140,12 @@
   {
     "id": "Q580565",
     "content": "Palaephatus",
-    "title": "Palaephatus\nBirth: 4th century BC - Death: 4th century BC\n",
-    "occupations": [],
+    "title": "Palaephatus | 4th century BC - 4th century BC | historian, mythographer, writer",
+    "occupations": [
+      "historian",
+      "mythographer",
+      "writer"
+    ],
     "start": -400,
     "end": -400,
     "type": "range",
@@ -1592,8 +2155,12 @@
   {
     "id": "Q444459",
     "content": "Alcidamas",
-    "title": "Alcidamas\nBirth: 5th century BC - Death: 4th century BC\n",
-    "occupations": [],
+    "title": "Alcidamas | 5th century BC - 4th century BC | orator, philosopher, rhetorician",
+    "occupations": [
+      "orator",
+      "philosopher",
+      "rhetorician"
+    ],
     "start": -500,
     "end": -400,
     "type": "range",
@@ -1603,8 +2170,12 @@
   {
     "id": "Q334457",
     "content": "Dio Chrysostom",
-    "title": "Dio Chrysostom\nBirth: c. 40 - Death: c. 120\n",
-    "occupations": [],
+    "title": "Dio Chrysostom | c. 40 - c. 120 | orator, philosopher, writer",
+    "occupations": [
+      "orator",
+      "philosopher",
+      "writer"
+    ],
     "start": 40,
     "end": 120,
     "type": "range",
@@ -1614,8 +2185,11 @@
   {
     "id": "Q455523",
     "content": "Babrius",
-    "title": "Babrius\nBirth: 1th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Babrius | 1th century AD - 2th century AD | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": 0,
     "end": 100,
     "type": "range",
@@ -1625,8 +2199,10 @@
   {
     "id": "Q735515",
     "content": "Aspasius",
-    "title": "Aspasius\nBirth: c. 80 - Death: c. 150\n",
-    "occupations": [],
+    "title": "Aspasius | c. 80 - c. 150 | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 80,
     "end": 150,
     "type": "range",
@@ -1636,8 +2212,13 @@
   {
     "id": "Q537755",
     "content": "Polyaenus",
-    "title": "Polyaenus\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Polyaenus | 2th century AD - 2th century AD | historian, lawyer, poet, writer",
+    "occupations": [
+      "historian",
+      "lawyer",
+      "poet",
+      "writer"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -1647,8 +2228,15 @@
   {
     "id": "Q202001",
     "content": "Archytas",
-    "title": "Archytas\nBirth: c. -429 - Death: c. -344\n",
-    "occupations": [],
+    "title": "Archytas | c. -429 - c. -344 | engineer, mathematician, musicologist, philosopher, physicist, politician",
+    "occupations": [
+      "engineer",
+      "mathematician",
+      "musicologist",
+      "philosopher",
+      "physicist",
+      "politician"
+    ],
     "start": -429,
     "end": -344,
     "type": "range",
@@ -1658,8 +2246,12 @@
   {
     "id": "Q41155",
     "content": "Heraclitus",
-    "title": "Heraclitus\nBirth: c. -534 - Death: c. -470s\n",
-    "occupations": [],
+    "title": "Heraclitus | c. -534 - c. -470s | philosopher, physicist, writer",
+    "occupations": [
+      "philosopher",
+      "physicist",
+      "writer"
+    ],
     "start": -534,
     "end": -470,
     "type": "range",
@@ -1669,8 +2261,11 @@
   {
     "id": "Q5264",
     "content": "Hippocrates",
-    "title": "Hippocrates\nBirth: c. -459 - Death: c. -369\n",
-    "occupations": [],
+    "title": "Hippocrates | c. -459 - c. -369 | philosopher, physician",
+    "occupations": [
+      "philosopher",
+      "physician"
+    ],
     "start": -459,
     "end": -369,
     "type": "range",
@@ -1680,8 +2275,10 @@
   {
     "id": "Q381874",
     "content": "Gaius Musonius Rufus",
-    "title": "Gaius Musonius Rufus\nBirth: 25 - Death: 95\n",
-    "occupations": [],
+    "title": "Gaius Musonius Rufus | 25 - 95 | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 25,
     "end": 95,
     "type": "range",
@@ -1691,8 +2288,12 @@
   {
     "id": "Q328793",
     "content": "Periander",
-    "title": "Periander\nBirth: 7th century BC - Death: -582\n",
-    "occupations": [],
+    "title": "Periander | 7th century BC - -582 | philosopher, poet, writer",
+    "occupations": [
+      "philosopher",
+      "poet",
+      "writer"
+    ],
     "start": -700,
     "end": -582,
     "type": "range",
@@ -1702,8 +2303,15 @@
   {
     "id": "Q10261",
     "content": "Pythagoras",
-    "title": "Pythagoras\nBirth: c. -579 - Death: -490s\n",
-    "occupations": [],
+    "title": "Pythagoras | c. -579 - -490s | mathematician, music theorist, musicologist, philosopher, politician, writer",
+    "occupations": [
+      "mathematician",
+      "music theorist",
+      "musicologist",
+      "philosopher",
+      "politician",
+      "writer"
+    ],
     "start": -579,
     "end": -490,
     "type": "range",
@@ -1713,8 +2321,12 @@
   {
     "id": "Q720939",
     "content": "Lysis of Taras",
-    "title": "Lysis of Taras\nBirth: 5th century BC - Death: 4th century BC\n",
-    "occupations": [],
+    "title": "Lysis of Taras | 5th century BC - 4th century BC | mathematician, philosopher, politician",
+    "occupations": [
+      "mathematician",
+      "philosopher",
+      "politician"
+    ],
     "start": -500,
     "end": -400,
     "type": "range",
@@ -1724,8 +2336,13 @@
   {
     "id": "Q214121",
     "content": "Xenocrates",
-    "title": "Xenocrates\nBirth: -395 - Death: -313\n",
-    "occupations": [],
+    "title": "Xenocrates | -395 - -313 | mathematician, philosopher, teacher, writer",
+    "occupations": [
+      "mathematician",
+      "philosopher",
+      "teacher",
+      "writer"
+    ],
     "start": -395,
     "end": -313,
     "type": "range",
@@ -1735,8 +2352,13 @@
   {
     "id": "Q2274948",
     "content": "Philostratus",
-    "title": "Philostratus\nBirth: c. 170 - Death: 250s\n",
-    "occupations": [],
+    "title": "Philostratus | c. 170 - 250s | orator, philosopher, sophist, writer",
+    "occupations": [
+      "orator",
+      "philosopher",
+      "sophist",
+      "writer"
+    ],
     "start": 170,
     "end": 250,
     "type": "range",
@@ -1747,7 +2369,9 @@
     "id": "Q3854645",
     "content": "Menecrates of Syracuse",
     "title": "Floruit: 4th century BC",
-    "occupations": [],
+    "occupations": [
+      "physician"
+    ],
     "source": "floruit",
     "start": -400,
     "end": -300,
@@ -1757,8 +2381,11 @@
   {
     "id": "Q559866",
     "content": "Alciphron",
-    "title": "Alciphron\nBirth: 2th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Alciphron | 2th century AD - 2th century AD | rhetorician, writer",
+    "occupations": [
+      "rhetorician",
+      "writer"
+    ],
     "start": 100,
     "end": 100,
     "type": "range",
@@ -1768,8 +2395,11 @@
   {
     "id": "Q463564",
     "content": "Xenophon of Ephesus",
-    "title": "Xenophon of Ephesus\nBirth: 2th century AD - Death: 3th century AD\n",
-    "occupations": [],
+    "title": "Xenophon of Ephesus | 2th century AD - 3th century AD | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": 100,
     "end": 200,
     "type": "range",
@@ -1780,7 +2410,9 @@
     "id": "Q107676132",
     "content": "Anonymus Londinensis",
     "title": "Floruit: 1th century AD",
-    "occupations": [],
+    "occupations": [
+      "physician"
+    ],
     "source": "floruit",
     "start": 0,
     "end": 100,
@@ -1790,8 +2422,13 @@
   {
     "id": "Q313018",
     "content": "Aristophanes of Byzantium",
-    "title": "Aristophanes of Byzantium\nBirth: -259 - Death: c. -179\n",
-    "occupations": [],
+    "title": "Aristophanes of Byzantium | -259 - c. -179 | grammarian, lexicographer, librarian, linguist",
+    "occupations": [
+      "grammarian",
+      "lexicographer",
+      "librarian",
+      "linguist"
+    ],
     "start": -259,
     "end": -179,
     "type": "range",
@@ -1801,8 +2438,12 @@
   {
     "id": "Q185117",
     "content": "Justin Martyr",
-    "title": "Justin Martyr\nBirth: c. 100 - Death: c. 165\n",
-    "occupations": [],
+    "title": "Justin Martyr | c. 100 - c. 165 | apologist, philosopher, theologian",
+    "occupations": [
+      "apologist",
+      "philosopher",
+      "theologian"
+    ],
     "start": 100,
     "end": 165,
     "type": "range",
@@ -1812,8 +2453,10 @@
   {
     "id": "Q1371938",
     "content": "Tryphiodorus",
-    "title": "Tryphiodorus\nBirth: 3th century AD - Death: 4th century AD\n",
-    "occupations": [],
+    "title": "Tryphiodorus | 3th century AD - 4th century AD | poet",
+    "occupations": [
+      "poet"
+    ],
     "start": 200,
     "end": 300,
     "type": "range",
@@ -1823,8 +2466,11 @@
   {
     "id": "Q373042",
     "content": "Onasander",
-    "title": "Onasander\nBirth: ? - Death: 1th century AD\n",
-    "occupations": [],
+    "title": "Onasander | ? - 1th century AD | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": 0,
     "end": 0,
     "type": "point",
@@ -1834,8 +2480,12 @@
   {
     "id": "Q1129405",
     "content": "Lesbonax",
-    "title": "Lesbonax\nBirth: ? - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Lesbonax | ? - 2th century AD | orator, philosopher, sophist",
+    "occupations": [
+      "orator",
+      "philosopher",
+      "sophist"
+    ],
     "start": 100,
     "end": 100,
     "type": "point",
@@ -1846,7 +2496,11 @@
     "id": "Q1231472",
     "content": "Philostratus the Younger",
     "title": "Floruit: 3th century AD",
-    "occupations": [],
+    "occupations": [
+      "orator",
+      "sophist",
+      "writer"
+    ],
     "source": "floruit",
     "start": 200,
     "end": 300,
@@ -1856,8 +2510,12 @@
   {
     "id": "Q180671",
     "content": "Aratus",
-    "title": "Aratus\nBirth: c. -314 - Death: c. -239\n",
-    "occupations": [],
+    "title": "Aratus | c. -314 - c. -239 | astronomer, poet, writer",
+    "occupations": [
+      "astronomer",
+      "poet",
+      "writer"
+    ],
     "start": -314,
     "end": -239,
     "type": "range",
@@ -1867,8 +2525,12 @@
   {
     "id": "Q729109",
     "content": "Parthenius of Nicaea",
-    "title": "Parthenius of Nicaea\nBirth: 1th century BC - Death: 1th century BC\n",
-    "occupations": [],
+    "title": "Parthenius of Nicaea | 1th century BC - 1th century BC | mythographer, poet, writer",
+    "occupations": [
+      "mythographer",
+      "poet",
+      "writer"
+    ],
     "start": -100,
     "end": -100,
     "type": "range",
@@ -1878,8 +2540,13 @@
   {
     "id": "Q297776",
     "content": "Pedanius Dioscorides",
-    "title": "Pedanius Dioscorides\nBirth: c. 40 - Death: c. 90\n",
-    "occupations": [],
+    "title": "Pedanius Dioscorides | c. 40 - c. 90 | botanist, pharmacist, pharmacologist, physician",
+    "occupations": [
+      "botanist",
+      "pharmacist",
+      "pharmacologist",
+      "physician"
+    ],
     "start": 40,
     "end": 90,
     "type": "range",
@@ -1889,8 +2556,11 @@
   {
     "id": "Q743993",
     "content": "Crateuas",
-    "title": "Crateuas\nBirth: 2th century BC - Death: 1th century BC\n",
-    "occupations": [],
+    "title": "Crateuas | 2th century BC - 1th century BC | botanist, pharmacologist",
+    "occupations": [
+      "botanist",
+      "pharmacologist"
+    ],
     "start": -200,
     "end": -100,
     "type": "range",
@@ -1900,8 +2570,10 @@
   {
     "id": "Q313011",
     "content": "Heliodorus of Emesa",
-    "title": "Heliodorus of Emesa\nBirth: c. 3th century AD - Death: c. 3th century AD\n",
-    "occupations": [],
+    "title": "Heliodorus of Emesa | c. 3th century AD - c. 3th century AD | writer",
+    "occupations": [
+      "writer"
+    ],
     "start": 200,
     "end": 200,
     "type": "range",
@@ -1911,8 +2583,12 @@
   {
     "id": "Q1271013",
     "content": "Adrianus of Tyre",
-    "title": "Adrianus of Tyre\nBirth: 113 - Death: 193\n",
-    "occupations": [],
+    "title": "Adrianus of Tyre | 113 - 193 | philosopher, rhetorician, sophist",
+    "occupations": [
+      "philosopher",
+      "rhetorician",
+      "sophist"
+    ],
     "start": 113,
     "end": 193,
     "type": "range",
@@ -1923,7 +2599,9 @@
     "id": "Q26427827",
     "content": "Aglaias",
     "title": "Floruit: 1th century AD",
-    "occupations": [],
+    "occupations": [
+      "poet"
+    ],
     "source": "floruit",
     "start": 0,
     "end": 100,
@@ -1933,8 +2611,10 @@
   {
     "id": "Q657941",
     "content": "Albinus",
-    "title": "Albinus\nBirth: 1th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Albinus | 1th century AD - 2th century AD | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 0,
     "end": 100,
     "type": "range",
@@ -1945,7 +2625,10 @@
     "id": "Q695923",
     "content": "Ammonius Grammaticus",
     "title": "Floruit: 4th century AD",
-    "occupations": [],
+    "occupations": [
+      "grammarian",
+      "priest"
+    ],
     "source": "floruit",
     "start": 300,
     "end": 400,
@@ -1955,8 +2638,10 @@
   {
     "id": "Q505931",
     "content": "Aretaeus of Cappadocia",
-    "title": "Aretaeus of Cappadocia\nBirth: 1th century AD - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Aretaeus of Cappadocia | 1th century AD - 2th century AD | physician",
+    "occupations": [
+      "physician"
+    ],
     "start": 0,
     "end": 100,
     "type": "range",
@@ -1966,8 +2651,12 @@
   {
     "id": "Q351469",
     "content": "Adamantius",
-    "title": "Adamantius\nBirth: 4th century AD - Death: 5th century AD\n",
-    "occupations": [],
+    "title": "Adamantius | 4th century AD - 5th century AD | iatrosophist, physician, writer",
+    "occupations": [
+      "iatrosophist",
+      "physician",
+      "writer"
+    ],
     "start": 300,
     "end": 400,
     "type": "range",
@@ -1977,8 +2666,10 @@
   {
     "id": "Q317146",
     "content": "Alexandros of Aphrodisias",
-    "title": "Alexandros of Aphrodisias\nBirth: 2th century AD - Death: 3th century AD\n",
-    "occupations": [],
+    "title": "Alexandros of Aphrodisias | 2th century AD - 3th century AD | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 100,
     "end": 200,
     "type": "range",
@@ -1988,8 +2679,10 @@
   {
     "id": "Q61474378",
     "content": "Cassius Iatrosophista",
-    "title": "Cassius Iatrosophista\nBirth: 2th century AD - Death: 3th century AD\n",
-    "occupations": [],
+    "title": "Cassius Iatrosophista | 2th century AD - 3th century AD | iatrosophist",
+    "occupations": [
+      "iatrosophist"
+    ],
     "start": 100,
     "end": 200,
     "type": "range",
@@ -1999,8 +2692,13 @@
   {
     "id": "Q125551",
     "content": "Parmenides",
-    "title": "Parmenides\nBirth: c. -514 - Death: c. -469\n",
-    "occupations": [],
+    "title": "Parmenides | c. -514 - c. -469 | legislator, philosopher, poet, writer",
+    "occupations": [
+      "legislator",
+      "philosopher",
+      "poet",
+      "writer"
+    ],
     "start": -514,
     "end": -469,
     "type": "range",
@@ -2010,8 +2708,13 @@
   {
     "id": "Q451550",
     "content": "Philodemus",
-    "title": "Philodemus\nBirth: c. -109 - Death: -34\n",
-    "occupations": [],
+    "title": "Philodemus | c. -109 - -34 | epigrammatist, philosopher, poet, writer",
+    "occupations": [
+      "epigrammatist",
+      "philosopher",
+      "poet",
+      "writer"
+    ],
     "start": -109,
     "end": -34,
     "type": "range",
@@ -2021,8 +2724,15 @@
   {
     "id": "Q212338",
     "content": "Philolaus",
-    "title": "Philolaus\nBirth: c. -469 - Death: c. -389\n",
-    "occupations": [],
+    "title": "Philolaus | c. -469 - c. -389 | astronomer, mathematician, music theorist, philosopher, politician, writer",
+    "occupations": [
+      "astronomer",
+      "mathematician",
+      "music theorist",
+      "philosopher",
+      "politician",
+      "writer"
+    ],
     "start": -469,
     "end": -389,
     "type": "range",
@@ -2032,8 +2742,12 @@
   {
     "id": "Q691292",
     "content": "Philostratus of Lemnos",
-    "title": "Philostratus of Lemnos\nBirth: c. 190 - Death: c. 230\n",
-    "occupations": [],
+    "title": "Philostratus of Lemnos | c. 190 - c. 230 | orator, sophist, writer",
+    "occupations": [
+      "orator",
+      "sophist",
+      "writer"
+    ],
     "start": 190,
     "end": 230,
     "type": "range",
@@ -2044,7 +2758,10 @@
     "id": "Q1234940",
     "content": "Philoxenus of Alexandria",
     "title": "Floruit: 1th century BC",
-    "occupations": [],
+    "occupations": [
+      "glossographer",
+      "grammarian"
+    ],
     "source": "floruit",
     "start": -100,
     "end": 0,
@@ -2054,8 +2771,11 @@
   {
     "id": "Q772775",
     "content": "Polemon of Laodicea",
-    "title": "Polemon of Laodicea\nBirth: c. 90 - Death: c. 144\n",
-    "occupations": [],
+    "title": "Polemon of Laodicea | c. 90 - c. 144 | philosopher, politician",
+    "occupations": [
+      "philosopher",
+      "politician"
+    ],
     "start": 90,
     "end": 144,
     "type": "range",
@@ -2065,8 +2785,13 @@
   {
     "id": "Q192371",
     "content": "Polycarp",
-    "title": "Polycarp\nBirth: 70 - Death: c. 155\n",
-    "occupations": [],
+    "title": "Polycarp | 70 - c. 155 | Christian minister, presbyter, theologian, writer",
+    "occupations": [
+      "Christian minister",
+      "presbyter",
+      "theologian",
+      "writer"
+    ],
     "start": 70,
     "end": 155,
     "type": "range",
@@ -2076,8 +2801,10 @@
   {
     "id": "Q943719",
     "content": "Polycrates of Ephesus",
-    "title": "Polycrates of Ephesus\nBirth: 125 - Death: 196\n",
-    "occupations": [],
+    "title": "Polycrates of Ephesus | 125 - 196 | priest",
+    "occupations": [
+      "priest"
+    ],
     "start": 125,
     "end": 196,
     "type": "range",
@@ -2087,8 +2814,11 @@
   {
     "id": "Q297402",
     "content": "Prodicus",
-    "title": "Prodicus\nBirth: -463 - Death: c. -379\n",
-    "occupations": [],
+    "title": "Prodicus | -463 - c. -379 | diplomat, philosopher",
+    "occupations": [
+      "diplomat",
+      "philosopher"
+    ],
     "start": -463,
     "end": -379,
     "type": "range",
@@ -2098,8 +2828,10 @@
   {
     "id": "Q104163113",
     "content": "Serapion Astrologus",
-    "title": "Serapion Astrologus\nBirth: 2th century BC - Death: 1th century AD\n",
-    "occupations": [],
+    "title": "Serapion Astrologus | 2th century BC - 1th century AD | astrologer",
+    "occupations": [
+      "astrologer"
+    ],
     "start": -200,
     "end": 0,
     "type": "range",
@@ -2109,8 +2841,11 @@
   {
     "id": "Q325955",
     "content": "Speusippus",
-    "title": "Speusippus\nBirth: -406 - Death: -338\n",
-    "occupations": [],
+    "title": "Speusippus | -406 - -338 | mathematician, philosopher",
+    "occupations": [
+      "mathematician",
+      "philosopher"
+    ],
     "start": -406,
     "end": -338,
     "type": "range",
@@ -2120,8 +2855,10 @@
   {
     "id": "Q2367894",
     "content": "Teles of Megara",
-    "title": "Teles of Megara\nBirth: 3th century BC - Death: ?\n",
-    "occupations": [],
+    "title": "Teles of Megara | 3th century BC - ? | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": -300,
     "type": "range",
     "source": "birth-death",
@@ -2131,8 +2868,17 @@
   {
     "id": "Q36303",
     "content": "Thales",
-    "title": "Thales\nBirth: -629 - Death: -545\n",
-    "occupations": [],
+    "title": "Thales | -629 - -545 | astronomer, engineer, geometer, mathematician, philosopher, physicist, teacher, writer",
+    "occupations": [
+      "astronomer",
+      "engineer",
+      "geometer",
+      "mathematician",
+      "philosopher",
+      "physicist",
+      "teacher",
+      "writer"
+    ],
     "start": -629,
     "end": -545,
     "type": "range",
@@ -2142,8 +2888,11 @@
   {
     "id": "Q1266186",
     "content": "Theodosius of Bithynia",
-    "title": "Theodosius of Bithynia\nBirth: c. -159 - Death: c. -89\n",
-    "occupations": [],
+    "title": "Theodosius of Bithynia | c. -159 - c. -89 | astronomer, mathematician",
+    "occupations": [
+      "astronomer",
+      "mathematician"
+    ],
     "start": -159,
     "end": -89,
     "type": "range",
@@ -2153,8 +2902,14 @@
   {
     "id": "Q705950",
     "content": "Theon of Smyrna",
-    "title": "Theon of Smyrna\nBirth: c. 70 - Death: c. 135\n",
-    "occupations": [],
+    "title": "Theon of Smyrna | c. 70 - c. 135 | astronomer, mathematician, music theorist, musicologist, philosopher",
+    "occupations": [
+      "astronomer",
+      "mathematician",
+      "music theorist",
+      "musicologist",
+      "philosopher"
+    ],
     "start": 70,
     "end": 135,
     "type": "range",
@@ -2164,8 +2919,10 @@
   {
     "id": "Q220787",
     "content": "Theophilus of Antioch",
-    "title": "Theophilus of Antioch\nBirth: 2th century AD - Death: 183\n",
-    "occupations": [],
+    "title": "Theophilus of Antioch | 2th century AD - 183 | presbyter",
+    "occupations": [
+      "presbyter"
+    ],
     "start": 100,
     "end": 183,
     "type": "range",
@@ -2175,8 +2932,12 @@
   {
     "id": "Q1051470",
     "content": "Vettius Valens",
-    "title": "Vettius Valens\nBirth: 120 - Death: 175\n",
-    "occupations": [],
+    "title": "Vettius Valens | 120 - 175 | astrologer, astronomer, writer",
+    "occupations": [
+      "astrologer",
+      "astronomer",
+      "writer"
+    ],
     "start": 120,
     "end": 175,
     "type": "range",
@@ -2186,8 +2947,12 @@
   {
     "id": "Q272087",
     "content": "Tatian",
-    "title": "Tatian\nBirth: c. 120 - Death: c. 173\n",
-    "occupations": [],
+    "title": "Tatian | c. 120 - c. 173 | philosopher, theologian, writer",
+    "occupations": [
+      "philosopher",
+      "theologian",
+      "writer"
+    ],
     "start": 120,
     "end": 173,
     "type": "range",
@@ -2197,8 +2962,11 @@
   {
     "id": "Q8747",
     "content": "Euclid",
-    "title": "Euclid\nBirth: 4th century BC - Death: -284\n",
-    "occupations": [],
+    "title": "Euclid | 4th century BC - -284 | mathematician, writer",
+    "occupations": [
+      "mathematician",
+      "writer"
+    ],
     "start": -400,
     "end": -284,
     "type": "range",
@@ -2208,8 +2976,11 @@
   {
     "id": "Q134189",
     "content": "Plotinus",
-    "title": "Plotinus\nBirth: 205 - Death: 270\n",
-    "occupations": [],
+    "title": "Plotinus | 205 - 270 | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": 205,
     "end": 270,
     "type": "range",
@@ -2219,8 +2990,16 @@
   {
     "id": "Q365183",
     "content": "Themistius",
-    "title": "Themistius\nBirth: 317 - Death: 388\n",
-    "occupations": [],
+    "title": "Themistius | 317 - 388 | logician, military personnel, orator, philosopher, physicist, politician, writer",
+    "occupations": [
+      "logician",
+      "military personnel",
+      "orator",
+      "philosopher",
+      "physicist",
+      "politician",
+      "writer"
+    ],
     "start": 317,
     "end": 388,
     "type": "range",
@@ -2230,8 +3009,11 @@
   {
     "id": "Q33941",
     "content": "Julian",
-    "title": "Julian\nBirth: 331 - Death: 363\n",
-    "occupations": [],
+    "title": "Julian | 331 - 363 | philosopher, politician",
+    "occupations": [
+      "philosopher",
+      "politician"
+    ],
     "start": 331,
     "end": 363,
     "type": "range",
@@ -2241,8 +3023,13 @@
   {
     "id": "Q142999",
     "content": "Eusebius of Caesarea",
-    "title": "Eusebius of Caesarea\nBirth: 275s - Death: 339\n",
-    "occupations": [],
+    "title": "Eusebius of Caesarea | 275s - 339 | Eastern Orthodox priest, historian, theologian, writer",
+    "occupations": [
+      "Eastern Orthodox priest",
+      "historian",
+      "theologian",
+      "writer"
+    ],
     "start": 275,
     "end": 339,
     "type": "range",
@@ -2252,8 +3039,11 @@
   {
     "id": "Q313922",
     "content": "Epiphanius of Salamis",
-    "title": "Epiphanius of Salamis\nBirth: c. 315 - Death: 403\n",
-    "occupations": [],
+    "title": "Epiphanius of Salamis | c. 315 - 403 | Christian minister, writer",
+    "occupations": [
+      "Christian minister",
+      "writer"
+    ],
     "start": 315,
     "end": 403,
     "type": "range",
@@ -2263,8 +3053,16 @@
   {
     "id": "Q44011",
     "content": "Gregory of Nazianzus",
-    "title": "Gregory of Nazianzus\nBirth: 330 - Death: 390\n",
-    "occupations": [],
+    "title": "Gregory of Nazianzus | 330 - 390 | bishop, epigrammatist, poet, preacher, priest, religious leader, theologian",
+    "occupations": [
+      "bishop",
+      "epigrammatist",
+      "poet",
+      "preacher",
+      "priest",
+      "religious leader",
+      "theologian"
+    ],
     "start": 330,
     "end": 390,
     "type": "range",
@@ -2274,8 +3072,11 @@
   {
     "id": "Q310916",
     "content": "Iamblichus",
-    "title": "Iamblichus\nBirth: c. 245 - Death: c. 325\n",
-    "occupations": [],
+    "title": "Iamblichus | c. 245 - c. 325 | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": 245,
     "end": 325,
     "type": "range",
@@ -2285,8 +3086,11 @@
   {
     "id": "Q649082",
     "content": "Apsines",
-    "title": "Apsines\nBirth: c. 190 - Death: c. 250\n",
-    "occupations": [],
+    "title": "Apsines | c. 190 - c. 250 | orator, politician",
+    "occupations": [
+      "orator",
+      "politician"
+    ],
     "start": 190,
     "end": 250,
     "type": "range",
@@ -2296,8 +3100,11 @@
   {
     "id": "Q211783",
     "content": "Pappus of Alexandria",
-    "title": "Pappus of Alexandria\nBirth: c. 290 - Death: c. 350\n",
-    "occupations": [],
+    "title": "Pappus of Alexandria | c. 290 - c. 350 | astronomer, mathematician",
+    "occupations": [
+      "astronomer",
+      "mathematician"
+    ],
     "start": 290,
     "end": 350,
     "type": "range",
@@ -2307,8 +3114,13 @@
   {
     "id": "Q203445",
     "content": "Porphyry",
-    "title": "Porphyry\nBirth: c. 233 - Death: c. 301\n",
-    "occupations": [],
+    "title": "Porphyry | c. 233 - c. 301 | historian, music theorist, philosopher, writer",
+    "occupations": [
+      "historian",
+      "music theorist",
+      "philosopher",
+      "writer"
+    ],
     "start": 233,
     "end": 301,
     "type": "range",
@@ -2318,8 +3130,14 @@
   {
     "id": "Q44024",
     "content": "Athanasius of Alexandria",
-    "title": "Athanasius of Alexandria\nBirth: 296 - Death: 373\n",
-    "occupations": [],
+    "title": "Athanasius of Alexandria | 296 - 373 | Catholic priest, deacon, hagiographer, theologian, writer",
+    "occupations": [
+      "Catholic priest",
+      "deacon",
+      "hagiographer",
+      "theologian",
+      "writer"
+    ],
     "start": 296,
     "end": 373,
     "type": "range",
@@ -2329,8 +3147,10 @@
   {
     "id": "Q369129",
     "content": "Dexippus (philosopher)",
-    "title": "Dexippus (philosopher)\nBirth: 4th century AD - Death: 4th century AD\n",
-    "occupations": [],
+    "title": "Dexippus (philosopher) | 4th century AD - 4th century AD | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 300,
     "end": 300,
     "type": "range",
@@ -2340,8 +3160,10 @@
   {
     "id": "Q178217",
     "content": "Diophantus of Alexandria",
-    "title": "Diophantus of Alexandria\nBirth: 3th century AD - Death: c. 284\n",
-    "occupations": [],
+    "title": "Diophantus of Alexandria | 3th century AD - c. 284 | mathematician",
+    "occupations": [
+      "mathematician"
+    ],
     "start": 200,
     "end": 284,
     "type": "range",
@@ -2351,8 +3173,16 @@
   {
     "id": "Q44258",
     "content": "Basil of Caesarea",
-    "title": "Basil of Caesarea\nBirth: 330 - Death: 379\n",
-    "occupations": [],
+    "title": "Basil of Caesarea | 330 - 379 | Catholic bishop, Catholic deacon, Catholic priest, archbishop, philosopher, theologian, writer",
+    "occupations": [
+      "Catholic bishop",
+      "Catholic deacon",
+      "Catholic priest",
+      "archbishop",
+      "philosopher",
+      "theologian",
+      "writer"
+    ],
     "start": 330,
     "end": 379,
     "type": "range",
@@ -2362,8 +3192,11 @@
   {
     "id": "Q519513",
     "content": "Marcellus of Ancyra",
-    "title": "Marcellus of Ancyra\nBirth: 285 - Death: 374\n",
-    "occupations": [],
+    "title": "Marcellus of Ancyra | 285 - 374 | presbyter, writer",
+    "occupations": [
+      "presbyter",
+      "writer"
+    ],
     "start": 285,
     "end": 374,
     "type": "range",
@@ -2373,8 +3206,14 @@
   {
     "id": "Q170472",
     "content": "Origen",
-    "title": "Origen\nBirth: 185 - Death: 254\n",
-    "occupations": [],
+    "title": "Origen | 185 - 254 | cleric, philosopher, theologian, translator, writer",
+    "occupations": [
+      "cleric",
+      "philosopher",
+      "theologian",
+      "translator",
+      "writer"
+    ],
     "start": 185,
     "end": 254,
     "type": "range",
@@ -2384,8 +3223,11 @@
   {
     "id": "Q312916",
     "content": "Nonnus of Panopolis",
-    "title": "Nonnus of Panopolis\nBirth: 5th century AD - Death: 5th century AD\n",
-    "occupations": [],
+    "title": "Nonnus of Panopolis | 5th century AD - 5th century AD | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": 400,
     "end": 400,
     "type": "range",
@@ -2395,8 +3237,10 @@
   {
     "id": "Q352702",
     "content": "Quintus Smyrnaeus",
-    "title": "Quintus Smyrnaeus\nBirth: 4th century AD - Death: 4th century AD\n",
-    "occupations": [],
+    "title": "Quintus Smyrnaeus | 4th century AD - 4th century AD | poet",
+    "occupations": [
+      "poet"
+    ],
     "start": 300,
     "end": 300,
     "type": "range",
@@ -2406,8 +3250,13 @@
   {
     "id": "Q354350",
     "content": "Sozomen",
-    "title": "Sozomen\nBirth: c. 400 - Death: c. 450\n",
-    "occupations": [],
+    "title": "Sozomen | c. 400 - c. 450 | historian, lawyer, rhetorician, writer",
+    "occupations": [
+      "historian",
+      "lawyer",
+      "rhetorician",
+      "writer"
+    ],
     "start": 400,
     "end": 450,
     "type": "range",
@@ -2417,8 +3266,11 @@
   {
     "id": "Q782401",
     "content": "Sallustius",
-    "title": "Sallustius\nBirth: 4th century AD - Death: 4th century AD\n",
-    "occupations": [],
+    "title": "Sallustius | 4th century AD - 4th century AD | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": 300,
     "end": 300,
     "type": "range",
@@ -2428,8 +3280,13 @@
   {
     "id": "Q343018",
     "content": "Eunapius",
-    "title": "Eunapius\nBirth: c. 349 - Death: 420s\n",
-    "occupations": [],
+    "title": "Eunapius | c. 349 - 420s | biographer, historian, philosopher, writer",
+    "occupations": [
+      "biographer",
+      "historian",
+      "philosopher",
+      "writer"
+    ],
     "start": 349,
     "end": 420,
     "type": "range",
@@ -2439,8 +3296,13 @@
   {
     "id": "Q336198",
     "content": "Socrates of Constantinople",
-    "title": "Socrates of Constantinople\nBirth: c. 380 - Death: c. 450\n",
-    "occupations": [],
+    "title": "Socrates of Constantinople | c. 380 - c. 450 | church historian, historian, theologian, writer",
+    "occupations": [
+      "church historian",
+      "historian",
+      "theologian",
+      "writer"
+    ],
     "start": 380,
     "end": 450,
     "type": "range",
@@ -2450,8 +3312,13 @@
   {
     "id": "Q380943",
     "content": "Philostorgius",
-    "title": "Philostorgius\nBirth: c. 368 - Death: c. 433\n",
-    "occupations": [],
+    "title": "Philostorgius | c. 368 - c. 433 | church historian, historian, religious writer, writer",
+    "occupations": [
+      "church historian",
+      "historian",
+      "religious writer",
+      "writer"
+    ],
     "start": 368,
     "end": 433,
     "type": "range",
@@ -2461,8 +3328,13 @@
   {
     "id": "Q207113",
     "content": "Hippolytus",
-    "title": "Hippolytus\nBirth: ? - Death: 235\n",
-    "occupations": [],
+    "title": "Hippolytus | ? - 235 | Catholic bishop, patron saint, theologian, writer",
+    "occupations": [
+      "Catholic bishop",
+      "patron saint",
+      "theologian",
+      "writer"
+    ],
     "start": 235,
     "end": 235,
     "type": "point",
@@ -2472,8 +3344,13 @@
   {
     "id": "Q450311",
     "content": "Alypius",
-    "title": "Alypius\nBirth: 4th century AD - Death: 4th century AD\n",
-    "occupations": [],
+    "title": "Alypius | 4th century AD - 4th century AD | music theorist, musician, musicologist, writer",
+    "occupations": [
+      "music theorist",
+      "musician",
+      "musicologist",
+      "writer"
+    ],
     "start": 300,
     "end": 300,
     "type": "range",
@@ -2484,7 +3361,11 @@
     "id": "Q4134212",
     "content": "Gaudentius",
     "title": "Floruit: 3th century AD",
-    "occupations": [],
+    "occupations": [
+      "music theorist",
+      "musician",
+      "philosopher"
+    ],
     "source": "floruit",
     "start": 200,
     "end": 300,
@@ -2494,8 +3375,10 @@
   {
     "id": "Q436634",
     "content": "Cassius Longinus",
-    "title": "Cassius Longinus\nBirth: 213 - Death: 273\n",
-    "occupations": [],
+    "title": "Cassius Longinus | 213 - 273 | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 213,
     "end": 273,
     "type": "range",
@@ -2505,8 +3388,12 @@
   {
     "id": "Q1496242",
     "content": "Callinicus",
-    "title": "Callinicus\nBirth: 3th century AD - Death: ?\n",
-    "occupations": [],
+    "title": "Callinicus | 3th century AD - ? | historian, orator, sophist",
+    "occupations": [
+      "historian",
+      "orator",
+      "sophist"
+    ],
     "start": 200,
     "type": "range",
     "source": "birth-death",
@@ -2516,8 +3403,11 @@
   {
     "id": "Q263892",
     "content": "Libanius",
-    "title": "Libanius\nBirth: c. 315 - Death: 393\n",
-    "occupations": [],
+    "title": "Libanius | c. 315 - 393 | rhetorician, writer",
+    "occupations": [
+      "rhetorician",
+      "writer"
+    ],
     "start": 315,
     "end": 393,
     "type": "range",
@@ -2527,8 +3417,10 @@
   {
     "id": "Q923839",
     "content": "Menander Rhetor",
-    "title": "Menander Rhetor\nBirth: 4th century AD - Death: 4th century AD\n",
-    "occupations": [],
+    "title": "Menander Rhetor | 4th century AD - 4th century AD | rhetorician",
+    "occupations": [
+      "rhetorician"
+    ],
     "start": 300,
     "end": 300,
     "type": "range",
@@ -2539,7 +3431,9 @@
     "id": "Q11951801",
     "content": "Tiberius Rhetor",
     "title": "Floruit: 3th century AD",
-    "occupations": [],
+    "occupations": [
+      "rhetorician"
+    ],
     "source": "floruit",
     "start": 200,
     "end": 300,
@@ -2549,8 +3443,10 @@
   {
     "id": "Q248733",
     "content": "Eusebius of Myndus",
-    "title": "Eusebius of Myndus\nBirth: 300 - Death: ?\n",
-    "occupations": [],
+    "title": "Eusebius of Myndus | 300 - ? | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 300,
     "type": "point",
     "source": "birth-death",
@@ -2559,8 +3455,11 @@
   {
     "id": "Q728059",
     "content": "Musaeus of Athens",
-    "title": "Musaeus of Athens\nBirth: 5th century BC - Death: ?\n",
-    "occupations": [],
+    "title": "Musaeus of Athens | 5th century BC - ? | musician, poet",
+    "occupations": [
+      "musician",
+      "poet"
+    ],
     "start": -500,
     "type": "range",
     "source": "birth-death",
@@ -2570,8 +3469,11 @@
   {
     "id": "Q179284",
     "content": "Anna Komnene",
-    "title": "Anna Komnene\nBirth: 1083 - Death: c. 1153\n",
-    "occupations": [],
+    "title": "Anna Komnene | 1083 - c. 1153 | historian, writer",
+    "occupations": [
+      "historian",
+      "writer"
+    ],
     "start": 1083,
     "end": 1153,
     "type": "range",
@@ -2581,8 +3483,12 @@
   {
     "id": "Q365678",
     "content": "Evagrius Scholasticus",
-    "title": "Evagrius Scholasticus\nBirth: 536 - Death: 594\n",
-    "occupations": [],
+    "title": "Evagrius Scholasticus | 536 - 594 | church historian, historian, lawyer",
+    "occupations": [
+      "church historian",
+      "historian",
+      "lawyer"
+    ],
     "start": 536,
     "end": 594,
     "type": "range",
@@ -2592,8 +3498,12 @@
   {
     "id": "Q1499216",
     "content": "Gelasius of Cyzicus",
-    "title": "Gelasius of Cyzicus\nBirth: 5th century AD - Death: 475\n",
-    "occupations": [],
+    "title": "Gelasius of Cyzicus | 5th century AD - 475 | church historian, historian, writer",
+    "occupations": [
+      "church historian",
+      "historian",
+      "writer"
+    ],
     "start": 400,
     "end": 475,
     "type": "range",
@@ -2604,7 +3514,9 @@
     "id": "Q3558842",
     "content": "Mark the Deacon",
     "title": "Floruit: 5th century AD",
-    "occupations": [],
+    "occupations": [
+      "deacon"
+    ],
     "source": "floruit",
     "start": 400,
     "end": 500,
@@ -2614,8 +3526,15 @@
   {
     "id": "Q51884",
     "content": "John of Damascus",
-    "title": "John of Damascus\nBirth: c. 675 - Death: 749\n",
-    "occupations": [],
+    "title": "John of Damascus | c. 675 - 749 | astronomer, cleric, composer, philosopher, theologian, writer",
+    "occupations": [
+      "astronomer",
+      "cleric",
+      "composer",
+      "philosopher",
+      "theologian",
+      "writer"
+    ],
     "start": 675,
     "end": 749,
     "type": "range",
@@ -2625,8 +3544,12 @@
   {
     "id": "Q518300",
     "content": "Methodius of Olympus",
-    "title": "Methodius of Olympus\nBirth: 260 - Death: 311\n",
-    "occupations": [],
+    "title": "Methodius of Olympus | 260 - 311 | Catholic bishop, priest, writer",
+    "occupations": [
+      "Catholic bishop",
+      "priest",
+      "writer"
+    ],
     "start": 260,
     "end": 311,
     "type": "range",
@@ -2636,8 +3559,10 @@
   {
     "id": "Q1314034",
     "content": "Severus",
-    "title": "Severus\nBirth: 100 - Death: ?\n",
-    "occupations": [],
+    "title": "Severus | 100 - ? | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 100,
     "type": "point",
     "source": "birth-death",
@@ -2647,7 +3572,9 @@
     "id": "Q127250656",
     "content": "Michael Andreopoulos",
     "title": "Floruit: 11th century AD",
-    "occupations": [],
+    "occupations": [
+      "translator"
+    ],
     "source": "floruit",
     "start": 1000,
     "end": 1100,
@@ -2657,8 +3584,11 @@
   {
     "id": "Q1247278",
     "content": "Theophylact of Ohrid",
-    "title": "Theophylact of Ohrid\nBirth: 1055 - Death: 1107\n",
-    "occupations": [],
+    "title": "Theophylact of Ohrid | 1055 - 1107 | Eastern Orthodox priest, writer",
+    "occupations": [
+      "Eastern Orthodox priest",
+      "writer"
+    ],
     "start": 1055,
     "end": 1107,
     "type": "range",
@@ -2668,8 +3598,14 @@
   {
     "id": "Q32052",
     "content": "John Zonaras",
-    "title": "John Zonaras\nBirth: c. 1074 - Death: c. 1145\n",
-    "occupations": [],
+    "title": "John Zonaras | c. 1074 - c. 1145 | canon law jurist, historian, monk, theologian, writer",
+    "occupations": [
+      "canon law jurist",
+      "historian",
+      "monk",
+      "theologian",
+      "writer"
+    ],
     "start": 1074,
     "end": 1145,
     "type": "range",
@@ -2679,8 +3615,10 @@
   {
     "id": "Q1165497",
     "content": "Marcianus of Heraclea",
-    "title": "Marcianus of Heraclea\nBirth: 4th century AD - Death: 5th century AD\n",
-    "occupations": [],
+    "title": "Marcianus of Heraclea | 4th century AD - 5th century AD | geographer",
+    "occupations": [
+      "geographer"
+    ],
     "start": 300,
     "end": 400,
     "type": "range",
@@ -2690,8 +3628,12 @@
   {
     "id": "Q351518",
     "content": "Simplicius of Cilicia",
-    "title": "Simplicius of Cilicia\nBirth: c. 480 - Death: c. 560\n",
-    "occupations": [],
+    "title": "Simplicius of Cilicia | c. 480 - c. 560 | astronomer, mathematician, philosopher",
+    "occupations": [
+      "astronomer",
+      "mathematician",
+      "philosopher"
+    ],
     "start": 480,
     "end": 560,
     "type": "range",
@@ -2701,8 +3643,16 @@
   {
     "id": "Q317632",
     "content": "John Philoponus",
-    "title": "John Philoponus\nBirth: c. 490 - Death: c. 570\n",
-    "occupations": [],
+    "title": "John Philoponus | c. 490 - c. 570 | astronomer, grammarian, mathematician, philosopher, physicist, theologian, writer",
+    "occupations": [
+      "astronomer",
+      "grammarian",
+      "mathematician",
+      "philosopher",
+      "physicist",
+      "theologian",
+      "writer"
+    ],
     "start": 490,
     "end": 570,
     "type": "range",
@@ -2712,8 +3662,12 @@
   {
     "id": "Q123147",
     "content": "Ammonius Hermiae",
-    "title": "Ammonius Hermiae\nBirth: 435 - Death: 523\n",
-    "occupations": [],
+    "title": "Ammonius Hermiae | 435 - 523 | astronomer, philosopher, writer",
+    "occupations": [
+      "astronomer",
+      "philosopher",
+      "writer"
+    ],
     "start": 435,
     "end": 523,
     "type": "range",
@@ -2723,8 +3677,10 @@
   {
     "id": "Q1373037",
     "content": "Syrianus",
-    "title": "Syrianus\nBirth: 5th century AD - Death: 437\n",
-    "occupations": [],
+    "title": "Syrianus | 5th century AD - 437 | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 400,
     "end": 437,
     "type": "range",
@@ -2734,8 +3690,11 @@
   {
     "id": "Q732098",
     "content": "Asclepius of Tralles",
-    "title": "Asclepius of Tralles\nBirth: 5th century AD - Death: 6th century AD\n",
-    "occupations": [],
+    "title": "Asclepius of Tralles | 5th century AD - 6th century AD | mathematician, philosopher",
+    "occupations": [
+      "mathematician",
+      "philosopher"
+    ],
     "start": 400,
     "end": 500,
     "type": "range",
@@ -2745,8 +3704,12 @@
   {
     "id": "Q974775",
     "content": "Olympiodorus the Younger",
-    "title": "Olympiodorus the Younger\nBirth: 495 - Death: 570\n",
-    "occupations": [],
+    "title": "Olympiodorus the Younger | 495 - 570 | astrologer, philosopher, writer",
+    "occupations": [
+      "astrologer",
+      "philosopher",
+      "writer"
+    ],
     "start": 495,
     "end": 570,
     "type": "range",
@@ -2756,8 +3719,10 @@
   {
     "id": "Q974885",
     "content": "Elias",
-    "title": "Elias\nBirth: 6th century AD - Death: 6th century AD\n",
-    "occupations": [],
+    "title": "Elias | 6th century AD - 6th century AD | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 500,
     "end": 500,
     "type": "range",
@@ -2767,8 +3732,10 @@
   {
     "id": "Q1173486",
     "content": "David Anhaght",
-    "title": "David Anhaght\nBirth: 6th century AD - Death: 6th century AD\n",
-    "occupations": [],
+    "title": "David Anhaght | 6th century AD - 6th century AD | philosopher",
+    "occupations": [
+      "philosopher"
+    ],
     "start": 500,
     "end": 500,
     "type": "range",
@@ -2778,8 +3745,14 @@
   {
     "id": "Q233136",
     "content": "Agathias",
-    "title": "Agathias\nBirth: 536 - Death: 582\n",
-    "occupations": [],
+    "title": "Agathias | 536 - 582 | epigrammatist, historian, lawyer, poet, writer",
+    "occupations": [
+      "epigrammatist",
+      "historian",
+      "lawyer",
+      "poet",
+      "writer"
+    ],
     "start": 536,
     "end": 582,
     "type": "range",
@@ -2789,8 +3762,12 @@
   {
     "id": "Q186153",
     "content": "Procopius",
-    "title": "Procopius\nBirth: 5th century AD - Death: 562\n",
-    "occupations": [],
+    "title": "Procopius | 5th century AD - 562 | historian, lawyer, writer",
+    "occupations": [
+      "historian",
+      "lawyer",
+      "writer"
+    ],
     "start": 400,
     "end": 562,
     "type": "range",
@@ -2800,8 +3777,11 @@
   {
     "id": "Q7563126",
     "content": "Sophonias",
-    "title": "Sophonias\nBirth: 13th century AD - Death: 14th century AD\n",
-    "occupations": [],
+    "title": "Sophonias | 13th century AD - 14th century AD | monk, philosopher",
+    "occupations": [
+      "monk",
+      "philosopher"
+    ],
     "start": 1200,
     "end": 1300,
     "type": "range",
@@ -2811,8 +3791,12 @@
   {
     "id": "Q3561265",
     "content": "Eustratius of Nicaea",
-    "title": "Eustratius of Nicaea\nBirth: c. 1050 - Death: 1120s\n",
-    "occupations": [],
+    "title": "Eustratius of Nicaea | c. 1050 - 1120s | Eastern Orthodox priest, philosopher, theologian",
+    "occupations": [
+      "Eastern Orthodox priest",
+      "philosopher",
+      "theologian"
+    ],
     "start": 1050,
     "end": 1120,
     "type": "range",
@@ -2822,8 +3806,11 @@
   {
     "id": "Q6835560",
     "content": "Michael of Ephesus",
-    "title": "Michael of Ephesus\nBirth: 1050 - Death: 1129\n",
-    "occupations": [],
+    "title": "Michael of Ephesus | 1050 - 1129 | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": 1050,
     "end": 1129,
     "type": "range",
@@ -2833,8 +3820,13 @@
   {
     "id": "Q271809",
     "content": "Proclus",
-    "title": "Proclus\nBirth: 412 - Death: 485\n",
-    "occupations": [],
+    "title": "Proclus | 412 - 485 | mathematician, mythographer, philosopher, writer",
+    "occupations": [
+      "mathematician",
+      "mythographer",
+      "philosopher",
+      "writer"
+    ],
     "start": 412,
     "end": 485,
     "type": "range",
@@ -2844,8 +3836,11 @@
   {
     "id": "Q510719",
     "content": "Eutocius of Ascalon",
-    "title": "Eutocius of Ascalon\nBirth: c. 480 - Death: 6th century AD\n",
-    "occupations": [],
+    "title": "Eutocius of Ascalon | c. 480 - 6th century AD | mathematician, philosopher",
+    "occupations": [
+      "mathematician",
+      "philosopher"
+    ],
     "start": 480,
     "end": 500,
     "type": "range",
@@ -2855,8 +3850,11 @@
   {
     "id": "Q581833",
     "content": "Marinus of Neapolis",
-    "title": "Marinus of Neapolis\nBirth: c. 440 - Death: c. 500\n",
-    "occupations": [],
+    "title": "Marinus of Neapolis | c. 440 - c. 500 | astronomer, philosopher",
+    "occupations": [
+      "astronomer",
+      "philosopher"
+    ],
     "start": 440,
     "end": 500,
     "type": "range",
@@ -2866,8 +3864,10 @@
   {
     "id": "Q1779484",
     "content": "Coluthus",
-    "title": "Coluthus\nBirth: 5th century AD - Death: 6th century AD\n",
-    "occupations": [],
+    "title": "Coluthus | 5th century AD - 6th century AD | poet",
+    "occupations": [
+      "poet"
+    ],
     "start": 400,
     "end": 500,
     "type": "range",
@@ -2877,8 +3877,11 @@
   {
     "id": "Q226858",
     "content": "Zosimus",
-    "title": "Zosimus\nBirth: c. 460 - Death: c. 520\n",
-    "occupations": [],
+    "title": "Zosimus | c. 460 - c. 520 | historian, writer",
+    "occupations": [
+      "historian",
+      "writer"
+    ],
     "start": 460,
     "end": 520,
     "type": "range",
@@ -2888,8 +3891,13 @@
   {
     "id": "Q317029",
     "content": "Theodoret",
-    "title": "Theodoret\nBirth: c. 393 - Death: 457\n",
-    "occupations": [],
+    "title": "Theodoret | c. 393 - 457 | Catholic priest, church historian, historian, writer",
+    "occupations": [
+      "Catholic priest",
+      "church historian",
+      "historian",
+      "writer"
+    ],
     "start": 393,
     "end": 457,
     "type": "range",
@@ -2899,8 +3907,11 @@
   {
     "id": "Q44079",
     "content": "Cyril of Alexandria",
-    "title": "Cyril of Alexandria\nBirth: 376 - Death: 444\n",
-    "occupations": [],
+    "title": "Cyril of Alexandria | 376 - 444 | Pope of the Coptic Orthodox Church, cleric",
+    "occupations": [
+      "Pope of the Coptic Orthodox Church",
+      "cleric"
+    ],
     "start": 376,
     "end": 444,
     "type": "range",
@@ -2910,8 +3921,11 @@
   {
     "id": "Q713482",
     "content": "Callistratus",
-    "title": "Callistratus\nBirth: 10th century AD - Death: 10th century AD\n",
-    "occupations": [],
+    "title": "Callistratus | 10th century AD - 10th century AD | philosopher, writer",
+    "occupations": [
+      "philosopher",
+      "writer"
+    ],
     "start": 900,
     "end": 900,
     "type": "range",
@@ -2921,8 +3935,13 @@
   {
     "id": "Q531732",
     "content": "Gregory II of Constantinople",
-    "title": "Gregory II of Constantinople\nBirth: 1241 - Death: 1290\n",
-    "occupations": [],
+    "title": "Gregory II of Constantinople | 1241 - 1290 | Eastern Orthodox priest, autobiographer, theologian, writer",
+    "occupations": [
+      "Eastern Orthodox priest",
+      "autobiographer",
+      "theologian",
+      "writer"
+    ],
     "start": 1241,
     "end": 1290,
     "type": "range",
@@ -2932,8 +3951,14 @@
   {
     "id": "Q330289",
     "content": "Stephen of Alexandria",
-    "title": "Stephen of Alexandria\nBirth: 6th century AD - Death: 622\n",
-    "occupations": [],
+    "title": "Stephen of Alexandria | 6th century AD - 622 | alchemist, astronomer, mathematician, philosopher, physician",
+    "occupations": [
+      "alchemist",
+      "astronomer",
+      "mathematician",
+      "philosopher",
+      "physician"
+    ],
     "start": 500,
     "end": 622,
     "type": "range",
@@ -2943,8 +3968,12 @@
   {
     "id": "Q47160",
     "content": "Plautus",
-    "title": "Plautus\nBirth: -249 - Death: -183\n",
-    "occupations": [],
+    "title": "Plautus | -249 - -183 | comedy writer, playwright, writer",
+    "occupations": [
+      "comedy writer",
+      "playwright",
+      "writer"
+    ],
     "start": -249,
     "end": -183,
     "type": "range",
@@ -2954,8 +3983,13 @@
   {
     "id": "Q172048",
     "content": "Terence",
-    "title": "Terence\nBirth: -184 - Death: -158\n",
-    "occupations": [],
+    "title": "Terence | -184 - -158 | comedy writer, playwright, poet, writer",
+    "occupations": [
+      "comedy writer",
+      "playwright",
+      "poet",
+      "writer"
+    ],
     "start": -184,
     "end": -158,
     "type": "range",
@@ -2965,8 +3999,19 @@
   {
     "id": "Q1048",
     "content": "Julius Caesar",
-    "title": "Julius Caesar\nBirth: -101 - Death: -43\n",
-    "occupations": [],
+    "title": "Julius Caesar | -101 - -43 | Ancient Roman priest, historian, memoirist, military leader, military personnel, orator, poet, politician, ruler, writer",
+    "occupations": [
+      "Ancient Roman priest",
+      "historian",
+      "memoirist",
+      "military leader",
+      "military personnel",
+      "orator",
+      "poet",
+      "politician",
+      "ruler",
+      "writer"
+    ],
     "start": -101,
     "end": -43,
     "type": "range",
@@ -2976,8 +4021,11 @@
   {
     "id": "Q163079",
     "content": "Catullus",
-    "title": "Catullus\nBirth: c. -83 - Death: c. -53\n",
-    "occupations": [],
+    "title": "Catullus | c. -83 - c. -53 | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": -83,
     "end": -53,
     "type": "range",
@@ -2987,8 +4035,19 @@
   {
     "id": "Q1541",
     "content": "Cicero",
-    "title": "Cicero\nBirth: -106 - Death: -42\n",
-    "occupations": [],
+    "title": "Cicero | -106 - -42 | Ancient Roman priest, jurist, lawyer, military personnel, orator, philosopher, poet, political theorist, politician, writer",
+    "occupations": [
+      "Ancient Roman priest",
+      "jurist",
+      "lawyer",
+      "military personnel",
+      "orator",
+      "philosopher",
+      "poet",
+      "political theorist",
+      "politician",
+      "writer"
+    ],
     "start": -106,
     "end": -42,
     "type": "range",
@@ -2998,8 +4057,14 @@
   {
     "id": "Q316054",
     "content": "Quintus Tullius Cicero",
-    "title": "Quintus Tullius Cicero\nBirth: c. -101 - Death: -42\n",
-    "occupations": [],
+    "title": "Quintus Tullius Cicero | c. -101 - -42 | military leader, official, poet, politician, writer",
+    "occupations": [
+      "military leader",
+      "official",
+      "poet",
+      "politician",
+      "writer"
+    ],
     "start": -101,
     "end": -42,
     "type": "range",
@@ -3009,8 +4074,12 @@
   {
     "id": "Q47154",
     "content": "Lucretius",
-    "title": "Lucretius\nBirth: -93 - Death: -54\n",
-    "occupations": [],
+    "title": "Lucretius | -93 - -54 | philosopher, poet, writer",
+    "occupations": [
+      "philosopher",
+      "poet",
+      "writer"
+    ],
     "start": -93,
     "end": -54,
     "type": "range",
@@ -3020,8 +4089,13 @@
   {
     "id": "Q109594",
     "content": "Cornelius Nepos",
-    "title": "Cornelius Nepos\nBirth: c. -99 - Death: c. -24\n",
-    "occupations": [],
+    "title": "Cornelius Nepos | c. -99 - c. -24 | biographer, historian, poet, writer",
+    "occupations": [
+      "biographer",
+      "historian",
+      "poet",
+      "writer"
+    ],
     "start": -99,
     "end": -24,
     "type": "range",
@@ -3031,8 +4105,12 @@
   {
     "id": "Q8827",
     "content": "Propertius",
-    "title": "Propertius\nBirth: c. -46 - Death: -15\n",
-    "occupations": [],
+    "title": "Propertius | c. -46 - -15 | elegist, poet, writer",
+    "occupations": [
+      "elegist",
+      "poet",
+      "writer"
+    ],
     "start": -46,
     "end": -15,
     "type": "range",
@@ -3042,8 +4120,14 @@
   {
     "id": "Q7170",
     "content": "Sallust",
-    "title": "Sallust\nBirth: -85 - Death: -34\n",
-    "occupations": [],
+    "title": "Sallust | -85 - -34 | historian, military personnel, poet, politician, writer",
+    "occupations": [
+      "historian",
+      "military personnel",
+      "poet",
+      "politician",
+      "writer"
+    ],
     "start": -85,
     "end": -34,
     "type": "range",
@@ -3053,8 +4137,11 @@
   {
     "id": "Q109598",
     "content": "Tibullus",
-    "title": "Tibullus\nBirth: c. -54 - Death: -18\n",
-    "occupations": [],
+    "title": "Tibullus | c. -54 - -18 | elegist, poet",
+    "occupations": [
+      "elegist",
+      "poet"
+    ],
     "start": -54,
     "end": -18,
     "type": "range",
@@ -3064,8 +4151,11 @@
   {
     "id": "Q1398",
     "content": "Virgil",
-    "title": "Virgil\nBirth: -69 - Death: -18\n",
-    "occupations": [],
+    "title": "Virgil | -69 - -18 | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": -69,
     "end": -18,
     "type": "range",
@@ -3075,8 +4165,11 @@
   {
     "id": "Q312420",
     "content": "Aulus Cornelius Celsus",
-    "title": "Aulus Cornelius Celsus\nBirth: -24 - Death: c. 50\n",
-    "occupations": [],
+    "title": "Aulus Cornelius Celsus | -24 - c. 50 | physician, writer",
+    "occupations": [
+      "physician",
+      "writer"
+    ],
     "start": -24,
     "end": 50,
     "type": "range",
@@ -3086,8 +4179,11 @@
   {
     "id": "Q318317",
     "content": "Columella",
-    "title": "Columella\nBirth: 4 - Death: 70\n",
-    "occupations": [],
+    "title": "Columella | 4 - 70 | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": 4,
     "end": 70,
     "type": "range",
@@ -3097,8 +4193,12 @@
   {
     "id": "Q5959",
     "content": "Quintus Curtius Rufus",
-    "title": "Quintus Curtius Rufus\nBirth: 1th century AD - Death: 1th century AD\n",
-    "occupations": [],
+    "title": "Quintus Curtius Rufus | 1th century AD - 1th century AD | historian, politician, writer",
+    "occupations": [
+      "historian",
+      "politician",
+      "writer"
+    ],
     "start": 0,
     "end": 0,
     "type": "range",
@@ -3108,8 +4208,12 @@
   {
     "id": "Q6197",
     "content": "Horace",
-    "title": "Horace\nBirth: -64 - Death: -7\n",
-    "occupations": [],
+    "title": "Horace | -64 - -7 | philosopher, poet, writer",
+    "occupations": [
+      "philosopher",
+      "poet",
+      "writer"
+    ],
     "start": -64,
     "end": -7,
     "type": "range",
@@ -3119,8 +4223,12 @@
   {
     "id": "Q2039",
     "content": "Titus Livius",
-    "title": "Titus Livius\nBirth: -58 - Death: 17\n",
-    "occupations": [],
+    "title": "Titus Livius | -58 - 17 | historian, poet, writer",
+    "occupations": [
+      "historian",
+      "poet",
+      "writer"
+    ],
     "start": -58,
     "end": 17,
     "type": "range",
@@ -3130,8 +4238,13 @@
   {
     "id": "Q188646",
     "content": "Lucan",
-    "title": "Lucan\nBirth: 39 - Death: 65\n",
-    "occupations": [],
+    "title": "Lucan | 39 - 65 | courtier, historian, poet, writer",
+    "occupations": [
+      "courtier",
+      "historian",
+      "poet",
+      "writer"
+    ],
     "start": 39,
     "end": 65,
     "type": "range",
@@ -3141,8 +4254,13 @@
   {
     "id": "Q7198",
     "content": "Ovid",
-    "title": "Ovid\nBirth: -42 - Death: 17\n",
-    "occupations": [],
+    "title": "Ovid | -42 - 17 | elegist, mythographer, poet, writer",
+    "occupations": [
+      "elegist",
+      "mythographer",
+      "poet",
+      "writer"
+    ],
     "start": -42,
     "end": 17,
     "type": "range",
@@ -3152,8 +4270,12 @@
   {
     "id": "Q332785",
     "content": "Persius",
-    "title": "Persius\nBirth: 34 - Death: 62\n",
-    "occupations": [],
+    "title": "Persius | 34 - 62 | philosopher, poet, writer",
+    "occupations": [
+      "philosopher",
+      "poet",
+      "writer"
+    ],
     "start": 34,
     "end": 62,
     "type": "range",
@@ -3163,8 +4285,14 @@
   {
     "id": "Q47180",
     "content": "Petronius",
-    "title": "Petronius\nBirth: c. 27 - Death: 66\n",
-    "occupations": [],
+    "title": "Petronius | c. 27 - 66 | military personnel, philosopher, poet, politician, writer",
+    "occupations": [
+      "military personnel",
+      "philosopher",
+      "poet",
+      "politician",
+      "writer"
+    ],
     "start": 27,
     "end": 66,
     "type": "range",
@@ -3174,8 +4302,11 @@
   {
     "id": "Q52166",
     "content": "Phaedrus",
-    "title": "Phaedrus\nBirth: -20s - Death: 50\n",
-    "occupations": [],
+    "title": "Phaedrus | -20s - 50 | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": -20,
     "end": 50,
     "type": "range",
@@ -3185,8 +4316,18 @@
   {
     "id": "Q82778",
     "content": "Pliny the Elder",
-    "title": "Pliny the Elder\nBirth: c. 24 - Death: 79\n",
-    "occupations": [],
+    "title": "Pliny the Elder | c. 24 - 79 | art historian, civil servant, historian, military commander, military personnel, naturalist, philosopher, poet, writer",
+    "occupations": [
+      "art historian",
+      "civil servant",
+      "historian",
+      "military commander",
+      "military personnel",
+      "naturalist",
+      "philosopher",
+      "poet",
+      "writer"
+    ],
     "start": 24,
     "end": 79,
     "type": "range",
@@ -3196,8 +4337,15 @@
   {
     "id": "Q193769",
     "content": "Quintilian",
-    "title": "Quintilian\nBirth: c. 35 - Death: c. 96\n",
-    "occupations": [],
+    "title": "Quintilian | c. 35 - c. 96 | lawyer, pedagogue, poet, rhetorician, teacher, writer",
+    "occupations": [
+      "lawyer",
+      "pedagogue",
+      "poet",
+      "rhetorician",
+      "teacher",
+      "writer"
+    ],
     "start": 35,
     "end": 96,
     "type": "range",
@@ -3207,8 +4355,14 @@
   {
     "id": "Q273671",
     "content": "Seneca the Elder",
-    "title": "Seneca the Elder\nBirth: c. -53 - Death: c. 39\n",
-    "occupations": [],
+    "title": "Seneca the Elder | c. -53 - c. 39 | historian, philosopher, poet, rhetorician, writer",
+    "occupations": [
+      "historian",
+      "philosopher",
+      "poet",
+      "rhetorician",
+      "writer"
+    ],
     "start": -53,
     "end": 39,
     "type": "range",
@@ -3218,8 +4372,16 @@
   {
     "id": "Q2054",
     "content": "Seneca",
-    "title": "Seneca\nBirth: -4s - Death: 65\n",
-    "occupations": [],
+    "title": "Seneca | -4s - 65 | aphorist, philosopher, playwright, poet, politician, statesperson, writer",
+    "occupations": [
+      "aphorist",
+      "philosopher",
+      "playwright",
+      "poet",
+      "politician",
+      "statesperson",
+      "writer"
+    ],
     "start": -4,
     "end": 65,
     "type": "range",
@@ -3229,8 +4391,11 @@
   {
     "id": "Q243203",
     "content": "Publius Papinius Statius",
-    "title": "Publius Papinius Statius\nBirth: c. 40 - Death: 96\n",
-    "occupations": [],
+    "title": "Publius Papinius Statius | c. 40 - 96 | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": 40,
     "end": 96,
     "type": "range",
@@ -3240,8 +4405,11 @@
   {
     "id": "Q316090",
     "content": "Gaius Valerius Flaccus",
-    "title": "Gaius Valerius Flaccus\nBirth: c. 45 - Death: c. 95\n",
-    "occupations": [],
+    "title": "Gaius Valerius Flaccus | c. 45 - c. 95 | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": 45,
     "end": 95,
     "type": "range",
@@ -3251,8 +4419,12 @@
   {
     "id": "Q379991",
     "content": "Valerius Maximus",
-    "title": "Valerius Maximus\nBirth: 1th century BC - Death: 1th century AD\n",
-    "occupations": [],
+    "title": "Valerius Maximus | 1th century BC - 1th century AD | historian, poet, writer",
+    "occupations": [
+      "historian",
+      "poet",
+      "writer"
+    ],
     "start": -100,
     "end": 0,
     "type": "range",
@@ -3262,8 +4434,11 @@
   {
     "id": "Q47163",
     "content": "Vitruvius",
-    "title": "Vitruvius\nBirth: c. -79 - Death: c. -14\n",
-    "occupations": [],
+    "title": "Vitruvius | c. -79 - c. -14 | architect, writer",
+    "occupations": [
+      "architect",
+      "writer"
+    ],
     "start": -79,
     "end": -14,
     "type": "range",
@@ -3273,8 +4448,18 @@
   {
     "id": "Q170512",
     "content": "Apuleius",
-    "title": "Apuleius\nBirth: 2th century AD - Death: c. 170\n",
-    "occupations": [],
+    "title": "Apuleius | 2th century AD - c. 170 | lawyer, novelist, orator, philosopher, physician, poet, prose writer, rhetorician, writer",
+    "occupations": [
+      "lawyer",
+      "novelist",
+      "orator",
+      "philosopher",
+      "physician",
+      "poet",
+      "prose writer",
+      "rhetorician",
+      "writer"
+    ],
     "start": 100,
     "end": 170,
     "type": "range",
@@ -3284,8 +4469,13 @@
   {
     "id": "Q316483",
     "content": "Lucius Annaeus Florus",
-    "title": "Lucius Annaeus Florus\nBirth: c. 74 - Death: c. 140\n",
-    "occupations": [],
+    "title": "Lucius Annaeus Florus | c. 74 - c. 140 | historian, orator, poet, rhetorician",
+    "occupations": [
+      "historian",
+      "orator",
+      "poet",
+      "rhetorician"
+    ],
     "start": 74,
     "end": 140,
     "type": "range",
@@ -3295,8 +4485,15 @@
   {
     "id": "Q294800",
     "content": "Aulus Gellius",
-    "title": "Aulus Gellius\nBirth: c. 130 - Death: c. 170\n",
-    "occupations": [],
+    "title": "Aulus Gellius | c. 130 - c. 170 | grammarian, magistrate, military officer, philosopher, poet, writer",
+    "occupations": [
+      "grammarian",
+      "magistrate",
+      "military officer",
+      "philosopher",
+      "poet",
+      "writer"
+    ],
     "start": 130,
     "end": 170,
     "type": "range",
@@ -3306,8 +4503,13 @@
   {
     "id": "Q193800",
     "content": "Juvenal",
-    "title": "Juvenal\nBirth: c. 55 - Death: 2th century AD\n",
-    "occupations": [],
+    "title": "Juvenal | c. 55 - 2th century AD | historian, poet, satirist, writer",
+    "occupations": [
+      "historian",
+      "poet",
+      "satirist",
+      "writer"
+    ],
     "start": 55,
     "end": 100,
     "type": "range",
@@ -3317,8 +4519,11 @@
   {
     "id": "Q2098",
     "content": "Martial",
-    "title": "Martial\nBirth: ? - Death: 104\n",
-    "occupations": [],
+    "title": "Martial | ? - 104 | poet, writer",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
     "start": 104,
     "end": 104,
     "type": "point",
@@ -3328,8 +4533,18 @@
   {
     "id": "Q168707",
     "content": "Pliny the Younger",
-    "title": "Pliny the Younger\nBirth: c. 61 - Death: c. 113\n",
-    "occupations": [],
+    "title": "Pliny the Younger | c. 61 - c. 113 | civil servant, historian, jurist, lawyer, military personnel, official, poet, politician, writer",
+    "occupations": [
+      "civil servant",
+      "historian",
+      "jurist",
+      "lawyer",
+      "military personnel",
+      "official",
+      "poet",
+      "politician",
+      "writer"
+    ],
     "start": 61,
     "end": 113,
     "type": "range",
@@ -3339,8 +4554,15 @@
   {
     "id": "Q316123",
     "content": "Silius Italicus",
-    "title": "Silius Italicus\nBirth: 26 - Death: 101\n",
-    "occupations": [],
+    "title": "Silius Italicus | 26 - 101 | historian, lawyer, military personnel, poet, politician, writer",
+    "occupations": [
+      "historian",
+      "lawyer",
+      "military personnel",
+      "poet",
+      "politician",
+      "writer"
+    ],
     "start": 26,
     "end": 101,
     "type": "range",
@@ -3350,8 +4572,15 @@
   {
     "id": "Q10133",
     "content": "Suetonius",
-    "title": "Suetonius\nBirth: c. 69 - Death: c. 126\n",
-    "occupations": [],
+    "title": "Suetonius | c. 69 - c. 126 | antiquarian, biographer, historian, poet, secretary, writer",
+    "occupations": [
+      "antiquarian",
+      "biographer",
+      "historian",
+      "poet",
+      "secretary",
+      "writer"
+    ],
     "start": 69,
     "end": 126,
     "type": "range",
@@ -3361,8 +4590,17 @@
   {
     "id": "Q2161",
     "content": "Tacitus",
-    "title": "Tacitus\nBirth: c. 56 - Death: c. 120\n",
-    "occupations": [],
+    "title": "Tacitus | c. 56 - c. 120 | annalist, biographer, historian, jurist, military personnel, poet, politician, writer",
+    "occupations": [
+      "annalist",
+      "biographer",
+      "historian",
+      "jurist",
+      "military personnel",
+      "poet",
+      "politician",
+      "writer"
+    ],
     "start": 56,
     "end": 120,
     "type": "range",

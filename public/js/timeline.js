@@ -69,9 +69,9 @@ async function initTimeline() {
                     // H: 0-360 (Hue)
                     const h = Math.abs(hash % 360);
                     // S: 60-90% (Saturation - keep it vibrant enough)
-                    const s = 70 + (Math.abs(hash % 20));
-                    // L: 80-95% (Lightness - keep it very light for black text)
-                    const l = 80 + (Math.abs(hash % 15));
+                    const s = 65 + (Math.abs(hash % 25));
+                    // L: 75-85% (Lightness - slightly darker than before for visibility)
+                    const l = 75 + (Math.abs(hash % 10));
 
                     return `hsl(${h}, ${s}%, ${l}%)`;
                 };
@@ -80,6 +80,7 @@ async function initTimeline() {
                     style = `background-color: ${getColor(occs[0])}; border-color: #999;`;
                 } else {
                     // Stripes
+                    // Use safer syntax: color start, color end
                     const usedColors = occs.map(getColor);
                     let grad = "repeating-linear-gradient(45deg, ";
                     const width = 10;
@@ -88,7 +89,8 @@ async function initTimeline() {
                     usedColors.forEach((c, i) => {
                         let start = i * width;
                         let end = (i + 1) * width;
-                        steps.push(`${c} ${start}px ${end}px`);
+                        // color start, color end (solid stripe)
+                        steps.push(`${c} ${start}px, ${c} ${end}px`);
                     });
 
                     grad += steps.join(", ");
