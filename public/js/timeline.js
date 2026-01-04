@@ -20,6 +20,26 @@ function createDate(year) {
     return d;
 }
 
+// Custom date formatter for axis
+function formatAxis(date, scale, step) {
+    let d = date;
+    // Vis.js might pass a Moment object
+    if (d && typeof d.toDate === 'function') {
+        d = d.toDate();
+    } else if (typeof d === 'number') {
+        d = new Date(d);
+    }
+
+    if (!d || typeof d.getUTCFullYear !== 'function') {
+        return String(date);
+    }
+
+    const year = d.getUTCFullYear();
+    if (year < 0) {
+        return Math.abs(year) + " BC";
+    }
+    return year + " AD";
+}
 
 async function initTimeline() {
     try {
@@ -30,33 +50,21 @@ async function initTimeline() {
             const start = createDate(item.start);
             const end = createDate(item.end);
 
-            // Vis.js expects start/end. 
-            // If type is point, only start is needed.
-            // If type is range, both needed.
-
             // Occupation Styling Logic
             let style = "";
             const primary = item.primary_occupation;
 
             if (primary) {
-                // Dynamic Color Generator
-                // Hashes a string to a consistent pastel HSL color.
                 const getColor = (str) => {
                     let hash = 0;
                     for (let i = 0; i < str.length; i++) {
                         hash = str.charCodeAt(i) + ((hash << 5) - hash);
                     }
-                    // H: 0-360 (Hue)
                     const h = Math.abs(hash % 360);
-                    // S: 60-90% (Saturation - keep it vibrant enough)
                     const s = 65 + (Math.abs(hash % 25));
-                    // L: 75-85% (Lightness - slightly darker than before for visibility)
                     const l = 75 + (Math.abs(hash % 10));
-
                     return `hsl(${h}, ${s}%, ${l}%)`;
                 };
-
-                // Use single color based on primary occupation
                 style = `background-color: ${getColor(primary)}; border-color: #999;`;
             }
 
@@ -65,25 +73,21 @@ async function initTimeline() {
                 content: item.content,
                 start: start,
                 end: end,
-                type: item.type || 'range', // Default to range
+                type: item.type || 'range',
                 className: item.className,
-                style: style, // Apply inline style
-                occupations: item.occupations, // Keep usage for filter
-                wikipedia_url: item.wikipedia_url // Pass through
+                style: style,
+                occupations: item.occupations,
+                wikipedia_url: item.wikipedia_url || item.wikipediaUrl // Support both
             };
 
-            // Only add title if it exists (inferred items have no title)
             if (item.title && item.title.trim().length > 0) {
-                // Use tooltipText for custom tooltip, NOT title (which triggers native browser tooltip)
-                obj.tooltipText = item.title; // Note: 'title' field currently contains Dates info "Birth: ... / Death: ..."
+                obj.tooltipText = item.title;
             }
 
             return obj;
         }));
 
         // --- Filtering Logic ---
-
-        // 1. Extract unique occupations
         const allOccs = new Set();
         rawItems.forEach(item => {
             if (item.occupations) {
@@ -92,7 +96,6 @@ async function initTimeline() {
         });
         const sortedOccs = Array.from(allOccs).sort();
 
-        // 2. Populate Checkboxes
         const filterContainer = document.getElementById('filter-container');
         sortedOccs.forEach(occ => {
             const div = document.createElement('div');
@@ -111,132 +114,92 @@ async function initTimeline() {
             filterContainer.appendChild(div);
         });
 
-        // 3. Create DataView
         const itemsView = new vis.DataView(rawItems, {
             filter: function (item) {
                 const checkboxes = filterContainer.querySelectorAll('input[type="checkbox"]:checked');
-                if (checkboxes.length === 0) return true; // Show all if none selected
-
+                if (checkboxes.length === 0) return true;
                 const selected = Array.from(checkboxes).map(cb => cb.value);
-                // Return true if item has ANY of the selected occupations
                 return item.occupations && item.occupations.some(o => selected.includes(o));
             }
         });
 
-        // 4. Update count helper
         const updateCount = () => {
             document.getElementById('filter-count').textContent = `${itemsView.length} items`;
         };
         updateCount();
 
-        // 5. Create Timeline (Before Event Listeners)
-
-        function formatAxis(date, scale, step) {
-            let d = date;
-            // Vis.js/Moment compatibility check
-            if (d && typeof d.toDate === 'function') {
-                d = d.toDate();
-            } else if (typeof d === 'number') {
-                d = new Date(d);
-            }
-
-            if (!d || typeof d.getFullYear !== 'function') {
-                console.warn("Invalid date in formatAxis:", date);
-                return "";
-            }
-
-            const year = d.getFullYear();
-            // JS Year 0 is 1 BC. -1 is 2 BC.
-            if (year <= 0) {
-                return `${Math.abs(year - 1)} BC`;
-            }
-            return `${year} AD`;
-        }
-
         const container = document.getElementById('timeline-container');
 
-        // Configuration
         const options = {
             height: '100%',
-            zoomMin: 1000 * 60 * 60 * 24 * 365 * 10, // 10 years min zoom
-            zoomMax: 1000 * 60 * 60 * 24 * 365 * 3000, // 3000 years max zoom
-            min: createDate(-1000), // Limit view to 1000 BC
-            max: createDate(1350),  // Limit view to 1350 AD
-            start: createDate(-300), // Default view start
-            end: createDate(300),    // Default view end (Centered on AD 1)
-            showMajorLabels: false,  // Hide second row of labels
+            zoomMin: 1000 * 60 * 60 * 24 * 365 * 10,
+            zoomMax: 1000 * 60 * 60 * 24 * 365 * 3000,
+            min: createDate(-1000),
+            max: createDate(1350),
+            start: createDate(-300),
+            end: createDate(300),
+            showMajorLabels: false,
             format: {
                 minorLabels: formatAxis,
-                majorLabels: formatAxis // Should be hidden, but just in case
+                majorLabels: formatAxis
             },
             verticalScroll: true,
             horizontalScroll: true,
-            stack: true, // Auto-stack items
+            stack: true,
             margin: {
-                item: 10, // Margin between items
+                item: 10,
             }
         };
 
-        // Create Timeline with DataView
         const timeline = new vis.Timeline(container, itemsView, options);
 
-        // 6. Event Listeners
-
-        // Custom Tooltip Logic
+        // --- Improved Tooltip Logic ---
         const tooltip = document.createElement('div');
         tooltip.id = 'custom-tooltip';
         document.body.appendChild(tooltip);
 
         let activeItemId = null;
         let tooltipTimeout = null;
+        let tooltipHovered = false;
 
-        // Global function for filter interaction
         window.filterByOccupation = function (occ) {
-            // Uncheck all
             const checkboxes = filterContainer.querySelectorAll('input[type="checkbox"]');
             checkboxes.forEach(cb => cb.checked = false);
-
-            // Check target
             const target = Array.from(checkboxes).find(cb => cb.value === occ);
-            if (target) {
-                target.checked = true;
-            }
-            // Trigger refresh
+            if (target) target.checked = true;
             itemsView.refresh();
             updateCount();
-            timeline.fit(); // Fit timeline after filter change
+            timeline.fit();
         };
 
         const hideTooltip = () => {
+            if (tooltipHovered) return;
+            if (tooltipTimeout) clearTimeout(tooltipTimeout);
+
             tooltipTimeout = setTimeout(() => {
+                if (tooltipHovered) return;
                 tooltip.style.display = 'none';
                 activeItemId = null;
-            }, 300); // 300ms delay to allow moving to tooltip
+            }, 700); // 700ms delay for easier transition
         };
 
         const showTooltip = (item, element) => {
             if (tooltipTimeout) clearTimeout(tooltipTimeout);
 
-            // Construct Content
-            // 1. Check if we should show tooltip at all (inferred items have no tooltipText)
-            if (!item.tooltipText) return;
-
-            // 2. Map fields correctly
-            // item.content = Name
-            // item.tooltipText = Dates (e.g. "Birth: ...") (because that's what 'title' became in JSON)
-            // item.occupations = Array of strings
-            const name = item.content;
-            const dates = item.tooltipText;
+            const wikiLink = item.wikipedia_url || item.wikipediaUrl;
+            const dates = item.tooltipText || "";
             const occs = item.occupations || [];
 
-            let html = `<div class="tooltip-name">`;
-            html += `${name}`;
-            if (item.wikipedia_url) {
-                html += ` <a href="${item.wikipedia_url}" target="_blank" style="color:#007bff; font-weight:normal; font-size: 0.9em; margin-left:5px; text-decoration:none;">(Wikipedia)</a>`;
+            // Condition to show tooltip
+            if (!dates.trim() && !wikiLink && occs.length === 0) return;
+
+            let html = `<div class="tooltip-name">${item.content}`;
+            if (wikiLink) {
+                html += ` <a href="${wikiLink}" target="_blank" rel="noopener noreferrer" class="tooltip-wiki">(Wikipedia)</a>`;
             }
             html += `</div>`;
 
-            if (dates) {
+            if (dates.trim()) {
                 html += `<div class="tooltip-dates">${dates}</div>`;
             }
 
@@ -252,22 +215,17 @@ async function initTimeline() {
             tooltip.innerHTML = html;
             tooltip.style.display = 'block';
 
-            // Position: Dock to the item element
             if (!element) return;
             const itemRect = element.getBoundingClientRect();
             const tooltipRect = tooltip.getBoundingClientRect();
 
-            // Default: Below the item, centered
             let left = itemRect.left + (itemRect.width / 2) - (tooltipRect.width / 2);
             let top = itemRect.bottom + 5;
 
-            // Prevent going off-screen
             if (left < 10) left = 10;
             if (left + tooltipRect.width > window.innerWidth - 10) {
                 left = window.innerWidth - tooltipRect.width - 10;
             }
-
-            // If dragging near bottom, flip to top
             if (top + tooltipRect.height > window.innerHeight - 10) {
                 top = itemRect.top - tooltipRect.height - 5;
             }
@@ -276,7 +234,6 @@ async function initTimeline() {
             tooltip.style.top = top + 'px';
         };
 
-        // Manual Hover Detection using getEventProperties (Bypasses 'hover' option issue)
         container.addEventListener('mousemove', function (event) {
             const props = timeline.getEventProperties(event);
             const id = props.item;
@@ -286,48 +243,46 @@ async function initTimeline() {
                     activeItemId = id;
                     const item = itemsView.get(id);
                     if (item) {
-                        // Find DOM element
                         let target = event.target;
-                        // Traverse up to find .vis-item
                         while (target && target !== container) {
-                            if (target.classList && target.classList.contains('vis-item')) {
-                                break;
-                            }
+                            if (target.classList && target.classList.contains('vis-item')) break;
                             target = target.parentElement;
                         }
-
                         if (target && target.classList.contains('vis-item')) {
                             showTooltip(item, target);
                         }
                     }
                 }
-                // Sticky behavior: Do nothing if same item (tooltip stays docked)
             } else {
-                if (activeItemId !== null) {
+                if (activeItemId !== null && !tooltipHovered) {
                     hideTooltip();
                 }
             }
         });
 
-        // Also handle mouse leave from container
         container.addEventListener('mouseleave', function () {
-            hideTooltip();
+            if (!tooltipHovered) hideTooltip();
         });
 
         // Tooltip Interaction
         tooltip.addEventListener('mouseenter', () => {
+            tooltipHovered = true;
             if (tooltipTimeout) clearTimeout(tooltipTimeout);
         });
 
         tooltip.addEventListener('mouseleave', () => {
+            tooltipHovered = false;
             hideTooltip();
         });
 
-        // Filter Change Event
+        // Prevent events from bubbling up to container when inside tooltip
+        tooltip.addEventListener('mousemove', (e) => e.stopPropagation());
+        tooltip.addEventListener('mousedown', (e) => e.stopPropagation());
+
         filterContainer.addEventListener('change', () => {
             itemsView.refresh();
             updateCount();
-            timeline.fit(); // Fit timeline after filter change
+            timeline.fit();
         });
 
         document.getElementById('clear-filters').addEventListener('click', () => {
@@ -335,7 +290,7 @@ async function initTimeline() {
             checkboxes.forEach(cb => cb.checked = false);
             itemsView.refresh();
             updateCount();
-            timeline.fit(); // Fit timeline after filter change
+            timeline.fit();
         });
 
         // Floating Panel Logic
@@ -353,7 +308,6 @@ async function initTimeline() {
             }
         });
 
-        // Floating Panel Drag Logic
         let isDragging = false;
         let startX, startY, initialLeft, initialTop;
 
@@ -364,10 +318,10 @@ async function initTimeline() {
             const rect = controls.getBoundingClientRect();
             initialLeft = rect.left;
             initialTop = rect.top;
-            controls.style.right = 'auto'; // Disable right-lock
+            controls.style.right = 'auto';
             controls.style.left = initialLeft + 'px';
             controls.style.top = initialTop + 'px';
-            e.preventDefault(); // Prevent text selection
+            e.preventDefault();
         });
 
         document.addEventListener('mousemove', (e) => {
@@ -383,7 +337,6 @@ async function initTimeline() {
             isDragging = false;
         });
 
-        // Remove loading text
         const loading = document.querySelector('.loading');
         if (loading) loading.style.display = 'none';
 

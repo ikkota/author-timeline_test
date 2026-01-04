@@ -45,6 +45,18 @@
 }
 
 
+#custom-tooltip .tooltip-wiki {
+    color: #007bff;
+    font-weight: normal;
+    font-size: 0.9em;
+    margin-left: 6px;
+    text-decoration: none;
+}
+
+#custom-tooltip .tooltip-wiki:hover {
+    text-decoration: underline;
+}
+
 .loading {
     padding: 20px;
     font-size: 18px;
