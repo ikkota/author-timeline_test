@@ -1,16 +1,21 @@
 // Timeline Logic
 
 async function loadData() {
-    const response = await fetch('data/authors.json');
+    console.log("Fetching ./data/authors.json...");
+    const response = await fetch('./data/authors.json');
+    if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+    }
     const data = await response.json();
+    console.log("Data loaded:", data.length, "items");
     return data;
 }
 
 function createDate(year) {
     if (year === null || year === undefined) return null;
-    
+
     // Use user-recommended robust method for ancient dates/BC
-    const d = new Date(Date.UTC(0,0,1));
+    const d = new Date(Date.UTC(0, 0, 1));
     d.setUTCFullYear(year, 0, 1);
     return d;
 }
@@ -27,16 +32,16 @@ function formatAxis(date, scale, step) {
 async function initTimeline() {
     try {
         const jsonData = await loadData();
-        
+
         // Transform JSON integer years to JS Date objects
         const items = new vis.DataSet(jsonData.map(item => {
             const start = createDate(item.start);
             const end = createDate(item.end);
-            
+
             // Vis.js expects start/end. 
             // If type is point, only start is needed.
             // If type is range, both needed.
-            
+
             return {
                 id: item.id,
                 content: item.content,
@@ -50,7 +55,7 @@ async function initTimeline() {
         }));
 
         const container = document.getElementById('timeline-container');
-        
+
         // Configuration
         const options = {
             height: '100%',
@@ -72,14 +77,18 @@ async function initTimeline() {
 
         // Create Timeline
         const timeline = new vis.Timeline(container, items, options);
-        
+
         // Remove loading text
         const loading = document.querySelector('.loading');
         if (loading) loading.style.display = 'none';
-        
+
     } catch (e) {
         console.error("Failed to init timeline:", e);
-        document.getElementById('timeline-container').innerHTML = "Error loading data.";
+        document.getElementById('timeline-container').innerHTML = `
+            <div style="padding:20px; color:red;">
+                Error loading data: ${e.message}<br>
+                Check console for details.
+            </div>`;
     }
 }
 
