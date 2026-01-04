@@ -74,19 +74,26 @@
 
   <div id="controls">
     <div id="panel-header">
-      <strong>Filters</strong>
-      <button id="toggle-panel" style="border:none; background:none; cursor:pointer; font-weight:bold;">[-]</button>
+      <div style="display: flex; flex-direction: column; align-items: flex-start;">
+        <span style="font-size: 16px; font-weight: bold;">西洋古典著作家年表</span>
+        <span style="font-size: 12px; font-weight: normal; color: #555;">A Timeline of Classical Authors (BC–AD)</span>
+      </div>
+      <button id="toggle-panel"
+        style="border:none; background:none; cursor:pointer; font-weight:bold; margin-left:10px;">[-]</button>
     </div>
 
     <div id="panel-content">
-      <label style="font-size: 14px; margin-bottom: 5px; display:block;">Occupation (OR):</label>
+      <label style="font-size: 14px; margin-bottom: 5px; display:block;">Filter by Occupation (OR):</label>
       <div id="filter-container"
         style="border: 1px solid #ccc; height: 150px; overflow-y: scroll; padding: 5px; background: #fff; margin-bottom:10px;">
         <!-- Checkboxes will be injected here -->
       </div>
       <div style="font-size: 12px; color: #666; display:flex; justify-content:space-between; align-items:center;">
-        <button id="clear-filters">Clear</button>
-        <span id="filter-count"></span>
+        <div>
+          <button id="clear-filters">Clear</button>
+          <span id="filter-count"></span>
+        </div>
+        <a href="about.html" style="color:#007bff; text-decoration:none; margin-left:10px;">About</a>
       </div>
     </div>
   </div>
