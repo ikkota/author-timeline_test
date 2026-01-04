@@ -149,7 +149,58 @@ async function initTimeline() {
         };
         updateCount();
 
-        // 5. Event Listeners
+        // 5. Create Timeline (Before Event Listeners)
+
+        function formatAxis(date, scale, step) {
+            let d = date;
+            // Vis.js/Moment compatibility check
+            if (d && typeof d.toDate === 'function') {
+                d = d.toDate();
+            } else if (typeof d === 'number') {
+                d = new Date(d);
+            }
+
+            if (!d || typeof d.getFullYear !== 'function') {
+                console.warn("Invalid date in formatAxis:", date);
+                return "";
+            }
+
+            const year = d.getFullYear();
+            // JS Year 0 is 1 BC. -1 is 2 BC.
+            if (year <= 0) {
+                return `${Math.abs(year - 1)} BC`;
+            }
+            return `${year} AD`;
+        }
+
+        const container = document.getElementById('timeline-container');
+
+        // Configuration
+        const options = {
+            height: '100%',
+            zoomMin: 1000 * 60 * 60 * 24 * 365 * 10, // 10 years min zoom
+            zoomMax: 1000 * 60 * 60 * 24 * 365 * 3000, // 3000 years max zoom
+            min: createDate(-1000), // Limit view to 1000 BC
+            max: createDate(1350),  // Limit view to 1350 AD
+            start: createDate(-300), // Default view start
+            end: createDate(300),    // Default view end (Centered on AD 1)
+            showMajorLabels: false,  // Hide second row of labels
+            format: {
+                minorLabels: formatAxis,
+                majorLabels: formatAxis // Should be hidden, but just in case
+            },
+            verticalScroll: true,
+            horizontalScroll: true,
+            stack: true, // Auto-stack items
+            margin: {
+                item: 10, // Margin between items
+            }
+        };
+
+        // Create Timeline with DataView
+        const timeline = new vis.Timeline(container, itemsView, options);
+
+        // 6. Event Listeners
 
         // Custom Tooltip Logic
         const tooltip = document.createElement('div');
@@ -320,56 +371,9 @@ async function initTimeline() {
             isDragging = false;
         });
 
-        function formatAxis(date, scale, step) {
-            let d = date;
-            // Vis.js/Moment compatibility check
-            if (d && typeof d.toDate === 'function') {
-                d = d.toDate();
-            } else if (typeof d === 'number') {
-                d = new Date(d);
-            }
-
-            if (!d || typeof d.getFullYear !== 'function') {
-                console.warn("Invalid date in formatAxis:", date);
-                return "";
-            }
-
-            const year = d.getFullYear();
-            // JS Year 0 is 1 BC. -1 is 2 BC.
-            if (year <= 0) {
-                return `${Math.abs(year - 1)} BC`;
-            }
-            return `${year} AD`;
-        }
-
-        const container = document.getElementById('timeline-container');
-
-        // Configuration
-        const options = {
-            height: '100%',
-            zoomMin: 1000 * 60 * 60 * 24 * 365 * 10, // 10 years min zoom
-            zoomMax: 1000 * 60 * 60 * 24 * 365 * 3000, // 3000 years max zoom
-            min: createDate(-1000), // Limit view to 1000 BC
-            max: createDate(1350),  // Limit view to 1350 AD
-            start: createDate(-300), // Default view start
-            end: createDate(300),    // Default view end (Centered on AD 1)
-            showMajorLabels: false,  // Hide second row of labels
-            format: {
-                minorLabels: formatAxis,
-                majorLabels: formatAxis // Should be hidden, but just in case
-            },
-            verticalScroll: true,
-            horizontalScroll: true,
-            stack: true, // Auto-stack items
-            margin: {
-                item: 10, // Margin between items
-            }
-        };
-
-        // Create Timeline with DataView
-        const timeline = new vis.Timeline(container, itemsView, options);
-
         // Remove loading text
+        const loading = document.querySelector('.loading');
+        if (loading) loading.style.display = 'none';
         const loading = document.querySelector('.loading');
         if (loading) loading.style.display = 'none';
 
