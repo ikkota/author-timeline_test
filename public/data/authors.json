@@ -16,6 +16,7 @@
       "生物学者",
       "神経科学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 200,
     "type": "range",
@@ -30,6 +31,7 @@
       "military writer",
       "軍事ライター"
     ],
+    "primary_occupation": "military writer",
     "start": -500,
     "end": -400,
     "type": "range",
@@ -52,6 +54,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": -426,
     "end": -348,
     "type": "range",
@@ -70,6 +73,7 @@
       "地理学者",
       "歴史家"
     ],
+    "primary_occupation": "地理学者",
     "start": -89,
     "end": -19,
     "type": "range",
@@ -92,6 +96,7 @@
       "詩人",
       "風刺作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 120,
     "end": 100,
     "type": "range",
@@ -107,6 +112,7 @@
       "seafarer",
       "探検家"
     ],
+    "primary_occupation": "explorer",
     "start": -500,
     "end": -500,
     "type": "range",
@@ -129,6 +135,7 @@
       "航海士",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": -600,
     "end": -500,
     "type": "range",
@@ -149,6 +156,7 @@
       "数学者",
       "歴史家"
     ],
+    "primary_occupation": "哲学者",
     "start": -344,
     "end": -289,
     "type": "range",
@@ -169,6 +177,7 @@
       "地理学者",
       "歴史家"
     ],
+    "primary_occupation": "哲学者",
     "start": -207,
     "type": "point",
     "source": "birth-death",
@@ -182,6 +191,7 @@
       "geographer",
       "地理学者"
     ],
+    "primary_occupation": "地理学者",
     "start": -200,
     "end": -2,
     "type": "range",
@@ -198,6 +208,7 @@
       "地理学者",
       "探検家"
     ],
+    "primary_occupation": "地理学者",
     "start": -100,
     "end": 0,
     "type": "range",
@@ -220,6 +231,7 @@
       "著作家",
       "軍人"
     ],
+    "primary_occupation": "哲学者",
     "start": 89,
     "end": 180,
     "type": "range",
@@ -242,6 +254,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "歴史家",
     "start": -59,
     "end": -6,
     "type": "range",
@@ -256,6 +269,7 @@
       "grammarian",
       "文法学者"
     ],
+    "primary_occupation": "文法学者",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -272,6 +286,7 @@
       "地理学者",
       "詩人"
     ],
+    "primary_occupation": "地理学者",
     "start": 100,
     "type": "range",
     "source": "birth-death",
@@ -290,6 +305,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "地理学者",
     "start": 100,
     "end": 140,
     "type": "range",
@@ -310,6 +326,7 @@
       "戦士",
       "著作家"
     ],
+    "primary_occupation": "劇作家",
     "start": -524,
     "end": -455,
     "type": "range",
@@ -364,6 +381,7 @@
       "認識論者",
       "論理学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -382,
     "end": -321,
     "type": "range",
@@ -380,6 +398,7 @@
       "文法学者",
       "著作家"
     ],
+    "primary_occupation": "文法学者",
     "start": 180,
     "end": 250,
     "type": "range",
@@ -400,6 +419,7 @@
       "音楽学者",
       "音楽理論家"
     ],
+    "primary_occupation": "哲学者",
     "start": -359,
     "end": -299,
     "type": "range",
@@ -414,6 +434,7 @@
       "geographer",
       "地理学者"
     ],
+    "primary_occupation": "地理学者",
     "start": 200,
     "end": 200,
     "type": "range",
@@ -434,6 +455,7 @@
       "物理学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -370,
     "end": -286,
     "type": "range",
@@ -453,6 +475,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -619,
     "end": -563,
     "type": "range",
@@ -470,6 +493,7 @@
       "文法学者",
       "辞書編纂者"
     ],
+    "primary_occupation": "文法学者",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -485,6 +509,7 @@
       "rhetorician",
       "修辞学者"
     ],
+    "primary_occupation": "修辞学者",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -505,6 +530,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -62,
     "end": 24,
     "type": "range",
@@ -524,6 +550,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -515,
     "end": -450,
     "type": "range",
@@ -538,6 +565,7 @@
       "poet",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -600,
     "end": -600,
     "type": "range",
@@ -554,6 +582,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 117,
     "end": 185,
     "type": "range",
@@ -576,6 +605,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": -459,
     "end": -402,
     "type": "range",
@@ -594,6 +624,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -319,
     "end": -279,
     "type": "range",
@@ -611,6 +642,7 @@
       "数学者",
       "著作家"
     ],
+    "primary_occupation": "数学者",
     "start": -100,
     "end": 0,
     "type": "range",
@@ -631,6 +663,7 @@
       "音楽学者",
       "音楽理論家"
     ],
+    "primary_occupation": "哲学者",
     "start": 60,
     "end": 120,
     "type": "range",
@@ -647,6 +680,7 @@
       "音楽学者",
       "音楽理論家"
     ],
+    "primary_occupation": "music theorist",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -677,6 +711,7 @@
       "音楽学者",
       "音楽理論家"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 170,
     "type": "range",
@@ -695,6 +730,7 @@
       "歴史家",
       "軍人"
     ],
+    "primary_occupation": "歴史家",
     "start": 155,
     "end": 200,
     "type": "range",
@@ -713,6 +749,7 @@
       "数学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -600,
     "end": -500,
     "type": "range",
@@ -735,6 +772,7 @@
       "数学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -539,
     "end": -434,
     "type": "range",
@@ -753,6 +791,7 @@
       "旅行作家",
       "著作家"
     ],
+    "primary_occupation": "地理学者",
     "start": 115,
     "end": 180,
     "type": "range",
@@ -769,6 +808,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 37,
     "end": 100,
     "type": "range",
@@ -783,6 +823,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -83,
     "type": "point",
     "source": "birth-death",
@@ -796,6 +837,7 @@
       "writer",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 100,
     "end": 200,
     "type": "range",
@@ -819,6 +861,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -319,
     "end": -242,
     "type": "range",
@@ -835,6 +878,7 @@
       "政治家",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -380,
     "end": -316,
     "type": "range",
@@ -851,6 +895,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -340,
     "end": -269,
     "type": "range",
@@ -868,6 +913,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -444,
     "end": -379,
     "type": "range",
@@ -884,6 +930,7 @@
       "コメディ作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -340,
     "end": -290,
     "type": "range",
@@ -906,6 +953,7 @@
       "辞書編纂者",
       "雄弁家"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 238,
     "type": "range",
@@ -924,6 +972,7 @@
       "著作家",
       "軍人"
     ],
+    "primary_occupation": "歴史家",
     "start": -211,
     "end": -131,
     "type": "range",
@@ -943,6 +992,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 200,
     "type": "range",
@@ -967,6 +1017,7 @@
       "詩人",
       "雄弁家"
     ],
+    "primary_occupation": "詩人",
     "start": 100,
     "end": 235,
     "type": "range",
@@ -985,6 +1036,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 0,
     "end": 100,
     "type": "range",
@@ -1001,6 +1053,7 @@
       "天文学者",
       "数学者"
     ],
+    "primary_occupation": "数学者",
     "start": -259,
     "end": -189,
     "type": "range",
@@ -1021,6 +1074,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 95,
     "end": 165,
     "type": "range",
@@ -1046,6 +1100,7 @@
       "物理学者",
       "発明家"
     ],
+    "primary_occupation": "哲学者",
     "start": -284,
     "end": -210,
     "type": "range",
@@ -1060,6 +1115,7 @@
       "writer",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -1076,6 +1132,7 @@
       "小説家",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 0,
     "end": 100,
     "type": "range",
@@ -1094,6 +1151,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 150,
     "end": 215,
     "type": "range",
@@ -1112,6 +1170,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -100,
     "type": "range",
     "source": "birth-death",
@@ -1128,6 +1187,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 50,
     "end": 138,
     "type": "range",
@@ -1149,6 +1209,7 @@
       "物理学者",
       "発明家"
     ],
+    "primary_occupation": "数学者",
     "start": 10,
     "end": 75,
     "type": "range",
@@ -1165,6 +1226,7 @@
       "文芸評論家",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 0,
     "end": 0,
     "type": "range",
@@ -1179,6 +1241,7 @@
       "writer",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -1199,6 +1262,7 @@
       "政治家",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 121,
     "end": 180,
     "type": "range",
@@ -1215,6 +1279,7 @@
       "哲学者",
       "雄弁家"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -1228,6 +1293,7 @@
     "occupations": [
       "physician writer"
     ],
+    "primary_occupation": "physician writer",
     "start": 0,
     "end": 100,
     "type": "range",
@@ -1244,6 +1310,7 @@
       "医師",
       "婦人科医"
     ],
+    "primary_occupation": "医師",
     "start": 98,
     "end": 100,
     "type": "range",
@@ -1258,6 +1325,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -444,
     "end": -364,
     "type": "range",
@@ -1272,6 +1340,7 @@
       "rhetorician",
       "修辞学者"
     ],
+    "primary_occupation": "修辞学者",
     "start": 100,
     "end": 200,
     "type": "range",
@@ -1286,6 +1355,7 @@
       "sophist",
       "ソフィスト"
     ],
+    "primary_occupation": "ソフィスト",
     "start": -484,
     "end": -374,
     "type": "range",
@@ -1300,6 +1370,7 @@
       "rhetorician",
       "修辞学者"
     ],
+    "primary_occupation": "修辞学者",
     "start": 0,
     "end": 100,
     "type": "range",
@@ -1316,6 +1387,7 @@
       "修辞学者",
       "著作家"
     ],
+    "primary_occupation": "修辞学者",
     "start": 0,
     "end": 0,
     "type": "range",
@@ -1330,6 +1402,7 @@
       "grammarian",
       "文法学者"
     ],
+    "primary_occupation": "文法学者",
     "source": "floruit",
     "start": -100,
     "end": 0,
@@ -1352,6 +1425,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -289,
     "end": -214,
     "type": "range",
@@ -1368,6 +1442,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": -460,
     "end": -394,
     "type": "range",
@@ -1388,6 +1463,7 @@
       "哲学者",
       "歴史家"
     ],
+    "primary_occupation": "哲学者",
     "start": 180,
     "end": 240,
     "type": "range",
@@ -1404,6 +1480,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -400,
     "end": -300,
     "type": "range",
@@ -1426,6 +1503,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": -483,
     "end": -404,
     "type": "range",
@@ -1452,6 +1530,7 @@
       "著作家",
       "随筆家"
     ],
+    "primary_occupation": "哲学者",
     "start": 50,
     "end": 100,
     "type": "range",
@@ -1470,6 +1549,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": 170,
     "end": 200,
     "type": "range",
@@ -1486,6 +1566,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -435,
     "end": -337,
     "type": "range",
@@ -1508,6 +1589,7 @@
       "政治家",
       "著作家"
     ],
+    "primary_occupation": "劇作家",
     "start": -495,
     "end": -405,
     "type": "range",
@@ -1526,6 +1608,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -900,
     "end": -800,
     "type": "range",
@@ -1546,6 +1629,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -383,
     "end": -321,
     "type": "range",
@@ -1562,6 +1646,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 170,
     "end": 250,
     "type": "range",
@@ -1582,6 +1667,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "地理学者",
     "start": -483,
     "end": -424,
     "type": "range",
@@ -1598,6 +1684,7 @@
       "スピーチライター",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -419,
     "end": -339,
     "type": "range",
@@ -1616,6 +1703,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -14,
     "end": 50,
     "type": "range",
@@ -1636,6 +1724,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -449,
     "end": -385,
     "type": "range",
@@ -1656,6 +1745,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -775,
     "type": "point",
     "source": "birth-death",
@@ -1675,6 +1765,7 @@
       "歴史家",
       "詩人"
     ],
+    "primary_occupation": "医師",
     "start": -249,
     "end": -169,
     "type": "range",
@@ -1691,6 +1782,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 100,
     "type": "range",
     "source": "birth-death",
@@ -1705,6 +1797,7 @@
       "poet",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 2,
     "type": "point",
     "source": "birth-death",
@@ -1724,6 +1817,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -389,
     "end": -321,
     "type": "range",
@@ -1738,6 +1832,7 @@
       "orator",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -439,
     "end": -390,
     "type": "range",
@@ -1754,6 +1849,7 @@
       "政治家",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -479,
     "end": -410,
     "type": "range",
@@ -1768,6 +1864,7 @@
       "orator",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -359,
     "end": -291,
     "type": "range",
@@ -1788,6 +1885,7 @@
       "軍人",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -387,
     "end": -321,
     "type": "range",
@@ -1810,6 +1908,7 @@
       "著作家",
       "軍人"
     ],
+    "primary_occupation": "哲学者",
     "start": -430,
     "end": -353,
     "type": "range",
@@ -1828,6 +1927,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -521,
     "end": -436,
     "type": "range",
@@ -1846,6 +1946,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": -389,
     "end": -323,
     "type": "range",
@@ -1862,6 +1963,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -200,
     "end": -200,
     "type": "range",
@@ -1878,6 +1980,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -119,
     "end": -56,
     "type": "range",
@@ -1894,6 +1997,7 @@
       "哲学者",
       "政治家"
     ],
+    "primary_occupation": "哲学者",
     "start": -700,
     "end": -600,
     "type": "range",
@@ -1908,6 +2012,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -352,
     "end": -352,
     "type": "point",
@@ -1922,6 +2027,7 @@
       "sovereign",
       "統治者"
     ],
+    "primary_occupation": "sovereign",
     "start": -241,
     "end": -186,
     "type": "range",
@@ -1936,6 +2042,7 @@
       "king",
       "国王"
     ],
+    "primary_occupation": "king",
     "start": -452,
     "end": -357,
     "type": "range",
@@ -1952,6 +2059,7 @@
       "政治家",
       "軍人"
     ],
+    "primary_occupation": "政治家",
     "start": -500,
     "end": -412,
     "type": "range",
@@ -1966,6 +2074,7 @@
       "monarch",
       "君主"
     ],
+    "primary_occupation": "monarch",
     "start": -382,
     "end": -335,
     "type": "range",
@@ -1980,6 +2089,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -200,
     "end": -128,
     "type": "range",
@@ -1998,6 +2108,7 @@
       "数学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -500,
     "end": -500,
     "type": "range",
@@ -2012,6 +2123,7 @@
       "astronomer",
       "天文学者"
     ],
+    "primary_occupation": "天文学者",
     "start": -309,
     "end": -229,
     "type": "range",
@@ -2026,6 +2138,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "type": "range",
     "source": "birth-death",
@@ -2042,6 +2155,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -299,
     "end": -300,
     "type": "range",
@@ -2056,6 +2170,7 @@
       "grammarian",
       "文法学者"
     ],
+    "primary_occupation": "文法学者",
     "source": "floruit",
     "start": 0,
     "end": 100,
@@ -2074,6 +2189,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "source": "floruit",
     "start": 100,
     "end": 200,
@@ -2090,6 +2206,7 @@
       "天文学者",
       "数学者"
     ],
+    "primary_occupation": "数学者",
     "start": -359,
     "end": -289,
     "type": "range",
@@ -2104,6 +2221,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "source": "floruit",
     "start": 0,
     "end": 100,
@@ -2122,6 +2240,7 @@
       "数学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -280,
     "end": -203,
     "type": "range",
@@ -2139,6 +2258,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -330,
     "end": -231,
     "type": "range",
@@ -2155,6 +2275,7 @@
       "カトリック教会の司祭",
       "神学者"
     ],
+    "primary_occupation": "神学者",
     "start": 0,
     "end": 99,
     "type": "range",
@@ -2171,6 +2292,7 @@
       "天文学者",
       "数学者"
     ],
+    "primary_occupation": "数学者",
     "start": 0,
     "end": 0,
     "type": "range",
@@ -2185,6 +2307,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -343,
     "end": -274,
     "type": "range",
@@ -2203,6 +2326,7 @@
       "数学者",
       "美術史家"
     ],
+    "primary_occupation": "哲学者",
     "start": -460,
     "end": -360,
     "type": "range",
@@ -2217,6 +2341,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -459,
     "end": -500,
     "type": "range",
@@ -2235,6 +2360,7 @@
       "哲学者",
       "外交官"
     ],
+    "primary_occupation": "哲学者",
     "start": -239,
     "end": -149,
     "type": "range",
@@ -2249,6 +2375,7 @@
       "presbyter",
       "司祭"
     ],
+    "primary_occupation": "presbyter",
     "start": 100,
     "end": 171,
     "type": "range",
@@ -2265,6 +2392,7 @@
       "占星術師",
       "天文学者"
     ],
+    "primary_occupation": "天文学者",
     "start": 50,
     "type": "point",
     "source": "birth-death",
@@ -2282,6 +2410,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": -700,
     "end": -600,
     "type": "range",
@@ -2300,6 +2429,7 @@
       "天文学者",
       "数学者"
     ],
+    "primary_occupation": "数学者",
     "start": 60,
     "end": 60,
     "type": "point",
@@ -2316,6 +2446,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "source": "floruit",
     "start": 100,
     "end": 200,
@@ -2334,6 +2465,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -400,
     "end": -300,
     "type": "range",
@@ -2348,6 +2480,7 @@
       "grammarian",
       "文法学者"
     ],
+    "primary_occupation": "文法学者",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -2364,6 +2497,7 @@
       "哲学者",
       "天文学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -384,
     "end": -321,
     "type": "range",
@@ -2378,6 +2512,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "source": "floruit",
     "start": 0,
     "end": 100,
@@ -2398,6 +2533,7 @@
       "軍人",
       "辞書編纂者"
     ],
+    "primary_occupation": "軍人",
     "start": 50,
     "end": 140,
     "type": "range",
@@ -2412,6 +2548,7 @@
       "writer",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 0,
     "end": 0,
     "type": "range",
@@ -2430,6 +2567,7 @@
       "天文学者",
       "数学者"
     ],
+    "primary_occupation": "数学者",
     "start": -189,
     "end": -119,
     "type": "range",
@@ -2454,6 +2592,7 @@
       "悲劇作家",
       "数学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -442,
     "end": -398,
     "type": "range",
@@ -2470,6 +2609,7 @@
       "司祭",
       "神学者"
     ],
+    "primary_occupation": "神学者",
     "start": 35,
     "end": 108,
     "type": "range",
@@ -2488,6 +2628,7 @@
       "哲学者",
       "神学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 130,
     "end": 202,
     "type": "range",
@@ -2502,6 +2643,7 @@
       "poet",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -400,
     "end": -400,
     "type": "range",
@@ -2516,6 +2658,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -2530,6 +2673,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 100,
     "type": "point",
@@ -2548,6 +2692,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": -400,
     "end": -400,
     "type": "range",
@@ -2566,6 +2711,7 @@
       "哲学者",
       "雄弁家"
     ],
+    "primary_occupation": "哲学者",
     "start": -500,
     "end": -400,
     "type": "range",
@@ -2584,6 +2730,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "哲学者",
     "start": 40,
     "end": 120,
     "type": "range",
@@ -2600,6 +2747,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 0,
     "end": 100,
     "type": "range",
@@ -2614,6 +2762,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 80,
     "end": 150,
     "type": "range",
@@ -2634,6 +2783,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -2658,6 +2808,7 @@
       "物理学者",
       "音楽学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -429,
     "end": -344,
     "type": "range",
@@ -2676,6 +2827,7 @@
       "物理学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -534,
     "end": -470,
     "type": "range",
@@ -2692,6 +2844,7 @@
       "医師",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -459,
     "end": -369,
     "type": "range",
@@ -2706,6 +2859,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 25,
     "end": 95,
     "type": "range",
@@ -2724,6 +2878,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": -700,
     "end": -582,
     "type": "range",
@@ -2748,6 +2903,7 @@
       "音楽学者",
       "音楽理論家"
     ],
+    "primary_occupation": "哲学者",
     "start": -579,
     "end": -490,
     "type": "range",
@@ -2766,6 +2922,7 @@
       "政治家",
       "数学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -500,
     "end": -400,
     "type": "range",
@@ -2786,6 +2943,7 @@
       "数学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -395,
     "end": -313,
     "type": "range",
@@ -2806,6 +2964,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "哲学者",
     "start": 170,
     "end": 250,
     "type": "range",
@@ -2820,6 +2979,7 @@
       "physician",
       "医師"
     ],
+    "primary_occupation": "医師",
     "source": "floruit",
     "start": -400,
     "end": -300,
@@ -2836,6 +2996,7 @@
       "修辞学者",
       "著作家"
     ],
+    "primary_occupation": "修辞学者",
     "start": 100,
     "end": 100,
     "type": "range",
@@ -2852,6 +3013,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 200,
     "type": "range",
@@ -2866,6 +3028,7 @@
       "physician",
       "医師"
     ],
+    "primary_occupation": "医師",
     "source": "floruit",
     "start": 0,
     "end": 100,
@@ -2886,6 +3049,7 @@
       "言語学者",
       "辞書編纂者"
     ],
+    "primary_occupation": "文法学者",
     "start": -259,
     "end": -179,
     "type": "range",
@@ -2904,6 +3068,7 @@
       "哲学者",
       "神学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 165,
     "type": "range",
@@ -2918,6 +3083,7 @@
       "poet",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 200,
     "end": 300,
     "type": "range",
@@ -2934,6 +3100,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 0,
     "end": 0,
     "type": "point",
@@ -2952,6 +3119,7 @@
       "哲学者",
       "雄弁家"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 100,
     "type": "point",
@@ -2970,6 +3138,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "ソフィスト",
     "source": "floruit",
     "start": 200,
     "end": 300,
@@ -2988,6 +3157,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "天文学者",
     "start": -314,
     "end": -239,
     "type": "range",
@@ -3006,6 +3176,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -100,
     "end": -100,
     "type": "range",
@@ -3026,6 +3197,7 @@
       "薬剤師",
       "薬理学者"
     ],
+    "primary_occupation": "医師",
     "start": 40,
     "end": 90,
     "type": "range",
@@ -3042,6 +3214,7 @@
       "植物学者",
       "薬理学者"
     ],
+    "primary_occupation": "botanist",
     "start": -200,
     "end": -100,
     "type": "range",
@@ -3056,6 +3229,7 @@
       "writer",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 200,
     "end": 200,
     "type": "range",
@@ -3074,6 +3248,7 @@
       "修辞学者",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 113,
     "end": 193,
     "type": "range",
@@ -3088,6 +3263,7 @@
       "poet",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "source": "floruit",
     "start": 0,
     "end": 100,
@@ -3102,6 +3278,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 0,
     "end": 100,
     "type": "range",
@@ -3118,6 +3295,7 @@
       "司祭",
       "文法学者"
     ],
+    "primary_occupation": "文法学者",
     "source": "floruit",
     "start": 300,
     "end": 400,
@@ -3132,6 +3310,7 @@
       "physician",
       "医師"
     ],
+    "primary_occupation": "医師",
     "start": 0,
     "end": 100,
     "type": "range",
@@ -3150,6 +3329,7 @@
       "医師",
       "著作家"
     ],
+    "primary_occupation": "イアトロソフィスト",
     "start": 300,
     "end": 400,
     "type": "range",
@@ -3164,6 +3344,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 200,
     "type": "range",
@@ -3178,6 +3359,7 @@
       "iatrosophist",
       "イアトロソフィスト"
     ],
+    "primary_occupation": "イアトロソフィスト",
     "start": 100,
     "end": 200,
     "type": "range",
@@ -3198,6 +3380,7 @@
       "詩人",
       "議員"
     ],
+    "primary_occupation": "哲学者",
     "start": -514,
     "end": -469,
     "type": "range",
@@ -3218,6 +3401,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": -109,
     "end": -34,
     "type": "range",
@@ -3242,6 +3426,7 @@
       "著作家",
       "音楽理論家"
     ],
+    "primary_occupation": "哲学者",
     "start": -469,
     "end": -389,
     "type": "range",
@@ -3260,6 +3445,7 @@
       "著作家",
       "雄弁家"
     ],
+    "primary_occupation": "ソフィスト",
     "start": 190,
     "end": 230,
     "type": "range",
@@ -3275,6 +3461,7 @@
       "grammarian",
       "文法学者"
     ],
+    "primary_occupation": "文法学者",
     "source": "floruit",
     "start": -100,
     "end": 0,
@@ -3291,6 +3478,7 @@
       "哲学者",
       "政治家"
     ],
+    "primary_occupation": "哲学者",
     "start": 90,
     "end": 144,
     "type": "range",
@@ -3311,6 +3499,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "神学者",
     "start": 70,
     "end": 155,
     "type": "range",
@@ -3325,6 +3514,7 @@
       "priest",
       "司祭"
     ],
+    "primary_occupation": "priest",
     "start": 125,
     "end": 196,
     "type": "range",
@@ -3341,6 +3531,7 @@
       "哲学者",
       "外交官"
     ],
+    "primary_occupation": "哲学者",
     "start": -463,
     "end": -379,
     "type": "range",
@@ -3355,6 +3546,7 @@
       "astrologer",
       "占星術師"
     ],
+    "primary_occupation": "astrologer",
     "start": -200,
     "end": 0,
     "type": "range",
@@ -3371,6 +3563,7 @@
       "哲学者",
       "数学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -406,
     "end": -338,
     "type": "range",
@@ -3385,6 +3578,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": -300,
     "type": "range",
     "source": "birth-death",
@@ -3413,6 +3607,7 @@
       "物理学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": -629,
     "end": -545,
     "type": "range",
@@ -3429,6 +3624,7 @@
       "天文学者",
       "数学者"
     ],
+    "primary_occupation": "数学者",
     "start": -159,
     "end": -89,
     "type": "range",
@@ -3451,6 +3647,7 @@
       "音楽学者",
       "音楽理論家"
     ],
+    "primary_occupation": "哲学者",
     "start": 70,
     "end": 135,
     "type": "range",
@@ -3465,6 +3662,7 @@
       "presbyter",
       "司祭"
     ],
+    "primary_occupation": "presbyter",
     "start": 100,
     "end": 183,
     "type": "range",
@@ -3483,6 +3681,7 @@
       "天文学者",
       "著作家"
     ],
+    "primary_occupation": "天文学者",
     "start": 120,
     "end": 175,
     "type": "range",
@@ -3501,6 +3700,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 120,
     "end": 173,
     "type": "range",
@@ -3517,6 +3717,7 @@
       "数学者",
       "著作家"
     ],
+    "primary_occupation": "数学者",
     "start": -400,
     "end": -284,
     "type": "range",
@@ -3533,6 +3734,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 205,
     "end": 270,
     "type": "range",
@@ -3559,6 +3761,7 @@
       "軍人",
       "雄弁家"
     ],
+    "primary_occupation": "哲学者",
     "start": 317,
     "end": 388,
     "type": "range",
@@ -3575,6 +3778,7 @@
       "哲学者",
       "政治家"
     ],
+    "primary_occupation": "哲学者",
     "start": 331,
     "end": 363,
     "type": "range",
@@ -3595,6 +3799,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "神学者",
     "start": 275,
     "end": 339,
     "type": "range",
@@ -3611,6 +3816,7 @@
       "教役者",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 315,
     "end": 403,
     "type": "range",
@@ -3637,6 +3843,7 @@
       "詩人",
       "説教者"
     ],
+    "primary_occupation": "神学者",
     "start": 330,
     "end": 390,
     "type": "range",
@@ -3653,6 +3860,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 245,
     "end": 325,
     "type": "range",
@@ -3669,6 +3877,7 @@
       "政治家",
       "雄弁家"
     ],
+    "primary_occupation": "雄弁家",
     "start": 190,
     "end": 250,
     "type": "range",
@@ -3685,6 +3894,7 @@
       "天文学者",
       "数学者"
     ],
+    "primary_occupation": "数学者",
     "start": 290,
     "end": 350,
     "type": "range",
@@ -3705,6 +3915,7 @@
       "著作家",
       "音楽理論家"
     ],
+    "primary_occupation": "哲学者",
     "start": 233,
     "end": 301,
     "type": "range",
@@ -3726,6 +3937,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "神学者",
     "start": 296,
     "end": 373,
     "type": "range",
@@ -3740,6 +3952,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 300,
     "end": 300,
     "type": "range",
@@ -3754,6 +3967,7 @@
       "mathematician",
       "数学者"
     ],
+    "primary_occupation": "数学者",
     "start": 200,
     "end": 284,
     "type": "range",
@@ -3779,6 +3993,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 330,
     "end": 379,
     "type": "range",
@@ -3795,6 +4010,7 @@
       "司祭",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 285,
     "end": 374,
     "type": "range",
@@ -3817,6 +4033,7 @@
       "翻訳家",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 185,
     "end": 254,
     "type": "range",
@@ -3833,6 +4050,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 400,
     "end": 400,
     "type": "range",
@@ -3847,6 +4065,7 @@
       "poet",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 300,
     "end": 300,
     "type": "range",
@@ -3867,6 +4086,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 400,
     "end": 450,
     "type": "range",
@@ -3883,6 +4103,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 300,
     "end": 300,
     "type": "range",
@@ -3903,6 +4124,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 349,
     "end": 420,
     "type": "range",
@@ -3923,6 +4145,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "神学者",
     "start": 380,
     "end": 450,
     "type": "range",
@@ -3943,6 +4166,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 368,
     "end": 433,
     "type": "range",
@@ -3963,6 +4187,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "神学者",
     "start": 235,
     "end": 235,
     "type": "point",
@@ -3983,6 +4208,7 @@
       "音楽家",
       "音楽理論家"
     ],
+    "primary_occupation": "music theorist",
     "start": 300,
     "end": 300,
     "type": "range",
@@ -4001,6 +4227,7 @@
       "音楽家",
       "音楽理論家"
     ],
+    "primary_occupation": "哲学者",
     "source": "floruit",
     "start": 200,
     "end": 300,
@@ -4015,6 +4242,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 213,
     "end": 273,
     "type": "range",
@@ -4033,6 +4261,7 @@
       "歴史家",
       "雄弁家"
     ],
+    "primary_occupation": "ソフィスト",
     "start": 200,
     "type": "range",
     "source": "birth-death",
@@ -4049,6 +4278,7 @@
       "修辞学者",
       "著作家"
     ],
+    "primary_occupation": "修辞学者",
     "start": 315,
     "end": 393,
     "type": "range",
@@ -4063,6 +4293,7 @@
       "rhetorician",
       "修辞学者"
     ],
+    "primary_occupation": "修辞学者",
     "start": 300,
     "end": 300,
     "type": "range",
@@ -4077,6 +4308,7 @@
       "rhetorician",
       "修辞学者"
     ],
+    "primary_occupation": "修辞学者",
     "source": "floruit",
     "start": 200,
     "end": 300,
@@ -4091,6 +4323,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 300,
     "type": "point",
     "source": "birth-death",
@@ -4106,6 +4339,7 @@
       "詩人",
       "音楽家"
     ],
+    "primary_occupation": "詩人",
     "start": -500,
     "type": "range",
     "source": "birth-death",
@@ -4122,6 +4356,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 1083,
     "end": 1153,
     "type": "range",
@@ -4140,6 +4375,7 @@
       "教会史家",
       "歴史家"
     ],
+    "primary_occupation": "歴史家",
     "start": 536,
     "end": 594,
     "type": "range",
@@ -4158,6 +4394,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 400,
     "end": 475,
     "type": "range",
@@ -4172,6 +4409,7 @@
       "deacon",
       "執事"
     ],
+    "primary_occupation": "deacon",
     "source": "floruit",
     "start": 400,
     "end": 500,
@@ -4196,6 +4434,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 675,
     "end": 749,
     "type": "range",
@@ -4214,6 +4453,7 @@
       "司祭",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 260,
     "end": 311,
     "type": "range",
@@ -4228,6 +4468,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "type": "point",
     "source": "birth-death",
@@ -4241,6 +4482,7 @@
       "translator",
       "翻訳家"
     ],
+    "primary_occupation": "translator",
     "source": "floruit",
     "start": 1000,
     "end": 1100,
@@ -4257,6 +4499,7 @@
       "東方正教会の司祭",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": 1055,
     "end": 1107,
     "type": "range",
@@ -4279,6 +4522,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "神学者",
     "start": 1074,
     "end": 1145,
     "type": "range",
@@ -4293,6 +4537,7 @@
       "geographer",
       "地理学者"
     ],
+    "primary_occupation": "地理学者",
     "start": 300,
     "end": 400,
     "type": "range",
@@ -4311,6 +4556,7 @@
       "天文学者",
       "数学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 480,
     "end": 560,
     "type": "range",
@@ -4337,6 +4583,7 @@
       "神学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 490,
     "end": 570,
     "type": "range",
@@ -4355,6 +4602,7 @@
       "天文学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 435,
     "end": 523,
     "type": "range",
@@ -4369,6 +4617,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 400,
     "end": 437,
     "type": "range",
@@ -4385,6 +4634,7 @@
       "哲学者",
       "数学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 400,
     "end": 500,
     "type": "range",
@@ -4403,6 +4653,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 495,
     "end": 570,
     "type": "range",
@@ -4417,6 +4668,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 500,
     "end": 500,
     "type": "range",
@@ -4431,6 +4683,7 @@
       "philosopher",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 500,
     "end": 500,
     "type": "range",
@@ -4453,6 +4706,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 536,
     "end": 582,
     "type": "range",
@@ -4471,6 +4725,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 400,
     "end": 562,
     "type": "range",
@@ -4487,6 +4742,7 @@
       "修道士",
       "哲学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 1200,
     "end": 1300,
     "type": "range",
@@ -4505,6 +4761,7 @@
       "東方正教会の司祭",
       "神学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 1050,
     "end": 1120,
     "type": "range",
@@ -4521,6 +4778,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 1050,
     "end": 1129,
     "type": "range",
@@ -4541,6 +4799,7 @@
       "数学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 412,
     "end": 485,
     "type": "range",
@@ -4557,6 +4816,7 @@
       "哲学者",
       "数学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 480,
     "end": 500,
     "type": "range",
@@ -4573,6 +4833,7 @@
       "哲学者",
       "天文学者"
     ],
+    "primary_occupation": "哲学者",
     "start": 440,
     "end": 500,
     "type": "range",
@@ -4587,6 +4848,7 @@
       "poet",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 400,
     "end": 500,
     "type": "range",
@@ -4603,6 +4865,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 460,
     "end": 520,
     "type": "range",
@@ -4623,6 +4886,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 393,
     "end": 457,
     "type": "range",
@@ -4639,6 +4903,7 @@
       "コプト教会の総主教",
       "司祭"
     ],
+    "primary_occupation": "Pope of the Coptic Orthodox Church",
     "start": 376,
     "end": 444,
     "type": "range",
@@ -4655,6 +4920,7 @@
       "哲学者",
       "著作家"
     ],
+    "primary_occupation": "哲学者",
     "start": 900,
     "end": 900,
     "type": "range",
@@ -4675,6 +4941,7 @@
       "自伝作家",
       "著作家"
     ],
+    "primary_occupation": "神学者",
     "start": 1241,
     "end": 1290,
     "type": "range",
@@ -4697,6 +4964,7 @@
       "数学者",
       "錬金術師"
     ],
+    "primary_occupation": "哲学者",
     "start": 500,
     "end": 622,
     "type": "range",
@@ -4715,6 +4983,7 @@
       "劇作家",
       "著作家"
     ],
+    "primary_occupation": "劇作家",
     "start": -249,
     "end": -183,
     "type": "range",
@@ -4735,6 +5004,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -184,
     "end": -158,
     "type": "range",
@@ -4767,6 +5037,7 @@
       "軍人",
       "雄弁家"
     ],
+    "primary_occupation": "詩人",
     "start": -101,
     "end": -43,
     "type": "range",
@@ -4783,6 +5054,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -83,
     "end": -53,
     "type": "range",
@@ -4815,6 +5087,7 @@
       "軍人",
       "雄弁家"
     ],
+    "primary_occupation": "哲学者",
     "start": -106,
     "end": -42,
     "type": "range",
@@ -4837,6 +5110,7 @@
       "詩人",
       "軍事指導者"
     ],
+    "primary_occupation": "詩人",
     "start": -101,
     "end": -42,
     "type": "range",
@@ -4855,6 +5129,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": -93,
     "end": -54,
     "type": "range",
@@ -4875,6 +5150,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -99,
     "end": -24,
     "type": "range",
@@ -4892,6 +5168,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -46,
     "end": -15,
     "type": "range",
@@ -4914,6 +5191,7 @@
       "詩人",
       "軍人"
     ],
+    "primary_occupation": "詩人",
     "start": -85,
     "end": -34,
     "type": "range",
@@ -4929,6 +5207,7 @@
       "poet",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -54,
     "end": -18,
     "type": "range",
@@ -4945,6 +5224,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -69,
     "end": -18,
     "type": "range",
@@ -4961,6 +5241,7 @@
       "医師",
       "著作家"
     ],
+    "primary_occupation": "医師",
     "start": -24,
     "end": 50,
     "type": "range",
@@ -4977,6 +5258,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 4,
     "end": 70,
     "type": "range",
@@ -4995,6 +5277,7 @@
       "歴史家",
       "著作家"
     ],
+    "primary_occupation": "歴史家",
     "start": 0,
     "end": 0,
     "type": "range",
@@ -5013,6 +5296,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": -64,
     "end": -7,
     "type": "range",
@@ -5031,6 +5315,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -58,
     "end": 17,
     "type": "range",
@@ -5051,6 +5336,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 39,
     "end": 65,
     "type": "range",
@@ -5070,6 +5356,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -42,
     "end": 17,
     "type": "range",
@@ -5088,6 +5375,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": 34,
     "end": 62,
     "type": "range",
@@ -5110,6 +5398,7 @@
       "詩人",
       "軍人"
     ],
+    "primary_occupation": "哲学者",
     "start": 27,
     "end": 66,
     "type": "range",
@@ -5126,6 +5415,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -20,
     "end": 50,
     "type": "range",
@@ -5156,6 +5446,7 @@
       "詩人",
       "軍人"
     ],
+    "primary_occupation": "哲学者",
     "start": 24,
     "end": 79,
     "type": "range",
@@ -5180,6 +5471,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 35,
     "end": 96,
     "type": "range",
@@ -5202,6 +5494,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": -53,
     "end": 39,
     "type": "range",
@@ -5227,6 +5520,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": -4,
     "end": 65,
     "type": "range",
@@ -5243,6 +5537,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 40,
     "end": 96,
     "type": "range",
@@ -5259,6 +5554,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 45,
     "end": 95,
     "type": "range",
@@ -5277,6 +5573,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": -100,
     "end": 0,
     "type": "range",
@@ -5293,6 +5590,7 @@
       "建築家",
       "著作家"
     ],
+    "primary_occupation": "著作家",
     "start": -79,
     "end": -14,
     "type": "range",
@@ -5323,6 +5621,7 @@
       "詩人",
       "雄弁家"
     ],
+    "primary_occupation": "哲学者",
     "start": 100,
     "end": 170,
     "type": "range",
@@ -5343,6 +5642,7 @@
       "詩人",
       "雄弁家"
     ],
+    "primary_occupation": "詩人",
     "start": 74,
     "end": 140,
     "type": "range",
@@ -5367,6 +5667,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "哲学者",
     "start": 130,
     "end": 170,
     "type": "range",
@@ -5387,6 +5688,7 @@
       "詩人",
       "風刺作家"
     ],
+    "primary_occupation": "詩人",
     "start": 55,
     "end": 100,
     "type": "range",
@@ -5403,6 +5705,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 104,
     "end": 104,
     "type": "point",
@@ -5432,6 +5735,7 @@
       "詩人",
       "軍人"
     ],
+    "primary_occupation": "詩人",
     "start": 61,
     "end": 113,
     "type": "range",
@@ -5456,6 +5760,7 @@
       "詩人",
       "軍人"
     ],
+    "primary_occupation": "詩人",
     "start": 26,
     "end": 101,
     "type": "range",
@@ -5480,6 +5785,7 @@
       "著作家",
       "詩人"
     ],
+    "primary_occupation": "詩人",
     "start": 69,
     "end": 126,
     "type": "range",
@@ -5507,6 +5813,7 @@
       "詩人",
       "軍人"
     ],
+    "primary_occupation": "詩人",
     "start": 56,
     "end": 120,
     "type": "range",

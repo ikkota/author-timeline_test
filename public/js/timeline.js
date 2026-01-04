@@ -56,9 +56,9 @@ async function initTimeline() {
 
             // Occupation Styling Logic
             let style = "";
-            const occs = item.occupations || [];
+            const primary = item.primary_occupation;
 
-            if (occs.length > 0) {
+            if (primary) {
                 // Dynamic Color Generator
                 // Hashes a string to a consistent pastel HSL color.
                 const getColor = (str) => {
@@ -76,28 +76,8 @@ async function initTimeline() {
                     return `hsl(${h}, ${s}%, ${l}%)`;
                 };
 
-                if (occs.length === 1) {
-                    style = `background-color: ${getColor(occs[0])}; border-color: #999;`;
-                } else {
-                    // Stripes
-                    // Use safer syntax: color start, color end
-                    const usedColors = occs.map(getColor);
-                    let grad = "repeating-linear-gradient(45deg, ";
-                    const width = 10;
-
-                    let steps = [];
-                    usedColors.forEach((c, i) => {
-                        let start = i * width;
-                        let end = (i + 1) * width;
-                        // color start, color end (solid stripe)
-                        steps.push(`${c} ${start}px, ${c} ${end}px`);
-                    });
-
-                    grad += steps.join(", ");
-                    grad += ")";
-
-                    style = `background: ${grad}; border-color: #666;`;
-                }
+                // Use single color based on primary occupation
+                style = `background-color: ${getColor(primary)}; border-color: #999;`;
             }
 
             return {
