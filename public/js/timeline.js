@@ -59,24 +59,21 @@ async function initTimeline() {
             const occs = item.occupations || [];
 
             if (occs.length > 0) {
-                // Color mapping
-                const colors = {
-                    "philosopher": "#B3CDE3", // Pastel Blue
-                    "historian": "#FBB4AE",   // Pastel Red
-                    "poet": "#CCEBC5",        // Pastel Green
-                    "politician": "#DECBE4",  // Pastel Purple
-                    "writer": "#FED9A6",      // Pastel Orange
-                    "tragedian": "#FFFFCC",   // Pastel Yellow
-                    "mathematician": "#E5D8BD" // Pastel Brown
-                };
-
-                // Helper to get color
-                const getColor = (o) => {
-                    const k = o.toLowerCase();
-                    for (const key in colors) {
-                        if (k.includes(key)) return colors[key];
+                // Dynamic Color Generator
+                // Hashes a string to a consistent pastel HSL color.
+                const getColor = (str) => {
+                    let hash = 0;
+                    for (let i = 0; i < str.length; i++) {
+                        hash = str.charCodeAt(i) + ((hash << 5) - hash);
                     }
-                    return "#E0E0E0"; // Default Grey
+                    // H: 0-360 (Hue)
+                    const h = Math.abs(hash % 360);
+                    // S: 60-90% (Saturation - keep it vibrant enough)
+                    const s = 70 + (Math.abs(hash % 20));
+                    // L: 80-95% (Lightness - keep it very light for black text)
+                    const l = 80 + (Math.abs(hash % 15));
+
+                    return `hsl(${h}, ${s}%, ${l}%)`;
                 };
 
                 if (occs.length === 1) {
@@ -84,26 +81,15 @@ async function initTimeline() {
                 } else {
                     // Stripes
                     const usedColors = occs.map(getColor);
-                    // Build gradient: color1 0%, color1 10px, color2 10px, color2 20px...
-                    // Or simple equal split? "striped" usually means repeating diagonal or simple repeating.
-                    // User Request: "Horizontal stripes of multiple colors". 
-                    // Let's do repeating-linear-gradient with distinct bands.
-
                     let grad = "repeating-linear-gradient(45deg, ";
-                    const width = 10; // px width of stripe
+                    const width = 10;
 
-                    // Logic: c1 0, c1 10, c2 10, c2 20...
                     let steps = [];
                     usedColors.forEach((c, i) => {
                         let start = i * width;
                         let end = (i + 1) * width;
                         steps.push(`${c} ${start}px ${end}px`);
                     });
-
-                    // To repeat, we need the total pattern size.
-                    // Actually repeating-linear-gradient repeats automatically if we don't specify stop at end?
-                    // No, usually it repeats the definition.
-                    // But if we have 3 colors, we define 0-10, 10-20, 20-30. Then it repeats.
 
                     grad += steps.join(", ");
                     grad += ")";
