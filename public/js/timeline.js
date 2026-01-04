@@ -80,17 +80,23 @@ async function initTimeline() {
                 style = `background-color: ${getColor(primary)}; border-color: #999;`;
             }
 
-            return {
+            const obj = {
                 id: item.id,
                 content: item.content,
                 start: start,
                 end: end,
-                type: item.type,
-                title: item.title,
+                type: item.type || 'range', // Default to range
                 className: item.className,
                 style: style, // Apply inline style
                 occupations: item.occupations // Keep usage for filter
             };
+
+            // Only add title if it exists (inferred items have no title)
+            if (item.title && item.title.trim().length > 0) {
+                obj.title = item.title;
+            }
+
+            return obj;
         }));
 
         // --- Filtering Logic ---

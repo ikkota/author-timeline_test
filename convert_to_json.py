@@ -79,6 +79,65 @@ def parse_year(date_str):
         
     return None, None
 
+    return None, None
+
+def ensure_display_range(birth_year, death_year, point_year=None):
+    """
+    表示用に必ず(start,end)レンジを返す。
+    - birth & death 両方ある -> exact
+    - birthのみ -> +50年 (inferred)
+    - deathのみ -> -50年 (inferred)
+    - pointのみ -> ±25年 (inferred)
+    戻り値: (start_year, end_year, className)
+    """
+    # 1) birth & death が両方ある
+    if birth_year is not None and death_year is not None:
+        # 同一年なら単一点扱いにして ±25（ユーザー要望）
+        if birth_year == death_year:
+            y = birth_year
+            return y - 25, y + 25, "inferred"
+        return birth_year, death_year, "exact"
+
+    # 2) birthのみ
+    if birth_year is not None and death_year is None:
+        return birth_year, birth_year + 50, "inferred"
+
+    # 3) deathのみ
+    if birth_year is None and death_year is not None:
+        return death_year - 50, death_year, "inferred"
+
+    # 4) pointのみ（例：floruit だけ）
+    if point_year is not None:
+        return point_year - 25, point_year + 25, "inferred"
+
+    # 5) 何もない
+    return None, None, None
+
+def build_tooltip(raw_birth, raw_death, raw_floruit, class_name):
+    """
+    tooltipの内容を作る。
+    - inferred（便宜レンジ）は表示しない（空文字）
+    - exact は元文字列を表示（便宜数値は出さない）
+    """
+    if class_name == "inferred":
+        return ""
+
+    parts = []
+    rb = (raw_birth or "").strip()
+    rd = (raw_death or "").strip()
+    rf = (raw_floruit or "").strip()
+
+    if rb:
+        parts.append(f"Birth: {rb}")
+    if rd:
+        parts.append(f"Death: {rd}")
+
+    # Birth/DeathがなくFloruitだけの場合に表示したいなら以下ON
+    if (not rb and not rd) and rf:
+        parts.append(f"Floruit: {rf}")
+
+    return " / ".join(parts)
+
 def main():
     print(f"Reading {INPUT_FILE}...")
     if not os.path.exists(INPUT_FILE):
@@ -111,83 +170,108 @@ def main():
         if not raw_b and not raw_d and not raw_f:
             continue
             
+        raw_occ = clean_value(row.get('Occupation'))
+        occupations = [o.strip() for o in raw_occ.split(',')] if raw_occ else []
+        
+        if raw_occ:
+            print(f"Occupation found for {qid}: {raw_occ}")
+        
+        # Priority Logic for Primary Occupation
+        # Lower index = Higher priority
+        priority_keywords = [
+            # Philosophy & Theology
+            '哲学者', 'philosopher', '神学者', 'theologian', 'ソフィスト', 'sophist',
+            # Science & Math
+            '数学者', 'mathematician', '天文学者', 'astronomer', '物理学者', 'physicist', 
+            '医師', 'physician', '地理学者', 'geographer', 'music theorist', '音楽理論家',
+            # Literature (Poetry/Drama) - Specific over generic
+            '詩人', 'poet', '劇作家', 'playwright', '悲劇作家', 'tragedian', '喜劇作家', 'comedian',
+            'epigrammatist', 'エピグラマティスト',
+            # History
+            '歴史家', 'historian', 'annalist', 'biographer', '伝記作家',
+            # Rhetoric & Grammar
+            '雄弁家', 'orator', '修辞学者', 'rhetorician', '文法学者', 'grammarian', 
+            '司書', 'librarian', 'musicologist', '音楽学者',
+            # Public Life
+            '政治家', 'politician', '軍人', 'military personnel', '弁護士', 'lawyer',
+            # Generic (Last Resort)
+            '著作家', 'writer'
+        ]
+        
+        primary_occ = occupations[0] if occupations else None
+        
+        if occupations:
+            best_rank = 999
+            for o in occupations:
+                otilde = o.lower().strip()
+                found = False
+                for i, k in enumerate(priority_keywords):
+                    if k.lower() in otilde:
+                        if i < best_rank:
+                            best_rank = i
+                            primary_occ = o
+                        found = True
+                        break
+        
+        # Parse Years
+        b_start, b_end = parse_year(raw_b)
+        d_start, d_end = parse_year(raw_d)
+        f_start, f_end = parse_year(raw_f)
+        
+        # Determine Display Range
+        # For birth/death, we use the "start" of the parsed range if available
+        # If parse_year returned a range (e.g. 5th century BC -> -500, -400), 
+        # we generally use the start/end of that for the "Exact" logic?
+        # User spec says: "Birthのみ -> end = birth + 50". this implies simple year handling.
+        # But our parse_year returns (start, end).
+        # Let's use the 'start' component for single-year logic if they are equal, 
+        # or just pass the start/end to ensure_display_range if we want to support range-input-dates later.
+        # ALLOW SIMPLIFICATION:
+        # Use simple integer years for range calculation. 
+        # If parse_year returned a specific year (start==end), use that.
+        # If it returned a range (century), use the center? Or just Start?
+        # Current logic uses b_start / d_start. Let's stick to that for now to match prior behavior logic
+        
+        # Use b_start (e.g. -500) as the "Birth Year"
+        b_val = b_start if b_start is not None else None
+        d_val = d_start if d_start is not None else None
+        # For floruit, if it's a range (-500, -400), maybe take average? Or just start?
+        # User said "point (floruit) -> ±25".
+        # Let's use f_start.
+        f_val = f_start if f_start is not None else None
+        
+        # Special case: If parse_year returned a range (century), it is effectively "inferred" / approx?
+        # The user requirement "ensure_display_range" seems to target MISSING dates.
+        # If we have "5th century BC", we DO have dates (-500, -400).
+        # But the user logic is specific.
+        # Let's strictly follow the user's "ensrue_display_range" logic.
+        
+        start, end, className = ensure_display_range(b_val, d_val, point_year=f_val)
+        
+        # Skip if completely invalid
+        if start is None or end is None:
+            continue
+            
+        # Build Tooltip
+        tooltip = build_tooltip(raw_b, raw_d, raw_f, className)
+        
         item = {
             "id": qid,
             "content": name or "Unknown", # Fallback name
-            "title": f"Birth: {raw_b or '?'} / Death: {raw_d or '?'}" # Tooltip
+            "start": start,
+            "end": end,
+            "className": className,
+            "occupations": occupations,
+            "primary_occupation": primary_occ
         }
         
-        b_start, b_end = parse_year(raw_b)
-        d_start, d_end = parse_year(raw_d)
-        
-        # Logic: Birth/Death Priority
-        if b_start is not None or d_start is not None:
-            # We have at least one birth or death date
-            
-            # Start
-            if b_start is not None:
-                item["start"] = b_start
-            else:
-                # No birth, but have death.
-                # Use death as start? Or make it a point at death?
-                # Vis.js range needs start.
-                # If only death is known, display as point?
-                item["start"] = d_start # Treat as point
-            
-            # End
-            if d_start is not None:
-                item["end"] = d_start
-            
-            # Determine type
-            if b_start is not None and d_start is not None:
-                 item["type"] = "range"
-            else:
-                 item["type"] = "point"
-            
-            item["source"] = "birth-death"
-            
-            # Class name for styling
-            is_approx = 'c.' in str(raw_b) or 'c.' in str(raw_d) or 'century' in str(raw_b) or 'century' in str(raw_d)
-            item["className"] = "approx" if is_approx else "exact"
-            
-            # Handle century range in Birth alone?
-            # If Birth is "5th century BC" (-500 to -400) and Death is empty.
-            # We should probably show that range?
-            # But "start" and "end" in Vis.js define the ITEM placement.
-            # If we set start=-500, end=-400, it looks like he lived for 100 years.
-            # Which is true-ish (he lived *in* that time).
-            # If we have Birth Range AND Death Range, it gets complex.
-            # Simple approach: Start = Birth Start, End = Death End (or Start if point).
-            
-            # Refinement for Century:
-            # If parse_year returned a range (start!=end) for Birth, use that if Death blank.
-            if b_start != b_end and raw_d is None:
-                 item["start"] = b_start
-                 item["end"] = b_end
-                 item["type"] = "range"
-                 item["className"] = "approx century"
-
-        elif raw_f:
-            # Only Floruit
-            item["source"] = "floruit"
-            item["title"] = f"Floruit: {raw_f}"
-            
-            f_start, f_end = parse_year(raw_f)
-            if f_start is not None:
-                if f_start != f_end:
-                    # It was a century or range already
-                    item["start"] = f_start
-                    item["end"] = f_end
-                else:
-                    # Point year, expand to +/- 10
-                    item["start"] = f_start - 10
-                    item["end"] = f_end + 10
-                
-                item["type"] = "range" # Always range for floruit visibility
-                item["className"] = "floruit"
-            else:
-                # Could not parse floruit
-                continue
+        # Only add title if it exists (inferred => empty)
+        if tooltip:
+             item["title"] = tooltip
+             
+        # Type is always range now due to start/end logic, unless ensuring point specifically?
+        # Vis.js handles start/end as range automatically.
+        item["type"] = "range"
 
         # Add to list
         output_data.append(item)
