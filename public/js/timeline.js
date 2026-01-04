@@ -22,7 +22,19 @@ function createDate(year) {
 
 // Custom date formatter for axis
 function formatAxis(date, scale, step) {
-    const year = date.getUTCFullYear();
+    let d = date;
+    // Vis.js might pass a Moment object
+    if (d && typeof d.toDate === 'function') {
+        d = d.toDate();
+    } else if (typeof d === 'number') {
+        d = new Date(d);
+    }
+
+    if (!d || typeof d.getUTCFullYear !== 'function') {
+        return String(date);
+    }
+
+    const year = d.getUTCFullYear();
     if (year < 0) {
         return Math.abs(year) + " BC";
     }
