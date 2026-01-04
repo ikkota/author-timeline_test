@@ -26,43 +26,69 @@
       /* Prevent body scroll */
     }
 
-    body {
-      display: flex;
-      flex-direction: column;
-    }
-
-    #controls {
-      flex: 0 0 auto;
-      /* Don't shrink */
-    }
-
+    /* Revert flex layout, use absolute positioning for controls */
     #timeline-container {
       width: 100%;
-      flex: 1 1 auto;
-      /* Grow to fill remaining space */
-      height: 0;
-      /* Min height for flex child validity */
-      border-top: 1px solid #ddd;
+      height: 100vh;
+    }
+
+    /* Floating Panel Styles */
+    #controls {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      width: 300px;
+      background: rgba(255, 255, 255, 0.95);
+      border: 1px solid #ccc;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      z-index: 1000;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    #panel-header {
+      background: #f1f1f1;
+      padding: 8px 12px;
+      cursor: move;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+    }
+
+    #panel-content {
+      padding: 10px;
+      transition: max-height 0.3s ease;
+    }
+
+    #panel-content.collapsed {
+      display: none;
     }
   </style>
 </head>
 
 <body>
 
-  <div id="controls" style="margin: 20px; font-family: sans-serif; display: flex; align-items: flex-start; gap: 20px;">
-
-    <div style="flex: 0 0 300px;">
-      <label style="font-weight: bold; display: block; margin-bottom: 5px;">職業でフィルター (Filter by Occupation):</label>
-      <div id="filter-container"
-        style="border: 1px solid #ccc; height: 120px; overflow-y: scroll; padding: 5px; background: #fff;">
-        <!-- Checkboxes will be injected here -->
-      </div>
-      <div style="margin-top: 5px; font-size: 12px; color: #666;">
-        <button id="clear-filters">Clear All</button>
-        <span id="filter-count" style="margin-left: 10px;"></span>
-      </div>
+  <div id="controls">
+    <div id="panel-header">
+      <strong>Filters</strong>
+      <button id="toggle-panel" style="border:none; background:none; cursor:pointer; font-weight:bold;">[-]</button>
     </div>
 
+    <div id="panel-content">
+      <label style="font-size: 14px; margin-bottom: 5px; display:block;">Occupation (OR):</label>
+      <div id="filter-container"
+        style="border: 1px solid #ccc; height: 150px; overflow-y: scroll; padding: 5px; background: #fff; margin-bottom:10px;">
+        <!-- Checkboxes will be injected here -->
+      </div>
+      <div style="font-size: 12px; color: #666; display:flex; justify-content:space-between; align-items:center;">
+        <button id="clear-filters">Clear</button>
+        <span id="filter-count"></span>
+      </div>
+    </div>
   </div>
 
   <div id="timeline-container">

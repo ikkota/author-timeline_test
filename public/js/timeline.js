@@ -159,6 +159,56 @@ async function initTimeline() {
             timeline.fit();
         });
 
+        // --- Floating Panel Logic ---
+        const panel = document.getElementById('controls');
+        const header = document.getElementById('panel-header');
+        const toggleBtn = document.getElementById('toggle-panel');
+        const content = document.getElementById('panel-content');
+
+        // Toggle
+        toggleBtn.addEventListener('click', () => {
+            if (content.style.display === "none") {
+                content.style.display = "block";
+                toggleBtn.textContent = "[-]";
+            } else {
+                content.style.display = "none";
+                toggleBtn.textContent = "[+]";
+            }
+        });
+
+        // Drag
+        let isDragging = false;
+        let startX, startY, startLeft, startTop;
+
+        header.addEventListener('mousedown', (e) => {
+            isDragging = true;
+            startX = e.clientX;
+            startY = e.clientY;
+
+            // Get current computed style
+            const style = window.getComputedStyle(panel);
+            startLeft = parseInt(style.left);
+            startTop = parseInt(style.top);
+
+            document.addEventListener('mousemove', onMouseMove);
+            document.addEventListener('mouseup', onMouseUp);
+        });
+
+        function onMouseMove(e) {
+            if (!isDragging) return;
+            const dx = e.clientX - startX;
+            const dy = e.clientY - startY;
+
+            panel.style.left = `${startLeft + dx}px`;
+            panel.style.top = `${startTop + dy}px`;
+        }
+
+        function onMouseUp() {
+            isDragging = false;
+            document.removeEventListener('mousemove', onMouseMove);
+            document.removeEventListener('mouseup', onMouseUp);
+        }
+
         const container = document.getElementById('timeline-container');
 
         // Configuration
