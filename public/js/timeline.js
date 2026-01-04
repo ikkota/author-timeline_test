@@ -88,7 +88,8 @@ async function initTimeline() {
                 type: item.type || 'range', // Default to range
                 className: item.className,
                 style: style, // Apply inline style
-                occupations: item.occupations // Keep usage for filter
+                occupations: item.occupations, // Keep usage for filter
+                wikipedia_url: item.wikipedia_url // Pass through
             };
 
             // Only add title if it exists (inferred items have no title)
@@ -196,7 +197,13 @@ async function initTimeline() {
             // Use occupations array for robust linking
             const occs = item.occupations || [];
 
-            let html = `<div class="tooltip-name">${name}</div>`;
+            let html = `<div class="tooltip-name">`;
+            html += `${name}`;
+            if (item.wikipedia_url) {
+                html += ` <a href="${item.wikipedia_url}" target="_blank" style="color:#007bff; font-weight:normal; font-size: 0.9em; margin-left:5px; text-decoration:none;">(Wikipedia)</a>`;
+            }
+            html += `</div>`;
+
             if (dates) {
                 html += `<div class="tooltip-dates">${dates}</div>`;
             }

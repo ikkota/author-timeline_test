@@ -151,10 +151,12 @@ def main():
     # Map them safely
     cols = df.columns
     # Basic mapping
+    # Basic mapping
     name_col = next((c for c in cols if 'Name' in str(c)), 'Name')
     birth_col = next((c for c in cols if 'Birth' in str(c)), 'Birth')
     death_col = next((c for c in cols if 'Death' in str(c)), 'Death')
     floruit_col = next((c for c in cols if 'Floruit' in str(c)), 'Floruit')
+    wp_url_col = next((c for c in cols if 'WP_source_url' in str(c)), 'WP_source_url')
 
     output_data = []
     
@@ -165,6 +167,7 @@ def main():
         raw_b = clean_value(row.get(birth_col))
         raw_d = clean_value(row.get(death_col))
         raw_f = clean_value(row.get(floruit_col))
+        wp_url = clean_value(row.get(wp_url_col))
         
         # Skip if totally empty
         if not raw_b and not raw_d and not raw_f:
@@ -219,32 +222,10 @@ def main():
         f_start, f_end = parse_year(raw_f)
         
         # Determine Display Range
-        # For birth/death, we use the "start" of the parsed range if available
-        # If parse_year returned a range (e.g. 5th century BC -> -500, -400), 
-        # we generally use the start/end of that for the "Exact" logic?
-        # User spec says: "Birthのみ -> end = birth + 50". this implies simple year handling.
-        # But our parse_year returns (start, end).
-        # Let's use the 'start' component for single-year logic if they are equal, 
-        # or just pass the start/end to ensure_display_range if we want to support range-input-dates later.
-        # ALLOW SIMPLIFICATION:
-        # Use simple integer years for range calculation. 
-        # If parse_year returned a specific year (start==end), use that.
-        # If it returned a range (century), use the center? Or just Start?
-        # Current logic uses b_start / d_start. Let's stick to that for now to match prior behavior logic
-        
         # Use b_start (e.g. -500) as the "Birth Year"
         b_val = b_start if b_start is not None else None
         d_val = d_start if d_start is not None else None
-        # For floruit, if it's a range (-500, -400), maybe take average? Or just start?
-        # User said "point (floruit) -> ±25".
-        # Let's use f_start.
         f_val = f_start if f_start is not None else None
-        
-        # Special case: If parse_year returned a range (century), it is effectively "inferred" / approx?
-        # The user requirement "ensure_display_range" seems to target MISSING dates.
-        # If we have "5th century BC", we DO have dates (-500, -400).
-        # But the user logic is specific.
-        # Let's strictly follow the user's "ensrue_display_range" logic.
         
         start, end, className = ensure_display_range(b_val, d_val, point_year=f_val)
         
@@ -262,7 +243,8 @@ def main():
             "end": end,
             "className": className,
             "occupations": occupations,
-            "primary_occupation": primary_occ
+            "primary_occupation": primary_occ,
+            "wikipedia_url": wp_url
         }
         
         # Only add title if it exists (inferred => empty)
