@@ -208,6 +208,24 @@ async function initTimeline() {
             document.removeEventListener('mousemove', onMouseMove);
             document.removeEventListener('mouseup', onMouseUp);
         }
+        // Helper to Create JS Date from Year
+        // Supports BC (negative years).
+        // JS Date: 1 AD = Year 1. 1 BC = Year 0. 2 BC = Year -1.
+        function createDate(year) {
+            if (year === undefined || year === null) return null;
+            // Convert dataset year (where -1 is 1 BC) to JS year (where 0 is 1 BC)
+            const jsYear = year < 0 ? year + 1 : year;
+            return new Date(jsYear, 0, 1);
+        }
+
+        function formatAxis(date, scale, step) {
+            const year = date.getFullYear();
+            // JS Year 0 is 1 BC. -1 is 2 BC.
+            if (year <= 0) {
+                return `${Math.abs(year - 1)} BC`;
+            }
+            return `${year} AD`;
+        }
 
         const container = document.getElementById('timeline-container');
 
@@ -220,9 +238,10 @@ async function initTimeline() {
             max: createDate(1350),  // Limit view to 1350 AD
             start: createDate(-300), // Default view start
             end: createDate(300),    // Default view end (Centered on AD 1)
+            showMajorLabels: false,  // Hide second row of labels
             format: {
                 minorLabels: formatAxis,
-                majorLabels: formatAxis
+                majorLabels: formatAxis // Should be hidden, but just in case
             },
             verticalScroll: true,
             horizontalScroll: true,
