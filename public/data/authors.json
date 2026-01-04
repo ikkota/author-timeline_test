@@ -2,14 +2,19 @@
   {
     "id": "Q8778",
     "content": "Galen",
-    "title": "Galen | 2th century AD - 3th century AD | biologist, neuroscientist, philosopher, physician, physician writer, surgeon",
+    "title": "Galen | 2th century AD - 3th century AD | biologist, neuroscientist, philosopher, physician, physician writer, surgeon, 医師, 哲学者, 外科医, 生物学者, 神経科学者",
     "occupations": [
       "biologist",
       "neuroscientist",
       "philosopher",
       "physician",
       "physician writer",
-      "surgeon"
+      "surgeon",
+      "医師",
+      "哲学者",
+      "外科医",
+      "生物学者",
+      "神経科学者"
     ],
     "start": 100,
     "end": 200,
@@ -20,9 +25,10 @@
   {
     "id": "Q405969",
     "content": "Aeneas Tacticus",
-    "title": "Aeneas Tacticus | 5th century BC - 4th century BC | military writer",
+    "title": "Aeneas Tacticus | 5th century BC - 4th century BC | military writer, 軍事ライター",
     "occupations": [
-      "military writer"
+      "military writer",
+      "軍事ライター"
     ],
     "start": -500,
     "end": -400,
@@ -33,13 +39,18 @@
   {
     "id": "Q859",
     "content": "Plato",
-    "title": "Plato | -426 - -348s | epigrammatist, philosopher, philosopher of law, poet, writer",
+    "title": "Plato | -426 - -348s | epigrammatist, philosopher, philosopher of law, poet, writer, エピグラマティスト, 哲学者, 法哲学者, 著作家, 詩人",
     "occupations": [
       "epigrammatist",
       "philosopher",
       "philosopher of law",
       "poet",
-      "writer"
+      "writer",
+      "エピグラマティスト",
+      "哲学者",
+      "法哲学者",
+      "著作家",
+      "詩人"
     ],
     "start": -426,
     "end": -348,
@@ -50,11 +61,14 @@
   {
     "id": "Q171241",
     "content": "Diodorus Siculus",
-    "title": "Diodorus Siculus | c. -89 - c. -19 | geographer, historian, mythographer",
+    "title": "Diodorus Siculus | c. -89 - c. -19 | geographer, historian, mythographer, ミソグラファー, 地理学者, 歴史家",
     "occupations": [
       "geographer",
       "historian",
-      "mythographer"
+      "mythographer",
+      "ミソグラファー",
+      "地理学者",
+      "歴史家"
     ],
     "start": -89,
     "end": -19,
@@ -65,13 +79,18 @@
   {
     "id": "Q177847",
     "content": "Lucian of Samosata",
-    "title": "Lucian of Samosata | c. 120 - 2th century AD | biographer, philosopher, poet, satirist, writer",
+    "title": "Lucian of Samosata | c. 120 - 2th century AD | biographer, philosopher, poet, satirist, writer, 伝記作家, 哲学者, 著作家, 詩人, 風刺作家",
     "occupations": [
       "biographer",
       "philosopher",
       "poet",
       "satirist",
-      "writer"
+      "writer",
+      "伝記作家",
+      "哲学者",
+      "著作家",
+      "詩人",
+      "風刺作家"
     ],
     "start": 120,
     "end": 100,
@@ -82,10 +101,11 @@
   {
     "id": "Q296478",
     "content": "Hanno the Navigator",
-    "title": "Hanno the Navigator | 5th century BC - 5th century BC | explorer, seafarer",
+    "title": "Hanno the Navigator | 5th century BC - 5th century BC | explorer, seafarer, 探検家",
     "occupations": [
       "explorer",
-      "seafarer"
+      "seafarer",
+      "探検家"
     ],
     "start": -500,
     "end": -500,
@@ -96,13 +116,18 @@
   {
     "id": "Q453311",
     "content": "Scylax of Caryanda",
-    "title": "Scylax of Caryanda | 6th century BC - 5th century BC | biographer, explorer, historian, navigator, writer",
+    "title": "Scylax of Caryanda | 6th century BC - 5th century BC | biographer, explorer, historian, navigator, writer, 伝記作家, 探検家, 歴史家, 航海士, 著作家",
     "occupations": [
       "biographer",
       "explorer",
       "historian",
       "navigator",
-      "writer"
+      "writer",
+      "伝記作家",
+      "探検家",
+      "歴史家",
+      "航海士",
+      "著作家"
     ],
     "start": -600,
     "end": -500,
@@ -113,12 +138,16 @@
   {
     "id": "Q352621",
     "content": "Dicaearchus",
-    "title": "Dicaearchus | -344 - -289 | geographer, historian, mathematician, philosopher",
+    "title": "Dicaearchus | -344 - -289 | geographer, historian, mathematician, philosopher, 哲学者, 地理学者, 数学者, 歴史家",
     "occupations": [
       "geographer",
       "historian",
       "mathematician",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "地理学者",
+      "数学者",
+      "歴史家"
     ],
     "start": -344,
     "end": -289,
@@ -129,12 +158,16 @@
   {
     "id": "Q391216",
     "content": "Agatharchides",
-    "title": "Agatharchides | -207 - ? | geographer, historian, naturalist, philosopher",
+    "title": "Agatharchides | -207 - ? | geographer, historian, naturalist, philosopher, 博物学者, 哲学者, 地理学者, 歴史家",
     "occupations": [
       "geographer",
       "historian",
       "naturalist",
-      "philosopher"
+      "philosopher",
+      "博物学者",
+      "哲学者",
+      "地理学者",
+      "歴史家"
     ],
     "start": -207,
     "type": "point",
@@ -144,9 +177,10 @@
   {
     "id": "Q2877686",
     "content": "Pseudo-Scymnus",
-    "title": "Pseudo-Scymnus | 2th century BC - -2 | geographer",
+    "title": "Pseudo-Scymnus | 2th century BC - -2 | geographer, 地理学者",
     "occupations": [
-      "geographer"
+      "geographer",
+      "地理学者"
     ],
     "start": -200,
     "end": -2,
@@ -157,10 +191,12 @@
   {
     "id": "Q1351420",
     "content": "Isidoros of Charax",
-    "title": "Isidoros of Charax | 1th century BC - 1th century AD | explorer, geographer",
+    "title": "Isidoros of Charax | 1th century BC - 1th century AD | explorer, geographer, 地理学者, 探検家",
     "occupations": [
       "explorer",
-      "geographer"
+      "geographer",
+      "地理学者",
+      "探検家"
     ],
     "start": -100,
     "end": 0,
@@ -171,13 +207,18 @@
   {
     "id": "Q31845",
     "content": "Arrian",
-    "title": "Arrian | c. 89 - 180 | historian, military personnel, philosopher, politician, writer",
+    "title": "Arrian | c. 89 - 180 | historian, military personnel, philosopher, politician, writer, 哲学者, 政治家, 歴史家, 著作家, 軍人",
     "occupations": [
       "historian",
       "military personnel",
       "philosopher",
       "politician",
-      "writer"
+      "writer",
+      "哲学者",
+      "政治家",
+      "歴史家",
+      "著作家",
+      "軍人"
     ],
     "start": 89,
     "end": 180,
@@ -188,13 +229,18 @@
   {
     "id": "Q26204",
     "content": "Dionysius of Halicarnassus",
-    "title": "Dionysius of Halicarnassus | c. -59 - -6 | grammarian, historian, orator, rhetorician, writer",
+    "title": "Dionysius of Halicarnassus | c. -59 - -6 | grammarian, historian, orator, rhetorician, writer, 修辞学者, 文法学者, 歴史家, 著作家, 雄弁家",
     "occupations": [
       "grammarian",
       "historian",
       "orator",
       "rhetorician",
-      "writer"
+      "writer",
+      "修辞学者",
+      "文法学者",
+      "歴史家",
+      "著作家",
+      "雄弁家"
     ],
     "start": -59,
     "end": -6,
@@ -205,9 +251,10 @@
   {
     "id": "Q472809",
     "content": "Apollonius Dyscolus",
-    "title": "Apollonius Dyscolus | 2th century AD - 2th century AD | grammarian",
+    "title": "Apollonius Dyscolus | 2th century AD - 2th century AD | grammarian, 文法学者",
     "occupations": [
-      "grammarian"
+      "grammarian",
+      "文法学者"
     ],
     "start": 100,
     "end": 100,
@@ -218,10 +265,12 @@
   {
     "id": "Q804146",
     "content": "Dionysius of Byzantium",
-    "title": "Dionysius of Byzantium | 2th century AD - ? | geographer, poet",
+    "title": "Dionysius of Byzantium | 2th century AD - ? | geographer, poet, 地理学者, 詩人",
     "occupations": [
       "geographer",
-      "poet"
+      "poet",
+      "地理学者",
+      "詩人"
     ],
     "start": 100,
     "type": "range",
@@ -232,11 +281,14 @@
   {
     "id": "Q1226993",
     "content": "Dionysius Periegetes",
-    "title": "Dionysius Periegetes | c. 100 - 140 | geographer, poet, writer",
+    "title": "Dionysius Periegetes | c. 100 - 140 | geographer, poet, writer, 地理学者, 著作家, 詩人",
     "occupations": [
       "geographer",
       "poet",
-      "writer"
+      "writer",
+      "地理学者",
+      "著作家",
+      "詩人"
     ],
     "start": 100,
     "end": 140,
@@ -247,12 +299,16 @@
   {
     "id": "Q40939",
     "content": "Aeschylus",
-    "title": "Aeschylus | -524 - -455 | playwright, tragedy writer, warrior, writer",
+    "title": "Aeschylus | -524 - -455 | playwright, tragedy writer, warrior, writer, 劇作家, 悲劇作家, 戦士, 著作家",
     "occupations": [
       "playwright",
       "tragedy writer",
       "warrior",
-      "writer"
+      "writer",
+      "劇作家",
+      "悲劇作家",
+      "戦士",
+      "著作家"
     ],
     "start": -524,
     "end": -455,
@@ -263,7 +319,7 @@
   {
     "id": "Q868",
     "content": "Aristotle",
-    "title": "Aristotle | -382 - -321 | astronomer, biologist, cosmologist, epistemologist, ethicist, geographer, literary critic, logician, mathematician, ontologist, philosopher, philosopher of language, physicist, political philosopher, polymath, psychologist, teacher, theologian, tutor, writer, zoologist",
+    "title": "Aristotle | -382 - -321 | astronomer, biologist, cosmologist, epistemologist, ethicist, geographer, literary critic, logician, mathematician, ontologist, philosopher, philosopher of language, physicist, political philosopher, polymath, psychologist, teacher, theologian, tutor, writer, zoologist, チューター, 倫理学者, 動物学者, 博学者, 哲学者, 地理学者, 天文学者, 存在論者, 宇宙論者, 心理学者, 政治哲学者, 教員, 数学者, 文芸評論家, 物理学者, 生物学者, 神学者, 著作家, 言語哲学者, 認識論者, 論理学者",
     "occupations": [
       "astronomer",
       "biologist",
@@ -285,7 +341,28 @@
       "theologian",
       "tutor",
       "writer",
-      "zoologist"
+      "zoologist",
+      "チューター",
+      "倫理学者",
+      "動物学者",
+      "博学者",
+      "哲学者",
+      "地理学者",
+      "天文学者",
+      "存在論者",
+      "宇宙論者",
+      "心理学者",
+      "政治哲学者",
+      "教員",
+      "数学者",
+      "文芸評論家",
+      "物理学者",
+      "生物学者",
+      "神学者",
+      "著作家",
+      "言語哲学者",
+      "認識論者",
+      "論理学者"
     ],
     "start": -382,
     "end": -321,
@@ -296,10 +373,12 @@
   {
     "id": "Q380826",
     "content": "Aelius Herodianus",
-    "title": "Aelius Herodianus | 180 - 250 | grammarian, writer",
+    "title": "Aelius Herodianus | 180 - 250 | grammarian, writer, 文法学者, 著作家",
     "occupations": [
       "grammarian",
-      "writer"
+      "writer",
+      "文法学者",
+      "著作家"
     ],
     "start": 180,
     "end": 250,
@@ -310,12 +389,16 @@
   {
     "id": "Q335156",
     "content": "Aristoxenus",
-    "title": "Aristoxenus | c. -359 - c. -299 | mathematician, music theorist, musicologist, philosopher",
+    "title": "Aristoxenus | c. -359 - c. -299 | mathematician, music theorist, musicologist, philosopher, 哲学者, 数学者, 音楽学者, 音楽理論家",
     "occupations": [
       "mathematician",
       "music theorist",
       "musicologist",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "数学者",
+      "音楽学者",
+      "音楽理論家"
     ],
     "start": -359,
     "end": -299,
@@ -326,9 +409,10 @@
   {
     "id": "Q515542",
     "content": "Agathemerus",
-    "title": "Agathemerus | 3th century AD - 3th century AD | geographer",
+    "title": "Agathemerus | 3th century AD - 3th century AD | geographer, 地理学者",
     "occupations": [
-      "geographer"
+      "geographer",
+      "地理学者"
     ],
     "start": 200,
     "end": 200,
@@ -339,12 +423,16 @@
   {
     "id": "Q160362",
     "content": "Theophrastus",
-    "title": "Theophrastus | c. -370 - -286 | botanist, philosopher, physicist, writer",
+    "title": "Theophrastus | c. -370 - -286 | botanist, philosopher, physicist, writer, 哲学者, 植物学者, 物理学者, 著作家",
     "occupations": [
       "botanist",
       "philosopher",
       "physicist",
-      "writer"
+      "writer",
+      "哲学者",
+      "植物学者",
+      "物理学者",
+      "著作家"
     ],
     "start": -370,
     "end": -286,
@@ -355,12 +443,15 @@
   {
     "id": "Q43423",
     "content": "Aesop",
-    "title": "Aesop | c. -619 - c. -563 | fabulist, mythographer, philosopher, writer",
+    "title": "Aesop | c. -619 - c. -563 | fabulist, mythographer, philosopher, writer, ミソグラファー, 哲学者, 著作家",
     "occupations": [
       "fabulist",
       "mythographer",
       "philosopher",
-      "writer"
+      "writer",
+      "ミソグラファー",
+      "哲学者",
+      "著作家"
     ],
     "start": -619,
     "end": -563,
@@ -371,11 +462,13 @@
   {
     "id": "Q1226821",
     "content": "Diogenianus",
-    "title": "Diogenianus | 2th century AD - 2th century AD | grammarian, lexicographer, paremiographer",
+    "title": "Diogenianus | 2th century AD - 2th century AD | grammarian, lexicographer, paremiographer, 文法学者, 辞書編纂者",
     "occupations": [
       "grammarian",
       "lexicographer",
-      "paremiographer"
+      "paremiographer",
+      "文法学者",
+      "辞書編纂者"
     ],
     "start": 100,
     "end": 100,
@@ -386,10 +479,11 @@
   {
     "id": "Q189699",
     "content": "Zenobius",
-    "title": "Zenobius | 2th century AD - 2th century AD | paremiographer, rhetorician",
+    "title": "Zenobius | 2th century AD - 2th century AD | paremiographer, rhetorician, 修辞学者",
     "occupations": [
       "paremiographer",
-      "rhetorician"
+      "rhetorician",
+      "修辞学者"
     ],
     "start": 100,
     "end": 100,
@@ -400,12 +494,16 @@
   {
     "id": "Q45936",
     "content": "Strabo",
-    "title": "Strabo | c. -62 - 24 | geographer, historian, philosopher, writer",
+    "title": "Strabo | c. -62 - 24 | geographer, historian, philosopher, writer, 哲学者, 地理学者, 歴史家, 著作家",
     "occupations": [
       "geographer",
       "historian",
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "地理学者",
+      "歴史家",
+      "著作家"
     ],
     "start": -62,
     "end": 24,
@@ -416,12 +514,15 @@
   {
     "id": "Q310681",
     "content": "Bacchylides",
-    "title": "Bacchylides | c. -515 - c. -450 | dithyrambic poet, epigrammatist, poet, writer",
+    "title": "Bacchylides | c. -515 - c. -450 | dithyrambic poet, epigrammatist, poet, writer, エピグラマティスト, 著作家, 詩人",
     "occupations": [
       "dithyrambic poet",
       "epigrammatist",
       "poet",
-      "writer"
+      "writer",
+      "エピグラマティスト",
+      "著作家",
+      "詩人"
     ],
     "start": -515,
     "end": -450,
@@ -432,9 +533,10 @@
   {
     "id": "Q367377",
     "content": "Hipponax",
-    "title": "Hipponax | 6th century BC - 6th century BC | poet",
+    "title": "Hipponax | 6th century BC - 6th century BC | poet, 詩人",
     "occupations": [
-      "poet"
+      "poet",
+      "詩人"
     ],
     "start": -600,
     "end": -600,
@@ -445,10 +547,12 @@
   {
     "id": "Q354431",
     "content": "Aelius Aristides",
-    "title": "Aelius Aristides | 117 - 185 | philosopher, writer",
+    "title": "Aelius Aristides | 117 - 185 | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": 117,
     "end": 185,
@@ -459,13 +563,18 @@
   {
     "id": "Q294092",
     "content": "Critias",
-    "title": "Critias | -459 - -402 | philosopher, poet, politician, tragedy writer, writer",
+    "title": "Critias | -459 - -402 | philosopher, poet, politician, tragedy writer, writer, 哲学者, 悲劇作家, 政治家, 著作家, 詩人",
     "occupations": [
       "philosopher",
       "poet",
       "politician",
       "tragedy writer",
-      "writer"
+      "writer",
+      "哲学者",
+      "悲劇作家",
+      "政治家",
+      "著作家",
+      "詩人"
     ],
     "start": -459,
     "end": -402,
@@ -476,11 +585,14 @@
   {
     "id": "Q432737",
     "content": "Lycophron",
-    "title": "Lycophron | -319 - -279 | poet, tragedy writer, writer",
+    "title": "Lycophron | -319 - -279 | poet, tragedy writer, writer, 悲劇作家, 著作家, 詩人",
     "occupations": [
       "poet",
       "tragedy writer",
-      "writer"
+      "writer",
+      "悲劇作家",
+      "著作家",
+      "詩人"
     ],
     "start": -319,
     "end": -279,
@@ -491,11 +603,13 @@
   {
     "id": "Q84027027",
     "content": "Didymus of Alexandria",
-    "title": "Didymus of Alexandria | 1th century BC - 1th century AD | mathematician, metrologist, writer",
+    "title": "Didymus of Alexandria | 1th century BC - 1th century AD | mathematician, metrologist, writer, 数学者, 著作家",
     "occupations": [
       "mathematician",
       "metrologist",
-      "writer"
+      "writer",
+      "数学者",
+      "著作家"
     ],
     "start": -100,
     "end": 0,
@@ -506,12 +620,16 @@
   {
     "id": "Q360366",
     "content": "Nicomachus",
-    "title": "Nicomachus | c. 60 - c. 120 | mathematician, music theorist, musicologist, philosopher",
+    "title": "Nicomachus | c. 60 - c. 120 | mathematician, music theorist, musicologist, philosopher, 哲学者, 数学者, 音楽学者, 音楽理論家",
     "occupations": [
       "mathematician",
       "music theorist",
       "musicologist",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "数学者",
+      "音楽学者",
+      "音楽理論家"
     ],
     "start": 60,
     "end": 120,
@@ -522,10 +640,12 @@
   {
     "id": "Q4223358",
     "content": "Cleonides",
-    "title": "Cleonides | 2th century AD - 2th century AD | music theorist, musicologist",
+    "title": "Cleonides | 2th century AD - 2th century AD | music theorist, musicologist, 音楽学者, 音楽理論家",
     "occupations": [
       "music theorist",
-      "musicologist"
+      "musicologist",
+      "音楽学者",
+      "音楽理論家"
     ],
     "start": 100,
     "end": 100,
@@ -536,7 +656,7 @@
   {
     "id": "Q34943",
     "content": "Ptolemy",
-    "title": "Ptolemy | c. 100 - c. 170 | astrologer, astronomer, epigrammatist, geographer, mathematician, music theorist, musicologist, philosopher, writer",
+    "title": "Ptolemy | c. 100 - c. 170 | astrologer, astronomer, epigrammatist, geographer, mathematician, music theorist, musicologist, philosopher, writer, エピグラマティスト, 占星術師, 哲学者, 地理学者, 天文学者, 数学者, 著作家, 音楽学者, 音楽理論家",
     "occupations": [
       "astrologer",
       "astronomer",
@@ -546,7 +666,16 @@
       "music theorist",
       "musicologist",
       "philosopher",
-      "writer"
+      "writer",
+      "エピグラマティスト",
+      "占星術師",
+      "哲学者",
+      "地理学者",
+      "天文学者",
+      "数学者",
+      "著作家",
+      "音楽学者",
+      "音楽理論家"
     ],
     "start": 100,
     "end": 170,
@@ -557,11 +686,14 @@
   {
     "id": "Q185223",
     "content": "Cassius Dio",
-    "title": "Cassius Dio | c. 155 - 3th century AD | historian, military personnel, politician",
+    "title": "Cassius Dio | c. 155 - 3th century AD | historian, military personnel, politician, 政治家, 歴史家, 軍人",
     "occupations": [
       "historian",
       "military personnel",
-      "politician"
+      "politician",
+      "政治家",
+      "歴史家",
+      "軍人"
     ],
     "start": 155,
     "end": 200,
@@ -572,11 +704,14 @@
   {
     "id": "Q456560",
     "content": "Myia",
-    "title": "Myia | 6th century BC - 5th century BC | mathematician, philosopher, writer",
+    "title": "Myia | 6th century BC - 5th century BC | mathematician, philosopher, writer, 哲学者, 数学者, 著作家",
     "occupations": [
       "mathematician",
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "数学者",
+      "著作家"
     ],
     "start": -600,
     "end": -500,
@@ -587,13 +722,18 @@
   {
     "id": "Q312410",
     "content": "Epicharmus of Kos",
-    "title": "Epicharmus of Kos | c. -539 - c. -434 | comedy writer, dramaturge, mathematician, philosopher, writer",
+    "title": "Epicharmus of Kos | c. -539 - c. -434 | comedy writer, dramaturge, mathematician, philosopher, writer, コメディ作家, ドラマトゥルク, 哲学者, 数学者, 著作家",
     "occupations": [
       "comedy writer",
       "dramaturge",
       "mathematician",
       "philosopher",
-      "writer"
+      "writer",
+      "コメディ作家",
+      "ドラマトゥルク",
+      "哲学者",
+      "数学者",
+      "著作家"
     ],
     "start": -539,
     "end": -434,
@@ -604,11 +744,14 @@
   {
     "id": "Q192931",
     "content": "Pausanias",
-    "title": "Pausanias | c. 115 - c. 180 | geographer, travel writer, writer",
+    "title": "Pausanias | c. 115 - c. 180 | geographer, travel writer, writer, 地理学者, 旅行作家, 著作家",
     "occupations": [
       "geographer",
       "travel writer",
-      "writer"
+      "writer",
+      "地理学者",
+      "旅行作家",
+      "著作家"
     ],
     "start": 115,
     "end": 180,
@@ -619,10 +762,12 @@
   {
     "id": "Q134461",
     "content": "Josephus",
-    "title": "Josephus | 37 - 100 | historian, writer",
+    "title": "Josephus | 37 - 100 | historian, writer, 歴史家, 著作家",
     "occupations": [
       "historian",
-      "writer"
+      "writer",
+      "歴史家",
+      "著作家"
     ],
     "start": 37,
     "end": 100,
@@ -633,9 +778,10 @@
   {
     "id": "Q641051",
     "content": "Arius Didymus",
-    "title": "Arius Didymus | -83s - ? | philosopher",
+    "title": "Arius Didymus | -83s - ? | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": -83,
     "type": "point",
@@ -645,9 +791,10 @@
   {
     "id": "Q221951",
     "content": "Achilles Tatius",
-    "title": "Achilles Tatius | 2th century AD - 3th century AD | writer",
+    "title": "Achilles Tatius | 2th century AD - 3th century AD | writer, 著作家",
     "occupations": [
-      "writer"
+      "writer",
+      "著作家"
     ],
     "start": 100,
     "end": 200,
@@ -658,14 +805,19 @@
   {
     "id": "Q192417",
     "content": "Callimachus",
-    "title": "Callimachus | c. -319 - c. -242 | elegist, epigrammatist, librarian, mythographer, poet, writer",
+    "title": "Callimachus | c. -319 - c. -242 | elegist, epigrammatist, librarian, mythographer, poet, writer, エピグラマティスト, ミソグラファー, 司書, 著作家, 詩人",
     "occupations": [
       "elegist",
       "epigrammatist",
       "librarian",
       "mythographer",
       "poet",
-      "writer"
+      "writer",
+      "エピグラマティスト",
+      "ミソグラファー",
+      "司書",
+      "著作家",
+      "詩人"
     ],
     "start": -319,
     "end": -242,
@@ -676,10 +828,12 @@
   {
     "id": "Q211430",
     "content": "Demades",
-    "title": "Demades | -380s - -316 | orator, politician",
+    "title": "Demades | -380s - -316 | orator, politician, 政治家, 雄弁家",
     "occupations": [
       "orator",
-      "politician"
+      "politician",
+      "政治家",
+      "雄弁家"
     ],
     "start": -380,
     "end": -316,
@@ -690,10 +844,12 @@
   {
     "id": "Q43216",
     "content": "Epicurus",
-    "title": "Epicurus | -340 - -269 | philosopher, writer",
+    "title": "Epicurus | -340 - -269 | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": -340,
     "end": -269,
@@ -704,11 +860,13 @@
   {
     "id": "Q310164",
     "content": "Lysias",
-    "title": "Lysias | c. -444 - -379 | logographer, orator, writer",
+    "title": "Lysias | c. -444 - -379 | logographer, orator, writer, 著作家, 雄弁家",
     "occupations": [
       "logographer",
       "orator",
-      "writer"
+      "writer",
+      "著作家",
+      "雄弁家"
     ],
     "start": -444,
     "end": -379,
@@ -719,10 +877,12 @@
   {
     "id": "Q118992",
     "content": "Menander",
-    "title": "Menander | -340s - c. -290 | comedy writer, poet",
+    "title": "Menander | -340s - c. -290 | comedy writer, poet, コメディ作家, 詩人",
     "occupations": [
       "comedy writer",
-      "poet"
+      "poet",
+      "コメディ作家",
+      "詩人"
     ],
     "start": -340,
     "end": -290,
@@ -733,13 +893,18 @@
   {
     "id": "Q548104",
     "content": "Julius Pollux",
-    "title": "Julius Pollux | 2th century AD - 238 | lexicographer, orator, philosopher, sophist, writer",
+    "title": "Julius Pollux | 2th century AD - 238 | lexicographer, orator, philosopher, sophist, writer, ソフィスト, 哲学者, 著作家, 辞書編纂者, 雄弁家",
     "occupations": [
       "lexicographer",
       "orator",
       "philosopher",
       "sophist",
-      "writer"
+      "writer",
+      "ソフィスト",
+      "哲学者",
+      "著作家",
+      "辞書編纂者",
+      "雄弁家"
     ],
     "start": 100,
     "end": 238,
@@ -750,11 +915,14 @@
   {
     "id": "Q131169",
     "content": "Polybius",
-    "title": "Polybius | -211 - -131 | historian, military personnel, writer",
+    "title": "Polybius | -211 - -131 | historian, military personnel, writer, 歴史家, 著作家, 軍人",
     "occupations": [
       "historian",
       "military personnel",
-      "writer"
+      "writer",
+      "歴史家",
+      "著作家",
+      "軍人"
     ],
     "start": -211,
     "end": -131,
@@ -765,12 +933,15 @@
   {
     "id": "Q236594",
     "content": "Sextus Empiricus",
-    "title": "Sextus Empiricus | c. 2th century AD - c. 3th century AD | philosopher, physician, physician writer, writer",
+    "title": "Sextus Empiricus | c. 2th century AD - c. 3th century AD | philosopher, physician, physician writer, writer, 医師, 哲学者, 著作家",
     "occupations": [
       "philosopher",
       "physician",
       "physician writer",
-      "writer"
+      "writer",
+      "医師",
+      "哲学者",
+      "著作家"
     ],
     "start": 100,
     "end": 200,
@@ -781,14 +952,20 @@
   {
     "id": "Q313782",
     "content": "Aelian",
-    "title": "Aelian | 2th century AD - 235 | historian, orator, poet, teacher, writer, zoologist",
+    "title": "Aelian | 2th century AD - 235 | historian, orator, poet, teacher, writer, zoologist, 動物学者, 教員, 歴史家, 著作家, 詩人, 雄弁家",
     "occupations": [
       "historian",
       "orator",
       "poet",
       "teacher",
       "writer",
-      "zoologist"
+      "zoologist",
+      "動物学者",
+      "教員",
+      "歴史家",
+      "著作家",
+      "詩人",
+      "雄弁家"
     ],
     "start": 100,
     "end": 235,
@@ -799,11 +976,14 @@
   {
     "id": "Q12506564",
     "content": "Pseudo-Apollodorus",
-    "title": "Pseudo-Apollodorus | c. 1th century AD - c. 2th century AD | historian, mythographer, writer",
+    "title": "Pseudo-Apollodorus | c. 1th century AD - c. 2th century AD | historian, mythographer, writer, ミソグラファー, 歴史家, 著作家",
     "occupations": [
       "historian",
       "mythographer",
-      "writer"
+      "writer",
+      "ミソグラファー",
+      "歴史家",
+      "著作家"
     ],
     "start": 0,
     "end": 100,
@@ -814,10 +994,12 @@
   {
     "id": "Q180109",
     "content": "Apollonius of Perga",
-    "title": "Apollonius of Perga | c. -259 - c. -189 | astronomer, mathematician",
+    "title": "Apollonius of Perga | c. -259 - c. -189 | astronomer, mathematician, 天文学者, 数学者",
     "occupations": [
       "astronomer",
-      "mathematician"
+      "mathematician",
+      "天文学者",
+      "数学者"
     ],
     "start": -259,
     "end": -189,
@@ -828,12 +1010,16 @@
   {
     "id": "Q190368",
     "content": "Appian",
-    "title": "Appian | c. 95 - c. 165 | civil servant, historian, lawyer, writer",
+    "title": "Appian | c. 95 - c. 165 | civil servant, historian, lawyer, writer, 公務員, 弁護士, 歴史家, 著作家",
     "occupations": [
       "civil servant",
       "historian",
       "lawyer",
-      "writer"
+      "writer",
+      "公務員",
+      "弁護士",
+      "歴史家",
+      "著作家"
     ],
     "start": 95,
     "end": 165,
@@ -844,7 +1030,7 @@
   {
     "id": "Q8739",
     "content": "Archimedes",
-    "title": "Archimedes | c. -284 - -210 | astronomer, engineer, inventor, mathematician, military engineer, philosopher, physicist",
+    "title": "Archimedes | c. -284 - -210 | astronomer, engineer, inventor, mathematician, military engineer, philosopher, physicist, エンジニア, 哲学者, 天文学者, 数学者, 物理学者, 発明家",
     "occupations": [
       "astronomer",
       "engineer",
@@ -852,7 +1038,13 @@
       "mathematician",
       "military engineer",
       "philosopher",
-      "physicist"
+      "physicist",
+      "エンジニア",
+      "哲学者",
+      "天文学者",
+      "数学者",
+      "物理学者",
+      "発明家"
     ],
     "start": -284,
     "end": -210,
@@ -863,9 +1055,10 @@
   {
     "id": "Q445848",
     "content": "Artemidorus",
-    "title": "Artemidorus | 2th century AD - 2th century AD | writer",
+    "title": "Artemidorus | 2th century AD - 2th century AD | writer, 著作家",
     "occupations": [
-      "writer"
+      "writer",
+      "著作家"
     ],
     "start": 100,
     "end": 100,
@@ -876,10 +1069,12 @@
   {
     "id": "Q434567",
     "content": "Chariton",
-    "title": "Chariton | 1th century AD - 2th century AD | novelist, writer",
+    "title": "Chariton | 1th century AD - 2th century AD | novelist, writer, 小説家, 著作家",
     "occupations": [
       "novelist",
-      "writer"
+      "writer",
+      "小説家",
+      "著作家"
     ],
     "start": 0,
     "end": 100,
@@ -890,11 +1085,14 @@
   {
     "id": "Q188883",
     "content": "Clement of Alexandria",
-    "title": "Clement of Alexandria | c. 150 - c. 215 | philosopher, theologian, writer",
+    "title": "Clement of Alexandria | c. 150 - c. 215 | philosopher, theologian, writer, 哲学者, 神学者, 著作家",
     "occupations": [
       "philosopher",
       "theologian",
-      "writer"
+      "writer",
+      "哲学者",
+      "神学者",
+      "著作家"
     ],
     "start": 150,
     "end": 215,
@@ -905,11 +1103,14 @@
   {
     "id": "Q261224",
     "content": "Asclepiodotus",
-    "title": "Asclepiodotus | 1th century BC - ? | non-fiction writer, philosopher, writer",
+    "title": "Asclepiodotus | 1th century BC - ? | non-fiction writer, philosopher, writer, ノンフィクション作家, 哲学者, 著作家",
     "occupations": [
       "non-fiction writer",
       "philosopher",
-      "writer"
+      "writer",
+      "ノンフィクション作家",
+      "哲学者",
+      "著作家"
     ],
     "start": -100,
     "type": "range",
@@ -920,10 +1121,12 @@
   {
     "id": "Q183144",
     "content": "Epictetus",
-    "title": "Epictetus | c. 50 - 138 | philosopher, writer",
+    "title": "Epictetus | c. 50 - 138 | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": 50,
     "end": 138,
@@ -934,13 +1137,17 @@
   {
     "id": "Q161853",
     "content": "Hero of Alexandria",
-    "title": "Hero of Alexandria | c. 10 - c. 75 | engineer, inventor, mathematician, mechanical automaton engineer, physicist",
+    "title": "Hero of Alexandria | c. 10 - c. 75 | engineer, inventor, mathematician, mechanical automaton engineer, physicist, エンジニア, 数学者, 物理学者, 発明家",
     "occupations": [
       "engineer",
       "inventor",
       "mathematician",
       "mechanical automaton engineer",
-      "physicist"
+      "physicist",
+      "エンジニア",
+      "数学者",
+      "物理学者",
+      "発明家"
     ],
     "start": 10,
     "end": 75,
@@ -951,10 +1158,12 @@
   {
     "id": "Q744540",
     "content": "Pseudo-Longinus",
-    "title": "Pseudo-Longinus | 1th century AD - 1th century AD | literary critic, writer",
+    "title": "Pseudo-Longinus | 1th century AD - 1th century AD | literary critic, writer, 文芸評論家, 著作家",
     "occupations": [
       "literary critic",
-      "writer"
+      "writer",
+      "文芸評論家",
+      "著作家"
     ],
     "start": 0,
     "end": 0,
@@ -965,9 +1174,10 @@
   {
     "id": "Q314949",
     "content": "Longus",
-    "title": "Longus | 2th century AD - 2th century AD | writer",
+    "title": "Longus | 2th century AD - 2th century AD | writer, 著作家",
     "occupations": [
-      "writer"
+      "writer",
+      "著作家"
     ],
     "start": 100,
     "end": 100,
@@ -978,12 +1188,16 @@
   {
     "id": "Q1430",
     "content": "Marcus Aurelius",
-    "title": "Marcus Aurelius | 121 - 180 | monarch, philosopher, politician, writer",
+    "title": "Marcus Aurelius | 121 - 180 | monarch, philosopher, politician, writer, 君主, 哲学者, 政治家, 著作家",
     "occupations": [
       "monarch",
       "philosopher",
       "politician",
-      "writer"
+      "writer",
+      "君主",
+      "哲学者",
+      "政治家",
+      "著作家"
     ],
     "start": 121,
     "end": 180,
@@ -994,10 +1208,12 @@
   {
     "id": "Q456649",
     "content": "Maximus of Tyre",
-    "title": "Maximus of Tyre | 2th century AD - 2th century AD | orator, philosopher",
+    "title": "Maximus of Tyre | 2th century AD - 2th century AD | orator, philosopher, 哲学者, 雄弁家",
     "occupations": [
       "orator",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "雄弁家"
     ],
     "start": 100,
     "end": 100,
@@ -1021,10 +1237,12 @@
   {
     "id": "Q446595",
     "content": "Soranus of Ephesus",
-    "title": "Soranus of Ephesus | 98 - 2th century AD | gynecologist, physician",
+    "title": "Soranus of Ephesus | 98 - 2th century AD | gynecologist, physician, 医師, 婦人科医",
     "occupations": [
       "gynecologist",
-      "physician"
+      "physician",
+      "医師",
+      "婦人科医"
     ],
     "start": 98,
     "end": 100,
@@ -1035,9 +1253,10 @@
   {
     "id": "Q179149",
     "content": "Antisthenes",
-    "title": "Antisthenes | -444 - -364 | philosopher",
+    "title": "Antisthenes | -444 - -364 | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": -444,
     "end": -364,
@@ -1048,9 +1267,10 @@
   {
     "id": "Q738027",
     "content": "Hermogenes of Tarsus",
-    "title": "Hermogenes of Tarsus | 2th century AD - 3th century AD | rhetorician",
+    "title": "Hermogenes of Tarsus | 2th century AD - 3th century AD | rhetorician, 修辞学者",
     "occupations": [
-      "rhetorician"
+      "rhetorician",
+      "修辞学者"
     ],
     "start": 100,
     "end": 200,
@@ -1061,9 +1281,10 @@
   {
     "id": "Q179785",
     "content": "Gorgias",
-    "title": "Gorgias | -484 - c. -374 | sophist",
+    "title": "Gorgias | -484 - c. -374 | sophist, ソフィスト",
     "occupations": [
-      "sophist"
+      "sophist",
+      "ソフィスト"
     ],
     "start": -484,
     "end": -374,
@@ -1074,9 +1295,10 @@
   {
     "id": "Q622258",
     "content": "Alexander Numenius",
-    "title": "Alexander Numenius | 1th century AD - 2th century AD | rhetorician",
+    "title": "Alexander Numenius | 1th century AD - 2th century AD | rhetorician, 修辞学者",
     "occupations": [
-      "rhetorician"
+      "rhetorician",
+      "修辞学者"
     ],
     "start": 0,
     "end": 100,
@@ -1087,10 +1309,12 @@
   {
     "id": "Q405173",
     "content": "Aelius Theon",
-    "title": "Aelius Theon | 1th century AD - 1th century AD | rhetorician, writer",
+    "title": "Aelius Theon | 1th century AD - 1th century AD | rhetorician, writer, 修辞学者, 著作家",
     "occupations": [
       "rhetorician",
-      "writer"
+      "writer",
+      "修辞学者",
+      "著作家"
     ],
     "start": 0,
     "end": 0,
@@ -1103,7 +1327,8 @@
     "content": "Tryphon",
     "title": "Floruit: 1th century BC",
     "occupations": [
-      "grammarian"
+      "grammarian",
+      "文法学者"
     ],
     "source": "floruit",
     "start": -100,
@@ -1114,13 +1339,18 @@
   {
     "id": "Q192638",
     "content": "Apollonius of Rhodes",
-    "title": "Apollonius of Rhodes | -289 - -214 | grammarian, librarian, mythographer, poet, writer",
+    "title": "Apollonius of Rhodes | -289 - -214 | grammarian, librarian, mythographer, poet, writer, ミソグラファー, 司書, 文法学者, 著作家, 詩人",
     "occupations": [
       "grammarian",
       "librarian",
       "mythographer",
       "poet",
-      "writer"
+      "writer",
+      "ミソグラファー",
+      "司書",
+      "文法学者",
+      "著作家",
+      "詩人"
     ],
     "start": -289,
     "end": -214,
@@ -1131,10 +1361,12 @@
   {
     "id": "Q41683",
     "content": "Thucydides",
-    "title": "Thucydides | -460s - -394 | historian, writer",
+    "title": "Thucydides | -460s - -394 | historian, writer, 歴史家, 著作家",
     "occupations": [
       "historian",
-      "writer"
+      "writer",
+      "歴史家",
+      "著作家"
     ],
     "start": -460,
     "end": -394,
@@ -1145,12 +1377,16 @@
   {
     "id": "Q59138",
     "content": "Diogenes Laërtius",
-    "title": "Diogenes Laërtius | 180s - 240s | biographer, historian, philosopher, philosophy historian",
+    "title": "Diogenes Laërtius | 180s - 240s | biographer, historian, philosopher, philosophy historian, 伝記作家, 哲学史家, 哲学者, 歴史家",
     "occupations": [
       "biographer",
       "historian",
       "philosopher",
-      "philosophy historian"
+      "philosophy historian",
+      "伝記作家",
+      "哲学史家",
+      "哲学者",
+      "歴史家"
     ],
     "start": 180,
     "end": 240,
@@ -1161,10 +1397,12 @@
   {
     "id": "Q219484",
     "content": "Theocritus",
-    "title": "Theocritus | 4th century BC - 3th century BC | poet, writer",
+    "title": "Theocritus | 4th century BC - 3th century BC | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": -400,
     "end": -300,
@@ -1175,13 +1413,18 @@
   {
     "id": "Q48305",
     "content": "Euripides",
-    "title": "Euripides | -483 - -404 | philosopher, playwright, poet, tragedy writer, writer",
+    "title": "Euripides | -483 - -404 | philosopher, playwright, poet, tragedy writer, writer, 劇作家, 哲学者, 悲劇作家, 著作家, 詩人",
     "occupations": [
       "philosopher",
       "playwright",
       "poet",
       "tragedy writer",
-      "writer"
+      "writer",
+      "劇作家",
+      "哲学者",
+      "悲劇作家",
+      "著作家",
+      "詩人"
     ],
     "start": -483,
     "end": -404,
@@ -1192,7 +1435,7 @@
   {
     "id": "Q41523",
     "content": "Plutarch",
-    "title": "Plutarch | 50 - c. 2th century AD | biographer, essayist, historian, magistrate, philosopher, priest, writer",
+    "title": "Plutarch | 50 - c. 2th century AD | biographer, essayist, historian, magistrate, philosopher, priest, writer, マジストレイト, 伝記作家, 司祭, 哲学者, 歴史家, 著作家, 随筆家",
     "occupations": [
       "biographer",
       "essayist",
@@ -1200,7 +1443,14 @@
       "magistrate",
       "philosopher",
       "priest",
-      "writer"
+      "writer",
+      "マジストレイト",
+      "伝記作家",
+      "司祭",
+      "哲学者",
+      "歴史家",
+      "著作家",
+      "随筆家"
     ],
     "start": 50,
     "end": 100,
@@ -1211,11 +1461,14 @@
   {
     "id": "Q294923",
     "content": "Athenaeus",
-    "title": "Athenaeus | c. 170 - 3th century AD | grammarian, orator, writer",
+    "title": "Athenaeus | c. 170 - 3th century AD | grammarian, orator, writer, 文法学者, 著作家, 雄弁家",
     "occupations": [
       "grammarian",
       "orator",
-      "writer"
+      "writer",
+      "文法学者",
+      "著作家",
+      "雄弁家"
     ],
     "start": 170,
     "end": 200,
@@ -1226,10 +1479,12 @@
   {
     "id": "Q221182",
     "content": "Isocrates",
-    "title": "Isocrates | -435 - -337 | orator, writer",
+    "title": "Isocrates | -435 - -337 | orator, writer, 著作家, 雄弁家",
     "occupations": [
       "orator",
-      "writer"
+      "writer",
+      "著作家",
+      "雄弁家"
     ],
     "start": -435,
     "end": -337,
@@ -1240,13 +1495,18 @@
   {
     "id": "Q7235",
     "content": "Sophocles",
-    "title": "Sophocles | c. -495 - c. -405 | playwright, politician, priest, tragedy writer, writer",
+    "title": "Sophocles | c. -495 - c. -405 | playwright, politician, priest, tragedy writer, writer, 劇作家, 司祭, 悲劇作家, 政治家, 著作家",
     "occupations": [
       "playwright",
       "politician",
       "priest",
       "tragedy writer",
-      "writer"
+      "writer",
+      "劇作家",
+      "司祭",
+      "悲劇作家",
+      "政治家",
+      "著作家"
     ],
     "start": -495,
     "end": -405,
@@ -1257,11 +1517,14 @@
   {
     "id": "Q6691",
     "content": "Homer",
-    "title": "Homer | c. 9th century BC - c. 8th century BC | author, poet, writer",
+    "title": "Homer | c. 9th century BC - c. 8th century BC | author, poet, writer, 作家, 著作家, 詩人",
     "occupations": [
       "author",
       "poet",
-      "writer"
+      "writer",
+      "作家",
+      "著作家",
+      "詩人"
     ],
     "start": -900,
     "end": -800,
@@ -1272,12 +1535,16 @@
   {
     "id": "Q117253",
     "content": "Demosthenes",
-    "title": "Demosthenes | -383 - -321 | diplomat, orator, politician, writer",
+    "title": "Demosthenes | -383 - -321 | diplomat, orator, politician, writer, 外交官, 政治家, 著作家, 雄弁家",
     "occupations": [
       "diplomat",
       "orator",
       "politician",
-      "writer"
+      "writer",
+      "外交官",
+      "政治家",
+      "著作家",
+      "雄弁家"
     ],
     "start": -383,
     "end": -321,
@@ -1288,10 +1555,12 @@
   {
     "id": "Q313056",
     "content": "Herodian",
-    "title": "Herodian | c. 170 - c. 250 | historian, writer",
+    "title": "Herodian | c. 170 - c. 250 | historian, writer, 歴史家, 著作家",
     "occupations": [
       "historian",
-      "writer"
+      "writer",
+      "歴史家",
+      "著作家"
     ],
     "start": 170,
     "end": 250,
@@ -1302,12 +1571,16 @@
   {
     "id": "Q26825",
     "content": "Herodotus",
-    "title": "Herodotus | c. -483 - c. -424 | geographer, historian, politician, writer",
+    "title": "Herodotus | c. -483 - c. -424 | geographer, historian, politician, writer, 地理学者, 政治家, 歴史家, 著作家",
     "occupations": [
       "geographer",
       "historian",
       "politician",
-      "writer"
+      "writer",
+      "地理学者",
+      "政治家",
+      "歴史家",
+      "著作家"
     ],
     "start": -483,
     "end": -424,
@@ -1318,10 +1591,12 @@
   {
     "id": "Q365097",
     "content": "Isaeus",
-    "title": "Isaeus | c. -419 - c. -339 | orator, speechwriter",
+    "title": "Isaeus | c. -419 - c. -339 | orator, speechwriter, スピーチライター, 雄弁家",
     "occupations": [
       "orator",
-      "speechwriter"
+      "speechwriter",
+      "スピーチライター",
+      "雄弁家"
     ],
     "start": -419,
     "end": -339,
@@ -1332,11 +1607,14 @@
   {
     "id": "Q189597",
     "content": "Philo of Alexandria",
-    "title": "Philo of Alexandria | c. -14 - c. 50 | historian, philosopher, writer",
+    "title": "Philo of Alexandria | c. -14 - c. 50 | historian, philosopher, writer, 哲学者, 歴史家, 著作家",
     "occupations": [
       "historian",
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "歴史家",
+      "著作家"
     ],
     "start": -14,
     "end": 50,
@@ -1347,12 +1625,16 @@
   {
     "id": "Q43353",
     "content": "Aristophanes",
-    "title": "Aristophanes | c. -449 - c. -385 | comedy writer, playwright, poet, writer",
+    "title": "Aristophanes | c. -449 - c. -385 | comedy writer, playwright, poet, writer, コメディ作家, 劇作家, 著作家, 詩人",
     "occupations": [
       "comedy writer",
       "playwright",
       "poet",
-      "writer"
+      "writer",
+      "コメディ作家",
+      "劇作家",
+      "著作家",
+      "詩人"
     ],
     "start": -449,
     "end": -385,
@@ -1363,12 +1645,16 @@
   {
     "id": "Q44233",
     "content": "Hesiod",
-    "title": "Hesiod | c. -775 - ? | mythographer, poet, rhapsode, writer",
+    "title": "Hesiod | c. -775 - ? | mythographer, poet, rhapsode, writer, ミソグラファー, ラプソドス, 著作家, 詩人",
     "occupations": [
       "mythographer",
       "poet",
       "rhapsode",
-      "writer"
+      "writer",
+      "ミソグラファー",
+      "ラプソドス",
+      "著作家",
+      "詩人"
     ],
     "start": -775,
     "type": "point",
@@ -1378,12 +1664,16 @@
   {
     "id": "Q363818",
     "content": "Nicander",
-    "title": "Nicander | -249 - -169 | epigrammatist, historian, physician, poet",
+    "title": "Nicander | -249 - -169 | epigrammatist, historian, physician, poet, エピグラマティスト, 医師, 歴史家, 詩人",
     "occupations": [
       "epigrammatist",
       "historian",
       "physician",
-      "poet"
+      "poet",
+      "エピグラマティスト",
+      "医師",
+      "歴史家",
+      "詩人"
     ],
     "start": -249,
     "end": -169,
@@ -1394,10 +1684,12 @@
   {
     "id": "Q116508",
     "content": "Oppian",
-    "title": "Oppian | 2th century AD - ? | poet, writer",
+    "title": "Oppian | 2th century AD - ? | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": 100,
     "type": "range",
@@ -1408,9 +1700,10 @@
   {
     "id": "Q17996276",
     "content": "Oppian of Apamea",
-    "title": "Oppian of Apamea | 2 - ? | poet",
+    "title": "Oppian of Apamea | 2 - ? | poet, 詩人",
     "occupations": [
-      "poet"
+      "poet",
+      "詩人"
     ],
     "start": 2,
     "type": "point",
@@ -1420,12 +1713,16 @@
   {
     "id": "Q317089",
     "content": "Aeschines",
-    "title": "Aeschines | -389 - c. -321 | diplomat, orator, politician, writer",
+    "title": "Aeschines | -389 - c. -321 | diplomat, orator, politician, writer, 外交官, 政治家, 著作家, 雄弁家",
     "occupations": [
       "diplomat",
       "orator",
       "politician",
-      "writer"
+      "writer",
+      "外交官",
+      "政治家",
+      "著作家",
+      "雄弁家"
     ],
     "start": -389,
     "end": -321,
@@ -1436,9 +1733,10 @@
   {
     "id": "Q391654",
     "content": "Andocides",
-    "title": "Andocides | c. -439 - c. -390 | orator",
+    "title": "Andocides | c. -439 - c. -390 | orator, 雄弁家",
     "occupations": [
-      "orator"
+      "orator",
+      "雄弁家"
     ],
     "start": -439,
     "end": -390,
@@ -1449,10 +1747,12 @@
   {
     "id": "Q335560",
     "content": "Antiphon of Rhamnus",
-    "title": "Antiphon of Rhamnus | c. -479 - -410 | orator, politician",
+    "title": "Antiphon of Rhamnus | c. -479 - -410 | orator, politician, 政治家, 雄弁家",
     "occupations": [
       "orator",
-      "politician"
+      "politician",
+      "政治家",
+      "雄弁家"
     ],
     "start": -479,
     "end": -410,
@@ -1463,9 +1763,10 @@
   {
     "id": "Q473421",
     "content": "Dinarchus",
-    "title": "Dinarchus | c. -359 - c. -291 | orator",
+    "title": "Dinarchus | c. -359 - c. -291 | orator, 雄弁家",
     "occupations": [
-      "orator"
+      "orator",
+      "雄弁家"
     ],
     "start": -359,
     "end": -291,
@@ -1476,12 +1777,16 @@
   {
     "id": "Q314447",
     "content": "Hypereides",
-    "title": "Hypereides | -387 - -321 | lawyer, military personnel, orator, politician",
+    "title": "Hypereides | -387 - -321 | lawyer, military personnel, orator, politician, 弁護士, 政治家, 軍人, 雄弁家",
     "occupations": [
       "lawyer",
       "military personnel",
       "orator",
-      "politician"
+      "politician",
+      "弁護士",
+      "政治家",
+      "軍人",
+      "雄弁家"
     ],
     "start": -387,
     "end": -321,
@@ -1492,13 +1797,18 @@
   {
     "id": "Q129772",
     "content": "Xenophon",
-    "title": "Xenophon | -430s - c. -353 | historian, mercenary, military personnel, philosopher, writer",
+    "title": "Xenophon | -430s - c. -353 | historian, mercenary, military personnel, philosopher, writer, 傭兵, 哲学者, 歴史家, 著作家, 軍人",
     "occupations": [
       "historian",
       "mercenary",
       "military personnel",
       "philosopher",
-      "writer"
+      "writer",
+      "傭兵",
+      "哲学者",
+      "歴史家",
+      "著作家",
+      "軍人"
     ],
     "start": -430,
     "end": -353,
@@ -1509,11 +1819,14 @@
   {
     "id": "Q134929",
     "content": "Pindar",
-    "title": "Pindar | -521 - -436 | mythographer, poet, writer",
+    "title": "Pindar | -521 - -436 | mythographer, poet, writer, ミソグラファー, 著作家, 詩人",
     "occupations": [
       "mythographer",
       "poet",
-      "writer"
+      "writer",
+      "ミソグラファー",
+      "著作家",
+      "詩人"
     ],
     "start": -521,
     "end": -436,
@@ -1524,11 +1837,14 @@
   {
     "id": "Q373685",
     "content": "Lycurgus of Athens",
-    "title": "Lycurgus of Athens | -389 - -323 | orator, politician, writer",
+    "title": "Lycurgus of Athens | -389 - -323 | orator, politician, writer, 政治家, 著作家, 雄弁家",
     "occupations": [
       "orator",
       "politician",
-      "writer"
+      "writer",
+      "政治家",
+      "著作家",
+      "雄弁家"
     ],
     "start": -389,
     "end": -323,
@@ -1539,10 +1855,12 @@
   {
     "id": "Q957548",
     "content": "Moschus",
-    "title": "Moschus | 2th century BC - 2th century BC | poet, writer",
+    "title": "Moschus | 2th century BC - 2th century BC | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": -200,
     "end": -200,
@@ -1553,10 +1871,12 @@
   {
     "id": "Q463364",
     "content": "Bion of Smyrna",
-    "title": "Bion of Smyrna | -119 - -56 | poet, writer",
+    "title": "Bion of Smyrna | -119 - -56 | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": -119,
     "end": -56,
@@ -1567,10 +1887,12 @@
   {
     "id": "Q325026",
     "content": "Anacharsis",
-    "title": "Anacharsis | 7th century BC - 6th century BC | philosopher, politician",
+    "title": "Anacharsis | 7th century BC - 6th century BC | philosopher, politician, 哲学者, 政治家",
     "occupations": [
       "philosopher",
-      "politician"
+      "politician",
+      "哲学者",
+      "政治家"
     ],
     "start": -700,
     "end": -600,
@@ -1581,9 +1903,10 @@
   {
     "id": "Q1254602",
     "content": "Chion of Heraclea",
-    "title": "Chion of Heraclea | ? - -352 | philosopher",
+    "title": "Chion of Heraclea | ? - -352 | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": -352,
     "end": -352,
@@ -1594,9 +1917,10 @@
   {
     "id": "Q3365",
     "content": "Antiochus III the Great",
-    "title": "Antiochus III the Great | c. -241 - -186 | sovereign",
+    "title": "Antiochus III the Great | c. -241 - -186 | sovereign, 統治者",
     "occupations": [
-      "sovereign"
+      "sovereign",
+      "統治者"
     ],
     "start": -241,
     "end": -186,
@@ -1607,9 +1931,10 @@
   {
     "id": "Q188472",
     "content": "Artaxerxes II of Persia",
-    "title": "Artaxerxes II of Persia | -452 - -357 | king",
+    "title": "Artaxerxes II of Persia | -452 - -357 | king, 国王",
     "occupations": [
-      "king"
+      "king",
+      "国王"
     ],
     "start": -452,
     "end": -357,
@@ -1620,10 +1945,12 @@
   {
     "id": "Q315822",
     "content": "Nicias",
-    "title": "Nicias | 5th century BC - -412 | military personnel, politician",
+    "title": "Nicias | 5th century BC - -412 | military personnel, politician, 政治家, 軍人",
     "occupations": [
       "military personnel",
-      "politician"
+      "politician",
+      "政治家",
+      "軍人"
     ],
     "start": -500,
     "end": -412,
@@ -1634,9 +1961,10 @@
   {
     "id": "Q130650",
     "content": "Philip II of Macedon",
-    "title": "Philip II of Macedon | c. -382 - -335 | monarch",
+    "title": "Philip II of Macedon | c. -382 - -335 | monarch, 君主",
     "occupations": [
-      "monarch"
+      "monarch",
+      "君主"
     ],
     "start": -382,
     "end": -335,
@@ -1647,9 +1975,10 @@
   {
     "id": "Q581732",
     "content": "Antipater of Tarsus",
-    "title": "Antipater of Tarsus | 2th century BC - -128 | philosopher",
+    "title": "Antipater of Tarsus | 2th century BC - -128 | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": -200,
     "end": -128,
@@ -1660,11 +1989,14 @@
   {
     "id": "Q15078686",
     "content": "Antiphon",
-    "title": "Antiphon | 5th century BC - c. 5th century BC | mathematician, philosopher, writer",
+    "title": "Antiphon | 5th century BC - c. 5th century BC | mathematician, philosopher, writer, 哲学者, 数学者, 著作家",
     "occupations": [
       "mathematician",
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "数学者",
+      "著作家"
     ],
     "start": -500,
     "end": -500,
@@ -1675,9 +2007,10 @@
   {
     "id": "Q140188",
     "content": "Aristarchus of Samos",
-    "title": "Aristarchus of Samos | c. -309 - c. -229 | astronomer",
+    "title": "Aristarchus of Samos | c. -309 - c. -229 | astronomer, 天文学者",
     "occupations": [
-      "astronomer"
+      "astronomer",
+      "天文学者"
     ],
     "start": -309,
     "end": -229,
@@ -1688,9 +2021,10 @@
   {
     "id": "Q666667",
     "content": "Aristocles of Messene",
-    "title": "Aristocles of Messene | 2th century AD - ? | philosopher",
+    "title": "Aristocles of Messene | 2th century AD - ? | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 100,
     "type": "range",
@@ -1701,10 +2035,12 @@
   {
     "id": "Q646951",
     "content": "Ariston of Chios",
-    "title": "Ariston of Chios | c. -299 - 3th century BC | philosopher, writer",
+    "title": "Ariston of Chios | c. -299 - 3th century BC | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": -299,
     "end": -300,
@@ -1717,7 +2053,8 @@
     "content": "Aristonicus of Alexandria",
     "title": "Floruit: 1th century AD",
     "occupations": [
-      "grammarian"
+      "grammarian",
+      "文法学者"
     ],
     "source": "floruit",
     "start": 0,
@@ -1732,7 +2069,10 @@
     "occupations": [
       "philosopher",
       "theologian",
-      "writer"
+      "writer",
+      "哲学者",
+      "神学者",
+      "著作家"
     ],
     "source": "floruit",
     "start": 100,
@@ -1743,10 +2083,12 @@
   {
     "id": "Q451390",
     "content": "Autolycus of Pitane",
-    "title": "Autolycus of Pitane | c. -359 - c. -289 | astronomer, mathematician",
+    "title": "Autolycus of Pitane | c. -359 - c. -289 | astronomer, mathematician, 天文学者, 数学者",
     "occupations": [
       "astronomer",
-      "mathematician"
+      "mathematician",
+      "天文学者",
+      "数学者"
     ],
     "start": -359,
     "end": -289,
@@ -1759,7 +2101,8 @@
     "content": "Cebes",
     "title": "Floruit: 1th century AD",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "source": "floruit",
     "start": 0,
@@ -1770,11 +2113,14 @@
   {
     "id": "Q211411",
     "content": "Chrysippus of Soli",
-    "title": "Chrysippus of Soli | -280 - -203 | mathematician, philosopher, writer",
+    "title": "Chrysippus of Soli | -280 - -203 | mathematician, philosopher, writer, 哲学者, 数学者, 著作家",
     "occupations": [
       "mathematician",
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "数学者",
+      "著作家"
     ],
     "start": -280,
     "end": -203,
@@ -1785,11 +2131,13 @@
   {
     "id": "Q310149",
     "content": "Cleanthes",
-    "title": "Cleanthes | -330 - -231 | philosopher, pugilist, writer",
+    "title": "Cleanthes | -330 - -231 | philosopher, pugilist, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
       "pugilist",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": -330,
     "end": -231,
@@ -1800,10 +2148,12 @@
   {
     "id": "Q42887",
     "content": "Clement I",
-    "title": "Clement I | 1th century AD - 99 | Catholic priest, theologian",
+    "title": "Clement I | 1th century AD - 99 | Catholic priest, theologian, カトリック教会の司祭, 神学者",
     "occupations": [
       "Catholic priest",
-      "theologian"
+      "theologian",
+      "カトリック教会の司祭",
+      "神学者"
     ],
     "start": 0,
     "end": 99,
@@ -1814,10 +2164,12 @@
   {
     "id": "Q31278",
     "content": "Cleomedes",
-    "title": "Cleomedes | 1th century AD - 1th century AD | astronomer, mathematician",
+    "title": "Cleomedes | 1th century AD - 1th century AD | astronomer, mathematician, 天文学者, 数学者",
     "occupations": [
       "astronomer",
-      "mathematician"
+      "mathematician",
+      "天文学者",
+      "数学者"
     ],
     "start": 0,
     "end": 0,
@@ -1828,9 +2180,10 @@
   {
     "id": "Q434773",
     "content": "Crantor",
-    "title": "Crantor | c. -343 - c. -274 | philosopher",
+    "title": "Crantor | c. -343 - c. -274 | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": -343,
     "end": -274,
@@ -1841,11 +2194,14 @@
   {
     "id": "Q41980",
     "content": "Democritus",
-    "title": "Democritus | -460s - -360s | art historian, mathematician, philosopher",
+    "title": "Democritus | -460s - -360s | art historian, mathematician, philosopher, 哲学者, 数学者, 美術史家",
     "occupations": [
       "art historian",
       "mathematician",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "数学者",
+      "美術史家"
     ],
     "start": -460,
     "end": -360,
@@ -1856,9 +2212,10 @@
   {
     "id": "Q191964",
     "content": "Diogenes of Apollonia",
-    "title": "Diogenes of Apollonia | -459 - 5th century BC | philosopher",
+    "title": "Diogenes of Apollonia | -459 - 5th century BC | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": -459,
     "end": -500,
@@ -1869,11 +2226,14 @@
   {
     "id": "Q434203",
     "content": "Diogenes of Babylon",
-    "title": "Diogenes of Babylon | -239 - -149 | astrologer, diplomat, philosopher",
+    "title": "Diogenes of Babylon | -239 - -149 | astrologer, diplomat, philosopher, 占星術師, 哲学者, 外交官",
     "occupations": [
       "astrologer",
       "diplomat",
-      "philosopher"
+      "philosopher",
+      "占星術師",
+      "哲学者",
+      "外交官"
     ],
     "start": -239,
     "end": -149,
@@ -1884,9 +2244,10 @@
   {
     "id": "Q679837",
     "content": "Dionysius of Corinth",
-    "title": "Dionysius of Corinth | 2th century AD - 171 | presbyter",
+    "title": "Dionysius of Corinth | 2th century AD - 171 | presbyter, 司祭",
     "occupations": [
-      "presbyter"
+      "presbyter",
+      "司祭"
     ],
     "start": 100,
     "end": 171,
@@ -1897,10 +2258,12 @@
   {
     "id": "Q921532",
     "content": "Dorotheus of Sidon",
-    "title": "Dorotheus of Sidon | 50 - ? | astrologer, astronomer",
+    "title": "Dorotheus of Sidon | 50 - ? | astrologer, astronomer, 占星術師, 天文学者",
     "occupations": [
       "astrologer",
-      "astronomer"
+      "astronomer",
+      "占星術師",
+      "天文学者"
     ],
     "start": 50,
     "type": "point",
@@ -1910,11 +2273,14 @@
   {
     "id": "Q319406",
     "content": "Epimenides of Crete",
-    "title": "Epimenides of Crete | 7th century BC - 6th century BC | philosopher, poet, writer",
+    "title": "Epimenides of Crete | 7th century BC - 6th century BC | philosopher, poet, writer, 哲学者, 著作家, 詩人",
     "occupations": [
       "philosopher",
       "poet",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家",
+      "詩人"
     ],
     "start": -700,
     "end": -600,
@@ -1925,11 +2291,14 @@
   {
     "id": "Q379987",
     "content": "Geminus of Rhodos",
-    "title": "Geminus of Rhodos | ? - c. 60 | astronomer, geographer, mathematician",
+    "title": "Geminus of Rhodos | ? - c. 60 | astronomer, geographer, mathematician, 地理学者, 天文学者, 数学者",
     "occupations": [
       "astronomer",
       "geographer",
-      "mathematician"
+      "mathematician",
+      "地理学者",
+      "天文学者",
+      "数学者"
     ],
     "start": 60,
     "end": 60,
@@ -1943,7 +2312,9 @@
     "title": "Floruit: 2th century AD",
     "occupations": [
       "orator",
-      "writer"
+      "writer",
+      "著作家",
+      "雄弁家"
     ],
     "source": "floruit",
     "start": 100,
@@ -1954,11 +2325,14 @@
   {
     "id": "Q471916",
     "content": "Hecataeus of Abdera",
-    "title": "Hecataeus of Abdera | 4th century BC - 3th century BC | historian, philosopher, writer",
+    "title": "Hecataeus of Abdera | 4th century BC - 3th century BC | historian, philosopher, writer, 哲学者, 歴史家, 著作家",
     "occupations": [
       "historian",
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "歴史家",
+      "著作家"
     ],
     "start": -400,
     "end": -300,
@@ -1969,9 +2343,10 @@
   {
     "id": "Q549010",
     "content": "Hephaestion",
-    "title": "Hephaestion | 2th century AD - 2th century AD | grammarian",
+    "title": "Hephaestion | 2th century AD - 2th century AD | grammarian, 文法学者",
     "occupations": [
-      "grammarian"
+      "grammarian",
+      "文法学者"
     ],
     "start": 100,
     "end": 100,
@@ -1982,10 +2357,12 @@
   {
     "id": "Q316334",
     "content": "Heraclides Ponticus",
-    "title": "Heraclides Ponticus | -384 - c. -321 | astronomer, philosopher",
+    "title": "Heraclides Ponticus | -384 - c. -321 | astronomer, philosopher, 哲学者, 天文学者",
     "occupations": [
       "astronomer",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "天文学者"
     ],
     "start": -384,
     "end": -321,
@@ -1998,7 +2375,8 @@
     "content": "Heraclitus",
     "title": "Floruit: 1th century AD",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "source": "floruit",
     "start": 0,
@@ -2009,12 +2387,16 @@
   {
     "id": "Q504771",
     "content": "Philo of Byblos",
-    "title": "Philo of Byblos | 50 - 140 | lexicographer, military personnel, mythographer, writer",
+    "title": "Philo of Byblos | 50 - 140 | lexicographer, military personnel, mythographer, writer, ミソグラファー, 著作家, 軍人, 辞書編纂者",
     "occupations": [
       "lexicographer",
       "military personnel",
       "mythographer",
-      "writer"
+      "writer",
+      "ミソグラファー",
+      "著作家",
+      "軍人",
+      "辞書編纂者"
     ],
     "start": 50,
     "end": 140,
@@ -2025,9 +2407,10 @@
   {
     "id": "Q1799472",
     "content": "Hermas",
-    "title": "Hermas | 1th century AD - 1th century AD | writer",
+    "title": "Hermas | 1th century AD - 1th century AD | writer, 著作家",
     "occupations": [
-      "writer"
+      "writer",
+      "著作家"
     ],
     "start": 0,
     "end": 0,
@@ -2038,11 +2421,14 @@
   {
     "id": "Q159905",
     "content": "Hipparchus",
-    "title": "Hipparchus | c. -189 - c. -119 | astronomer, geographer, mathematician",
+    "title": "Hipparchus | c. -189 - c. -119 | astronomer, geographer, mathematician, 地理学者, 天文学者, 数学者",
     "occupations": [
       "astronomer",
       "geographer",
-      "mathematician"
+      "mathematician",
+      "地理学者",
+      "天文学者",
+      "数学者"
     ],
     "start": -189,
     "end": -119,
@@ -2053,7 +2439,7 @@
   {
     "id": "Q210573",
     "content": "Hippias",
-    "title": "Hippias | -442 - -398 | astronomer, dithyrambic poet, doxographer, mathematician, philosopher, sophist, tragedy writer",
+    "title": "Hippias | -442 - -398 | astronomer, dithyrambic poet, doxographer, mathematician, philosopher, sophist, tragedy writer, ソフィスト, 哲学者, 天文学者, 悲劇作家, 数学者",
     "occupations": [
       "astronomer",
       "dithyrambic poet",
@@ -2061,7 +2447,12 @@
       "mathematician",
       "philosopher",
       "sophist",
-      "tragedy writer"
+      "tragedy writer",
+      "ソフィスト",
+      "哲学者",
+      "天文学者",
+      "悲劇作家",
+      "数学者"
     ],
     "start": -442,
     "end": -398,
@@ -2072,10 +2463,12 @@
   {
     "id": "Q44170",
     "content": "Ignatius of Antioch",
-    "title": "Ignatius of Antioch | c. 35 - 108 | presbyter, theologian",
+    "title": "Ignatius of Antioch | c. 35 - 108 | presbyter, theologian, 司祭, 神学者",
     "occupations": [
       "presbyter",
-      "theologian"
+      "theologian",
+      "司祭",
+      "神学者"
     ],
     "start": 35,
     "end": 108,
@@ -2086,11 +2479,14 @@
   {
     "id": "Q182123",
     "content": "Irenaeus",
-    "title": "Irenaeus | c. 130 - c. 202 | philosopher, presbyter, theologian",
+    "title": "Irenaeus | c. 130 - c. 202 | philosopher, presbyter, theologian, 司祭, 哲学者, 神学者",
     "occupations": [
       "philosopher",
       "presbyter",
-      "theologian"
+      "theologian",
+      "司祭",
+      "哲学者",
+      "神学者"
     ],
     "start": 130,
     "end": 202,
@@ -2101,9 +2497,10 @@
   {
     "id": "Q3851977",
     "content": "Matron of Pitane",
-    "title": "Matron of Pitane | 4th century BC - 4th century BC | poet",
+    "title": "Matron of Pitane | 4th century BC - 4th century BC | poet, 詩人",
     "occupations": [
-      "poet"
+      "poet",
+      "詩人"
     ],
     "start": -400,
     "end": -400,
@@ -2114,9 +2511,10 @@
   {
     "id": "Q707344",
     "content": "Numenius of Apamea",
-    "title": "Numenius of Apamea | 2th century AD - 2th century AD | philosopher",
+    "title": "Numenius of Apamea | 2th century AD - 2th century AD | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 100,
     "end": 100,
@@ -2127,9 +2525,10 @@
   {
     "id": "Q2559200",
     "content": "Oenomaus of Gadara",
-    "title": "Oenomaus of Gadara | ? - 2th century AD | philosopher",
+    "title": "Oenomaus of Gadara | ? - 2th century AD | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 100,
     "end": 100,
@@ -2140,11 +2539,14 @@
   {
     "id": "Q580565",
     "content": "Palaephatus",
-    "title": "Palaephatus | 4th century BC - 4th century BC | historian, mythographer, writer",
+    "title": "Palaephatus | 4th century BC - 4th century BC | historian, mythographer, writer, ミソグラファー, 歴史家, 著作家",
     "occupations": [
       "historian",
       "mythographer",
-      "writer"
+      "writer",
+      "ミソグラファー",
+      "歴史家",
+      "著作家"
     ],
     "start": -400,
     "end": -400,
@@ -2155,11 +2557,14 @@
   {
     "id": "Q444459",
     "content": "Alcidamas",
-    "title": "Alcidamas | 5th century BC - 4th century BC | orator, philosopher, rhetorician",
+    "title": "Alcidamas | 5th century BC - 4th century BC | orator, philosopher, rhetorician, 修辞学者, 哲学者, 雄弁家",
     "occupations": [
       "orator",
       "philosopher",
-      "rhetorician"
+      "rhetorician",
+      "修辞学者",
+      "哲学者",
+      "雄弁家"
     ],
     "start": -500,
     "end": -400,
@@ -2170,11 +2575,14 @@
   {
     "id": "Q334457",
     "content": "Dio Chrysostom",
-    "title": "Dio Chrysostom | c. 40 - c. 120 | orator, philosopher, writer",
+    "title": "Dio Chrysostom | c. 40 - c. 120 | orator, philosopher, writer, 哲学者, 著作家, 雄弁家",
     "occupations": [
       "orator",
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家",
+      "雄弁家"
     ],
     "start": 40,
     "end": 120,
@@ -2185,10 +2593,12 @@
   {
     "id": "Q455523",
     "content": "Babrius",
-    "title": "Babrius | 1th century AD - 2th century AD | poet, writer",
+    "title": "Babrius | 1th century AD - 2th century AD | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": 0,
     "end": 100,
@@ -2199,9 +2609,10 @@
   {
     "id": "Q735515",
     "content": "Aspasius",
-    "title": "Aspasius | c. 80 - c. 150 | philosopher",
+    "title": "Aspasius | c. 80 - c. 150 | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 80,
     "end": 150,
@@ -2212,12 +2623,16 @@
   {
     "id": "Q537755",
     "content": "Polyaenus",
-    "title": "Polyaenus | 2th century AD - 2th century AD | historian, lawyer, poet, writer",
+    "title": "Polyaenus | 2th century AD - 2th century AD | historian, lawyer, poet, writer, 弁護士, 歴史家, 著作家, 詩人",
     "occupations": [
       "historian",
       "lawyer",
       "poet",
-      "writer"
+      "writer",
+      "弁護士",
+      "歴史家",
+      "著作家",
+      "詩人"
     ],
     "start": 100,
     "end": 100,
@@ -2228,14 +2643,20 @@
   {
     "id": "Q202001",
     "content": "Archytas",
-    "title": "Archytas | c. -429 - c. -344 | engineer, mathematician, musicologist, philosopher, physicist, politician",
+    "title": "Archytas | c. -429 - c. -344 | engineer, mathematician, musicologist, philosopher, physicist, politician, エンジニア, 哲学者, 政治家, 数学者, 物理学者, 音楽学者",
     "occupations": [
       "engineer",
       "mathematician",
       "musicologist",
       "philosopher",
       "physicist",
-      "politician"
+      "politician",
+      "エンジニア",
+      "哲学者",
+      "政治家",
+      "数学者",
+      "物理学者",
+      "音楽学者"
     ],
     "start": -429,
     "end": -344,
@@ -2246,11 +2667,14 @@
   {
     "id": "Q41155",
     "content": "Heraclitus",
-    "title": "Heraclitus | c. -534 - c. -470s | philosopher, physicist, writer",
+    "title": "Heraclitus | c. -534 - c. -470s | philosopher, physicist, writer, 哲学者, 物理学者, 著作家",
     "occupations": [
       "philosopher",
       "physicist",
-      "writer"
+      "writer",
+      "哲学者",
+      "物理学者",
+      "著作家"
     ],
     "start": -534,
     "end": -470,
@@ -2261,10 +2685,12 @@
   {
     "id": "Q5264",
     "content": "Hippocrates",
-    "title": "Hippocrates | c. -459 - c. -369 | philosopher, physician",
+    "title": "Hippocrates | c. -459 - c. -369 | philosopher, physician, 医師, 哲学者",
     "occupations": [
       "philosopher",
-      "physician"
+      "physician",
+      "医師",
+      "哲学者"
     ],
     "start": -459,
     "end": -369,
@@ -2275,9 +2701,10 @@
   {
     "id": "Q381874",
     "content": "Gaius Musonius Rufus",
-    "title": "Gaius Musonius Rufus | 25 - 95 | philosopher",
+    "title": "Gaius Musonius Rufus | 25 - 95 | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 25,
     "end": 95,
@@ -2288,11 +2715,14 @@
   {
     "id": "Q328793",
     "content": "Periander",
-    "title": "Periander | 7th century BC - -582 | philosopher, poet, writer",
+    "title": "Periander | 7th century BC - -582 | philosopher, poet, writer, 哲学者, 著作家, 詩人",
     "occupations": [
       "philosopher",
       "poet",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家",
+      "詩人"
     ],
     "start": -700,
     "end": -582,
@@ -2303,14 +2733,20 @@
   {
     "id": "Q10261",
     "content": "Pythagoras",
-    "title": "Pythagoras | c. -579 - -490s | mathematician, music theorist, musicologist, philosopher, politician, writer",
+    "title": "Pythagoras | c. -579 - -490s | mathematician, music theorist, musicologist, philosopher, politician, writer, 哲学者, 政治家, 数学者, 著作家, 音楽学者, 音楽理論家",
     "occupations": [
       "mathematician",
       "music theorist",
       "musicologist",
       "philosopher",
       "politician",
-      "writer"
+      "writer",
+      "哲学者",
+      "政治家",
+      "数学者",
+      "著作家",
+      "音楽学者",
+      "音楽理論家"
     ],
     "start": -579,
     "end": -490,
@@ -2321,11 +2757,14 @@
   {
     "id": "Q720939",
     "content": "Lysis of Taras",
-    "title": "Lysis of Taras | 5th century BC - 4th century BC | mathematician, philosopher, politician",
+    "title": "Lysis of Taras | 5th century BC - 4th century BC | mathematician, philosopher, politician, 哲学者, 政治家, 数学者",
     "occupations": [
       "mathematician",
       "philosopher",
-      "politician"
+      "politician",
+      "哲学者",
+      "政治家",
+      "数学者"
     ],
     "start": -500,
     "end": -400,
@@ -2336,12 +2775,16 @@
   {
     "id": "Q214121",
     "content": "Xenocrates",
-    "title": "Xenocrates | -395 - -313 | mathematician, philosopher, teacher, writer",
+    "title": "Xenocrates | -395 - -313 | mathematician, philosopher, teacher, writer, 哲学者, 教員, 数学者, 著作家",
     "occupations": [
       "mathematician",
       "philosopher",
       "teacher",
-      "writer"
+      "writer",
+      "哲学者",
+      "教員",
+      "数学者",
+      "著作家"
     ],
     "start": -395,
     "end": -313,
@@ -2352,12 +2795,16 @@
   {
     "id": "Q2274948",
     "content": "Philostratus",
-    "title": "Philostratus | c. 170 - 250s | orator, philosopher, sophist, writer",
+    "title": "Philostratus | c. 170 - 250s | orator, philosopher, sophist, writer, ソフィスト, 哲学者, 著作家, 雄弁家",
     "occupations": [
       "orator",
       "philosopher",
       "sophist",
-      "writer"
+      "writer",
+      "ソフィスト",
+      "哲学者",
+      "著作家",
+      "雄弁家"
     ],
     "start": 170,
     "end": 250,
@@ -2370,7 +2817,8 @@
     "content": "Menecrates of Syracuse",
     "title": "Floruit: 4th century BC",
     "occupations": [
-      "physician"
+      "physician",
+      "医師"
     ],
     "source": "floruit",
     "start": -400,
@@ -2381,10 +2829,12 @@
   {
     "id": "Q559866",
     "content": "Alciphron",
-    "title": "Alciphron | 2th century AD - 2th century AD | rhetorician, writer",
+    "title": "Alciphron | 2th century AD - 2th century AD | rhetorician, writer, 修辞学者, 著作家",
     "occupations": [
       "rhetorician",
-      "writer"
+      "writer",
+      "修辞学者",
+      "著作家"
     ],
     "start": 100,
     "end": 100,
@@ -2395,10 +2845,12 @@
   {
     "id": "Q463564",
     "content": "Xenophon of Ephesus",
-    "title": "Xenophon of Ephesus | 2th century AD - 3th century AD | philosopher, writer",
+    "title": "Xenophon of Ephesus | 2th century AD - 3th century AD | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": 100,
     "end": 200,
@@ -2411,7 +2863,8 @@
     "content": "Anonymus Londinensis",
     "title": "Floruit: 1th century AD",
     "occupations": [
-      "physician"
+      "physician",
+      "医師"
     ],
     "source": "floruit",
     "start": 0,
@@ -2422,12 +2875,16 @@
   {
     "id": "Q313018",
     "content": "Aristophanes of Byzantium",
-    "title": "Aristophanes of Byzantium | -259 - c. -179 | grammarian, lexicographer, librarian, linguist",
+    "title": "Aristophanes of Byzantium | -259 - c. -179 | grammarian, lexicographer, librarian, linguist, 司書, 文法学者, 言語学者, 辞書編纂者",
     "occupations": [
       "grammarian",
       "lexicographer",
       "librarian",
-      "linguist"
+      "linguist",
+      "司書",
+      "文法学者",
+      "言語学者",
+      "辞書編纂者"
     ],
     "start": -259,
     "end": -179,
@@ -2438,11 +2895,14 @@
   {
     "id": "Q185117",
     "content": "Justin Martyr",
-    "title": "Justin Martyr | c. 100 - c. 165 | apologist, philosopher, theologian",
+    "title": "Justin Martyr | c. 100 - c. 165 | apologist, philosopher, theologian, キリスト教弁証家, 哲学者, 神学者",
     "occupations": [
       "apologist",
       "philosopher",
-      "theologian"
+      "theologian",
+      "キリスト教弁証家",
+      "哲学者",
+      "神学者"
     ],
     "start": 100,
     "end": 165,
@@ -2453,9 +2913,10 @@
   {
     "id": "Q1371938",
     "content": "Tryphiodorus",
-    "title": "Tryphiodorus | 3th century AD - 4th century AD | poet",
+    "title": "Tryphiodorus | 3th century AD - 4th century AD | poet, 詩人",
     "occupations": [
-      "poet"
+      "poet",
+      "詩人"
     ],
     "start": 200,
     "end": 300,
@@ -2466,10 +2927,12 @@
   {
     "id": "Q373042",
     "content": "Onasander",
-    "title": "Onasander | ? - 1th century AD | philosopher, writer",
+    "title": "Onasander | ? - 1th century AD | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": 0,
     "end": 0,
@@ -2480,11 +2943,14 @@
   {
     "id": "Q1129405",
     "content": "Lesbonax",
-    "title": "Lesbonax | ? - 2th century AD | orator, philosopher, sophist",
+    "title": "Lesbonax | ? - 2th century AD | orator, philosopher, sophist, ソフィスト, 哲学者, 雄弁家",
     "occupations": [
       "orator",
       "philosopher",
-      "sophist"
+      "sophist",
+      "ソフィスト",
+      "哲学者",
+      "雄弁家"
     ],
     "start": 100,
     "end": 100,
@@ -2499,7 +2965,10 @@
     "occupations": [
       "orator",
       "sophist",
-      "writer"
+      "writer",
+      "ソフィスト",
+      "著作家",
+      "雄弁家"
     ],
     "source": "floruit",
     "start": 200,
@@ -2510,11 +2979,14 @@
   {
     "id": "Q180671",
     "content": "Aratus",
-    "title": "Aratus | c. -314 - c. -239 | astronomer, poet, writer",
+    "title": "Aratus | c. -314 - c. -239 | astronomer, poet, writer, 天文学者, 著作家, 詩人",
     "occupations": [
       "astronomer",
       "poet",
-      "writer"
+      "writer",
+      "天文学者",
+      "著作家",
+      "詩人"
     ],
     "start": -314,
     "end": -239,
@@ -2525,11 +2997,14 @@
   {
     "id": "Q729109",
     "content": "Parthenius of Nicaea",
-    "title": "Parthenius of Nicaea | 1th century BC - 1th century BC | mythographer, poet, writer",
+    "title": "Parthenius of Nicaea | 1th century BC - 1th century BC | mythographer, poet, writer, ミソグラファー, 著作家, 詩人",
     "occupations": [
       "mythographer",
       "poet",
-      "writer"
+      "writer",
+      "ミソグラファー",
+      "著作家",
+      "詩人"
     ],
     "start": -100,
     "end": -100,
@@ -2540,12 +3015,16 @@
   {
     "id": "Q297776",
     "content": "Pedanius Dioscorides",
-    "title": "Pedanius Dioscorides | c. 40 - c. 90 | botanist, pharmacist, pharmacologist, physician",
+    "title": "Pedanius Dioscorides | c. 40 - c. 90 | botanist, pharmacist, pharmacologist, physician, 医師, 植物学者, 薬剤師, 薬理学者",
     "occupations": [
       "botanist",
       "pharmacist",
       "pharmacologist",
-      "physician"
+      "physician",
+      "医師",
+      "植物学者",
+      "薬剤師",
+      "薬理学者"
     ],
     "start": 40,
     "end": 90,
@@ -2556,10 +3035,12 @@
   {
     "id": "Q743993",
     "content": "Crateuas",
-    "title": "Crateuas | 2th century BC - 1th century BC | botanist, pharmacologist",
+    "title": "Crateuas | 2th century BC - 1th century BC | botanist, pharmacologist, 植物学者, 薬理学者",
     "occupations": [
       "botanist",
-      "pharmacologist"
+      "pharmacologist",
+      "植物学者",
+      "薬理学者"
     ],
     "start": -200,
     "end": -100,
@@ -2570,9 +3051,10 @@
   {
     "id": "Q313011",
     "content": "Heliodorus of Emesa",
-    "title": "Heliodorus of Emesa | c. 3th century AD - c. 3th century AD | writer",
+    "title": "Heliodorus of Emesa | c. 3th century AD - c. 3th century AD | writer, 著作家",
     "occupations": [
-      "writer"
+      "writer",
+      "著作家"
     ],
     "start": 200,
     "end": 200,
@@ -2583,11 +3065,14 @@
   {
     "id": "Q1271013",
     "content": "Adrianus of Tyre",
-    "title": "Adrianus of Tyre | 113 - 193 | philosopher, rhetorician, sophist",
+    "title": "Adrianus of Tyre | 113 - 193 | philosopher, rhetorician, sophist, ソフィスト, 修辞学者, 哲学者",
     "occupations": [
       "philosopher",
       "rhetorician",
-      "sophist"
+      "sophist",
+      "ソフィスト",
+      "修辞学者",
+      "哲学者"
     ],
     "start": 113,
     "end": 193,
@@ -2600,7 +3085,8 @@
     "content": "Aglaias",
     "title": "Floruit: 1th century AD",
     "occupations": [
-      "poet"
+      "poet",
+      "詩人"
     ],
     "source": "floruit",
     "start": 0,
@@ -2611,9 +3097,10 @@
   {
     "id": "Q657941",
     "content": "Albinus",
-    "title": "Albinus | 1th century AD - 2th century AD | philosopher",
+    "title": "Albinus | 1th century AD - 2th century AD | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 0,
     "end": 100,
@@ -2627,7 +3114,9 @@
     "title": "Floruit: 4th century AD",
     "occupations": [
       "grammarian",
-      "priest"
+      "priest",
+      "司祭",
+      "文法学者"
     ],
     "source": "floruit",
     "start": 300,
@@ -2638,9 +3127,10 @@
   {
     "id": "Q505931",
     "content": "Aretaeus of Cappadocia",
-    "title": "Aretaeus of Cappadocia | 1th century AD - 2th century AD | physician",
+    "title": "Aretaeus of Cappadocia | 1th century AD - 2th century AD | physician, 医師",
     "occupations": [
-      "physician"
+      "physician",
+      "医師"
     ],
     "start": 0,
     "end": 100,
@@ -2651,11 +3141,14 @@
   {
     "id": "Q351469",
     "content": "Adamantius",
-    "title": "Adamantius | 4th century AD - 5th century AD | iatrosophist, physician, writer",
+    "title": "Adamantius | 4th century AD - 5th century AD | iatrosophist, physician, writer, イアトロソフィスト, 医師, 著作家",
     "occupations": [
       "iatrosophist",
       "physician",
-      "writer"
+      "writer",
+      "イアトロソフィスト",
+      "医師",
+      "著作家"
     ],
     "start": 300,
     "end": 400,
@@ -2666,9 +3159,10 @@
   {
     "id": "Q317146",
     "content": "Alexandros of Aphrodisias",
-    "title": "Alexandros of Aphrodisias | 2th century AD - 3th century AD | philosopher",
+    "title": "Alexandros of Aphrodisias | 2th century AD - 3th century AD | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 100,
     "end": 200,
@@ -2679,9 +3173,10 @@
   {
     "id": "Q61474378",
     "content": "Cassius Iatrosophista",
-    "title": "Cassius Iatrosophista | 2th century AD - 3th century AD | iatrosophist",
+    "title": "Cassius Iatrosophista | 2th century AD - 3th century AD | iatrosophist, イアトロソフィスト",
     "occupations": [
-      "iatrosophist"
+      "iatrosophist",
+      "イアトロソフィスト"
     ],
     "start": 100,
     "end": 200,
@@ -2692,12 +3187,16 @@
   {
     "id": "Q125551",
     "content": "Parmenides",
-    "title": "Parmenides | c. -514 - c. -469 | legislator, philosopher, poet, writer",
+    "title": "Parmenides | c. -514 - c. -469 | legislator, philosopher, poet, writer, 哲学者, 著作家, 詩人, 議員",
     "occupations": [
       "legislator",
       "philosopher",
       "poet",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家",
+      "詩人",
+      "議員"
     ],
     "start": -514,
     "end": -469,
@@ -2708,12 +3207,16 @@
   {
     "id": "Q451550",
     "content": "Philodemus",
-    "title": "Philodemus | c. -109 - -34 | epigrammatist, philosopher, poet, writer",
+    "title": "Philodemus | c. -109 - -34 | epigrammatist, philosopher, poet, writer, エピグラマティスト, 哲学者, 著作家, 詩人",
     "occupations": [
       "epigrammatist",
       "philosopher",
       "poet",
-      "writer"
+      "writer",
+      "エピグラマティスト",
+      "哲学者",
+      "著作家",
+      "詩人"
     ],
     "start": -109,
     "end": -34,
@@ -2724,14 +3227,20 @@
   {
     "id": "Q212338",
     "content": "Philolaus",
-    "title": "Philolaus | c. -469 - c. -389 | astronomer, mathematician, music theorist, philosopher, politician, writer",
+    "title": "Philolaus | c. -469 - c. -389 | astronomer, mathematician, music theorist, philosopher, politician, writer, 哲学者, 天文学者, 政治家, 数学者, 著作家, 音楽理論家",
     "occupations": [
       "astronomer",
       "mathematician",
       "music theorist",
       "philosopher",
       "politician",
-      "writer"
+      "writer",
+      "哲学者",
+      "天文学者",
+      "政治家",
+      "数学者",
+      "著作家",
+      "音楽理論家"
     ],
     "start": -469,
     "end": -389,
@@ -2742,11 +3251,14 @@
   {
     "id": "Q691292",
     "content": "Philostratus of Lemnos",
-    "title": "Philostratus of Lemnos | c. 190 - c. 230 | orator, sophist, writer",
+    "title": "Philostratus of Lemnos | c. 190 - c. 230 | orator, sophist, writer, ソフィスト, 著作家, 雄弁家",
     "occupations": [
       "orator",
       "sophist",
-      "writer"
+      "writer",
+      "ソフィスト",
+      "著作家",
+      "雄弁家"
     ],
     "start": 190,
     "end": 230,
@@ -2760,7 +3272,8 @@
     "title": "Floruit: 1th century BC",
     "occupations": [
       "glossographer",
-      "grammarian"
+      "grammarian",
+      "文法学者"
     ],
     "source": "floruit",
     "start": -100,
@@ -2771,10 +3284,12 @@
   {
     "id": "Q772775",
     "content": "Polemon of Laodicea",
-    "title": "Polemon of Laodicea | c. 90 - c. 144 | philosopher, politician",
+    "title": "Polemon of Laodicea | c. 90 - c. 144 | philosopher, politician, 哲学者, 政治家",
     "occupations": [
       "philosopher",
-      "politician"
+      "politician",
+      "哲学者",
+      "政治家"
     ],
     "start": 90,
     "end": 144,
@@ -2785,12 +3300,16 @@
   {
     "id": "Q192371",
     "content": "Polycarp",
-    "title": "Polycarp | 70 - c. 155 | Christian minister, presbyter, theologian, writer",
+    "title": "Polycarp | 70 - c. 155 | Christian minister, presbyter, theologian, writer, 司祭, 教役者, 神学者, 著作家",
     "occupations": [
       "Christian minister",
       "presbyter",
       "theologian",
-      "writer"
+      "writer",
+      "司祭",
+      "教役者",
+      "神学者",
+      "著作家"
     ],
     "start": 70,
     "end": 155,
@@ -2801,9 +3320,10 @@
   {
     "id": "Q943719",
     "content": "Polycrates of Ephesus",
-    "title": "Polycrates of Ephesus | 125 - 196 | priest",
+    "title": "Polycrates of Ephesus | 125 - 196 | priest, 司祭",
     "occupations": [
-      "priest"
+      "priest",
+      "司祭"
     ],
     "start": 125,
     "end": 196,
@@ -2814,10 +3334,12 @@
   {
     "id": "Q297402",
     "content": "Prodicus",
-    "title": "Prodicus | -463 - c. -379 | diplomat, philosopher",
+    "title": "Prodicus | -463 - c. -379 | diplomat, philosopher, 哲学者, 外交官",
     "occupations": [
       "diplomat",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "外交官"
     ],
     "start": -463,
     "end": -379,
@@ -2828,9 +3350,10 @@
   {
     "id": "Q104163113",
     "content": "Serapion Astrologus",
-    "title": "Serapion Astrologus | 2th century BC - 1th century AD | astrologer",
+    "title": "Serapion Astrologus | 2th century BC - 1th century AD | astrologer, 占星術師",
     "occupations": [
-      "astrologer"
+      "astrologer",
+      "占星術師"
     ],
     "start": -200,
     "end": 0,
@@ -2841,10 +3364,12 @@
   {
     "id": "Q325955",
     "content": "Speusippus",
-    "title": "Speusippus | -406 - -338 | mathematician, philosopher",
+    "title": "Speusippus | -406 - -338 | mathematician, philosopher, 哲学者, 数学者",
     "occupations": [
       "mathematician",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "数学者"
     ],
     "start": -406,
     "end": -338,
@@ -2855,9 +3380,10 @@
   {
     "id": "Q2367894",
     "content": "Teles of Megara",
-    "title": "Teles of Megara | 3th century BC - ? | philosopher",
+    "title": "Teles of Megara | 3th century BC - ? | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": -300,
     "type": "range",
@@ -2868,7 +3394,7 @@
   {
     "id": "Q36303",
     "content": "Thales",
-    "title": "Thales | -629 - -545 | astronomer, engineer, geometer, mathematician, philosopher, physicist, teacher, writer",
+    "title": "Thales | -629 - -545 | astronomer, engineer, geometer, mathematician, philosopher, physicist, teacher, writer, エンジニア, 哲学者, 天文学者, 幾何学者, 教員, 数学者, 物理学者, 著作家",
     "occupations": [
       "astronomer",
       "engineer",
@@ -2877,7 +3403,15 @@
       "philosopher",
       "physicist",
       "teacher",
-      "writer"
+      "writer",
+      "エンジニア",
+      "哲学者",
+      "天文学者",
+      "幾何学者",
+      "教員",
+      "数学者",
+      "物理学者",
+      "著作家"
     ],
     "start": -629,
     "end": -545,
@@ -2888,10 +3422,12 @@
   {
     "id": "Q1266186",
     "content": "Theodosius of Bithynia",
-    "title": "Theodosius of Bithynia | c. -159 - c. -89 | astronomer, mathematician",
+    "title": "Theodosius of Bithynia | c. -159 - c. -89 | astronomer, mathematician, 天文学者, 数学者",
     "occupations": [
       "astronomer",
-      "mathematician"
+      "mathematician",
+      "天文学者",
+      "数学者"
     ],
     "start": -159,
     "end": -89,
@@ -2902,13 +3438,18 @@
   {
     "id": "Q705950",
     "content": "Theon of Smyrna",
-    "title": "Theon of Smyrna | c. 70 - c. 135 | astronomer, mathematician, music theorist, musicologist, philosopher",
+    "title": "Theon of Smyrna | c. 70 - c. 135 | astronomer, mathematician, music theorist, musicologist, philosopher, 哲学者, 天文学者, 数学者, 音楽学者, 音楽理論家",
     "occupations": [
       "astronomer",
       "mathematician",
       "music theorist",
       "musicologist",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "天文学者",
+      "数学者",
+      "音楽学者",
+      "音楽理論家"
     ],
     "start": 70,
     "end": 135,
@@ -2919,9 +3460,10 @@
   {
     "id": "Q220787",
     "content": "Theophilus of Antioch",
-    "title": "Theophilus of Antioch | 2th century AD - 183 | presbyter",
+    "title": "Theophilus of Antioch | 2th century AD - 183 | presbyter, 司祭",
     "occupations": [
-      "presbyter"
+      "presbyter",
+      "司祭"
     ],
     "start": 100,
     "end": 183,
@@ -2932,11 +3474,14 @@
   {
     "id": "Q1051470",
     "content": "Vettius Valens",
-    "title": "Vettius Valens | 120 - 175 | astrologer, astronomer, writer",
+    "title": "Vettius Valens | 120 - 175 | astrologer, astronomer, writer, 占星術師, 天文学者, 著作家",
     "occupations": [
       "astrologer",
       "astronomer",
-      "writer"
+      "writer",
+      "占星術師",
+      "天文学者",
+      "著作家"
     ],
     "start": 120,
     "end": 175,
@@ -2947,11 +3492,14 @@
   {
     "id": "Q272087",
     "content": "Tatian",
-    "title": "Tatian | c. 120 - c. 173 | philosopher, theologian, writer",
+    "title": "Tatian | c. 120 - c. 173 | philosopher, theologian, writer, 哲学者, 神学者, 著作家",
     "occupations": [
       "philosopher",
       "theologian",
-      "writer"
+      "writer",
+      "哲学者",
+      "神学者",
+      "著作家"
     ],
     "start": 120,
     "end": 173,
@@ -2962,10 +3510,12 @@
   {
     "id": "Q8747",
     "content": "Euclid",
-    "title": "Euclid | 4th century BC - -284 | mathematician, writer",
+    "title": "Euclid | 4th century BC - -284 | mathematician, writer, 数学者, 著作家",
     "occupations": [
       "mathematician",
-      "writer"
+      "writer",
+      "数学者",
+      "著作家"
     ],
     "start": -400,
     "end": -284,
@@ -2976,10 +3526,12 @@
   {
     "id": "Q134189",
     "content": "Plotinus",
-    "title": "Plotinus | 205 - 270 | philosopher, writer",
+    "title": "Plotinus | 205 - 270 | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": 205,
     "end": 270,
@@ -2990,7 +3542,7 @@
   {
     "id": "Q365183",
     "content": "Themistius",
-    "title": "Themistius | 317 - 388 | logician, military personnel, orator, philosopher, physicist, politician, writer",
+    "title": "Themistius | 317 - 388 | logician, military personnel, orator, philosopher, physicist, politician, writer, 哲学者, 政治家, 物理学者, 著作家, 論理学者, 軍人, 雄弁家",
     "occupations": [
       "logician",
       "military personnel",
@@ -2998,7 +3550,14 @@
       "philosopher",
       "physicist",
       "politician",
-      "writer"
+      "writer",
+      "哲学者",
+      "政治家",
+      "物理学者",
+      "著作家",
+      "論理学者",
+      "軍人",
+      "雄弁家"
     ],
     "start": 317,
     "end": 388,
@@ -3009,10 +3568,12 @@
   {
     "id": "Q33941",
     "content": "Julian",
-    "title": "Julian | 331 - 363 | philosopher, politician",
+    "title": "Julian | 331 - 363 | philosopher, politician, 哲学者, 政治家",
     "occupations": [
       "philosopher",
-      "politician"
+      "politician",
+      "哲学者",
+      "政治家"
     ],
     "start": 331,
     "end": 363,
@@ -3023,12 +3584,16 @@
   {
     "id": "Q142999",
     "content": "Eusebius of Caesarea",
-    "title": "Eusebius of Caesarea | 275s - 339 | Eastern Orthodox priest, historian, theologian, writer",
+    "title": "Eusebius of Caesarea | 275s - 339 | Eastern Orthodox priest, historian, theologian, writer, 東方正教会の司祭, 歴史家, 神学者, 著作家",
     "occupations": [
       "Eastern Orthodox priest",
       "historian",
       "theologian",
-      "writer"
+      "writer",
+      "東方正教会の司祭",
+      "歴史家",
+      "神学者",
+      "著作家"
     ],
     "start": 275,
     "end": 339,
@@ -3039,10 +3604,12 @@
   {
     "id": "Q313922",
     "content": "Epiphanius of Salamis",
-    "title": "Epiphanius of Salamis | c. 315 - 403 | Christian minister, writer",
+    "title": "Epiphanius of Salamis | c. 315 - 403 | Christian minister, writer, 教役者, 著作家",
     "occupations": [
       "Christian minister",
-      "writer"
+      "writer",
+      "教役者",
+      "著作家"
     ],
     "start": 315,
     "end": 403,
@@ -3053,7 +3620,7 @@
   {
     "id": "Q44011",
     "content": "Gregory of Nazianzus",
-    "title": "Gregory of Nazianzus | 330 - 390 | bishop, epigrammatist, poet, preacher, priest, religious leader, theologian",
+    "title": "Gregory of Nazianzus | 330 - 390 | bishop, epigrammatist, poet, preacher, priest, religious leader, theologian, エピグラマティスト, 司教, 司祭, 宗教指導者, 神学者, 詩人, 説教者",
     "occupations": [
       "bishop",
       "epigrammatist",
@@ -3061,7 +3628,14 @@
       "preacher",
       "priest",
       "religious leader",
-      "theologian"
+      "theologian",
+      "エピグラマティスト",
+      "司教",
+      "司祭",
+      "宗教指導者",
+      "神学者",
+      "詩人",
+      "説教者"
     ],
     "start": 330,
     "end": 390,
@@ -3072,10 +3646,12 @@
   {
     "id": "Q310916",
     "content": "Iamblichus",
-    "title": "Iamblichus | c. 245 - c. 325 | philosopher, writer",
+    "title": "Iamblichus | c. 245 - c. 325 | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": 245,
     "end": 325,
@@ -3086,10 +3662,12 @@
   {
     "id": "Q649082",
     "content": "Apsines",
-    "title": "Apsines | c. 190 - c. 250 | orator, politician",
+    "title": "Apsines | c. 190 - c. 250 | orator, politician, 政治家, 雄弁家",
     "occupations": [
       "orator",
-      "politician"
+      "politician",
+      "政治家",
+      "雄弁家"
     ],
     "start": 190,
     "end": 250,
@@ -3100,10 +3678,12 @@
   {
     "id": "Q211783",
     "content": "Pappus of Alexandria",
-    "title": "Pappus of Alexandria | c. 290 - c. 350 | astronomer, mathematician",
+    "title": "Pappus of Alexandria | c. 290 - c. 350 | astronomer, mathematician, 天文学者, 数学者",
     "occupations": [
       "astronomer",
-      "mathematician"
+      "mathematician",
+      "天文学者",
+      "数学者"
     ],
     "start": 290,
     "end": 350,
@@ -3114,12 +3694,16 @@
   {
     "id": "Q203445",
     "content": "Porphyry",
-    "title": "Porphyry | c. 233 - c. 301 | historian, music theorist, philosopher, writer",
+    "title": "Porphyry | c. 233 - c. 301 | historian, music theorist, philosopher, writer, 哲学者, 歴史家, 著作家, 音楽理論家",
     "occupations": [
       "historian",
       "music theorist",
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "歴史家",
+      "著作家",
+      "音楽理論家"
     ],
     "start": 233,
     "end": 301,
@@ -3130,13 +3714,17 @@
   {
     "id": "Q44024",
     "content": "Athanasius of Alexandria",
-    "title": "Athanasius of Alexandria | 296 - 373 | Catholic priest, deacon, hagiographer, theologian, writer",
+    "title": "Athanasius of Alexandria | 296 - 373 | Catholic priest, deacon, hagiographer, theologian, writer, カトリック教会の司祭, 執事, 神学者, 著作家",
     "occupations": [
       "Catholic priest",
       "deacon",
       "hagiographer",
       "theologian",
-      "writer"
+      "writer",
+      "カトリック教会の司祭",
+      "執事",
+      "神学者",
+      "著作家"
     ],
     "start": 296,
     "end": 373,
@@ -3147,9 +3735,10 @@
   {
     "id": "Q369129",
     "content": "Dexippus (philosopher)",
-    "title": "Dexippus (philosopher) | 4th century AD - 4th century AD | philosopher",
+    "title": "Dexippus (philosopher) | 4th century AD - 4th century AD | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 300,
     "end": 300,
@@ -3160,9 +3749,10 @@
   {
     "id": "Q178217",
     "content": "Diophantus of Alexandria",
-    "title": "Diophantus of Alexandria | 3th century AD - c. 284 | mathematician",
+    "title": "Diophantus of Alexandria | 3th century AD - c. 284 | mathematician, 数学者",
     "occupations": [
-      "mathematician"
+      "mathematician",
+      "数学者"
     ],
     "start": 200,
     "end": 284,
@@ -3173,7 +3763,7 @@
   {
     "id": "Q44258",
     "content": "Basil of Caesarea",
-    "title": "Basil of Caesarea | 330 - 379 | Catholic bishop, Catholic deacon, Catholic priest, archbishop, philosopher, theologian, writer",
+    "title": "Basil of Caesarea | 330 - 379 | Catholic bishop, Catholic deacon, Catholic priest, archbishop, philosopher, theologian, writer, カトリック教会の司祭, 司教, 哲学者, 大主教, 神学者, 著作家",
     "occupations": [
       "Catholic bishop",
       "Catholic deacon",
@@ -3181,7 +3771,13 @@
       "archbishop",
       "philosopher",
       "theologian",
-      "writer"
+      "writer",
+      "カトリック教会の司祭",
+      "司教",
+      "哲学者",
+      "大主教",
+      "神学者",
+      "著作家"
     ],
     "start": 330,
     "end": 379,
@@ -3192,10 +3788,12 @@
   {
     "id": "Q519513",
     "content": "Marcellus of Ancyra",
-    "title": "Marcellus of Ancyra | 285 - 374 | presbyter, writer",
+    "title": "Marcellus of Ancyra | 285 - 374 | presbyter, writer, 司祭, 著作家",
     "occupations": [
       "presbyter",
-      "writer"
+      "writer",
+      "司祭",
+      "著作家"
     ],
     "start": 285,
     "end": 374,
@@ -3206,13 +3804,18 @@
   {
     "id": "Q170472",
     "content": "Origen",
-    "title": "Origen | 185 - 254 | cleric, philosopher, theologian, translator, writer",
+    "title": "Origen | 185 - 254 | cleric, philosopher, theologian, translator, writer, 司祭, 哲学者, 神学者, 翻訳家, 著作家",
     "occupations": [
       "cleric",
       "philosopher",
       "theologian",
       "translator",
-      "writer"
+      "writer",
+      "司祭",
+      "哲学者",
+      "神学者",
+      "翻訳家",
+      "著作家"
     ],
     "start": 185,
     "end": 254,
@@ -3223,10 +3826,12 @@
   {
     "id": "Q312916",
     "content": "Nonnus of Panopolis",
-    "title": "Nonnus of Panopolis | 5th century AD - 5th century AD | poet, writer",
+    "title": "Nonnus of Panopolis | 5th century AD - 5th century AD | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": 400,
     "end": 400,
@@ -3237,9 +3842,10 @@
   {
     "id": "Q352702",
     "content": "Quintus Smyrnaeus",
-    "title": "Quintus Smyrnaeus | 4th century AD - 4th century AD | poet",
+    "title": "Quintus Smyrnaeus | 4th century AD - 4th century AD | poet, 詩人",
     "occupations": [
-      "poet"
+      "poet",
+      "詩人"
     ],
     "start": 300,
     "end": 300,
@@ -3250,12 +3856,16 @@
   {
     "id": "Q354350",
     "content": "Sozomen",
-    "title": "Sozomen | c. 400 - c. 450 | historian, lawyer, rhetorician, writer",
+    "title": "Sozomen | c. 400 - c. 450 | historian, lawyer, rhetorician, writer, 修辞学者, 弁護士, 歴史家, 著作家",
     "occupations": [
       "historian",
       "lawyer",
       "rhetorician",
-      "writer"
+      "writer",
+      "修辞学者",
+      "弁護士",
+      "歴史家",
+      "著作家"
     ],
     "start": 400,
     "end": 450,
@@ -3266,10 +3876,12 @@
   {
     "id": "Q782401",
     "content": "Sallustius",
-    "title": "Sallustius | 4th century AD - 4th century AD | philosopher, writer",
+    "title": "Sallustius | 4th century AD - 4th century AD | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": 300,
     "end": 300,
@@ -3280,12 +3892,16 @@
   {
     "id": "Q343018",
     "content": "Eunapius",
-    "title": "Eunapius | c. 349 - 420s | biographer, historian, philosopher, writer",
+    "title": "Eunapius | c. 349 - 420s | biographer, historian, philosopher, writer, 伝記作家, 哲学者, 歴史家, 著作家",
     "occupations": [
       "biographer",
       "historian",
       "philosopher",
-      "writer"
+      "writer",
+      "伝記作家",
+      "哲学者",
+      "歴史家",
+      "著作家"
     ],
     "start": 349,
     "end": 420,
@@ -3296,12 +3912,16 @@
   {
     "id": "Q336198",
     "content": "Socrates of Constantinople",
-    "title": "Socrates of Constantinople | c. 380 - c. 450 | church historian, historian, theologian, writer",
+    "title": "Socrates of Constantinople | c. 380 - c. 450 | church historian, historian, theologian, writer, 教会史家, 歴史家, 神学者, 著作家",
     "occupations": [
       "church historian",
       "historian",
       "theologian",
-      "writer"
+      "writer",
+      "教会史家",
+      "歴史家",
+      "神学者",
+      "著作家"
     ],
     "start": 380,
     "end": 450,
@@ -3312,12 +3932,16 @@
   {
     "id": "Q380943",
     "content": "Philostorgius",
-    "title": "Philostorgius | c. 368 - c. 433 | church historian, historian, religious writer, writer",
+    "title": "Philostorgius | c. 368 - c. 433 | church historian, historian, religious writer, writer, 宗教作家, 教会史家, 歴史家, 著作家",
     "occupations": [
       "church historian",
       "historian",
       "religious writer",
-      "writer"
+      "writer",
+      "宗教作家",
+      "教会史家",
+      "歴史家",
+      "著作家"
     ],
     "start": 368,
     "end": 433,
@@ -3328,12 +3952,16 @@
   {
     "id": "Q207113",
     "content": "Hippolytus",
-    "title": "Hippolytus | ? - 235 | Catholic bishop, patron saint, theologian, writer",
+    "title": "Hippolytus | ? - 235 | Catholic bishop, patron saint, theologian, writer, 司教, 守護聖人, 神学者, 著作家",
     "occupations": [
       "Catholic bishop",
       "patron saint",
       "theologian",
-      "writer"
+      "writer",
+      "司教",
+      "守護聖人",
+      "神学者",
+      "著作家"
     ],
     "start": 235,
     "end": 235,
@@ -3344,12 +3972,16 @@
   {
     "id": "Q450311",
     "content": "Alypius",
-    "title": "Alypius | 4th century AD - 4th century AD | music theorist, musician, musicologist, writer",
+    "title": "Alypius | 4th century AD - 4th century AD | music theorist, musician, musicologist, writer, 著作家, 音楽学者, 音楽家, 音楽理論家",
     "occupations": [
       "music theorist",
       "musician",
       "musicologist",
-      "writer"
+      "writer",
+      "著作家",
+      "音楽学者",
+      "音楽家",
+      "音楽理論家"
     ],
     "start": 300,
     "end": 300,
@@ -3364,7 +3996,10 @@
     "occupations": [
       "music theorist",
       "musician",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "音楽家",
+      "音楽理論家"
     ],
     "source": "floruit",
     "start": 200,
@@ -3375,9 +4010,10 @@
   {
     "id": "Q436634",
     "content": "Cassius Longinus",
-    "title": "Cassius Longinus | 213 - 273 | philosopher",
+    "title": "Cassius Longinus | 213 - 273 | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 213,
     "end": 273,
@@ -3388,11 +4024,14 @@
   {
     "id": "Q1496242",
     "content": "Callinicus",
-    "title": "Callinicus | 3th century AD - ? | historian, orator, sophist",
+    "title": "Callinicus | 3th century AD - ? | historian, orator, sophist, ソフィスト, 歴史家, 雄弁家",
     "occupations": [
       "historian",
       "orator",
-      "sophist"
+      "sophist",
+      "ソフィスト",
+      "歴史家",
+      "雄弁家"
     ],
     "start": 200,
     "type": "range",
@@ -3403,10 +4042,12 @@
   {
     "id": "Q263892",
     "content": "Libanius",
-    "title": "Libanius | c. 315 - 393 | rhetorician, writer",
+    "title": "Libanius | c. 315 - 393 | rhetorician, writer, 修辞学者, 著作家",
     "occupations": [
       "rhetorician",
-      "writer"
+      "writer",
+      "修辞学者",
+      "著作家"
     ],
     "start": 315,
     "end": 393,
@@ -3417,9 +4058,10 @@
   {
     "id": "Q923839",
     "content": "Menander Rhetor",
-    "title": "Menander Rhetor | 4th century AD - 4th century AD | rhetorician",
+    "title": "Menander Rhetor | 4th century AD - 4th century AD | rhetorician, 修辞学者",
     "occupations": [
-      "rhetorician"
+      "rhetorician",
+      "修辞学者"
     ],
     "start": 300,
     "end": 300,
@@ -3432,7 +4074,8 @@
     "content": "Tiberius Rhetor",
     "title": "Floruit: 3th century AD",
     "occupations": [
-      "rhetorician"
+      "rhetorician",
+      "修辞学者"
     ],
     "source": "floruit",
     "start": 200,
@@ -3443,9 +4086,10 @@
   {
     "id": "Q248733",
     "content": "Eusebius of Myndus",
-    "title": "Eusebius of Myndus | 300 - ? | philosopher",
+    "title": "Eusebius of Myndus | 300 - ? | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 300,
     "type": "point",
@@ -3455,10 +4099,12 @@
   {
     "id": "Q728059",
     "content": "Musaeus of Athens",
-    "title": "Musaeus of Athens | 5th century BC - ? | musician, poet",
+    "title": "Musaeus of Athens | 5th century BC - ? | musician, poet, 詩人, 音楽家",
     "occupations": [
       "musician",
-      "poet"
+      "poet",
+      "詩人",
+      "音楽家"
     ],
     "start": -500,
     "type": "range",
@@ -3469,10 +4115,12 @@
   {
     "id": "Q179284",
     "content": "Anna Komnene",
-    "title": "Anna Komnene | 1083 - c. 1153 | historian, writer",
+    "title": "Anna Komnene | 1083 - c. 1153 | historian, writer, 歴史家, 著作家",
     "occupations": [
       "historian",
-      "writer"
+      "writer",
+      "歴史家",
+      "著作家"
     ],
     "start": 1083,
     "end": 1153,
@@ -3483,11 +4131,14 @@
   {
     "id": "Q365678",
     "content": "Evagrius Scholasticus",
-    "title": "Evagrius Scholasticus | 536 - 594 | church historian, historian, lawyer",
+    "title": "Evagrius Scholasticus | 536 - 594 | church historian, historian, lawyer, 弁護士, 教会史家, 歴史家",
     "occupations": [
       "church historian",
       "historian",
-      "lawyer"
+      "lawyer",
+      "弁護士",
+      "教会史家",
+      "歴史家"
     ],
     "start": 536,
     "end": 594,
@@ -3498,11 +4149,14 @@
   {
     "id": "Q1499216",
     "content": "Gelasius of Cyzicus",
-    "title": "Gelasius of Cyzicus | 5th century AD - 475 | church historian, historian, writer",
+    "title": "Gelasius of Cyzicus | 5th century AD - 475 | church historian, historian, writer, 教会史家, 歴史家, 著作家",
     "occupations": [
       "church historian",
       "historian",
-      "writer"
+      "writer",
+      "教会史家",
+      "歴史家",
+      "著作家"
     ],
     "start": 400,
     "end": 475,
@@ -3515,7 +4169,8 @@
     "content": "Mark the Deacon",
     "title": "Floruit: 5th century AD",
     "occupations": [
-      "deacon"
+      "deacon",
+      "執事"
     ],
     "source": "floruit",
     "start": 400,
@@ -3526,14 +4181,20 @@
   {
     "id": "Q51884",
     "content": "John of Damascus",
-    "title": "John of Damascus | c. 675 - 749 | astronomer, cleric, composer, philosopher, theologian, writer",
+    "title": "John of Damascus | c. 675 - 749 | astronomer, cleric, composer, philosopher, theologian, writer, 作曲家, 司祭, 哲学者, 天文学者, 神学者, 著作家",
     "occupations": [
       "astronomer",
       "cleric",
       "composer",
       "philosopher",
       "theologian",
-      "writer"
+      "writer",
+      "作曲家",
+      "司祭",
+      "哲学者",
+      "天文学者",
+      "神学者",
+      "著作家"
     ],
     "start": 675,
     "end": 749,
@@ -3544,11 +4205,14 @@
   {
     "id": "Q518300",
     "content": "Methodius of Olympus",
-    "title": "Methodius of Olympus | 260 - 311 | Catholic bishop, priest, writer",
+    "title": "Methodius of Olympus | 260 - 311 | Catholic bishop, priest, writer, 司教, 司祭, 著作家",
     "occupations": [
       "Catholic bishop",
       "priest",
-      "writer"
+      "writer",
+      "司教",
+      "司祭",
+      "著作家"
     ],
     "start": 260,
     "end": 311,
@@ -3559,9 +4223,10 @@
   {
     "id": "Q1314034",
     "content": "Severus",
-    "title": "Severus | 100 - ? | philosopher",
+    "title": "Severus | 100 - ? | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 100,
     "type": "point",
@@ -3573,7 +4238,8 @@
     "content": "Michael Andreopoulos",
     "title": "Floruit: 11th century AD",
     "occupations": [
-      "translator"
+      "translator",
+      "翻訳家"
     ],
     "source": "floruit",
     "start": 1000,
@@ -3584,10 +4250,12 @@
   {
     "id": "Q1247278",
     "content": "Theophylact of Ohrid",
-    "title": "Theophylact of Ohrid | 1055 - 1107 | Eastern Orthodox priest, writer",
+    "title": "Theophylact of Ohrid | 1055 - 1107 | Eastern Orthodox priest, writer, 東方正教会の司祭, 著作家",
     "occupations": [
       "Eastern Orthodox priest",
-      "writer"
+      "writer",
+      "東方正教会の司祭",
+      "著作家"
     ],
     "start": 1055,
     "end": 1107,
@@ -3598,13 +4266,18 @@
   {
     "id": "Q32052",
     "content": "John Zonaras",
-    "title": "John Zonaras | c. 1074 - c. 1145 | canon law jurist, historian, monk, theologian, writer",
+    "title": "John Zonaras | c. 1074 - c. 1145 | canon law jurist, historian, monk, theologian, writer, 修道士, 教会法学者, 歴史家, 神学者, 著作家",
     "occupations": [
       "canon law jurist",
       "historian",
       "monk",
       "theologian",
-      "writer"
+      "writer",
+      "修道士",
+      "教会法学者",
+      "歴史家",
+      "神学者",
+      "著作家"
     ],
     "start": 1074,
     "end": 1145,
@@ -3615,9 +4288,10 @@
   {
     "id": "Q1165497",
     "content": "Marcianus of Heraclea",
-    "title": "Marcianus of Heraclea | 4th century AD - 5th century AD | geographer",
+    "title": "Marcianus of Heraclea | 4th century AD - 5th century AD | geographer, 地理学者",
     "occupations": [
-      "geographer"
+      "geographer",
+      "地理学者"
     ],
     "start": 300,
     "end": 400,
@@ -3628,11 +4302,14 @@
   {
     "id": "Q351518",
     "content": "Simplicius of Cilicia",
-    "title": "Simplicius of Cilicia | c. 480 - c. 560 | astronomer, mathematician, philosopher",
+    "title": "Simplicius of Cilicia | c. 480 - c. 560 | astronomer, mathematician, philosopher, 哲学者, 天文学者, 数学者",
     "occupations": [
       "astronomer",
       "mathematician",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "天文学者",
+      "数学者"
     ],
     "start": 480,
     "end": 560,
@@ -3643,7 +4320,7 @@
   {
     "id": "Q317632",
     "content": "John Philoponus",
-    "title": "John Philoponus | c. 490 - c. 570 | astronomer, grammarian, mathematician, philosopher, physicist, theologian, writer",
+    "title": "John Philoponus | c. 490 - c. 570 | astronomer, grammarian, mathematician, philosopher, physicist, theologian, writer, 哲学者, 天文学者, 数学者, 文法学者, 物理学者, 神学者, 著作家",
     "occupations": [
       "astronomer",
       "grammarian",
@@ -3651,7 +4328,14 @@
       "philosopher",
       "physicist",
       "theologian",
-      "writer"
+      "writer",
+      "哲学者",
+      "天文学者",
+      "数学者",
+      "文法学者",
+      "物理学者",
+      "神学者",
+      "著作家"
     ],
     "start": 490,
     "end": 570,
@@ -3662,11 +4346,14 @@
   {
     "id": "Q123147",
     "content": "Ammonius Hermiae",
-    "title": "Ammonius Hermiae | 435 - 523 | astronomer, philosopher, writer",
+    "title": "Ammonius Hermiae | 435 - 523 | astronomer, philosopher, writer, 哲学者, 天文学者, 著作家",
     "occupations": [
       "astronomer",
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "天文学者",
+      "著作家"
     ],
     "start": 435,
     "end": 523,
@@ -3677,9 +4364,10 @@
   {
     "id": "Q1373037",
     "content": "Syrianus",
-    "title": "Syrianus | 5th century AD - 437 | philosopher",
+    "title": "Syrianus | 5th century AD - 437 | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 400,
     "end": 437,
@@ -3690,10 +4378,12 @@
   {
     "id": "Q732098",
     "content": "Asclepius of Tralles",
-    "title": "Asclepius of Tralles | 5th century AD - 6th century AD | mathematician, philosopher",
+    "title": "Asclepius of Tralles | 5th century AD - 6th century AD | mathematician, philosopher, 哲学者, 数学者",
     "occupations": [
       "mathematician",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "数学者"
     ],
     "start": 400,
     "end": 500,
@@ -3704,11 +4394,14 @@
   {
     "id": "Q974775",
     "content": "Olympiodorus the Younger",
-    "title": "Olympiodorus the Younger | 495 - 570 | astrologer, philosopher, writer",
+    "title": "Olympiodorus the Younger | 495 - 570 | astrologer, philosopher, writer, 占星術師, 哲学者, 著作家",
     "occupations": [
       "astrologer",
       "philosopher",
-      "writer"
+      "writer",
+      "占星術師",
+      "哲学者",
+      "著作家"
     ],
     "start": 495,
     "end": 570,
@@ -3719,9 +4412,10 @@
   {
     "id": "Q974885",
     "content": "Elias",
-    "title": "Elias | 6th century AD - 6th century AD | philosopher",
+    "title": "Elias | 6th century AD - 6th century AD | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 500,
     "end": 500,
@@ -3732,9 +4426,10 @@
   {
     "id": "Q1173486",
     "content": "David Anhaght",
-    "title": "David Anhaght | 6th century AD - 6th century AD | philosopher",
+    "title": "David Anhaght | 6th century AD - 6th century AD | philosopher, 哲学者",
     "occupations": [
-      "philosopher"
+      "philosopher",
+      "哲学者"
     ],
     "start": 500,
     "end": 500,
@@ -3745,13 +4440,18 @@
   {
     "id": "Q233136",
     "content": "Agathias",
-    "title": "Agathias | 536 - 582 | epigrammatist, historian, lawyer, poet, writer",
+    "title": "Agathias | 536 - 582 | epigrammatist, historian, lawyer, poet, writer, エピグラマティスト, 弁護士, 歴史家, 著作家, 詩人",
     "occupations": [
       "epigrammatist",
       "historian",
       "lawyer",
       "poet",
-      "writer"
+      "writer",
+      "エピグラマティスト",
+      "弁護士",
+      "歴史家",
+      "著作家",
+      "詩人"
     ],
     "start": 536,
     "end": 582,
@@ -3762,11 +4462,14 @@
   {
     "id": "Q186153",
     "content": "Procopius",
-    "title": "Procopius | 5th century AD - 562 | historian, lawyer, writer",
+    "title": "Procopius | 5th century AD - 562 | historian, lawyer, writer, 弁護士, 歴史家, 著作家",
     "occupations": [
       "historian",
       "lawyer",
-      "writer"
+      "writer",
+      "弁護士",
+      "歴史家",
+      "著作家"
     ],
     "start": 400,
     "end": 562,
@@ -3777,10 +4480,12 @@
   {
     "id": "Q7563126",
     "content": "Sophonias",
-    "title": "Sophonias | 13th century AD - 14th century AD | monk, philosopher",
+    "title": "Sophonias | 13th century AD - 14th century AD | monk, philosopher, 修道士, 哲学者",
     "occupations": [
       "monk",
-      "philosopher"
+      "philosopher",
+      "修道士",
+      "哲学者"
     ],
     "start": 1200,
     "end": 1300,
@@ -3791,11 +4496,14 @@
   {
     "id": "Q3561265",
     "content": "Eustratius of Nicaea",
-    "title": "Eustratius of Nicaea | c. 1050 - 1120s | Eastern Orthodox priest, philosopher, theologian",
+    "title": "Eustratius of Nicaea | c. 1050 - 1120s | Eastern Orthodox priest, philosopher, theologian, 哲学者, 東方正教会の司祭, 神学者",
     "occupations": [
       "Eastern Orthodox priest",
       "philosopher",
-      "theologian"
+      "theologian",
+      "哲学者",
+      "東方正教会の司祭",
+      "神学者"
     ],
     "start": 1050,
     "end": 1120,
@@ -3806,10 +4514,12 @@
   {
     "id": "Q6835560",
     "content": "Michael of Ephesus",
-    "title": "Michael of Ephesus | 1050 - 1129 | philosopher, writer",
+    "title": "Michael of Ephesus | 1050 - 1129 | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": 1050,
     "end": 1129,
@@ -3820,12 +4530,16 @@
   {
     "id": "Q271809",
     "content": "Proclus",
-    "title": "Proclus | 412 - 485 | mathematician, mythographer, philosopher, writer",
+    "title": "Proclus | 412 - 485 | mathematician, mythographer, philosopher, writer, ミソグラファー, 哲学者, 数学者, 著作家",
     "occupations": [
       "mathematician",
       "mythographer",
       "philosopher",
-      "writer"
+      "writer",
+      "ミソグラファー",
+      "哲学者",
+      "数学者",
+      "著作家"
     ],
     "start": 412,
     "end": 485,
@@ -3836,10 +4550,12 @@
   {
     "id": "Q510719",
     "content": "Eutocius of Ascalon",
-    "title": "Eutocius of Ascalon | c. 480 - 6th century AD | mathematician, philosopher",
+    "title": "Eutocius of Ascalon | c. 480 - 6th century AD | mathematician, philosopher, 哲学者, 数学者",
     "occupations": [
       "mathematician",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "数学者"
     ],
     "start": 480,
     "end": 500,
@@ -3850,10 +4566,12 @@
   {
     "id": "Q581833",
     "content": "Marinus of Neapolis",
-    "title": "Marinus of Neapolis | c. 440 - c. 500 | astronomer, philosopher",
+    "title": "Marinus of Neapolis | c. 440 - c. 500 | astronomer, philosopher, 哲学者, 天文学者",
     "occupations": [
       "astronomer",
-      "philosopher"
+      "philosopher",
+      "哲学者",
+      "天文学者"
     ],
     "start": 440,
     "end": 500,
@@ -3864,9 +4582,10 @@
   {
     "id": "Q1779484",
     "content": "Coluthus",
-    "title": "Coluthus | 5th century AD - 6th century AD | poet",
+    "title": "Coluthus | 5th century AD - 6th century AD | poet, 詩人",
     "occupations": [
-      "poet"
+      "poet",
+      "詩人"
     ],
     "start": 400,
     "end": 500,
@@ -3877,10 +4596,12 @@
   {
     "id": "Q226858",
     "content": "Zosimus",
-    "title": "Zosimus | c. 460 - c. 520 | historian, writer",
+    "title": "Zosimus | c. 460 - c. 520 | historian, writer, 歴史家, 著作家",
     "occupations": [
       "historian",
-      "writer"
+      "writer",
+      "歴史家",
+      "著作家"
     ],
     "start": 460,
     "end": 520,
@@ -3891,12 +4612,16 @@
   {
     "id": "Q317029",
     "content": "Theodoret",
-    "title": "Theodoret | c. 393 - 457 | Catholic priest, church historian, historian, writer",
+    "title": "Theodoret | c. 393 - 457 | Catholic priest, church historian, historian, writer, カトリック教会の司祭, 教会史家, 歴史家, 著作家",
     "occupations": [
       "Catholic priest",
       "church historian",
       "historian",
-      "writer"
+      "writer",
+      "カトリック教会の司祭",
+      "教会史家",
+      "歴史家",
+      "著作家"
     ],
     "start": 393,
     "end": 457,
@@ -3907,10 +4632,12 @@
   {
     "id": "Q44079",
     "content": "Cyril of Alexandria",
-    "title": "Cyril of Alexandria | 376 - 444 | Pope of the Coptic Orthodox Church, cleric",
+    "title": "Cyril of Alexandria | 376 - 444 | Pope of the Coptic Orthodox Church, cleric, コプト教会の総主教, 司祭",
     "occupations": [
       "Pope of the Coptic Orthodox Church",
-      "cleric"
+      "cleric",
+      "コプト教会の総主教",
+      "司祭"
     ],
     "start": 376,
     "end": 444,
@@ -3921,10 +4648,12 @@
   {
     "id": "Q713482",
     "content": "Callistratus",
-    "title": "Callistratus | 10th century AD - 10th century AD | philosopher, writer",
+    "title": "Callistratus | 10th century AD - 10th century AD | philosopher, writer, 哲学者, 著作家",
     "occupations": [
       "philosopher",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家"
     ],
     "start": 900,
     "end": 900,
@@ -3935,12 +4664,16 @@
   {
     "id": "Q531732",
     "content": "Gregory II of Constantinople",
-    "title": "Gregory II of Constantinople | 1241 - 1290 | Eastern Orthodox priest, autobiographer, theologian, writer",
+    "title": "Gregory II of Constantinople | 1241 - 1290 | Eastern Orthodox priest, autobiographer, theologian, writer, 東方正教会の司祭, 神学者, 自伝作家, 著作家",
     "occupations": [
       "Eastern Orthodox priest",
       "autobiographer",
       "theologian",
-      "writer"
+      "writer",
+      "東方正教会の司祭",
+      "神学者",
+      "自伝作家",
+      "著作家"
     ],
     "start": 1241,
     "end": 1290,
@@ -3951,13 +4684,18 @@
   {
     "id": "Q330289",
     "content": "Stephen of Alexandria",
-    "title": "Stephen of Alexandria | 6th century AD - 622 | alchemist, astronomer, mathematician, philosopher, physician",
+    "title": "Stephen of Alexandria | 6th century AD - 622 | alchemist, astronomer, mathematician, philosopher, physician, 医師, 哲学者, 天文学者, 数学者, 錬金術師",
     "occupations": [
       "alchemist",
       "astronomer",
       "mathematician",
       "philosopher",
-      "physician"
+      "physician",
+      "医師",
+      "哲学者",
+      "天文学者",
+      "数学者",
+      "錬金術師"
     ],
     "start": 500,
     "end": 622,
@@ -3968,11 +4706,14 @@
   {
     "id": "Q47160",
     "content": "Plautus",
-    "title": "Plautus | -249 - -183 | comedy writer, playwright, writer",
+    "title": "Plautus | -249 - -183 | comedy writer, playwright, writer, コメディ作家, 劇作家, 著作家",
     "occupations": [
       "comedy writer",
       "playwright",
-      "writer"
+      "writer",
+      "コメディ作家",
+      "劇作家",
+      "著作家"
     ],
     "start": -249,
     "end": -183,
@@ -3983,12 +4724,16 @@
   {
     "id": "Q172048",
     "content": "Terence",
-    "title": "Terence | -184 - -158 | comedy writer, playwright, poet, writer",
+    "title": "Terence | -184 - -158 | comedy writer, playwright, poet, writer, コメディ作家, 劇作家, 著作家, 詩人",
     "occupations": [
       "comedy writer",
       "playwright",
       "poet",
-      "writer"
+      "writer",
+      "コメディ作家",
+      "劇作家",
+      "著作家",
+      "詩人"
     ],
     "start": -184,
     "end": -158,
@@ -3999,7 +4744,7 @@
   {
     "id": "Q1048",
     "content": "Julius Caesar",
-    "title": "Julius Caesar | -101 - -43 | Ancient Roman priest, historian, memoirist, military leader, military personnel, orator, poet, politician, ruler, writer",
+    "title": "Julius Caesar | -101 - -43 | Ancient Roman priest, historian, memoirist, military leader, military personnel, orator, poet, politician, ruler, writer, 古代ローマの司祭, 回想録作家, 政治家, 歴史家, 統治者, 著作家, 詩人, 軍事指導者, 軍人, 雄弁家",
     "occupations": [
       "Ancient Roman priest",
       "historian",
@@ -4010,7 +4755,17 @@
       "poet",
       "politician",
       "ruler",
-      "writer"
+      "writer",
+      "古代ローマの司祭",
+      "回想録作家",
+      "政治家",
+      "歴史家",
+      "統治者",
+      "著作家",
+      "詩人",
+      "軍事指導者",
+      "軍人",
+      "雄弁家"
     ],
     "start": -101,
     "end": -43,
@@ -4021,10 +4776,12 @@
   {
     "id": "Q163079",
     "content": "Catullus",
-    "title": "Catullus | c. -83 - c. -53 | poet, writer",
+    "title": "Catullus | c. -83 - c. -53 | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": -83,
     "end": -53,
@@ -4035,7 +4792,7 @@
   {
     "id": "Q1541",
     "content": "Cicero",
-    "title": "Cicero | -106 - -42 | Ancient Roman priest, jurist, lawyer, military personnel, orator, philosopher, poet, political theorist, politician, writer",
+    "title": "Cicero | -106 - -42 | Ancient Roman priest, jurist, lawyer, military personnel, orator, philosopher, poet, political theorist, politician, writer, 古代ローマの司祭, 哲学者, 弁護士, 政治家, 政治理論家, 法律専門職, 著作家, 詩人, 軍人, 雄弁家",
     "occupations": [
       "Ancient Roman priest",
       "jurist",
@@ -4046,7 +4803,17 @@
       "poet",
       "political theorist",
       "politician",
-      "writer"
+      "writer",
+      "古代ローマの司祭",
+      "哲学者",
+      "弁護士",
+      "政治家",
+      "政治理論家",
+      "法律専門職",
+      "著作家",
+      "詩人",
+      "軍人",
+      "雄弁家"
     ],
     "start": -106,
     "end": -42,
@@ -4057,13 +4824,18 @@
   {
     "id": "Q316054",
     "content": "Quintus Tullius Cicero",
-    "title": "Quintus Tullius Cicero | c. -101 - -42 | military leader, official, poet, politician, writer",
+    "title": "Quintus Tullius Cicero | c. -101 - -42 | military leader, official, poet, politician, writer, 公務員, 政治家, 著作家, 詩人, 軍事指導者",
     "occupations": [
       "military leader",
       "official",
       "poet",
       "politician",
-      "writer"
+      "writer",
+      "公務員",
+      "政治家",
+      "著作家",
+      "詩人",
+      "軍事指導者"
     ],
     "start": -101,
     "end": -42,
@@ -4074,11 +4846,14 @@
   {
     "id": "Q47154",
     "content": "Lucretius",
-    "title": "Lucretius | -93 - -54 | philosopher, poet, writer",
+    "title": "Lucretius | -93 - -54 | philosopher, poet, writer, 哲学者, 著作家, 詩人",
     "occupations": [
       "philosopher",
       "poet",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家",
+      "詩人"
     ],
     "start": -93,
     "end": -54,
@@ -4089,12 +4864,16 @@
   {
     "id": "Q109594",
     "content": "Cornelius Nepos",
-    "title": "Cornelius Nepos | c. -99 - c. -24 | biographer, historian, poet, writer",
+    "title": "Cornelius Nepos | c. -99 - c. -24 | biographer, historian, poet, writer, 伝記作家, 歴史家, 著作家, 詩人",
     "occupations": [
       "biographer",
       "historian",
       "poet",
-      "writer"
+      "writer",
+      "伝記作家",
+      "歴史家",
+      "著作家",
+      "詩人"
     ],
     "start": -99,
     "end": -24,
@@ -4105,11 +4884,13 @@
   {
     "id": "Q8827",
     "content": "Propertius",
-    "title": "Propertius | c. -46 - -15 | elegist, poet, writer",
+    "title": "Propertius | c. -46 - -15 | elegist, poet, writer, 著作家, 詩人",
     "occupations": [
       "elegist",
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": -46,
     "end": -15,
@@ -4120,13 +4901,18 @@
   {
     "id": "Q7170",
     "content": "Sallust",
-    "title": "Sallust | -85 - -34 | historian, military personnel, poet, politician, writer",
+    "title": "Sallust | -85 - -34 | historian, military personnel, poet, politician, writer, 政治家, 歴史家, 著作家, 詩人, 軍人",
     "occupations": [
       "historian",
       "military personnel",
       "poet",
       "politician",
-      "writer"
+      "writer",
+      "政治家",
+      "歴史家",
+      "著作家",
+      "詩人",
+      "軍人"
     ],
     "start": -85,
     "end": -34,
@@ -4137,10 +4923,11 @@
   {
     "id": "Q109598",
     "content": "Tibullus",
-    "title": "Tibullus | c. -54 - -18 | elegist, poet",
+    "title": "Tibullus | c. -54 - -18 | elegist, poet, 詩人",
     "occupations": [
       "elegist",
-      "poet"
+      "poet",
+      "詩人"
     ],
     "start": -54,
     "end": -18,
@@ -4151,10 +4938,12 @@
   {
     "id": "Q1398",
     "content": "Virgil",
-    "title": "Virgil | -69 - -18 | poet, writer",
+    "title": "Virgil | -69 - -18 | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": -69,
     "end": -18,
@@ -4165,10 +4954,12 @@
   {
     "id": "Q312420",
     "content": "Aulus Cornelius Celsus",
-    "title": "Aulus Cornelius Celsus | -24 - c. 50 | physician, writer",
+    "title": "Aulus Cornelius Celsus | -24 - c. 50 | physician, writer, 医師, 著作家",
     "occupations": [
       "physician",
-      "writer"
+      "writer",
+      "医師",
+      "著作家"
     ],
     "start": -24,
     "end": 50,
@@ -4179,10 +4970,12 @@
   {
     "id": "Q318317",
     "content": "Columella",
-    "title": "Columella | 4 - 70 | poet, writer",
+    "title": "Columella | 4 - 70 | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": 4,
     "end": 70,
@@ -4193,11 +4986,14 @@
   {
     "id": "Q5959",
     "content": "Quintus Curtius Rufus",
-    "title": "Quintus Curtius Rufus | 1th century AD - 1th century AD | historian, politician, writer",
+    "title": "Quintus Curtius Rufus | 1th century AD - 1th century AD | historian, politician, writer, 政治家, 歴史家, 著作家",
     "occupations": [
       "historian",
       "politician",
-      "writer"
+      "writer",
+      "政治家",
+      "歴史家",
+      "著作家"
     ],
     "start": 0,
     "end": 0,
@@ -4208,11 +5004,14 @@
   {
     "id": "Q6197",
     "content": "Horace",
-    "title": "Horace | -64 - -7 | philosopher, poet, writer",
+    "title": "Horace | -64 - -7 | philosopher, poet, writer, 哲学者, 著作家, 詩人",
     "occupations": [
       "philosopher",
       "poet",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家",
+      "詩人"
     ],
     "start": -64,
     "end": -7,
@@ -4223,11 +5022,14 @@
   {
     "id": "Q2039",
     "content": "Titus Livius",
-    "title": "Titus Livius | -58 - 17 | historian, poet, writer",
+    "title": "Titus Livius | -58 - 17 | historian, poet, writer, 歴史家, 著作家, 詩人",
     "occupations": [
       "historian",
       "poet",
-      "writer"
+      "writer",
+      "歴史家",
+      "著作家",
+      "詩人"
     ],
     "start": -58,
     "end": 17,
@@ -4238,12 +5040,16 @@
   {
     "id": "Q188646",
     "content": "Lucan",
-    "title": "Lucan | 39 - 65 | courtier, historian, poet, writer",
+    "title": "Lucan | 39 - 65 | courtier, historian, poet, writer, 廷臣, 歴史家, 著作家, 詩人",
     "occupations": [
       "courtier",
       "historian",
       "poet",
-      "writer"
+      "writer",
+      "廷臣",
+      "歴史家",
+      "著作家",
+      "詩人"
     ],
     "start": 39,
     "end": 65,
@@ -4254,12 +5060,15 @@
   {
     "id": "Q7198",
     "content": "Ovid",
-    "title": "Ovid | -42 - 17 | elegist, mythographer, poet, writer",
+    "title": "Ovid | -42 - 17 | elegist, mythographer, poet, writer, ミソグラファー, 著作家, 詩人",
     "occupations": [
       "elegist",
       "mythographer",
       "poet",
-      "writer"
+      "writer",
+      "ミソグラファー",
+      "著作家",
+      "詩人"
     ],
     "start": -42,
     "end": 17,
@@ -4270,11 +5079,14 @@
   {
     "id": "Q332785",
     "content": "Persius",
-    "title": "Persius | 34 - 62 | philosopher, poet, writer",
+    "title": "Persius | 34 - 62 | philosopher, poet, writer, 哲学者, 著作家, 詩人",
     "occupations": [
       "philosopher",
       "poet",
-      "writer"
+      "writer",
+      "哲学者",
+      "著作家",
+      "詩人"
     ],
     "start": 34,
     "end": 62,
@@ -4285,13 +5097,18 @@
   {
     "id": "Q47180",
     "content": "Petronius",
-    "title": "Petronius | c. 27 - 66 | military personnel, philosopher, poet, politician, writer",
+    "title": "Petronius | c. 27 - 66 | military personnel, philosopher, poet, politician, writer, 哲学者, 政治家, 著作家, 詩人, 軍人",
     "occupations": [
       "military personnel",
       "philosopher",
       "poet",
       "politician",
-      "writer"
+      "writer",
+      "哲学者",
+      "政治家",
+      "著作家",
+      "詩人",
+      "軍人"
     ],
     "start": 27,
     "end": 66,
@@ -4302,10 +5119,12 @@
   {
     "id": "Q52166",
     "content": "Phaedrus",
-    "title": "Phaedrus | -20s - 50 | poet, writer",
+    "title": "Phaedrus | -20s - 50 | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": -20,
     "end": 50,
@@ -4316,7 +5135,7 @@
   {
     "id": "Q82778",
     "content": "Pliny the Elder",
-    "title": "Pliny the Elder | c. 24 - 79 | art historian, civil servant, historian, military commander, military personnel, naturalist, philosopher, poet, writer",
+    "title": "Pliny the Elder | c. 24 - 79 | art historian, civil servant, historian, military commander, military personnel, naturalist, philosopher, poet, writer, 公務員, 博物学者, 哲学者, 武将, 歴史家, 美術史家, 著作家, 詩人, 軍人",
     "occupations": [
       "art historian",
       "civil servant",
@@ -4326,7 +5145,16 @@
       "naturalist",
       "philosopher",
       "poet",
-      "writer"
+      "writer",
+      "公務員",
+      "博物学者",
+      "哲学者",
+      "武将",
+      "歴史家",
+      "美術史家",
+      "著作家",
+      "詩人",
+      "軍人"
     ],
     "start": 24,
     "end": 79,
@@ -4337,14 +5165,20 @@
   {
     "id": "Q193769",
     "content": "Quintilian",
-    "title": "Quintilian | c. 35 - c. 96 | lawyer, pedagogue, poet, rhetorician, teacher, writer",
+    "title": "Quintilian | c. 35 - c. 96 | lawyer, pedagogue, poet, rhetorician, teacher, writer, 修辞学者, 弁護士, 教員, 教育学者, 著作家, 詩人",
     "occupations": [
       "lawyer",
       "pedagogue",
       "poet",
       "rhetorician",
       "teacher",
-      "writer"
+      "writer",
+      "修辞学者",
+      "弁護士",
+      "教員",
+      "教育学者",
+      "著作家",
+      "詩人"
     ],
     "start": 35,
     "end": 96,
@@ -4355,13 +5189,18 @@
   {
     "id": "Q273671",
     "content": "Seneca the Elder",
-    "title": "Seneca the Elder | c. -53 - c. 39 | historian, philosopher, poet, rhetorician, writer",
+    "title": "Seneca the Elder | c. -53 - c. 39 | historian, philosopher, poet, rhetorician, writer, 修辞学者, 哲学者, 歴史家, 著作家, 詩人",
     "occupations": [
       "historian",
       "philosopher",
       "poet",
       "rhetorician",
-      "writer"
+      "writer",
+      "修辞学者",
+      "哲学者",
+      "歴史家",
+      "著作家",
+      "詩人"
     ],
     "start": -53,
     "end": 39,
@@ -4372,7 +5211,7 @@
   {
     "id": "Q2054",
     "content": "Seneca",
-    "title": "Seneca | -4s - 65 | aphorist, philosopher, playwright, poet, politician, statesperson, writer",
+    "title": "Seneca | -4s - 65 | aphorist, philosopher, playwright, poet, politician, statesperson, writer, 劇作家, 哲学者, 政治家, 格言家, 著作家, 詩人",
     "occupations": [
       "aphorist",
       "philosopher",
@@ -4380,7 +5219,13 @@
       "poet",
       "politician",
       "statesperson",
-      "writer"
+      "writer",
+      "劇作家",
+      "哲学者",
+      "政治家",
+      "格言家",
+      "著作家",
+      "詩人"
     ],
     "start": -4,
     "end": 65,
@@ -4391,10 +5236,12 @@
   {
     "id": "Q243203",
     "content": "Publius Papinius Statius",
-    "title": "Publius Papinius Statius | c. 40 - 96 | poet, writer",
+    "title": "Publius Papinius Statius | c. 40 - 96 | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": 40,
     "end": 96,
@@ -4405,10 +5252,12 @@
   {
     "id": "Q316090",
     "content": "Gaius Valerius Flaccus",
-    "title": "Gaius Valerius Flaccus | c. 45 - c. 95 | poet, writer",
+    "title": "Gaius Valerius Flaccus | c. 45 - c. 95 | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": 45,
     "end": 95,
@@ -4419,11 +5268,14 @@
   {
     "id": "Q379991",
     "content": "Valerius Maximus",
-    "title": "Valerius Maximus | 1th century BC - 1th century AD | historian, poet, writer",
+    "title": "Valerius Maximus | 1th century BC - 1th century AD | historian, poet, writer, 歴史家, 著作家, 詩人",
     "occupations": [
       "historian",
       "poet",
-      "writer"
+      "writer",
+      "歴史家",
+      "著作家",
+      "詩人"
     ],
     "start": -100,
     "end": 0,
@@ -4434,10 +5286,12 @@
   {
     "id": "Q47163",
     "content": "Vitruvius",
-    "title": "Vitruvius | c. -79 - c. -14 | architect, writer",
+    "title": "Vitruvius | c. -79 - c. -14 | architect, writer, 建築家, 著作家",
     "occupations": [
       "architect",
-      "writer"
+      "writer",
+      "建築家",
+      "著作家"
     ],
     "start": -79,
     "end": -14,
@@ -4448,7 +5302,7 @@
   {
     "id": "Q170512",
     "content": "Apuleius",
-    "title": "Apuleius | 2th century AD - c. 170 | lawyer, novelist, orator, philosopher, physician, poet, prose writer, rhetorician, writer",
+    "title": "Apuleius | 2th century AD - c. 170 | lawyer, novelist, orator, philosopher, physician, poet, prose writer, rhetorician, writer, 修辞学者, 医師, 哲学者, 小説家, 弁護士, 散文作家, 著作家, 詩人, 雄弁家",
     "occupations": [
       "lawyer",
       "novelist",
@@ -4458,7 +5312,16 @@
       "poet",
       "prose writer",
       "rhetorician",
-      "writer"
+      "writer",
+      "修辞学者",
+      "医師",
+      "哲学者",
+      "小説家",
+      "弁護士",
+      "散文作家",
+      "著作家",
+      "詩人",
+      "雄弁家"
     ],
     "start": 100,
     "end": 170,
@@ -4469,12 +5332,16 @@
   {
     "id": "Q316483",
     "content": "Lucius Annaeus Florus",
-    "title": "Lucius Annaeus Florus | c. 74 - c. 140 | historian, orator, poet, rhetorician",
+    "title": "Lucius Annaeus Florus | c. 74 - c. 140 | historian, orator, poet, rhetorician, 修辞学者, 歴史家, 詩人, 雄弁家",
     "occupations": [
       "historian",
       "orator",
       "poet",
-      "rhetorician"
+      "rhetorician",
+      "修辞学者",
+      "歴史家",
+      "詩人",
+      "雄弁家"
     ],
     "start": 74,
     "end": 140,
@@ -4485,14 +5352,20 @@
   {
     "id": "Q294800",
     "content": "Aulus Gellius",
-    "title": "Aulus Gellius | c. 130 - c. 170 | grammarian, magistrate, military officer, philosopher, poet, writer",
+    "title": "Aulus Gellius | c. 130 - c. 170 | grammarian, magistrate, military officer, philosopher, poet, writer, マジストレイト, 哲学者, 士官, 文法学者, 著作家, 詩人",
     "occupations": [
       "grammarian",
       "magistrate",
       "military officer",
       "philosopher",
       "poet",
-      "writer"
+      "writer",
+      "マジストレイト",
+      "哲学者",
+      "士官",
+      "文法学者",
+      "著作家",
+      "詩人"
     ],
     "start": 130,
     "end": 170,
@@ -4503,12 +5376,16 @@
   {
     "id": "Q193800",
     "content": "Juvenal",
-    "title": "Juvenal | c. 55 - 2th century AD | historian, poet, satirist, writer",
+    "title": "Juvenal | c. 55 - 2th century AD | historian, poet, satirist, writer, 歴史家, 著作家, 詩人, 風刺作家",
     "occupations": [
       "historian",
       "poet",
       "satirist",
-      "writer"
+      "writer",
+      "歴史家",
+      "著作家",
+      "詩人",
+      "風刺作家"
     ],
     "start": 55,
     "end": 100,
@@ -4519,10 +5396,12 @@
   {
     "id": "Q2098",
     "content": "Martial",
-    "title": "Martial | ? - 104 | poet, writer",
+    "title": "Martial | ? - 104 | poet, writer, 著作家, 詩人",
     "occupations": [
       "poet",
-      "writer"
+      "writer",
+      "著作家",
+      "詩人"
     ],
     "start": 104,
     "end": 104,
@@ -4533,7 +5412,7 @@
   {
     "id": "Q168707",
     "content": "Pliny the Younger",
-    "title": "Pliny the Younger | c. 61 - c. 113 | civil servant, historian, jurist, lawyer, military personnel, official, poet, politician, writer",
+    "title": "Pliny the Younger | c. 61 - c. 113 | civil servant, historian, jurist, lawyer, military personnel, official, poet, politician, writer, 公務員, 弁護士, 政治家, 歴史家, 法律専門職, 著作家, 詩人, 軍人",
     "occupations": [
       "civil servant",
       "historian",
@@ -4543,7 +5422,15 @@
       "official",
       "poet",
       "politician",
-      "writer"
+      "writer",
+      "公務員",
+      "弁護士",
+      "政治家",
+      "歴史家",
+      "法律専門職",
+      "著作家",
+      "詩人",
+      "軍人"
     ],
     "start": 61,
     "end": 113,
@@ -4554,14 +5441,20 @@
   {
     "id": "Q316123",
     "content": "Silius Italicus",
-    "title": "Silius Italicus | 26 - 101 | historian, lawyer, military personnel, poet, politician, writer",
+    "title": "Silius Italicus | 26 - 101 | historian, lawyer, military personnel, poet, politician, writer, 弁護士, 政治家, 歴史家, 著作家, 詩人, 軍人",
     "occupations": [
       "historian",
       "lawyer",
       "military personnel",
       "poet",
       "politician",
-      "writer"
+      "writer",
+      "弁護士",
+      "政治家",
+      "歴史家",
+      "著作家",
+      "詩人",
+      "軍人"
     ],
     "start": 26,
     "end": 101,
@@ -4572,14 +5465,20 @@
   {
     "id": "Q10133",
     "content": "Suetonius",
-    "title": "Suetonius | c. 69 - c. 126 | antiquarian, biographer, historian, poet, secretary, writer",
+    "title": "Suetonius | c. 69 - c. 126 | antiquarian, biographer, historian, poet, secretary, writer, 伝記作家, 古物研究家, 歴史家, 秘書, 著作家, 詩人",
     "occupations": [
       "antiquarian",
       "biographer",
       "historian",
       "poet",
       "secretary",
-      "writer"
+      "writer",
+      "伝記作家",
+      "古物研究家",
+      "歴史家",
+      "秘書",
+      "著作家",
+      "詩人"
     ],
     "start": 69,
     "end": 126,
@@ -4590,7 +5489,7 @@
   {
     "id": "Q2161",
     "content": "Tacitus",
-    "title": "Tacitus | c. 56 - c. 120 | annalist, biographer, historian, jurist, military personnel, poet, politician, writer",
+    "title": "Tacitus | c. 56 - c. 120 | annalist, biographer, historian, jurist, military personnel, poet, politician, writer, 伝記作家, 政治家, 歴史家, 法律専門職, 著作家, 詩人, 軍人",
     "occupations": [
       "annalist",
       "biographer",
@@ -4599,7 +5498,14 @@
       "military personnel",
       "poet",
       "politician",
-      "writer"
+      "writer",
+      "伝記作家",
+      "政治家",
+      "歴史家",
+      "法律専門職",
+      "著作家",
+      "詩人",
+      "軍人"
     ],
     "start": 56,
     "end": 120,

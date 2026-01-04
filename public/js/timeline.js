@@ -45,8 +45,8 @@ async function initTimeline() {
     try {
         const jsonData = await loadData();
 
-        // Transform JSON integer years to JS Date objects
-        const items = new vis.DataSet(jsonData.map(item => {
+        // Create a DataSet (raw items)
+        const rawItems = new vis.DataSet(jsonData.map(item => {
             const start = createDate(item.start);
             const end = createDate(item.end);
 
@@ -108,9 +108,52 @@ async function initTimeline() {
                 type: item.type,
                 title: item.title,
                 className: item.className,
-                style: style // Apply inline style
+                style: style, // Apply inline style
+                occupations: item.occupations // Keep usage for filter
             };
         }));
+
+        // --- Filtering Logic ---
+
+        // 1. Extract unique occupations
+        const allOccs = new Set();
+        rawItems.forEach(item => {
+            if (item.occupations) {
+                item.occupations.forEach(o => allOccs.add(o));
+            }
+        });
+        const sortedOccs = Array.from(allOccs).sort();
+
+        // 2. Populate Dropdown
+        const select = document.getElementById('occupation-filter');
+        sortedOccs.forEach(occ => {
+            const opt = document.createElement('option');
+            opt.value = occ;
+            opt.textContent = occ;
+            select.appendChild(opt);
+        });
+
+        // 3. Create DataView
+        const itemsView = new vis.DataView(rawItems, {
+            filter: function (item) {
+                const selected = select.value;
+                if (selected === 'all') return true;
+                return item.occupations && item.occupations.includes(selected);
+            }
+        });
+
+        // 4. Update count helper
+        const updateCount = () => {
+            document.getElementById('filter-count').textContent = `${itemsView.length} items`;
+        };
+        updateCount();
+
+        // 5. Event Listener
+        select.addEventListener('change', () => {
+            itemsView.refresh();
+            updateCount();
+            timeline.fit(); // Optional: fit view to filtered items
+        });
 
         const container = document.getElementById('timeline-container');
 
@@ -133,8 +176,8 @@ async function initTimeline() {
             }
         };
 
-        // Create Timeline
-        const timeline = new vis.Timeline(container, items, options);
+        // Create Timeline with DataView
+        const timeline = new vis.Timeline(container, itemsView, options);
 
         // Remove loading text
         const loading = document.querySelector('.loading');
