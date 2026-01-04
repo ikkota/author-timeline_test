@@ -116,7 +116,15 @@ def main():
         raw_b = clean_value(row.get(birth_col))
         raw_d = clean_value(row.get(death_col))
         raw_f = clean_value(row.get(floruit_col))
-        wp_url = clean_value(row.get(wp_url_col))
+        
+        # WP_source_url processing per user instruction
+        wp_url = row.get(wp_url_col, None)
+        if isinstance(wp_url, str):
+            wp_url = wp_url.strip()
+            if not wp_url or "http" not in wp_url:
+                wp_url = None
+        else:
+            wp_url = None
         
         raw_occ_str = clean_value(row.get('Occupation'))
         current_occs = [o.strip() for o in raw_occ_str.split(',')] if raw_occ_str else []
@@ -126,7 +134,6 @@ def main():
         d_val, _ = parse_year(raw_d)
         f_val, _ = parse_year(raw_f)
         
-        # Decide display for this individual row
         row_start, row_end, row_class = None, None, None
         if b_val is not None and d_val is not None:
             if b_val == d_val:
@@ -160,12 +167,14 @@ def main():
             # Merge fields
             if name != "Unknown": rec["content"] = name
             rec["occupations"].update(current_occs)
+            
+            # Non-null priority for Wikipedia URL
             if not rec["wikipedia_url"]: rec["wikipedia_url"] = wp_url
+            
             if not rec["raw_birth_text"]: rec["raw_birth_text"] = raw_b
             if not rec["raw_death_text"]: rec["raw_death_text"] = raw_d
             if not rec["raw_floruit_text"]: rec["raw_floruit_text"] = raw_f
             
-            # Winner selection for display range
             curr_rank = get_display_rank(row_class)
             prev_rank = rec["display_rank"]
             
@@ -173,7 +182,6 @@ def main():
             if curr_rank > prev_rank:
                 should_update = True
             elif curr_rank == prev_rank and curr_rank > 0:
-                # Tie-breaker: Narrower range
                 curr_width = abs(row_end - row_start)
                 prev_width = abs(rec["end"] - rec["start"]) if rec["start"] is not None else 9999
                 if curr_width < prev_width:
@@ -187,7 +195,6 @@ def main():
 
     # 4. Finalize Primary Occupation & Title
     output_data = []
-    # Same priority list as before
     priority_keywords = [
         '哲学者', 'philosopher', '神学者', 'theologian', 'ソフィスト', 'sophist',
         '数学者', 'mathematician', '天文学者', 'astronomer', '物理学者', 'physicist', 
@@ -205,13 +212,9 @@ def main():
         if rec["start"] is None or rec["end"] is None:
             continue
             
-        # Final tooltip generation
         rec["title"] = build_title_from_raw(rec)
-        
-        # Consolidate occupations
         occs_list = sorted(list(rec["occupations"]))
         
-        # Primary Occupation Logic
         primary_occ = occs_list[0] if occs_list else None
         if occs_list:
             best_rank = 999
@@ -224,9 +227,6 @@ def main():
                             primary_occ = o
                         break
         
-        # Create final JSON object
-        # Map class names back to standard vis-timeline sets if needed
-        # (exact, inferred)
         final_class = "exact" if rec["className"] == "exact" else "inferred"
         
         final_item = {

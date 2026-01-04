@@ -19,7 +19,7 @@
       "神経科学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Galen",
     "title": "Birth: 2th century AD / Death: 3th century AD",
     "type": "range"
   },
@@ -34,7 +34,7 @@
       "軍事ライター"
     ],
     "primary_occupation": "military writer",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aeneas_Tacticus",
     "title": "Birth: 5th century BC / Death: 4th century BC",
     "type": "range"
   },
@@ -57,7 +57,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Plato",
     "title": "Birth: -426 / Death: -348s",
     "type": "range"
   },
@@ -76,7 +76,7 @@
       "歴史家"
     ],
     "primary_occupation": "地理学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Diodorus_Siculus",
     "title": "Birth: c. -89 / Death: c. -19",
     "type": "range"
   },
@@ -99,7 +99,7 @@
       "風刺作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lucian",
     "title": "Birth: c. 120 / Death: 2th century AD",
     "type": "range"
   },
@@ -115,7 +115,7 @@
       "探検家"
     ],
     "primary_occupation": "explorer",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hanno_the_Navigator",
     "title": "Birth: 5th century BC / Death: 5th century BC",
     "type": "range"
   },
@@ -138,7 +138,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Scylax_of_Caryanda",
     "title": "Birth: 6th century BC / Death: 5th century BC",
     "type": "range"
   },
@@ -159,7 +159,7 @@
       "歴史家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dicaearchus",
     "title": "Birth: -344 / Death: -289",
     "type": "range"
   },
@@ -180,7 +180,7 @@
       "歴史家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Agatharchides",
     "title": "Birth: -207",
     "type": "range"
   },
@@ -195,7 +195,7 @@
       "地理学者"
     ],
     "primary_occupation": "地理学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pseudo-Scymnus",
     "title": "Birth: 2th century BC / Death: -2",
     "type": "range"
   },
@@ -212,7 +212,7 @@
       "探検家"
     ],
     "primary_occupation": "地理学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Isidore_of_Charax",
     "title": "Birth: 1th century BC / Death: 1th century AD",
     "type": "range"
   },
@@ -235,7 +235,7 @@
       "軍人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Arrian",
     "title": "Birth: c. 89 / Death: 180",
     "type": "range"
   },
@@ -258,7 +258,7 @@
       "雄弁家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dionysius_of_Halicarnassus",
     "title": "Birth: c. -59 / Death: -6",
     "type": "range"
   },
@@ -273,7 +273,7 @@
       "文法学者"
     ],
     "primary_occupation": "文法学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Apollonius_Dyscolus",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -290,7 +290,7 @@
       "詩人"
     ],
     "primary_occupation": "地理学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dionysius_of_Byzantium",
     "title": "Birth: 2th century AD",
     "type": "range"
   },
@@ -309,7 +309,7 @@
       "詩人"
     ],
     "primary_occupation": "地理学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dionysius_Periegetes",
     "title": "Birth: c. 100 / Death: 140",
     "type": "range"
   },
@@ -330,7 +330,7 @@
       "著作家"
     ],
     "primary_occupation": "劇作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aeschylus",
     "title": "Birth: -524 / Death: -455",
     "type": "range"
   },
@@ -385,7 +385,7 @@
       "論理学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aristotle",
     "title": "Birth: -382 / Death: -321",
     "type": "range"
   },
@@ -402,7 +402,7 @@
       "著作家"
     ],
     "primary_occupation": "文法学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aelius_Herodianus",
     "title": "Birth: 180 / Death: 250",
     "type": "range"
   },
@@ -423,7 +423,7 @@
       "音楽理論家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aristoxenus",
     "title": "Birth: c. -359 / Death: c. -299",
     "type": "range"
   },
@@ -438,7 +438,7 @@
       "地理学者"
     ],
     "primary_occupation": "地理学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Agathemerus",
     "title": "Birth: 3th century AD / Death: 3th century AD",
     "type": "range"
   },
@@ -459,7 +459,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Theophrastus",
     "title": "Birth: c. -370 / Death: -286",
     "type": "range"
   },
@@ -479,7 +479,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aesop",
     "title": "Birth: c. -619 / Death: c. -563",
     "type": "range"
   },
@@ -497,7 +497,7 @@
       "辞書編纂者"
     ],
     "primary_occupation": "文法学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Diogenianus",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -513,7 +513,7 @@
       "修辞学者"
     ],
     "primary_occupation": "修辞学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Zenobius",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -534,7 +534,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Strabo",
     "title": "Birth: c. -62 / Death: 24",
     "type": "range"
   },
@@ -554,7 +554,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bacchylides",
     "title": "Birth: c. -515 / Death: c. -450",
     "type": "range"
   },
@@ -569,7 +569,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hipponax",
     "title": "Birth: 6th century BC / Death: 6th century BC",
     "type": "range"
   },
@@ -586,7 +586,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aelius_Aristides",
     "title": "Birth: 117 / Death: 185",
     "type": "range"
   },
@@ -609,7 +609,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Critias",
     "title": "Birth: -459 / Death: -402",
     "type": "range"
   },
@@ -628,7 +628,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lycophron",
     "title": "Birth: -319 / Death: -279",
     "type": "range"
   },
@@ -667,7 +667,7 @@
       "音楽理論家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nicomachus",
     "title": "Birth: c. 60 / Death: c. 120",
     "type": "range"
   },
@@ -684,7 +684,7 @@
       "音楽理論家"
     ],
     "primary_occupation": "music theorist",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cleonides",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -715,7 +715,7 @@
       "音楽理論家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ptolemy",
     "title": "Birth: c. 100 / Death: c. 170",
     "type": "range"
   },
@@ -734,7 +734,7 @@
       "軍人"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cassius_Dio",
     "title": "Birth: c. 155 / Death: 3th century AD",
     "type": "range"
   },
@@ -753,7 +753,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Myia",
     "title": "Birth: 6th century BC / Death: 5th century BC",
     "type": "range"
   },
@@ -776,7 +776,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epicharmus_of_Cos",
     "title": "Birth: c. -539 / Death: c. -434",
     "type": "range"
   },
@@ -795,7 +795,7 @@
       "著作家"
     ],
     "primary_occupation": "地理学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pausanias_(geographer)",
     "title": "Birth: c. 115 / Death: c. 180",
     "type": "range"
   },
@@ -812,7 +812,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Josephus",
     "title": "Birth: 37 / Death: 100",
     "type": "range"
   },
@@ -827,7 +827,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Arius_Didymus",
     "title": "Birth: -83s",
     "type": "range"
   },
@@ -842,7 +842,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Achilles_Tatius",
     "title": "Birth: 2th century AD / Death: 3th century AD",
     "type": "range"
   },
@@ -866,7 +866,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Callimachus",
     "title": "Birth: c. -319 / Death: c. -242",
     "type": "range"
   },
@@ -883,7 +883,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Demades",
     "title": "Birth: -380s / Death: -316",
     "type": "range"
   },
@@ -900,7 +900,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epicurus",
     "title": "Birth: -340 / Death: -269",
     "type": "range"
   },
@@ -918,7 +918,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lysias",
     "title": "Birth: c. -444 / Death: -379",
     "type": "range"
   },
@@ -935,7 +935,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Menander",
     "title": "Birth: -340s / Death: c. -290",
     "type": "range"
   },
@@ -958,7 +958,7 @@
       "雄弁家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Julius_Pollux",
     "title": "Birth: 2th century AD / Death: 238",
     "type": "range"
   },
@@ -977,7 +977,7 @@
       "軍人"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Polybius",
     "title": "Birth: -211 / Death: -131",
     "type": "range"
   },
@@ -997,7 +997,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sextus_Empiricus",
     "title": "Birth: c. 2th century AD / Death: c. 3th century AD",
     "type": "range"
   },
@@ -1022,7 +1022,7 @@
       "雄弁家"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Claudius_Aelianus",
     "title": "Birth: 2th century AD / Death: 235",
     "type": "range"
   },
@@ -1041,7 +1041,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pseudo-Apollodorus",
     "title": "Birth: c. 1th century AD / Death: c. 2th century AD",
     "type": "range"
   },
@@ -1058,7 +1058,7 @@
       "数学者"
     ],
     "primary_occupation": "数学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Apollonius_of_Perga",
     "title": "Birth: c. -259 / Death: c. -189",
     "type": "range"
   },
@@ -1079,7 +1079,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Appian",
     "title": "Birth: c. 95 / Death: c. 165",
     "type": "range"
   },
@@ -1105,7 +1105,7 @@
       "発明家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Archimedes",
     "title": "Birth: c. -284 / Death: -210",
     "type": "range"
   },
@@ -1120,7 +1120,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Artemidorus_of_Daldis",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -1137,7 +1137,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chariton",
     "title": "Birth: 1th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -1156,7 +1156,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Clement_of_Alexandria",
     "title": "Birth: c. 150 / Death: c. 215",
     "type": "range"
   },
@@ -1175,7 +1175,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Asclepiodotus_(philosopher)",
     "title": "Birth: 1th century BC",
     "type": "range"
   },
@@ -1192,7 +1192,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epictetus",
     "title": "Birth: c. 50 / Death: 138",
     "type": "range"
   },
@@ -1214,7 +1214,7 @@
       "発明家"
     ],
     "primary_occupation": "数学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hero_of_Alexandria",
     "title": "Birth: c. 10 / Death: c. 75",
     "type": "range"
   },
@@ -1231,7 +1231,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://fr.wikipedia.org/wiki/Pseudo-Longin",
     "title": "Birth: 1th century AD / Death: 1th century AD",
     "type": "range"
   },
@@ -1246,7 +1246,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Longus",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -1267,7 +1267,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marcus_Aurelius",
     "title": "Birth: 121 / Death: 180",
     "type": "range"
   },
@@ -1284,7 +1284,7 @@
       "雄弁家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Maximus_of_Tyre",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -1298,7 +1298,7 @@
       "physician writer"
     ],
     "primary_occupation": "physician writer",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rufus_of_Ephesus",
     "title": "Birth: 1th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -1315,7 +1315,7 @@
       "婦人科医"
     ],
     "primary_occupation": "医師",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Soranus_of_Ephesus",
     "title": "Birth: 98 / Death: 2th century AD",
     "type": "range"
   },
@@ -1330,7 +1330,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Antisthenes",
     "title": "Birth: -444 / Death: -364",
     "type": "range"
   },
@@ -1345,7 +1345,7 @@
       "修辞学者"
     ],
     "primary_occupation": "修辞学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hermogenes_of_Tarsus",
     "title": "Birth: 2th century AD / Death: 3th century AD",
     "type": "range"
   },
@@ -1360,7 +1360,7 @@
       "ソフィスト"
     ],
     "primary_occupation": "ソフィスト",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gorgias",
     "title": "Birth: -484 / Death: c. -374",
     "type": "range"
   },
@@ -1375,7 +1375,7 @@
       "修辞学者"
     ],
     "primary_occupation": "修辞学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_Numenius",
     "title": "Birth: 1th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -1392,7 +1392,7 @@
       "著作家"
     ],
     "primary_occupation": "修辞学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aelius_Theon",
     "title": "Birth: 1th century AD / Death: 1th century AD",
     "type": "range"
   },
@@ -1407,7 +1407,7 @@
       "文法学者"
     ],
     "primary_occupation": "文法学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tryphon_(grammarian)",
     "title": "Floruit: 1th century BC",
     "type": "range"
   },
@@ -1430,7 +1430,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Apollonius_of_Rhodes",
     "title": "Birth: -289 / Death: -214",
     "type": "range"
   },
@@ -1447,7 +1447,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thucydides",
     "title": "Birth: -460s / Death: -394",
     "type": "range"
   },
@@ -1468,7 +1468,7 @@
       "歴史家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Diogenes_Laertius",
     "title": "Birth: 180s / Death: 240s",
     "type": "range"
   },
@@ -1485,7 +1485,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Theocritus",
     "title": "Birth: 4th century BC / Death: 3th century BC",
     "type": "range"
   },
@@ -1508,7 +1508,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Euripides",
     "title": "Birth: -483 / Death: -404",
     "type": "range"
   },
@@ -1535,7 +1535,7 @@
       "随筆家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Plutarch",
     "title": "Birth: 50 / Death: c. 2th century AD",
     "type": "range"
   },
@@ -1554,7 +1554,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Athenaeus",
     "title": "Birth: c. 170 / Death: 3th century AD",
     "type": "range"
   },
@@ -1571,7 +1571,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Isocrates",
     "title": "Birth: -435 / Death: -337",
     "type": "range"
   },
@@ -1594,7 +1594,7 @@
       "著作家"
     ],
     "primary_occupation": "劇作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sophocles",
     "title": "Birth: c. -495 / Death: c. -405",
     "type": "range"
   },
@@ -1613,7 +1613,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Homer",
     "title": "Birth: c. 9th century BC / Death: c. 8th century BC",
     "type": "range"
   },
@@ -1634,7 +1634,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Demosthenes",
     "title": "Birth: -383 / Death: -321",
     "type": "range"
   },
@@ -1651,7 +1651,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Herodian",
     "title": "Birth: c. 170 / Death: c. 250",
     "type": "range"
   },
@@ -1672,7 +1672,7 @@
       "著作家"
     ],
     "primary_occupation": "地理学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Herodotus",
     "title": "Birth: c. -483 / Death: c. -424",
     "type": "range"
   },
@@ -1689,7 +1689,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Isaeus",
     "title": "Birth: c. -419 / Death: c. -339",
     "type": "range"
   },
@@ -1708,7 +1708,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philo",
     "title": "Birth: c. -14 / Death: c. 50",
     "type": "range"
   },
@@ -1729,7 +1729,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aristophanes",
     "title": "Birth: c. -449 / Death: c. -385",
     "type": "range"
   },
@@ -1750,7 +1750,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hesiod",
     "title": "Birth: c. -775",
     "type": "range"
   },
@@ -1771,7 +1771,7 @@
       "詩人"
     ],
     "primary_occupation": "医師",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nicander",
     "title": "Birth: -249 / Death: -169",
     "type": "range"
   },
@@ -1788,7 +1788,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Oppian",
     "title": "Birth: 2th century AD",
     "type": "range"
   },
@@ -1803,7 +1803,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pseudo-Oppian",
     "title": "Birth: 2",
     "type": "range"
   },
@@ -1824,7 +1824,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aeschines",
     "title": "Birth: -389 / Death: c. -321",
     "type": "range"
   },
@@ -1839,7 +1839,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Andocides",
     "title": "Birth: c. -439 / Death: c. -390",
     "type": "range"
   },
@@ -1856,7 +1856,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Antiphon_(orator)",
     "title": "Birth: c. -479 / Death: -410",
     "type": "range"
   },
@@ -1871,7 +1871,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dinarchus",
     "title": "Birth: c. -359 / Death: c. -291",
     "type": "range"
   },
@@ -1892,7 +1892,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hypereides",
     "title": "Birth: -387 / Death: -321",
     "type": "range"
   },
@@ -1915,7 +1915,7 @@
       "軍人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Xenophon",
     "title": "Birth: -430s / Death: c. -353",
     "type": "range"
   },
@@ -1934,7 +1934,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pindar",
     "title": "Birth: -521 / Death: -436",
     "type": "range"
   },
@@ -1953,7 +1953,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lycurgus_of_Athens",
     "title": "Birth: -389 / Death: -323",
     "type": "range"
   },
@@ -1970,7 +1970,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Moschus",
     "title": "Birth: 2th century BC / Death: 2th century BC",
     "type": "range"
   },
@@ -1987,7 +1987,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bion_of_Smyrna",
     "title": "Birth: -119 / Death: -56",
     "type": "range"
   },
@@ -2004,7 +2004,7 @@
       "政治家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anacharsis",
     "title": "Birth: 7th century BC / Death: 6th century BC",
     "type": "range"
   },
@@ -2019,7 +2019,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chion_of_Heraclea",
     "title": "Death: -352",
     "type": "range"
   },
@@ -2034,7 +2034,7 @@
       "統治者"
     ],
     "primary_occupation": "sovereign",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Antiochus_III_the_Great",
     "title": "Birth: c. -241 / Death: -186",
     "type": "range"
   },
@@ -2049,7 +2049,7 @@
       "国王"
     ],
     "primary_occupation": "king",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Artaxerxes_II",
     "title": "Birth: -452 / Death: -357",
     "type": "range"
   },
@@ -2066,7 +2066,7 @@
       "軍人"
     ],
     "primary_occupation": "政治家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nicias",
     "title": "Birth: 5th century BC / Death: -412",
     "type": "range"
   },
@@ -2081,7 +2081,7 @@
       "君主"
     ],
     "primary_occupation": "monarch",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philip_II_of_Macedon",
     "title": "Birth: c. -382 / Death: -335",
     "type": "range"
   },
@@ -2096,7 +2096,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Antipater_of_Tarsus",
     "title": "Birth: 2th century BC / Death: -128",
     "type": "range"
   },
@@ -2115,7 +2115,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sophistic_works_of_Antiphon",
     "title": "Birth: 5th century BC / Death: c. 5th century BC",
     "type": "range"
   },
@@ -2130,7 +2130,7 @@
       "天文学者"
     ],
     "primary_occupation": "天文学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aristarchus_of_Samos",
     "title": "Birth: c. -309 / Death: c. -229",
     "type": "range"
   },
@@ -2145,7 +2145,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aristocles_of_Messene",
     "title": "Birth: 2th century AD",
     "type": "range"
   },
@@ -2162,7 +2162,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aristo_of_Chios",
     "title": "Birth: c. -299 / Death: 3th century BC",
     "type": "range"
   },
@@ -2177,7 +2177,7 @@
       "文法学者"
     ],
     "primary_occupation": "文法学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aristonicus_of_Alexandria",
     "title": "Floruit: 1th century AD",
     "type": "range"
   },
@@ -2196,7 +2196,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Athenagoras_of_Athens",
     "title": "Floruit: 2th century AD",
     "type": "range"
   },
@@ -2213,7 +2213,7 @@
       "数学者"
     ],
     "primary_occupation": "数学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Autolycus_of_Pitane",
     "title": "Birth: c. -359 / Death: c. -289",
     "type": "range"
   },
@@ -2247,7 +2247,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Chrysippus",
     "title": "Birth: -280 / Death: -203",
     "type": "range"
   },
@@ -2265,7 +2265,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cleanthes",
     "title": "Birth: -330 / Death: -231",
     "type": "range"
   },
@@ -2282,7 +2282,7 @@
       "神学者"
     ],
     "primary_occupation": "神学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Clement_of_Rome",
     "title": "Birth: 1th century AD / Death: 99",
     "type": "range"
   },
@@ -2299,7 +2299,7 @@
       "数学者"
     ],
     "primary_occupation": "数学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cleomedes",
     "title": "Birth: 1th century AD / Death: 1th century AD",
     "type": "range"
   },
@@ -2314,7 +2314,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Crantor",
     "title": "Birth: c. -343 / Death: c. -274",
     "type": "range"
   },
@@ -2333,7 +2333,7 @@
       "美術史家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Democritus",
     "title": "Birth: -460s / Death: -360s",
     "type": "range"
   },
@@ -2348,7 +2348,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Diogenes_of_Apollonia",
     "title": "Birth: -459 / Death: 5th century BC",
     "type": "range"
   },
@@ -2367,7 +2367,7 @@
       "外交官"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Diogenes_of_Babylon",
     "title": "Birth: -239 / Death: -149",
     "type": "range"
   },
@@ -2382,7 +2382,7 @@
       "司祭"
     ],
     "primary_occupation": "presbyter",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dionysius_of_Corinth",
     "title": "Birth: 2th century AD / Death: 171",
     "type": "range"
   },
@@ -2399,7 +2399,7 @@
       "天文学者"
     ],
     "primary_occupation": "天文学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dorotheus_of_Sidon",
     "title": "Birth: 50",
     "type": "range"
   },
@@ -2418,7 +2418,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epimenides",
     "title": "Birth: 7th century BC / Death: 6th century BC",
     "type": "range"
   },
@@ -2437,7 +2437,7 @@
       "数学者"
     ],
     "primary_occupation": "数学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Geminus",
     "title": "Death: c. 60",
     "type": "range"
   },
@@ -2454,7 +2454,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Harpocration",
     "title": "Floruit: 2th century AD",
     "type": "range"
   },
@@ -2473,7 +2473,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hecataeus_of_Abdera",
     "title": "Birth: 4th century BC / Death: 3th century BC",
     "type": "range"
   },
@@ -2488,7 +2488,7 @@
       "文法学者"
     ],
     "primary_occupation": "文法学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hephaestion_(grammarian)",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -2505,7 +2505,7 @@
       "天文学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Heraclides_Ponticus",
     "title": "Birth: -384 / Death: c. -321",
     "type": "range"
   },
@@ -2520,7 +2520,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Heraclitus_(commentator)",
     "title": "Floruit: 1th century AD",
     "type": "range"
   },
@@ -2541,7 +2541,7 @@
       "辞書編纂者"
     ],
     "primary_occupation": "軍人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philo_of_Byblos",
     "title": "Birth: 50 / Death: 140",
     "type": "range"
   },
@@ -2556,7 +2556,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hermas_(freedman)",
     "title": "Birth: 1th century AD / Death: 1th century AD",
     "type": "range"
   },
@@ -2575,7 +2575,7 @@
       "数学者"
     ],
     "primary_occupation": "数学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hipparchus",
     "title": "Birth: c. -189 / Death: c. -119",
     "type": "range"
   },
@@ -2600,7 +2600,7 @@
       "数学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hippias",
     "title": "Birth: -442 / Death: -398",
     "type": "range"
   },
@@ -2617,7 +2617,7 @@
       "神学者"
     ],
     "primary_occupation": "神学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ignatius_of_Antioch",
     "title": "Birth: c. 35 / Death: 108",
     "type": "range"
   },
@@ -2636,7 +2636,7 @@
       "神学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Irenaeus",
     "title": "Birth: c. 130 / Death: c. 202",
     "type": "range"
   },
@@ -2651,7 +2651,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Matron_of_Pitane",
     "title": "Birth: 4th century BC / Death: 4th century BC",
     "type": "range"
   },
@@ -2666,7 +2666,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Numenius_of_Apamea",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -2681,7 +2681,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Oenomaus_of_Gadara",
     "title": "Death: 2th century AD",
     "type": "range"
   },
@@ -2700,7 +2700,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Palaephatus",
     "title": "Birth: 4th century BC / Death: 4th century BC",
     "type": "range"
   },
@@ -2719,7 +2719,7 @@
       "雄弁家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alcidamas",
     "title": "Birth: 5th century BC / Death: 4th century BC",
     "type": "range"
   },
@@ -2738,7 +2738,7 @@
       "雄弁家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dio_Chrysostom",
     "title": "Birth: c. 40 / Death: c. 120",
     "type": "range"
   },
@@ -2755,7 +2755,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Babrius",
     "title": "Birth: 1th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -2770,7 +2770,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aspasius",
     "title": "Birth: c. 80 / Death: c. 150",
     "type": "range"
   },
@@ -2791,7 +2791,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Polyaenus",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -2816,7 +2816,7 @@
       "音楽学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Archytas",
     "title": "Birth: c. -429 / Death: c. -344",
     "type": "range"
   },
@@ -2835,7 +2835,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Heraclitus",
     "title": "Birth: c. -534 / Death: c. -470s",
     "type": "range"
   },
@@ -2852,7 +2852,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hippocrates",
     "title": "Birth: c. -459 / Death: c. -369",
     "type": "range"
   },
@@ -2867,7 +2867,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gaius_Musonius_Rufus",
     "title": "Birth: 25 / Death: 95",
     "type": "range"
   },
@@ -2886,7 +2886,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Periander",
     "title": "Birth: 7th century BC / Death: -582",
     "type": "range"
   },
@@ -2911,7 +2911,7 @@
       "音楽理論家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pythagoras",
     "title": "Birth: c. -579 / Death: -490s",
     "type": "range"
   },
@@ -2930,7 +2930,7 @@
       "数学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lysis_of_Taras",
     "title": "Birth: 5th century BC / Death: 4th century BC",
     "type": "range"
   },
@@ -2951,7 +2951,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Xenocrates",
     "title": "Birth: -395 / Death: -313",
     "type": "range"
   },
@@ -2972,7 +2972,7 @@
       "雄弁家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philostratus",
     "title": "Birth: c. 170 / Death: 250s",
     "type": "range"
   },
@@ -2987,7 +2987,7 @@
       "医師"
     ],
     "primary_occupation": "医師",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Menecrates_of_Syracuse",
     "title": "Floruit: 4th century BC",
     "type": "range"
   },
@@ -3004,7 +3004,7 @@
       "著作家"
     ],
     "primary_occupation": "修辞学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alciphron",
     "title": "Birth: 2th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -3021,7 +3021,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Xenophon_of_Ephesus",
     "title": "Birth: 2th century AD / Death: 3th century AD",
     "type": "range"
   },
@@ -3057,7 +3057,7 @@
       "辞書編纂者"
     ],
     "primary_occupation": "文法学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aristophanes_of_Byzantium",
     "title": "Birth: -259 / Death: c. -179",
     "type": "range"
   },
@@ -3076,7 +3076,7 @@
       "神学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Justin_Martyr",
     "title": "Birth: c. 100 / Death: c. 165",
     "type": "range"
   },
@@ -3091,7 +3091,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tryphiodorus",
     "title": "Birth: 3th century AD / Death: 4th century AD",
     "type": "range"
   },
@@ -3108,7 +3108,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Onasander",
     "title": "Death: 1th century AD",
     "type": "range"
   },
@@ -3127,7 +3127,7 @@
       "雄弁家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lesbonax",
     "title": "Death: 2th century AD",
     "type": "range"
   },
@@ -3146,7 +3146,7 @@
       "雄弁家"
     ],
     "primary_occupation": "ソフィスト",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philostratus_the_Younger",
     "title": "Floruit: 3th century AD",
     "type": "range"
   },
@@ -3165,7 +3165,7 @@
       "詩人"
     ],
     "primary_occupation": "天文学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aratus",
     "title": "Birth: c. -314 / Death: c. -239",
     "type": "range"
   },
@@ -3184,7 +3184,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Parthenius_of_Nicaea",
     "title": "Birth: 1th century BC / Death: 1th century BC",
     "type": "range"
   },
@@ -3205,7 +3205,7 @@
       "薬理学者"
     ],
     "primary_occupation": "医師",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dioscorides",
     "title": "Birth: c. 40 / Death: c. 90",
     "type": "range"
   },
@@ -3222,7 +3222,7 @@
       "薬理学者"
     ],
     "primary_occupation": "botanist",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Crateuas_(physician)",
     "title": "Birth: 2th century BC / Death: 1th century BC",
     "type": "range"
   },
@@ -3237,7 +3237,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Heliodorus_of_Emesa",
     "title": "Birth: c. 3th century AD / Death: c. 3th century AD",
     "type": "range"
   },
@@ -3256,7 +3256,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Adrianus",
     "title": "Birth: 113 / Death: 193",
     "type": "range"
   },
@@ -3286,7 +3286,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Albinus_(philosopher)",
     "title": "Birth: 1th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -3303,7 +3303,7 @@
       "文法学者"
     ],
     "primary_occupation": "文法学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ammonius_Grammaticus",
     "title": "Floruit: 4th century AD",
     "type": "range"
   },
@@ -3318,7 +3318,7 @@
       "医師"
     ],
     "primary_occupation": "医師",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aretaeus_of_Cappadocia",
     "title": "Birth: 1th century AD / Death: 2th century AD",
     "type": "range"
   },
@@ -3337,7 +3337,7 @@
       "著作家"
     ],
     "primary_occupation": "イアトロソフィスト",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Adamantius_(physician)",
     "title": "Birth: 4th century AD / Death: 5th century AD",
     "type": "range"
   },
@@ -3352,7 +3352,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alexander_of_Aphrodisias",
     "title": "Birth: 2th century AD / Death: 3th century AD",
     "type": "range"
   },
@@ -3367,7 +3367,7 @@
       "イアトロソフィスト"
     ],
     "primary_occupation": "イアトロソフィスト",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://de.wikipedia.org/wiki/Cassius_Iatrosophista",
     "title": "Birth: 2th century AD / Death: 3th century AD",
     "type": "range"
   },
@@ -3388,7 +3388,7 @@
       "議員"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Parmenides",
     "title": "Birth: c. -514 / Death: c. -469",
     "type": "range"
   },
@@ -3409,7 +3409,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philodemus",
     "title": "Birth: c. -109 / Death: -34",
     "type": "range"
   },
@@ -3434,7 +3434,7 @@
       "音楽理論家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philolaus",
     "title": "Birth: c. -469 / Death: c. -389",
     "type": "range"
   },
@@ -3453,7 +3453,7 @@
       "雄弁家"
     ],
     "primary_occupation": "ソフィスト",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philostratus_of_Lemnos",
     "title": "Birth: c. 190 / Death: c. 230",
     "type": "range"
   },
@@ -3469,7 +3469,7 @@
       "文法学者"
     ],
     "primary_occupation": "文法学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philoxenus_of_Alexandria",
     "title": "Floruit: 1th century BC",
     "type": "range"
   },
@@ -3486,7 +3486,7 @@
       "政治家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Polemon_of_Laodicea",
     "title": "Birth: c. 90 / Death: c. 144",
     "type": "range"
   },
@@ -3507,7 +3507,7 @@
       "著作家"
     ],
     "primary_occupation": "神学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Polycarp",
     "title": "Birth: 70 / Death: c. 155",
     "type": "range"
   },
@@ -3522,7 +3522,7 @@
       "司祭"
     ],
     "primary_occupation": "priest",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Polycrates_of_Ephesus",
     "title": "Birth: 125 / Death: 196",
     "type": "range"
   },
@@ -3539,7 +3539,7 @@
       "外交官"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Prodicus",
     "title": "Birth: -463 / Death: c. -379",
     "type": "range"
   },
@@ -3554,7 +3554,7 @@
       "占星術師"
     ],
     "primary_occupation": "astrologer",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://de.wikipedia.org/wiki/Serapion_von_Alexandria_(Astrologe)",
     "title": "Birth: 2th century BC / Death: 1th century AD",
     "type": "range"
   },
@@ -3571,7 +3571,7 @@
       "数学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Speusippus",
     "title": "Birth: -406 / Death: -338",
     "type": "range"
   },
@@ -3586,7 +3586,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Teles_of_Megara",
     "title": "Birth: 3th century BC",
     "type": "range"
   },
@@ -3615,7 +3615,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Thales_of_Miletus",
     "title": "Birth: -629 / Death: -545",
     "type": "range"
   },
@@ -3632,7 +3632,7 @@
       "数学者"
     ],
     "primary_occupation": "数学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Theodosius_of_Bithynia",
     "title": "Birth: c. -159 / Death: c. -89",
     "type": "range"
   },
@@ -3655,7 +3655,7 @@
       "音楽理論家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Theon_of_Smyrna",
     "title": "Birth: c. 70 / Death: c. 135",
     "type": "range"
   },
@@ -3670,7 +3670,7 @@
       "司祭"
     ],
     "primary_occupation": "presbyter",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Theophilus_of_Antioch",
     "title": "Birth: 2th century AD / Death: 183",
     "type": "range"
   },
@@ -3689,7 +3689,7 @@
       "著作家"
     ],
     "primary_occupation": "天文学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vettius_Valens",
     "title": "Birth: 120 / Death: 175",
     "type": "range"
   },
@@ -3708,7 +3708,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tatian",
     "title": "Birth: c. 120 / Death: c. 173",
     "type": "range"
   },
@@ -3725,7 +3725,7 @@
       "著作家"
     ],
     "primary_occupation": "数学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Euclid",
     "title": "Birth: 4th century BC / Death: -284",
     "type": "range"
   },
@@ -3742,7 +3742,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Plotinus",
     "title": "Birth: 205 / Death: 270",
     "type": "range"
   },
@@ -3769,7 +3769,7 @@
       "雄弁家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Themistius",
     "title": "Birth: 317 / Death: 388",
     "type": "range"
   },
@@ -3786,7 +3786,7 @@
       "政治家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Julian_(emperor)",
     "title": "Birth: 331 / Death: 363",
     "type": "range"
   },
@@ -3807,7 +3807,7 @@
       "著作家"
     ],
     "primary_occupation": "神学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Eusebius",
     "title": "Birth: 275s / Death: 339",
     "type": "range"
   },
@@ -3824,7 +3824,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epiphanius_of_Salamis",
     "title": "Birth: c. 315 / Death: 403",
     "type": "range"
   },
@@ -3851,7 +3851,7 @@
       "説教者"
     ],
     "primary_occupation": "神学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gregory_of_Nazianzus",
     "title": "Birth: 330 / Death: 390",
     "type": "range"
   },
@@ -3868,7 +3868,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Iamblichus",
     "title": "Birth: c. 245 / Death: c. 325",
     "type": "range"
   },
@@ -3885,7 +3885,7 @@
       "雄弁家"
     ],
     "primary_occupation": "雄弁家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Apsines",
     "title": "Birth: c. 190 / Death: c. 250",
     "type": "range"
   },
@@ -3902,7 +3902,7 @@
       "数学者"
     ],
     "primary_occupation": "数学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pappus_of_Alexandria",
     "title": "Birth: c. 290 / Death: c. 350",
     "type": "range"
   },
@@ -3923,7 +3923,7 @@
       "音楽理論家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Porphyry_of_Tyre",
     "title": "Birth: c. 233 / Death: c. 301",
     "type": "range"
   },
@@ -3945,7 +3945,7 @@
       "著作家"
     ],
     "primary_occupation": "神学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Athanasius_of_Alexandria",
     "title": "Birth: 296 / Death: 373",
     "type": "range"
   },
@@ -3960,7 +3960,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dexippus_(philosopher)",
     "title": "Birth: 4th century AD / Death: 4th century AD",
     "type": "range"
   },
@@ -3975,7 +3975,7 @@
       "数学者"
     ],
     "primary_occupation": "数学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Diophantus",
     "title": "Birth: 3th century AD / Death: c. 284",
     "type": "range"
   },
@@ -4001,7 +4001,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Basil_of_Caesarea",
     "title": "Birth: 330 / Death: 379",
     "type": "range"
   },
@@ -4018,7 +4018,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marcellus_of_Ancyra",
     "title": "Birth: 285 / Death: 374",
     "type": "range"
   },
@@ -4041,7 +4041,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Origen",
     "title": "Birth: 185 / Death: 254",
     "type": "range"
   },
@@ -4058,7 +4058,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nonnus",
     "title": "Birth: 5th century AD / Death: 5th century AD",
     "type": "range"
   },
@@ -4073,7 +4073,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quintus_Smyrnaeus",
     "title": "Birth: 4th century AD / Death: 4th century AD",
     "type": "range"
   },
@@ -4094,7 +4094,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sozomen",
     "title": "Birth: c. 400 / Death: c. 450",
     "type": "range"
   },
@@ -4111,7 +4111,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sallustius_(Neoplatonist)",
     "title": "Birth: 4th century AD / Death: 4th century AD",
     "type": "range"
   },
@@ -4132,7 +4132,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Eunapius",
     "title": "Birth: c. 349 / Death: 420s",
     "type": "range"
   },
@@ -4153,7 +4153,7 @@
       "著作家"
     ],
     "primary_occupation": "神学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Socrates_of_Constantinople",
     "title": "Birth: c. 380 / Death: c. 450",
     "type": "range"
   },
@@ -4174,7 +4174,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Philostorgius",
     "title": "Birth: c. 368 / Death: c. 433",
     "type": "range"
   },
@@ -4195,7 +4195,7 @@
       "著作家"
     ],
     "primary_occupation": "神学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hippolytus_of_Rome",
     "title": "Death: 235",
     "type": "range"
   },
@@ -4216,7 +4216,7 @@
       "音楽理論家"
     ],
     "primary_occupation": "music theorist",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Alypius_of_Alexandria",
     "title": "Birth: 4th century AD / Death: 4th century AD",
     "type": "range"
   },
@@ -4235,7 +4235,7 @@
       "音楽理論家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gaudentius_(music_theorist)",
     "title": "Floruit: 3th century AD",
     "type": "range"
   },
@@ -4250,7 +4250,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cassius_Longinus_(philosopher)",
     "title": "Birth: 213 / Death: 273",
     "type": "range"
   },
@@ -4269,7 +4269,7 @@
       "雄弁家"
     ],
     "primary_occupation": "ソフィスト",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Callinicus_(sophist)",
     "title": "Birth: 3th century AD",
     "type": "range"
   },
@@ -4286,7 +4286,7 @@
       "著作家"
     ],
     "primary_occupation": "修辞学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Libanius",
     "title": "Birth: c. 315 / Death: 393",
     "type": "range"
   },
@@ -4301,7 +4301,7 @@
       "修辞学者"
     ],
     "primary_occupation": "修辞学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Menander_Rhetor",
     "title": "Birth: 4th century AD / Death: 4th century AD",
     "type": "range"
   },
@@ -4331,7 +4331,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Eusebius_of_Myndus",
     "title": "Birth: 300",
     "type": "range"
   },
@@ -4348,7 +4348,7 @@
       "音楽家"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Musaeus_of_Athens",
     "title": "Birth: 5th century BC",
     "type": "range"
   },
@@ -4365,7 +4365,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anna_Komnene",
     "title": "Birth: 1083 / Death: c. 1153",
     "type": "range"
   },
@@ -4384,7 +4384,7 @@
       "歴史家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Evagrius_Scholasticus",
     "title": "Birth: 536 / Death: 594",
     "type": "range"
   },
@@ -4403,7 +4403,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gelasius_of_Cyzicus",
     "title": "Birth: 5th century AD / Death: 475",
     "type": "range"
   },
@@ -4418,7 +4418,7 @@
       "執事"
     ],
     "primary_occupation": "deacon",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mark_the_Deacon",
     "title": "Floruit: 5th century AD",
     "type": "range"
   },
@@ -4443,7 +4443,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_of_Damascus",
     "title": "Birth: c. 675 / Death: 749",
     "type": "range"
   },
@@ -4462,7 +4462,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Methodius_of_Olympus",
     "title": "Birth: 260 / Death: 311",
     "type": "range"
   },
@@ -4477,7 +4477,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://de.wikipedia.org/wiki/Severos",
     "title": "Birth: 100",
     "type": "range"
   },
@@ -4509,7 +4509,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Theophylact_of_Ohrid",
     "title": "Birth: 1055 / Death: 1107",
     "type": "range"
   },
@@ -4532,7 +4532,7 @@
       "著作家"
     ],
     "primary_occupation": "神学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Joannes_Zonaras",
     "title": "Birth: c. 1074 / Death: c. 1145",
     "type": "range"
   },
@@ -4547,7 +4547,7 @@
       "地理学者"
     ],
     "primary_occupation": "地理学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marcian_of_Heraclea",
     "title": "Birth: 4th century AD / Death: 5th century AD",
     "type": "range"
   },
@@ -4566,7 +4566,7 @@
       "数学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Simplicius_of_Cilicia",
     "title": "Birth: c. 480 / Death: c. 560",
     "type": "range"
   },
@@ -4593,7 +4593,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/John_Philoponus",
     "title": "Birth: c. 490 / Death: c. 570",
     "type": "range"
   },
@@ -4612,7 +4612,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ammonius_Hermiae",
     "title": "Birth: 435 / Death: 523",
     "type": "range"
   },
@@ -4627,7 +4627,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Syrianus",
     "title": "Birth: 5th century AD / Death: 437",
     "type": "range"
   },
@@ -4644,7 +4644,7 @@
       "数学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Asclepius_of_Tralles",
     "title": "Birth: 5th century AD / Death: 6th century AD",
     "type": "range"
   },
@@ -4663,7 +4663,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Olympiodorus_the_Younger",
     "title": "Birth: 495 / Death: 570",
     "type": "range"
   },
@@ -4678,7 +4678,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Elias_(Greek_scholar)",
     "title": "Birth: 6th century AD / Death: 6th century AD",
     "type": "range"
   },
@@ -4693,7 +4693,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/David_the_Invincible",
     "title": "Birth: 6th century AD / Death: 6th century AD",
     "type": "range"
   },
@@ -4716,7 +4716,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Agathias",
     "title": "Birth: 536 / Death: 582",
     "type": "range"
   },
@@ -4735,7 +4735,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Procopius",
     "title": "Birth: 5th century AD / Death: 562",
     "type": "range"
   },
@@ -4752,7 +4752,7 @@
       "哲学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sophonias_(commentator)",
     "title": "Birth: 13th century AD / Death: 14th century AD",
     "type": "range"
   },
@@ -4771,7 +4771,7 @@
       "神学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Eustratius_of_Nicaea",
     "title": "Birth: c. 1050 / Death: 1120s",
     "type": "range"
   },
@@ -4788,7 +4788,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Michael_of_Ephesus",
     "title": "Birth: 1050 / Death: 1129",
     "type": "range"
   },
@@ -4809,7 +4809,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Proclus",
     "title": "Birth: 412 / Death: 485",
     "type": "range"
   },
@@ -4826,7 +4826,7 @@
       "数学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Eutocius_of_Ascalon",
     "title": "Birth: c. 480 / Death: 6th century AD",
     "type": "range"
   },
@@ -4843,7 +4843,7 @@
       "天文学者"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marinus_of_Neapolis",
     "title": "Birth: c. 440 / Death: c. 500",
     "type": "range"
   },
@@ -4858,7 +4858,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Coluthus",
     "title": "Birth: 5th century AD / Death: 6th century AD",
     "type": "range"
   },
@@ -4875,7 +4875,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Zosimus_(historian)",
     "title": "Birth: c. 460 / Death: c. 520",
     "type": "range"
   },
@@ -4896,7 +4896,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Theodoret",
     "title": "Birth: c. 393 / Death: 457",
     "type": "range"
   },
@@ -4913,7 +4913,7 @@
       "司祭"
     ],
     "primary_occupation": "Pope of the Coptic Orthodox Church",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cyril_of_Alexandria",
     "title": "Birth: 376 / Death: 444",
     "type": "range"
   },
@@ -4930,7 +4930,7 @@
       "著作家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Callistratus_(sophist)",
     "title": "Birth: 10th century AD / Death: 10th century AD",
     "type": "range"
   },
@@ -4951,7 +4951,7 @@
       "著作家"
     ],
     "primary_occupation": "神学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Gregory_II_of_Constantinople",
     "title": "Birth: 1241 / Death: 1290",
     "type": "range"
   },
@@ -4974,7 +4974,7 @@
       "錬金術師"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Stephanus_of_Alexandria",
     "title": "Birth: 6th century AD / Death: 622",
     "type": "range"
   },
@@ -4993,7 +4993,7 @@
       "著作家"
     ],
     "primary_occupation": "劇作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Plautus",
     "title": "Birth: -249 / Death: -183",
     "type": "range"
   },
@@ -5014,7 +5014,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Terence",
     "title": "Birth: -184 / Death: -158",
     "type": "range"
   },
@@ -5047,7 +5047,7 @@
       "雄弁家"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Julius_Caesar",
     "title": "Birth: -101 / Death: -43",
     "type": "range"
   },
@@ -5064,7 +5064,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Catullus",
     "title": "Birth: c. -83 / Death: c. -53",
     "type": "range"
   },
@@ -5097,7 +5097,7 @@
       "雄弁家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cicero",
     "title": "Birth: -106 / Death: -42",
     "type": "range"
   },
@@ -5120,7 +5120,7 @@
       "軍事指導者"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quintus_Tullius_Cicero",
     "title": "Birth: c. -101 / Death: -42",
     "type": "range"
   },
@@ -5139,7 +5139,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lucretius",
     "title": "Birth: -93 / Death: -54",
     "type": "range"
   },
@@ -5160,7 +5160,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cornelius_Nepos",
     "title": "Birth: c. -99 / Death: c. -24",
     "type": "range"
   },
@@ -5178,7 +5178,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Propertius",
     "title": "Birth: c. -46 / Death: -15",
     "type": "range"
   },
@@ -5201,7 +5201,7 @@
       "軍人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sallust",
     "title": "Birth: -85 / Death: -34",
     "type": "range"
   },
@@ -5217,7 +5217,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tibullus",
     "title": "Birth: c. -54 / Death: -18",
     "type": "range"
   },
@@ -5234,7 +5234,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Virgil",
     "title": "Birth: -69 / Death: -18",
     "type": "range"
   },
@@ -5251,7 +5251,7 @@
       "著作家"
     ],
     "primary_occupation": "医師",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aulus_Cornelius_Celsus",
     "title": "Birth: -24 / Death: c. 50",
     "type": "range"
   },
@@ -5268,7 +5268,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Columella",
     "title": "Birth: 4 / Death: 70",
     "type": "range"
   },
@@ -5287,7 +5287,7 @@
       "著作家"
     ],
     "primary_occupation": "歴史家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quintus_Curtius_Rufus",
     "title": "Birth: 1th century AD / Death: 1th century AD",
     "type": "range"
   },
@@ -5306,7 +5306,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Horace",
     "title": "Birth: -64 / Death: -7",
     "type": "range"
   },
@@ -5325,7 +5325,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Livy",
     "title": "Birth: -58 / Death: 17",
     "type": "range"
   },
@@ -5346,7 +5346,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lucan",
     "title": "Birth: 39 / Death: 65",
     "type": "range"
   },
@@ -5366,7 +5366,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ovid",
     "title": "Birth: -42 / Death: 17",
     "type": "range"
   },
@@ -5385,7 +5385,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Persius",
     "title": "Birth: 34 / Death: 62",
     "type": "range"
   },
@@ -5408,7 +5408,7 @@
       "軍人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Petronius",
     "title": "Birth: c. 27 / Death: 66",
     "type": "range"
   },
@@ -5425,7 +5425,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Phaedrus_(fabulist)",
     "title": "Birth: -20s / Death: 50",
     "type": "range"
   },
@@ -5456,7 +5456,7 @@
       "軍人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pliny_the_Elder",
     "title": "Birth: c. 24 / Death: 79",
     "type": "range"
   },
@@ -5481,7 +5481,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quintilian",
     "title": "Birth: c. 35 / Death: c. 96",
     "type": "range"
   },
@@ -5504,7 +5504,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Seneca_the_Elder",
     "title": "Birth: c. -53 / Death: c. 39",
     "type": "range"
   },
@@ -5530,7 +5530,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Seneca_the_Younger",
     "title": "Birth: -4s / Death: 65",
     "type": "range"
   },
@@ -5547,7 +5547,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Statius",
     "title": "Birth: c. 40 / Death: 96",
     "type": "range"
   },
@@ -5564,7 +5564,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Valerius_Flaccus_(poet)",
     "title": "Birth: c. 45 / Death: c. 95",
     "type": "range"
   },
@@ -5583,7 +5583,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Valerius_Maximus",
     "title": "Birth: 1th century BC / Death: 1th century AD",
     "type": "range"
   },
@@ -5600,7 +5600,7 @@
       "著作家"
     ],
     "primary_occupation": "著作家",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vitruvius",
     "title": "Birth: c. -79 / Death: c. -14",
     "type": "range"
   },
@@ -5631,7 +5631,7 @@
       "雄弁家"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Apuleius",
     "title": "Birth: 2th century AD / Death: c. 170",
     "type": "range"
   },
@@ -5652,7 +5652,7 @@
       "雄弁家"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Florus",
     "title": "Birth: c. 74 / Death: c. 140",
     "type": "range"
   },
@@ -5677,7 +5677,7 @@
       "詩人"
     ],
     "primary_occupation": "哲学者",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aulus_Gellius",
     "title": "Birth: c. 130 / Death: c. 170",
     "type": "range"
   },
@@ -5698,7 +5698,7 @@
       "風刺作家"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Juvenal",
     "title": "Birth: c. 55 / Death: 2th century AD",
     "type": "range"
   },
@@ -5715,7 +5715,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Martial",
     "title": "Death: 104",
     "type": "range"
   },
@@ -5745,7 +5745,7 @@
       "軍人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pliny_the_Younger",
     "title": "Birth: c. 61 / Death: c. 113",
     "type": "range"
   },
@@ -5770,7 +5770,7 @@
       "軍人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Silius_Italicus",
     "title": "Birth: 26 / Death: 101",
     "type": "range"
   },
@@ -5795,7 +5795,7 @@
       "詩人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Suetonius",
     "title": "Birth: c. 69 / Death: c. 126",
     "type": "range"
   },
@@ -5823,7 +5823,7 @@
       "軍人"
     ],
     "primary_occupation": "詩人",
-    "wikipedia_url": null,
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tacitus",
     "title": "Birth: c. 56 / Death: c. 120",
     "type": "range"
   }
