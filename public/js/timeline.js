@@ -95,7 +95,7 @@ async function initTimeline() {
             // Only add title if it exists (inferred items have no title)
             if (item.title && item.title.trim().length > 0) {
                 // Use tooltipText for custom tooltip, NOT title (which triggers native browser tooltip)
-                obj.tooltipText = item.title;
+                obj.tooltipText = item.title; // Note: 'title' field currently contains Dates info "Birth: ... / Death: ..."
             }
 
             return obj;
@@ -234,18 +234,19 @@ async function initTimeline() {
             }, 300); // 300ms delay to allow moving to tooltip
         };
 
-        const showTooltip = (item, x, y) => {
+        const showTooltip = (item, element) => {
             if (tooltipTimeout) clearTimeout(tooltipTimeout);
 
             // Construct Content
-            // Expected title format: "Name | Dates | Occupations"
-            // If inferred, title is missing -> No tooltip (as per prior logic)
+            // 1. Check if we should show tooltip at all (inferred items have no tooltipText)
             if (!item.tooltipText) return;
 
-            const parts = item.tooltipText.split(' | ');
-            const name = parts[0] || item.content;
-            const dates = parts[1] || "";
-            // Use occupations array for robust linking
+            // 2. Map fields correctly
+            // item.content = Name
+            // item.tooltipText = Dates (e.g. "Birth: ...") (because that's what 'title' became in JSON)
+            // item.occupations = Array of strings
+            const name = item.content;
+            const dates = item.tooltipText;
             const occs = item.occupations || [];
 
             let html = `<div class="tooltip-name">`;
@@ -262,7 +263,6 @@ async function initTimeline() {
             if (occs.length > 0) {
                 html += `<div class="tooltip-occs">`;
                 occs.forEach(o => {
-                    // Escape quotes just in case
                     const safeOcc = o.replace(/"/g, '&quot;');
                     html += `<span class="tooltip-occ-tag" onclick="window.filterByOccupation('${safeOcc}')">${o}</span>`;
                 });
@@ -272,17 +272,24 @@ async function initTimeline() {
             tooltip.innerHTML = html;
             tooltip.style.display = 'block';
 
-            // Position
-            // Prevent overflow
-            const rect = tooltip.getBoundingClientRect();
-            let left = x + 15;
-            let top = y + 15;
+            // Position: Dock to the item element
+            if (!element) return;
+            const itemRect = element.getBoundingClientRect();
+            const tooltipRect = tooltip.getBoundingClientRect();
 
-            if (left + rect.width > window.innerWidth) {
-                left = x - rect.width - 15;
+            // Default: Below the item, centered
+            let left = itemRect.left + (itemRect.width / 2) - (tooltipRect.width / 2);
+            let top = itemRect.bottom + 5;
+
+            // Prevent going off-screen
+            if (left < 10) left = 10;
+            if (left + tooltipRect.width > window.innerWidth - 10) {
+                left = window.innerWidth - tooltipRect.width - 10;
             }
-            if (top + rect.height > window.innerHeight) {
-                top = y - rect.height - 15;
+
+            // If dragging near bottom, flip to top
+            if (top + tooltipRect.height > window.innerHeight - 10) {
+                top = itemRect.top - tooltipRect.height - 5;
             }
 
             tooltip.style.left = left + 'px';
@@ -299,13 +306,22 @@ async function initTimeline() {
                     activeItemId = id;
                     const item = itemsView.get(id);
                     if (item) {
-                        showTooltip(item, event.pageX, event.pageY);
+                        // Find DOM element
+                        let target = event.target;
+                        // Traverse up to find .vis-item
+                        while (target && target !== container) {
+                            if (target.classList && target.classList.contains('vis-item')) {
+                                break;
+                            }
+                            target = target.parentElement;
+                        }
+
+                        if (target && target.classList.contains('vis-item')) {
+                            showTooltip(item, target);
+                        }
                     }
-                } else {
-                    // Sticky behavior: keep showing while on item, update pos
-                    const item = itemsView.get(id);
-                    showTooltip(item, event.pageX, event.pageY);
                 }
+                // Sticky behavior: Do nothing if same item (tooltip stays docked)
             } else {
                 if (activeItemId !== null) {
                     hideTooltip();
