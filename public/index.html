@@ -49,12 +49,20 @@
 
 <body>
 
-  <div id="controls" style="margin: 20px; font-family: sans-serif;">
-    <label for="occupation-filter">職業でフィルター (Filter by Occupation):</label>
-    <select id="occupation-filter" style="padding: 5px; font-size: 14px;">
-      <option value="all">全て (All)</option>
-    </select>
-    <span id="filter-count" style="margin-left: 10px; color: #666;"></span>
+  <div id="controls" style="margin: 20px; font-family: sans-serif; display: flex; align-items: flex-start; gap: 20px;">
+
+    <div style="flex: 0 0 300px;">
+      <label style="font-weight: bold; display: block; margin-bottom: 5px;">職業でフィルター (Filter by Occupation):</label>
+      <div id="filter-container"
+        style="border: 1px solid #ccc; height: 120px; overflow-y: scroll; padding: 5px; background: #fff;">
+        <!-- Checkboxes will be injected here -->
+      </div>
+      <div style="margin-top: 5px; font-size: 12px; color: #666;">
+        <button id="clear-filters">Clear All</button>
+        <span id="filter-count" style="margin-left: 10px;"></span>
+      </div>
+    </div>
+
   </div>
 
   <div id="timeline-container">

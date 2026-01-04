@@ -104,21 +104,34 @@ async function initTimeline() {
         });
         const sortedOccs = Array.from(allOccs).sort();
 
-        // 2. Populate Dropdown
-        const select = document.getElementById('occupation-filter');
+        // 2. Populate Checkboxes
+        const filterContainer = document.getElementById('filter-container');
         sortedOccs.forEach(occ => {
-            const opt = document.createElement('option');
-            opt.value = occ;
-            opt.textContent = occ;
-            select.appendChild(opt);
+            const div = document.createElement('div');
+            const label = document.createElement('label');
+            label.style.display = "block";
+            label.style.cursor = "pointer";
+
+            const checkbox = document.createElement('input');
+            checkbox.type = "checkbox";
+            checkbox.value = occ;
+            checkbox.style.marginRight = "5px";
+
+            label.appendChild(checkbox);
+            label.appendChild(document.createTextNode(occ));
+            div.appendChild(label);
+            filterContainer.appendChild(div);
         });
 
         // 3. Create DataView
         const itemsView = new vis.DataView(rawItems, {
             filter: function (item) {
-                const selected = select.value;
-                if (selected === 'all') return true;
-                return item.occupations && item.occupations.includes(selected);
+                const checkboxes = filterContainer.querySelectorAll('input[type="checkbox"]:checked');
+                if (checkboxes.length === 0) return true; // Show all if none selected
+
+                const selected = Array.from(checkboxes).map(cb => cb.value);
+                // Return true if item has ANY of the selected occupations
+                return item.occupations && item.occupations.some(o => selected.includes(o));
             }
         });
 
@@ -128,11 +141,22 @@ async function initTimeline() {
         };
         updateCount();
 
-        // 5. Event Listener
-        select.addEventListener('change', () => {
+        // 5. Event Listeners
+        // Use delegation or direct listeners? Direct is fine since we just created them.
+        // Actually delegation on container is cleaner.
+        filterContainer.addEventListener('change', () => {
             itemsView.refresh();
             updateCount();
-            timeline.fit(); // Optional: fit view to filtered items
+            timeline.fit();
+        });
+
+        // Clear Filter
+        document.getElementById('clear-filters').addEventListener('click', () => {
+            const checkboxes = filterContainer.querySelectorAll('input[type="checkbox"]');
+            checkboxes.forEach(cb => cb.checked = false);
+            itemsView.refresh();
+            updateCount();
+            timeline.fit();
         });
 
         const container = document.getElementById('timeline-container');
