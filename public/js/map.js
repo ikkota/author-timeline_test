@@ -106,11 +106,80 @@
             // Create all markers
             createAllMarkers();
 
+            // Create unknown/review panel
+            createUnknownPanel();
+
             // Initial display (show all)
             updateMapMarkers(null);
         } catch (error) {
             console.error('Failed to load authors_geo.json:', error);
         }
+    }
+
+    // Create panel for authors without mappable coordinates
+    function createUnknownPanel() {
+        const unknownAuthors = [];
+
+        for (const [qid, author] of Object.entries(authorsGeo)) {
+            if (author.geo_status === 'ok') continue;
+
+            unknownAuthors.push({
+                qid: qid,
+                name: author.name,
+                status: author.geo_status,
+                reason: author.unknown_reason,
+                wikipedia: author.wikipedia_url
+            });
+        }
+
+        if (unknownAuthors.length === 0) return;
+
+        // Sort by name
+        unknownAuthors.sort((a, b) => a.name.localeCompare(b.name));
+
+        // Create panel element
+        const panel = document.createElement('div');
+        panel.id = 'unknown-panel';
+        panel.innerHTML = `
+            <div id="unknown-header">
+                <span>📍 未マッピング (${unknownAuthors.length})</span>
+                <button id="toggle-unknown">▼</button>
+            </div>
+            <div id="unknown-content">
+                <div id="unknown-list"></div>
+            </div>
+        `;
+
+        document.getElementById('map-container').appendChild(panel);
+
+        // Populate list
+        const listEl = document.getElementById('unknown-list');
+        unknownAuthors.forEach(author => {
+            const item = document.createElement('div');
+            item.className = 'unknown-item';
+
+            const statusIcon = author.status === 'needs_review' ? '⚠️' : '❓';
+            const link = author.wikipedia
+                ? `<a href="${author.wikipedia}" target="_blank">${author.name}</a>`
+                : author.name;
+
+            item.innerHTML = `${statusIcon} ${link}`;
+            item.title = author.reason || author.status;
+            listEl.appendChild(item);
+        });
+
+        // Toggle behavior
+        const toggleBtn = document.getElementById('toggle-unknown');
+        const content = document.getElementById('unknown-content');
+        let isExpanded = false;
+
+        toggleBtn.addEventListener('click', () => {
+            isExpanded = !isExpanded;
+            content.style.display = isExpanded ? 'block' : 'none';
+            toggleBtn.textContent = isExpanded ? '▲' : '▼';
+        });
+
+        console.log(`Unknown panel: ${unknownAuthors.length} authors`);
     }
 
     // Create markers for all authors with coordinates
