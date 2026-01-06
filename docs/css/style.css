@@ -2,7 +2,7 @@
 
 /* === Research Visualization Typography === */
 html {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 body {
@@ -69,7 +69,7 @@ body {
 .vis-item {
     border-color: #97B0F8;
     background-color: #D5DDF6;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.2;
     border-radius: 4px;
     margin-top: 5px;
@@ -132,10 +132,14 @@ body {
     color: #666;
 }
 
+.vis-time-axis .vis-text {
+    font-size: 0.85rem;
+}
+
 /* Reduced height for timeline bars */
 .vis-item .vis-item-content {
     padding: 2px 5px;
-    font-size: 1rem;
+    font-size: 0.85rem;
     line-height: 1.25;
 }
 
@@ -144,13 +148,13 @@ body {
     position: absolute;
     background: rgba(255, 255, 255, 0.98);
     border: 1px solid #aaa;
-    padding: 16px 18px;
+    padding: 12px 14px;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
     z-index: 10000;
     display: none;
     max-width: 420px;
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.5;
     pointer-events: auto;
     font-family: sans-serif;
@@ -159,7 +163,7 @@ body {
 
 #custom-tooltip .tooltip-name {
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.15rem;
     margin-bottom: 6px;
     border-bottom: 1px solid #eee;
     padding-bottom: 4px;
@@ -169,7 +173,7 @@ body {
     font-style: italic;
     color: #666;
     margin-bottom: 6px;
-    font-size: 1.2rem;
+    font-size: 0.95rem;
 }
 
 #custom-tooltip .tooltip-occs {
@@ -185,7 +189,7 @@ body {
     margin-right: 6px;
     margin-bottom: 4px;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 0.85rem;
     border: 1px solid #dde;
 }
 
@@ -231,7 +235,7 @@ body {
 /* Marker Popup */
 .marker-popup {
     font-family: sans-serif;
-    font-size: 1rem;
+    font-size: 0.95rem;
     line-height: 1.5;
 }
 
