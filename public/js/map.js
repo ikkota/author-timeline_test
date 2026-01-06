@@ -227,6 +227,11 @@
         },
         isLocked: function () {
             return isYearLocked;
+        },
+        invalidateSize: function () {
+            if (map) {
+                map.invalidateSize();
+            }
         }
     };
 

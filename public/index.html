@@ -41,8 +41,31 @@
       height: 100vh;
     }
 
+    /* Timeline on LEFT */
+    #timeline-container {
+      flex: 1;
+      min-width: 300px;
+      height: 100%;
+      position: relative;
+    }
+
+    /* Resizable Splitter */
+    #splitter {
+      width: 6px;
+      background: #ddd;
+      cursor: col-resize;
+      flex-shrink: 0;
+      transition: background 0.2s;
+    }
+
+    #splitter:hover {
+      background: #999;
+    }
+
+    /* Map on RIGHT */
     #map-container {
-      width: 50%;
+      flex: 1;
+      min-width: 300px;
       height: 100%;
       position: relative;
     }
@@ -50,12 +73,6 @@
     #map {
       width: 100%;
       height: 100%;
-    }
-
-    #timeline-container {
-      width: 50%;
-      height: 100%;
-      position: relative;
     }
 
     /* Floating Panel Styles */
@@ -68,7 +85,7 @@
       border: 1px solid #ccc;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
-      z-index: 1000;
+      z-index: 10000;
       display: flex;
       flex-direction: column;
       overflow: hidden;
@@ -115,13 +132,7 @@
 <body>
 
   <div id="main-container">
-    <!-- Map Section (Left) -->
-    <div id="map-container">
-      <div id="map"></div>
-      <div id="year-indicator">Year: --</div>
-    </div>
-
-    <!-- Timeline Section (Right) -->
+    <!-- Timeline Section (Left) -->
     <div id="timeline-container">
       <div id="controls">
         <div id="panel-header">
@@ -152,11 +163,80 @@
 
       <div class="loading">Loading timeline...</div>
     </div>
+
+    <!-- Resizable Splitter -->
+    <div id="splitter"></div>
+
+    <!-- Map Section (Right) -->
+    <div id="map-container">
+      <div id="map"></div>
+      <div id="year-indicator">Year: --</div>
+    </div>
   </div>
 
   <!-- Custom JS -->
   <script src="js/timeline.js"></script>
   <script src="js/map.js"></script>
+
+  <!-- Resizable Splitter Logic -->
+  <script>
+    (function () {
+      const splitter = document.getElementById('splitter');
+      const timelineContainer = document.getElementById('timeline-container');
+      const mapContainer = document.getElementById('map-container');
+      const mainContainer = document.getElementById('main-container');
+
+      let isDragging = false;
+
+      splitter.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        document.body.style.cursor = 'col-resize';
+        document.body.style.userSelect = 'none';
+        e.preventDefault();
+      });
+
+      document.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+
+        const containerRect = mainContainer.getBoundingClientRect();
+        const splitterWidth = splitter.offsetWidth;
+
+        let leftWidth = e.clientX - containerRect.left;
+        let rightWidth = containerRect.width - leftWidth - splitterWidth;
+
+        // Minimum widths
+        const minWidth = 300;
+        if (leftWidth < minWidth) leftWidth = minWidth;
+        if (rightWidth < minWidth) {
+          leftWidth = containerRect.width - minWidth - splitterWidth;
+          rightWidth = minWidth;
+        }
+
+        timelineContainer.style.flex = 'none';
+        timelineContainer.style.width = leftWidth + 'px';
+        mapContainer.style.flex = 'none';
+        mapContainer.style.width = rightWidth + 'px';
+
+        // Trigger map resize
+        if (window.mapAPI && window.mapAPI.invalidateSize) {
+          window.mapAPI.invalidateSize();
+        }
+      });
+
+      document.addEventListener('mouseup', () => {
+        if (isDragging) {
+          isDragging = false;
+          document.body.style.cursor = '';
+          document.body.style.userSelect = '';
+
+          // Trigger map resize after drag ends
+          if (window.mapAPI && window.mapAPI.invalidateSize) {
+            window.mapAPI.invalidateSize();
+          }
+        }
+      });
+    })();
+  </script>
 
   <!-- Cloudflare Web Analytics -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js'
