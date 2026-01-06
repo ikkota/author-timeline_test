@@ -46,7 +46,7 @@
         // Create map centered on Mediterranean
         map = L.map('map', {
             center: [38, 20],
-            zoom: 5,
+            zoom: 4,
             minZoom: 3,
             maxZoom: 10,
             zoomDelta: 0.1,

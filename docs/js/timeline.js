@@ -143,8 +143,8 @@ async function initTimeline() {
             zoomMax: 1000 * 60 * 60 * 24 * 365 * 3000,
             min: createDate(-1000),
             max: createDate(1350),
-            start: createDate(-100),
-            end: createDate(200),
+            start: createDate(-500),
+            end: createDate(500),
             showMajorLabels: false,
             format: {
                 minorLabels: formatAxis,
