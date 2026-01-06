@@ -6,11 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Author Timeline</title>
 
-  <!-- Vis.js Timeline CSS -->
+  <!-- Vis.js Timeline -->
   <script type="text/javascript"
     src="https://unpkg.com/vis-timeline@latest/standalone/umd/vis-timeline-graph2d.min.js"></script>
   <link href="https://unpkg.com/vis-timeline@latest/styles/vis-timeline-graph2d.min.css" rel="stylesheet"
     type="text/css" />
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Leaflet MarkerCluster -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+  <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
@@ -23,13 +32,30 @@
       padding: 0;
       height: 100%;
       overflow: hidden;
-      /* Prevent body scroll */
     }
 
-    /* Revert flex layout, use absolute positioning for controls */
-    #timeline-container {
+    /* Main split layout */
+    #main-container {
+      display: flex;
       width: 100%;
       height: 100vh;
+    }
+
+    #map-container {
+      width: 50%;
+      height: 100%;
+      position: relative;
+    }
+
+    #map {
+      width: 100%;
+      height: 100%;
+    }
+
+    #timeline-container {
+      width: 50%;
+      height: 100%;
+      position: relative;
     }
 
     /* Floating Panel Styles */
@@ -37,7 +63,7 @@
       position: absolute;
       top: 20px;
       left: 20px;
-      width: 300px;
+      width: 280px;
       background: rgba(255, 255, 255, 0.95);
       border: 1px solid #ccc;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -67,43 +93,70 @@
     #panel-content.collapsed {
       display: none;
     }
+
+    /* Year indicator */
+    #year-indicator {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      z-index: 1000;
+      pointer-events: none;
+    }
   </style>
 </head>
 
 <body>
 
-  <div id="controls">
-    <div id="panel-header">
-      <div style="display: flex; flex-direction: column; align-items: flex-start;">
-        <span style="font-size: 16px; font-weight: bold;">西洋古典著作家年表</span>
-        <span style="font-size: 12px; font-weight: normal; color: #555;">A Timeline of Classical Authors (BC–AD)</span>
-      </div>
-      <button id="toggle-panel"
-        style="border:none; background:none; cursor:pointer; font-weight:bold; margin-left:10px;">[-]</button>
+  <div id="main-container">
+    <!-- Map Section (Left) -->
+    <div id="map-container">
+      <div id="map"></div>
+      <div id="year-indicator">Year: --</div>
     </div>
 
-    <div id="panel-content">
-      <label style="font-size: 14px; margin-bottom: 5px; display:block;">Filter by Occupation (OR):</label>
-      <div id="filter-container"
-        style="border: 1px solid #ccc; height: 150px; overflow-y: scroll; padding: 5px; background: #fff; margin-bottom:10px;">
-        <!-- Checkboxes will be injected here -->
-      </div>
-      <div style="font-size: 12px; color: #666; display:flex; justify-content:space-between; align-items:center;">
-        <div>
-          <button id="clear-filters">Clear</button>
-          <span id="filter-count"></span>
+    <!-- Timeline Section (Right) -->
+    <div id="timeline-container">
+      <div id="controls">
+        <div id="panel-header">
+          <div style="display: flex; flex-direction: column; align-items: flex-start;">
+            <span style="font-size: 16px; font-weight: bold;">西洋古典著作家年表</span>
+            <span style="font-size: 12px; font-weight: normal; color: #555;">A Timeline of Classical Authors
+              (BC–AD)</span>
+          </div>
+          <button id="toggle-panel"
+            style="border:none; background:none; cursor:pointer; font-weight:bold; margin-left:10px;">[-]</button>
         </div>
-        <a href="about.html" style="color:#007bff; text-decoration:none; margin-left:10px;">About</a>
-      </div>
-    </div>
-  </div>
 
-  <div id="timeline-container">
-    <div class="loading">Loading timeline...</div>
+        <div id="panel-content">
+          <label style="font-size: 14px; margin-bottom: 5px; display:block;">Filter by Occupation (OR):</label>
+          <div id="filter-container"
+            style="border: 1px solid #ccc; height: 150px; overflow-y: scroll; padding: 5px; background: #fff; margin-bottom:10px;">
+            <!-- Checkboxes will be injected here -->
+          </div>
+          <div style="font-size: 12px; color: #666; display:flex; justify-content:space-between; align-items:center;">
+            <div>
+              <button id="clear-filters">Clear</button>
+              <span id="filter-count"></span>
+            </div>
+            <a href="about.html" style="color:#007bff; text-decoration:none; margin-left:10px;">About</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="loading">Loading timeline...</div>
+    </div>
   </div>
 
   <!-- Custom JS -->
   <script src="js/timeline.js"></script>
+  <script src="js/map.js"></script>
 
   <!-- Cloudflare Web Analytics -->
   <script defer src='https://static.cloudflareinsights.com/beacon.min.js'

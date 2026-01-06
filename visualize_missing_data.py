@@ -3,7 +3,7 @@ from openpyxl.styles import PatternFill, Font
 from openpyxl.formatting.rule import FormulaRule, CellIsRule
 from openpyxl.utils import get_column_letter
 
-INPUT_FILE = "author_metadata_wikipedia.xlsx"
+INPUT_FILE = "author_metadata_with_occ.xlsx"
 OUTPUT_FILE = "author_metadata_final.xlsx"
 
 def main():
@@ -17,6 +17,7 @@ def main():
 
     # Find column indices
     headers = [cell.value for cell in ws[1]]
+    print(f"Headers found in {INPUT_FILE}: {headers}")
     
     col_map = {name: i+1 for i, name in enumerate(headers)}
     

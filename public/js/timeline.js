@@ -323,6 +323,58 @@ async function initTimeline() {
             timeline.fit();
         });
 
+        // --- Timeline-Map Sync ---
+        let mapLockedYear = null;
+
+        // Update map on timeline range change (pan/zoom)
+        timeline.on('rangechange', function (props) {
+            if (mapLockedYear !== null) return; // Don't update if locked
+
+            const centerTime = (props.start.getTime() + props.end.getTime()) / 2;
+            const centerDate = new Date(centerTime);
+            const year = centerDate.getUTCFullYear();
+
+            if (window.mapAPI) {
+                window.mapAPI.setYear(year, false);
+            }
+        });
+
+        // Lock year on click
+        timeline.on('click', function (props) {
+            if (props.time) {
+                const year = props.time.getUTCFullYear();
+                mapLockedYear = year;
+                if (window.mapAPI) {
+                    window.mapAPI.setYear(year, true);
+                }
+            }
+        });
+
+        // Unlock on ESC (add to existing ESC handler)
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && mapLockedYear !== null) {
+                mapLockedYear = null;
+                if (window.mapAPI) {
+                    window.mapAPI.unlock();
+                    // Update to current center
+                    const range = timeline.getWindow();
+                    const centerTime = (range.start.getTime() + range.end.getTime()) / 2;
+                    const year = new Date(centerTime).getUTCFullYear();
+                    window.mapAPI.setYear(year, false);
+                }
+            }
+        });
+
+        // Unlock on background click
+        container.addEventListener('click', (e) => {
+            if (!e.target.closest('.vis-item') && mapLockedYear !== null) {
+                mapLockedYear = null;
+                if (window.mapAPI) {
+                    window.mapAPI.unlock();
+                }
+            }
+        });
+
         // Floating Panel Logic
         const controls = document.getElementById('controls');
         const header = document.getElementById('panel-header');
