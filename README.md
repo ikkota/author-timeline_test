@@ -73,6 +73,19 @@ To update the data:
 3. Run `python enrich_geo.py` (geographic data)
 4. Commit and push updated files in `docs/data/`
 
+## Author Geo Normalization (Pleiades)
+
+Normalize author locations by Pleiades ID to de-duplicate place labels and align names.
+
+```
+python scripts/normalize_authors_geo.py --mapping-cache cache/geodata
+```
+
+Notes:
+- Output is `docs/data/authors_geo.normalized.json` (the original `docs/data/authors_geo.json` is not overwritten).
+- `scripts/build_geodata.py` will automatically use the normalized file when present.
+- Use `--skip-normalized-authors` to force the build to use the original file.
+
 ## Author Location Patches (Optional)
 
 You can add manual or agent-enriched location patches in `overrides/authors_geo_patch.json`.

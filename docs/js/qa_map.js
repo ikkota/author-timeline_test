@@ -6,13 +6,13 @@
     physical: { low: 4, mid: 6, high: 8 }
   };
 
-  const CORE_TAG_MODE = "all"; // "greek" | "roman" | "all"
+  const CORE_TAG_MODE = "all"; // "author_related" | "greek" | "roman" | "all"
 
   const map = L.map("qa-map", {
     center: [38, 20],
     zoom: 4,
-    minZoom: 3,
-    maxZoom: 10
+    minZoom: 4,
+    maxZoom: 7
   });
 
   const base = L.tileLayer(
@@ -90,9 +90,10 @@
   }
 
   function allowedBucketsForZoom(z) {
-    if (z <= 5) return new Set(["S"]);
-    if (z <= 6) return new Set(["S", "A"]);
-    return new Set(["S", "A", "B"]);
+    if (z < 5.8) return new Set(["S"]);
+    if (z < 6.4) return new Set(["S", "A"]);
+    if (z < 7) return new Set(["S", "A", "B"]);
+    return new Set(["S", "A", "B", "C"]);
   }
 
   function maxPlacesForZoom(zoom) {
@@ -100,6 +101,66 @@
     if (zoom < 7) return 400;
     if (zoom < 9) return 800;
     return 1600;
+  }
+
+  function rectsOverlap(a, b) {
+    return !(a.x2 < b.x1 || a.x1 > b.x2 || a.y2 < b.y1 || a.y1 > b.y2);
+  }
+
+  function countOverlaps(rect, occupied) {
+    let count = 0;
+    for (const r of occupied) {
+      if (rectsOverlap(rect, r)) count += 1;
+    }
+    return count;
+  }
+
+  function rectForPoint(pt, labelW, labelH) {
+    return {
+      x1: pt.x - labelW / 2,
+      y1: pt.y - labelH / 2,
+      x2: pt.x + labelW / 2,
+      y2: pt.y + labelH / 2
+    };
+  }
+
+  function placeWithOffsets(feature, mapRef, occupied, opts = {}) {
+    const labelW = opts.labelW ?? 90;
+    const labelH = opts.labelH ?? 18;
+    const forceOffsetOnOverlap = opts.forceOffsetOnOverlap ?? false;
+    const maxRadius = opts.maxRadius ?? 60;
+    const step = opts.step ?? 6;
+    const angleStep = opts.angleStep ?? 45;
+    const coords = feature.geometry.coordinates;
+    const basePt = mapRef.latLngToContainerPoint([coords[1], coords[0]]);
+
+    const baseRect = rectForPoint(basePt, labelW, labelH);
+    if (countOverlaps(baseRect, occupied) === 0) {
+      return { pt: basePt, rect: baseRect };
+    }
+
+    let best = { pt: basePt, rect: baseRect, overlaps: countOverlaps(baseRect, occupied), dist: 0 };
+    for (let r = step; r <= maxRadius; r += step) {
+      for (let a = 0; a < 360; a += angleStep) {
+        const rad = (a * Math.PI) / 180;
+        const pt = { x: basePt.x + Math.cos(rad) * r, y: basePt.y + Math.sin(rad) * r };
+        const rect = rectForPoint(pt, labelW, labelH);
+        const overlaps = countOverlaps(rect, occupied);
+        if (overlaps === 0) {
+          return { pt, rect };
+        }
+        if (forceOffsetOnOverlap) {
+          if (overlaps < best.overlaps || (overlaps === best.overlaps && r > best.dist)) {
+            best = { pt, rect, overlaps, dist: r };
+          }
+        }
+      }
+    }
+
+    if (forceOffsetOnOverlap) {
+      return { pt: best.pt, rect: best.rect };
+    }
+    return { pt: basePt, rect: baseRect };
   }
 
   function stylePhysical(feature) {
@@ -180,7 +241,8 @@
     const candidates = state.places.filter(feat => {
       const props = feat.properties || {};
       if (!props.bucket || !allowed.has(props.bucket)) return false;
-      if (!coreTagOk(props.core_tags)) return false;
+      const tags = props.tags || props.core_tags;
+      if (!coreTagOk(tags)) return false;
       const coords = feat.geometry?.coordinates || [];
       if (coords.length < 2) return false;
       return bounds.contains([coords[1], coords[0]]);
@@ -204,10 +266,39 @@
     const maxCount = maxPlacesForZoom(zoom);
     const visible = candidates.slice(0, maxCount);
 
-    placesLayer.clearLayers();
+    const placed = [];
+    const occupied = [];
+    const sLabels = [];
+    const otherLabels = [];
     visible.forEach(feat => {
       const props = feat.properties || {};
+      if (props.bucket === "S") sLabels.push(feat);
+      else otherLabels.push(feat);
+    });
+
+    for (const feat of sLabels) {
+      const placedInfo = placeWithOffsets(feat, map, occupied, {
+        labelW: 90,
+        labelH: 18,
+        maxRadius: 72,
+        step: 6,
+        angleStep: 45,
+        forceOffsetOnOverlap: true
+      });
+      occupied.push(placedInfo.rect);
+      placed.push({ f: feat, pt: placedInfo.pt });
+    }
+
+    for (const feat of otherLabels) {
       const coords = feat.geometry?.coordinates || [];
+      if (coords.length < 2) continue;
+      const pt = map.latLngToContainerPoint([coords[1], coords[0]]);
+      placed.push({ f: feat, pt });
+    }
+
+    placesLayer.clearLayers();
+    placed.forEach(({ f, pt }) => {
+      const props = f.properties || {};
       const label = props.display_name || props.name_en || "";
       const level = getPlaceClass(props);
       const icon = L.divIcon({
@@ -215,9 +306,8 @@
         html: `<span>${escapeHtml(label)}</span>`,
         iconSize: [0, 0]
       });
-      L.marker([coords[1], coords[0]], { icon: icon, interactive: false }).addTo(
-        placesLayer
-      );
+      const latlng = map.containerPointToLatLng([pt.x, pt.y]);
+      L.marker(latlng, { icon: icon, interactive: false }).addTo(placesLayer);
     });
 
     ui.visiblePlaces.textContent = String(visible.length);
@@ -283,7 +373,7 @@
 
   function loadData() {
     return Promise.all([
-      fetch("data/places.geojson").then(resp => resp.json()),
+      fetch("data/places_from_authors.geojson").then(resp => resp.json()),
       fetch("data/physical.geojson").then(resp => resp.json())
     ]).then(([places, physical]) => {
       state.places = places.features || [];

@@ -1,0 +1,7465 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          23.723824697002378,
+          37.97158606761233
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 43,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Athenae",
+        "id": "pleiades:579885",
+        "importance": 43,
+        "minZoom": 4,
+        "name_en": "Athenae",
+        "pleiades_id": "579885",
+        "pleiades_uri": "https://pleiades.stoa.org/places/579885",
+        "role_counts": {
+          "birth": 5,
+          "death": 33,
+          "residence": 3,
+          "work": 2
+        },
+        "roles": [
+          "birth",
+          "death",
+          "residence",
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/579885",
+          "https://www.wikidata.org/entity/Q844930"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q844930",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q844930"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          29.909773,
+          31.201435
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 40,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Alexandria",
+        "id": "pleiades:727070",
+        "importance": 40,
+        "minZoom": 4,
+        "name_en": "Alexandria",
+        "pleiades_id": "727070",
+        "pleiades_uri": "https://pleiades.stoa.org/places/727070",
+        "role_counts": {
+          "birth": 17,
+          "death": 18,
+          "residence": 3,
+          "work": 2
+        },
+        "roles": [
+          "birth",
+          "death",
+          "residence",
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/727070",
+          "https://www.wikidata.org/entity/Q87"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q87",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q87"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.491841086748256,
+          41.889994896692826
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 39,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Roma",
+        "id": "pleiades:423025",
+        "importance": 39,
+        "minZoom": 4,
+        "name_en": "Roma",
+        "pleiades_id": "423025",
+        "pleiades_uri": "https://pleiades.stoa.org/places/423025",
+        "role_counts": {
+          "birth": 1,
+          "death": 29,
+          "residence": 2,
+          "work": 7
+        },
+        "roles": [
+          "birth",
+          "death",
+          "residence",
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/423025",
+          "https://www.wikidata.org/entity/Q220"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q220",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q220"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.965635140087546,
+          41.00659262530202
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 10,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Constantinopolis",
+        "id": "pleiades:520998",
+        "importance": 10,
+        "minZoom": 4,
+        "name_en": "Constantinopolis",
+        "pleiades_id": "520998",
+        "pleiades_uri": "https://pleiades.stoa.org/places/520998",
+        "role_counts": {
+          "birth": 2,
+          "death": 7,
+          "residence": 1
+        },
+        "roles": [
+          "birth",
+          "death",
+          "residence"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/520998",
+          "https://www.wikidata.org/entity/Q16869"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q16869",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q16869"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.141387,
+          38.41719605
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 8,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Smyrna",
+        "id": "pleiades:550893",
+        "importance": 8,
+        "minZoom": 4,
+        "name_en": "Smyrna",
+        "pleiades_id": "550893",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550893",
+        "role_counts": {
+          "birth": 4,
+          "death": 1,
+          "residence": 2,
+          "work": 1
+        },
+        "roles": [
+          "birth",
+          "death",
+          "residence",
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550893",
+          "https://www.wikidata.org/entity/Q35997"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q35997",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q35997"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.34240298195866,
+          37.940164271971945
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 7,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Ephesus",
+        "id": "pleiades:599612",
+        "importance": 7,
+        "minZoom": 4,
+        "name_en": "Ephesus",
+        "pleiades_id": "599612",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599612",
+        "role_counts": {
+          "birth": 5,
+          "death": 2
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599612",
+          "https://www.wikidata.org/entity/Q47611"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q47611",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q47611"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          15.283335658142617,
+          37.070078971013665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 7,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Syracusae",
+        "id": "pleiades:462503",
+        "importance": 7,
+        "minZoom": 4,
+        "name_en": "Syracusae",
+        "pleiades_id": "462503",
+        "pleiades_uri": "https://pleiades.stoa.org/places/462503",
+        "role_counts": {
+          "birth": 4,
+          "death": 3
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/462503",
+          "https://www.wikidata.org/entity/Q4420718"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q4420718",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q4420718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          36.183214,
+          36.222551499999994
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 6,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Antiochia",
+        "id": "pleiades:658381",
+        "importance": 6,
+        "minZoom": 4,
+        "name_en": "Antiochia",
+        "pleiades_id": "658381",
+        "pleiades_uri": "https://pleiades.stoa.org/places/658381",
+        "role_counts": {
+          "birth": 2,
+          "death": 4
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/658381",
+          "https://www.wikidata.org/entity/Q200441"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q200441",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q200441"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.944483,
+          37.68825
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 5,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Samos",
+        "id": "pleiades:599925",
+        "importance": 5,
+        "minZoom": 4,
+        "name_en": "Samos",
+        "pleiades_id": "599925",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599925",
+        "role_counts": {
+          "birth": 2,
+          "death": 1,
+          "work": 2
+        },
+        "roles": [
+          "birth",
+          "death",
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599925",
+          "https://www.wikidata.org/entity/Q13580795"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q13580795",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q13580795"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.2330416,
+          40.4737866
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 5,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Taras",
+        "id": "pleiades:442810",
+        "importance": 5,
+        "minZoom": 4,
+        "name_en": "Taras",
+        "pleiades_id": "442810",
+        "pleiades_uri": "https://pleiades.stoa.org/places/442810",
+        "role_counts": {
+          "birth": 3,
+          "death": 2
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/442810",
+          "https://www.wikidata.org/entity/Q3981082"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q3981082",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q3981082"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.201829000000004,
+          33.2693355
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 4,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Col. Septimia Severa",
+        "id": "pleiades:678437",
+        "importance": 4,
+        "minZoom": 4,
+        "name_en": "Col. Septimia Severa",
+        "pleiades_id": "678437",
+        "pleiades_uri": "https://pleiades.stoa.org/places/678437",
+        "role_counts": {
+          "birth": 3,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/678437",
+          "https://www.wikidata.org/entity/Q82070"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q82070",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q82070"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.878614390874485,
+          37.90564164345828
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 4,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Corinthus",
+        "id": "pleiades:570182",
+        "importance": 4,
+        "minZoom": 4,
+        "name_en": "Corinthus",
+        "pleiades_id": "570182",
+        "pleiades_uri": "https://pleiades.stoa.org/places/570182",
+        "role_counts": {
+          "birth": 1,
+          "death": 3
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/570182",
+          "https://www.wikidata.org/entity/Q103011"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q103011",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q103011"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          31.417413666666665,
+          41.28325533333334
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 4,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Heraclea",
+        "id": "pleiades:844944",
+        "importance": 4,
+        "minZoom": 4,
+        "name_en": "Heraclea",
+        "pleiades_id": "844944",
+        "pleiades_uri": "https://pleiades.stoa.org/places/844944",
+        "role_counts": {
+          "birth": 3,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/844944",
+          "https://www.wikidata.org/entity/Q302511"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q302511",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q302511"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.973881499999997,
+          41.005902
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Byzantium",
+        "id": "pleiades:520985",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Byzantium",
+        "pleiades_id": "520985",
+        "pleiades_uri": "https://pleiades.stoa.org/places/520985",
+        "role_counts": {
+          "birth": 3
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/520985",
+          "https://www.wikidata.org/entity/Q23725"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q23725",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q23725"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.8924472,
+          32.5018388
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Caesarea Maritima",
+        "id": "pleiades:678401",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Caesarea Maritima",
+        "pleiades_id": "678401",
+        "pleiades_uri": "https://pleiades.stoa.org/places/678401",
+        "role_counts": {
+          "birth": 1,
+          "death": 2
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/678401",
+          "https://www.wikidata.org/entity/Q319242"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q319242",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q319242"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.84911810514208,
+          38.63386900331612
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Cappadocia (region)",
+        "id": "pleiades:628949",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Cappadocia (region)",
+        "pleiades_id": "628949",
+        "pleiades_uri": "https://pleiades.stoa.org/places/628949",
+        "role_counts": {
+          "birth": 2,
+          "work": 1
+        },
+        "roles": [
+          "birth",
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/628949",
+          "https://www.wikidata.org/entity/Q217265"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q217265",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q217265"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.323056,
+          36.853056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Carthago",
+        "id": "pleiades:314921",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Carthago",
+        "pleiades_id": "314921",
+        "pleiades_uri": "https://pleiades.stoa.org/places/314921",
+        "role_counts": {
+          "birth": 2,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/314921",
+          "https://www.wikidata.org/entity/Q6343"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q6343",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q6343"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.518224765547643,
+          40.75435964572732
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Colonia Iulia Augusta Pella",
+        "id": "pleiades:491687",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Colonia Iulia Augusta Pella",
+        "pleiades_id": "491687",
+        "pleiades_uri": "https://pleiades.stoa.org/places/491687",
+        "role_counts": {
+          "death": 3
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/491687",
+          "https://www.wikidata.org/entity/Q213679"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q213679",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q213679"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.116666666,
+          39.083333333
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Crotone",
+        "id": "wikidata:Q6681",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Crotone",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 2,
+          "death": 1,
+          "residence": 1
+        },
+        "roles": [
+          "birth",
+          "death",
+          "residence"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q6681"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q6681",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q6681"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.67726253763694,
+          32.6560803258831
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Gadara/Pompeia",
+        "id": "pleiades:678142",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Gadara/Pompeia",
+        "pleiades_id": "678142",
+        "pleiades_uri": "https://pleiades.stoa.org/places/678142",
+        "role_counts": {
+          "birth": 3
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/678142",
+          "https://www.wikidata.org/entity/Q56322109"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q56322109",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q56322109"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          29.714681666666667,
+          40.42909366666667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Helikore/Nicaea",
+        "id": "pleiades:511268",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Helikore/Nicaea",
+        "pleiades_id": "511268",
+        "pleiades_uri": "https://pleiades.stoa.org/places/511268",
+        "role_counts": {
+          "birth": 2,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/511268",
+          "https://www.wikidata.org/entity/Q739037"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q739037",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q739037"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.137382777700278,
+          36.82289541193156
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Kos/Cos (island)",
+        "id": "pleiades:599581",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Kos/Cos (island)",
+        "pleiades_id": "599581",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599581",
+        "role_counts": {
+          "birth": 3
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599581",
+          "https://www.wikidata.org/entity/Q187027"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q187027",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q187027"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.229093534025623,
+          39.90501982246366
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Lemnos (island)",
+        "id": "pleiades:550693",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Lemnos (island)",
+        "pleiades_id": "550693",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550693",
+        "role_counts": {
+          "birth": 2,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550693",
+          "https://www.wikidata.org/entity/Q192483"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q192483",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q192483"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.595,
+          38.4625
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Q200133",
+        "id": "wikidata:Q200133",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Q200133",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 2,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q200133"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q200133",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q200133"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.97207626591052,
+          36.179110443681076
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Rhodos (island)",
+        "id": "pleiades:590031",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Rhodos (island)",
+        "pleiades_id": "590031",
+        "pleiades_uri": "https://pleiades.stoa.org/places/590031",
+        "role_counts": {
+          "birth": 1,
+          "death": 2
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/590031",
+          "https://www.wikidata.org/entity/Q43048"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q43048",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q43048"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.53922166666666,
+          36.74005566666666
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Soloi/Pompeiopolis",
+        "id": "pleiades:648781",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Soloi/Pompeiopolis",
+        "pleiades_id": "648781",
+        "pleiades_uri": "https://pleiades.stoa.org/places/648781",
+        "role_counts": {
+          "birth": 3
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/648781",
+          "https://www.wikidata.org/entity/Q656954"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q656954",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q656954"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.317653433333334,
+          38.319948833333335
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 3,
+        "bucket": "A",
+        "bucket_rank": 2,
+        "display_name": "Thebae",
+        "id": "pleiades:541138",
+        "importance": 3,
+        "minZoom": 6,
+        "name_en": "Thebae",
+        "pleiades_id": "541138",
+        "pleiades_uri": "https://pleiades.stoa.org/places/541138",
+        "role_counts": {
+          "birth": 1,
+          "death": 2
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/541138",
+          "https://www.wikidata.org/entity/Q11225429"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q11225429",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q11225429"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.974308259841017,
+          40.932827748724776
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Abdera",
+        "id": "pleiades:501323",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Abdera",
+        "pleiades_id": "501323",
+        "pleiades_uri": "https://pleiades.stoa.org/places/501323",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/501323",
+          "https://www.wikidata.org/entity/Q132527193"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q132527193",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q132527193"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.74,
+          31.8
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Africa",
+        "id": "pleiades:981504",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Africa",
+        "pleiades_id": "981504",
+        "pleiades_uri": "https://pleiades.stoa.org/places/981504",
+        "role_counts": {
+          "birth": 1,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/981504",
+          "https://www.wikidata.org/entity/Q181238"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q181238",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q181238"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.72381519775053,
+          37.70850246663525
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Aphrodisias",
+        "id": "pleiades:638753",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Aphrodisias",
+        "pleiades_id": "638753",
+        "pleiades_uri": "https://pleiades.stoa.org/places/638753",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/638753",
+          "https://www.wikidata.org/entity/Q618495"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q618495",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q618495"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.336351701762013,
+          39.49013546086826
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Apollonia",
+        "id": "pleiades:550463",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Apollonia",
+        "pleiades_id": "550463",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550463",
+        "role_counts": {
+          "birth": 1,
+          "residence": 1
+        },
+        "roles": [
+          "birth",
+          "residence"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550463",
+          "https://www.wikidata.org/entity/Q744631"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q744631",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q744631"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.609876,
+          41.648422
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Arpinum",
+        "id": "pleiades:432700",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Arpinum",
+        "pleiades_id": "432700",
+        "pleiades_uri": "https://pleiades.stoa.org/places/432700",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/432700",
+          "https://www.wikidata.org/entity/Q116440"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q116440",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q116440"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          31.171388888,
+          27.186944444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Asyut",
+        "id": "wikidata:Q29962",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Asyut",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q29962"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q29962",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q29962"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.621937,
+          38.457139
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Chalcis",
+        "id": "pleiades:540703",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Chalcis",
+        "pleiades_id": "540703",
+        "pleiades_uri": "https://pleiades.stoa.org/places/540703",
+        "role_counts": {
+          "birth": 1,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/540703",
+          "https://www.wikidata.org/entity/Q21235810"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q21235810",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q21235810"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          33.910580483222674,
+          36.58645514246619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Cilicia (region)",
+        "id": "pleiades:658440",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Cilicia (region)",
+        "pleiades_id": "658440",
+        "pleiades_uri": "https://pleiades.stoa.org/places/658440",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/658440",
+          "https://www.wikidata.org/entity/Q620864"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q620864",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q620864"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -4.776386,
+          37.884762
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Corduba",
+        "id": "wikidata:Q2997165",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Corduba",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q2997165"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q2997165",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q2997165"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -4.78,
+          37.89
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Córdoba",
+        "id": "wikidata:Q5818",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Córdoba",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q5818"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q5818",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q5818"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.4221505,
+          37.040400500000004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Halicarnassus",
+        "id": "pleiades:599636",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Halicarnassus",
+        "pleiades_id": "599636",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599636",
+        "role_counts": {
+          "birth": 1,
+          "residence": 1
+        },
+        "roles": [
+          "birth",
+          "residence"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599636",
+          "https://www.wikidata.org/entity/Q5843680"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q5843680",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q5843680"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.340442,
+          37.640469
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Ioulis",
+        "id": "pleiades:570314",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Ioulis",
+        "pleiades_id": "570314",
+        "pleiades_uri": "https://pleiades.stoa.org/places/570314",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/570314",
+          "https://www.wikidata.org/entity/Q56399452"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q56399452",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q56399452"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          29.107388778855608,
+          37.835939323878684
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Laodicea ad Lycum/Diospolis/Roas",
+        "id": "pleiades:638955",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Laodicea ad Lycum/Diospolis/Roas",
+        "pleiades_id": "638955",
+        "pleiades_uri": "https://pleiades.stoa.org/places/638955",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/638955",
+          "https://www.wikidata.org/entity/Q849709"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q849709",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q849709"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.42097025,
+          39.634851
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Larissa",
+        "id": "pleiades:540905",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Larissa",
+        "pleiades_id": "540905",
+        "pleiades_uri": "https://pleiades.stoa.org/places/540905",
+        "role_counts": {
+          "death": 2
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/540905",
+          "https://www.wikidata.org/entity/Q178405"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q178405",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q178405"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.4743607,
+          38.726400549999994
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Mazaca cesarea",
+        "id": "pleiades:629035",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Mazaca cesarea",
+        "pleiades_id": "629035",
+        "pleiades_uri": "https://pleiades.stoa.org/places/629035",
+        "role_counts": {
+          "death": 2
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/629035",
+          "https://www.wikidata.org/entity/Q48338"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q48338",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q48338"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.27880848386269,
+          37.53046444003695
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Miletus",
+        "id": "pleiades:599799",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Miletus",
+        "pleiades_id": "599799",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599799",
+        "role_counts": {
+          "birth": 1,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599799",
+          "https://www.wikidata.org/entity/Q169460"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q169460",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q169460"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          30.5919275,
+          30.900508000000002
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Naucratis",
+        "id": "pleiades:727169",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Naucratis",
+        "pleiades_id": "727169",
+        "pleiades_uri": "https://pleiades.stoa.org/places/727169",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/727169",
+          "https://www.wikidata.org/entity/Q137721"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q137721",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q137721"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.262911,
+          32.218684999999994
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Neapolis",
+        "id": "pleiades:678301",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Neapolis",
+        "pleiades_id": "678301",
+        "pleiades_uri": "https://pleiades.stoa.org/places/678301",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/678301",
+          "https://www.wikidata.org/entity/Q214178"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q214178",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q214178"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          36.719319,
+          34.7376565
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Nemesa",
+        "id": "pleiades:668261",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Nemesa",
+        "pleiades_id": "668261",
+        "pleiades_uri": "https://pleiades.stoa.org/places/668261",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/668261",
+          "https://www.wikidata.org/entity/Q2548027"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q2548027",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q2548027"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          29.919887000000003,
+          40.7651905
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Nicomedia",
+        "id": "pleiades:511337",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Nicomedia",
+        "pleiades_id": "511337",
+        "pleiades_uri": "https://pleiades.stoa.org/places/511337",
+        "role_counts": {
+          "birth": 1,
+          "residence": 1
+        },
+        "roles": [
+          "birth",
+          "residence"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/511337",
+          "https://www.wikidata.org/entity/Q209349"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q209349",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q209349"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.844008,
+          37.974635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Paiania Kathyperthen",
+        "id": "pleiades:580047",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Paiania Kathyperthen",
+        "pleiades_id": "580047",
+        "pleiades_uri": "https://pleiades.stoa.org/places/580047",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/580047",
+          "https://www.wikidata.org/entity/Q3411612"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q3411612",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q3411612"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          36.40241328023104,
+          35.421377143596146
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Pella/Apamea",
+        "id": "pleiades:668335",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Pella/Apamea",
+        "pleiades_id": "668335",
+        "pleiades_uri": "https://pleiades.stoa.org/places/668335",
+        "role_counts": {
+          "birth": 1,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/668335",
+          "https://www.wikidata.org/entity/Q617550"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q617550",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q617550"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.047595246598124,
+          37.6016918484237
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Sicilia (island)",
+        "id": "pleiades:462492",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Sicilia (island)",
+        "pleiades_id": "462492",
+        "pleiades_uri": "https://pleiades.stoa.org/places/462492",
+        "role_counts": {
+          "death": 1,
+          "work": 1
+        },
+        "roles": [
+          "death",
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/462492",
+          "https://www.wikidata.org/entity/Q1460"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1460",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1460"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.89579498841108,
+          36.91232970122376
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Tarsus",
+        "id": "pleiades:648789",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Tarsus",
+        "pleiades_id": "648789",
+        "pleiades_uri": "https://pleiades.stoa.org/places/648789",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/648789",
+          "https://www.wikidata.org/entity/Q134287"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q134287",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q134287"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          15.556634,
+          38.192251
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 2,
+        "bucket": "B",
+        "bucket_rank": 1,
+        "display_name": "Zancle/Messana",
+        "id": "pleiades:462538",
+        "importance": 2,
+        "minZoom": 7,
+        "name_en": "Zancle/Messana",
+        "pleiades_id": "462538",
+        "pleiades_uri": "https://pleiades.stoa.org/places/462538",
+        "role_counts": {
+          "birth": 2
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/462538",
+          "https://www.wikidata.org/entity/Q4023782"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q4023782",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q4023782"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.707354413968943,
+          37.9924520537854
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Academy/Akademeia/Akademia",
+        "id": "pleiades:479670108",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Academy/Akademeia/Akademia",
+        "pleiades_id": "479670108",
+        "pleiades_uri": "https://pleiades.stoa.org/places/479670108",
+        "role_counts": {
+          "work": 1
+        },
+        "roles": [
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/479670108",
+          "https://www.wikidata.org/entity/Q193093"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q193093",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q193093"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.489302083723413,
+          37.73456251315417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Aegina",
+        "id": "pleiades:579844",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Aegina",
+        "pleiades_id": "579844",
+        "pleiades_uri": "https://pleiades.stoa.org/places/579844",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/579844",
+          "https://www.wikidata.org/entity/Q191082"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q191082",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q191082"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.516666666,
+          37.65
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Agyrion",
+        "id": "wikidata:Q3606949",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Agyrion",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q3606949"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q3606949",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q3606949"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.321872,
+          40.480092
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Aigeai",
+        "id": "pleiades:491512",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Aigeai",
+        "pleiades_id": "491512",
+        "pleiades_uri": "https://pleiades.stoa.org/places/491512",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/491512",
+          "https://www.wikidata.org/entity/Q16963755"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q16963755",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q16963755"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          36.7488012,
+          35.132974600000004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Amathe",
+        "id": "pleiades:668182",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Amathe",
+        "pleiades_id": "668182",
+        "pleiades_uri": "https://pleiades.stoa.org/places/668182",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/668182",
+          "https://www.wikidata.org/entity/Q173545"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q173545",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q173545"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.30622144690067,
+          42.40046681759153
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Amiternum",
+        "id": "pleiades:413013",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Amiternum",
+        "pleiades_id": "413013",
+        "pleiades_uri": "https://pleiades.stoa.org/places/413013",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/413013",
+          "https://www.wikidata.org/entity/Q177061"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q177061",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q177061"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.898447000000004,
+          37.256021000000004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Anazarbos",
+        "id": "pleiades:658378",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Anazarbos",
+        "pleiades_id": "658378",
+        "pleiades_uri": "https://pleiades.stoa.org/places/658378",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/658378",
+          "https://www.wikidata.org/entity/Q219525"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q219525",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q219525"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.82393,
+          45.1252
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Andes",
+        "id": "wikidata:Q491753",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Andes",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q491753"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q491753",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q491753"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.6958,
+          42.4248
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Apollonia Pontica",
+        "id": "wikidata:Q132106",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Apollonia Pontica",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q132106"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q132106",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q132106"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.366666666,
+          45.766666666
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Aquileia",
+        "id": "wikidata:Q53216",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Aquileia",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q53216"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q53216",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q53216"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.720380240841404,
+          37.63104688932719
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Argos",
+        "id": "pleiades:570106",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Argos",
+        "pleiades_id": "570106",
+        "pleiades_uri": "https://pleiades.stoa.org/places/570106",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/570106",
+          "https://www.wikidata.org/entity/Q13533353"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q13533353",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q13533353"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.550521466715146,
+          31.664797212161965
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Ascalon",
+        "id": "pleiades:687839",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Ascalon",
+        "pleiades_id": "687839",
+        "pleiades_uri": "https://pleiades.stoa.org/places/687839",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/687839",
+          "https://www.wikidata.org/entity/Q60956"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q60956",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q60956"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.3,
+          38.4
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Asia",
+        "id": "pleiades:981509",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Asia",
+        "pleiades_id": "981509",
+        "pleiades_uri": "https://pleiades.stoa.org/places/981509",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/981509",
+          "https://www.wikidata.org/entity/Q210718"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q210718",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q210718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.278502749999998,
+          37.910339750000006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Asia Minor",
+        "id": "pleiades:837",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Asia Minor",
+        "pleiades_id": "837",
+        "pleiades_uri": "https://pleiades.stoa.org/places/837",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/837",
+          "https://www.wikidata.org/entity/Q51614"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q51614",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q51614"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.618957,
+          43.0706185
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Asisium",
+        "id": "pleiades:413037",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Asisium",
+        "pleiades_id": "413037",
+        "pleiades_uri": "https://pleiades.stoa.org/places/413037",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/413037",
+          "https://www.wikidata.org/entity/Q20103"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q20103",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q20103"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.075384,
+          38.328222
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Askra",
+        "id": "pleiades:540670",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Askra",
+        "pleiades_id": "540670",
+        "pleiades_uri": "https://pleiades.stoa.org/places/540670",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/540670",
+          "https://www.wikidata.org/entity/Q936920"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q936920",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q936920"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.96,
+          37.68
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Atene",
+        "id": "pleiades:579883",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Atene",
+        "pleiades_id": "579883",
+        "pleiades_uri": "https://pleiades.stoa.org/places/579883",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/579883",
+          "https://www.wikidata.org/entity/Q13422916"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q13422916",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q13422916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -1.603219,
+          41.38201
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Bilbilis (Augusta)",
+        "id": "pleiades:246247",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Bilbilis (Augusta)",
+        "pleiades_id": "246247",
+        "pleiades_uri": "https://pleiades.stoa.org/places/246247",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/246247",
+          "https://www.wikidata.org/entity/Q860500"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q860500",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q860500"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          30.72017621181448,
+          40.562857811901765
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Bithynia (region)",
+        "id": "pleiades:511189",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Bithynia (region)",
+        "pleiades_id": "511189",
+        "pleiades_uri": "https://pleiades.stoa.org/places/511189",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/511189",
+          "https://www.wikidata.org/entity/Q373189"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q373189",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q373189"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          33.26,
+          41.5
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Bithynia et Pontus",
+        "id": "pleiades:981512",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Bithynia et Pontus",
+        "pleiades_id": "981512",
+        "pleiades_uri": "https://pleiades.stoa.org/places/981512",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/981512",
+          "https://www.wikidata.org/entity/Q913382"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q913382",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q913382"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.945833333,
+          40.638333333
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Brindisi",
+        "id": "wikidata:Q13496",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Brindisi",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q13496"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q13496",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q13496"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          29.080538888,
+          40.191330555
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Bursa",
+        "id": "wikidata:Q40738",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Bursa",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q40738"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q40738",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q40738"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.64612465977221,
+          34.11924879240043
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Byblos",
+        "id": "pleiades:668216",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Byblos",
+        "pleiades_id": "668216",
+        "pleiades_uri": "https://pleiades.stoa.org/places/668216",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/668216",
+          "https://www.wikidata.org/entity/Q173532"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q173532",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q173532"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -1.9630805,
+          42.3026015
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Calagurris (Nassica) Iulia",
+        "id": "pleiades:246279",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Calagurris (Nassica) Iulia",
+        "pleiades_id": "246279",
+        "pleiades_uri": "https://pleiades.stoa.org/places/246279",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/246279",
+          "https://www.wikidata.org/entity/Q19603600"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q19603600",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q19603600"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -1.964722222,
+          42.303333333
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Calahorra",
+        "id": "wikidata:Q642046",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Calahorra",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q642046"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q642046",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q642046"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.920555555,
+          40.910555555
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Campania",
+        "id": "pleiades:432864",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Campania",
+        "pleiades_id": "432864",
+        "pleiades_uri": "https://pleiades.stoa.org/places/432864",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/432864",
+          "https://www.wikidata.org/entity/Q1438"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1438",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1438"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.8414259,
+          38.493967749999996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Chaeronea",
+        "id": "pleiades:540701",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Chaeronea",
+        "pleiades_id": "540701",
+        "pleiades_uri": "https://pleiades.stoa.org/places/540701",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/540701",
+          "https://www.wikidata.org/entity/Q13574678"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q13574678",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q13574678"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          29.025789,
+          40.983393
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Chalcedon",
+        "id": "pleiades:520988",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Chalcedon",
+        "pleiades_id": "520988",
+        "pleiades_uri": "https://pleiades.stoa.org/places/520988",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/520988",
+          "https://www.wikidata.org/entity/Q337381"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q337381",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q337381"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          37.009719000000004,
+          36.007956
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Chalcis ad Belum",
+        "id": "pleiades:668226",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Chalcis ad Belum",
+        "pleiades_id": "668226",
+        "pleiades_uri": "https://pleiades.stoa.org/places/668226",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/668226",
+          "https://www.wikidata.org/entity/Q979091"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q979091",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q979091"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          47.578031,
+          30.894692
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Charax Spasinu",
+        "id": "pleiades:912872",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Charax Spasinu",
+        "pleiades_id": "912872",
+        "pleiades_uri": "https://pleiades.stoa.org/places/912872",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/912872",
+          "https://www.wikidata.org/entity/Q1063054"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1063054",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1063054"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          33.492258004926946,
+          44.61109288197437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Chersonesos",
+        "id": "pleiades:226564",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Chersonesos",
+        "pleiades_id": "226564",
+        "pleiades_uri": "https://pleiades.stoa.org/places/226564",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/226564",
+          "https://www.wikidata.org/entity/Q638445"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q638445",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q638445"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.014242444030867,
+          38.38363822562521
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Chios",
+        "id": "pleiades:550497",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Chios",
+        "pleiades_id": "550497",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550497",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550497",
+          "https://www.wikidata.org/entity/Q160483"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q160483",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q160483"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.6993785,
+          36.7355973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Cnidus (Burgaz)",
+        "id": "pleiades:599576",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Cnidus (Burgaz)",
+        "pleiades_id": "599576",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599576",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599576",
+          "https://www.wikidata.org/entity/Q690575"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q690575",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q690575"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.234978,
+          31.7771895
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Col. Aelia Capitolina",
+        "id": "pleiades:687928",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Col. Aelia Capitolina",
+        "pleiades_id": "687928",
+        "pleiades_uri": "https://pleiades.stoa.org/places/687928",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/687928",
+          "https://www.wikidata.org/entity/Q1218"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1218",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1218"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.372060000000005,
+          33.56101866666666
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Col. Aurelia Pia",
+        "id": "pleiades:678393",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Col. Aurelia Pia",
+        "pleiades_id": "678393",
+        "pleiades_uri": "https://pleiades.stoa.org/places/678393",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/678393",
+          "https://www.wikidata.org/entity/Q163490"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q163490",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q163490"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.8194815,
+          45.758866
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Col. Copia Claudia Augusta Lugdunum",
+        "id": "pleiades:167717",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Col. Copia Claudia Augusta Lugdunum",
+        "pleiades_id": "167717",
+        "pleiades_uri": "https://pleiades.stoa.org/places/167717",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/167717",
+          "https://www.wikidata.org/entity/Q665"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q665",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q665"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.1483085,
+          38.108253
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Colophon",
+        "id": "pleiades:599577",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Colophon",
+        "pleiades_id": "599577",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599577",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599577",
+          "https://www.wikidata.org/entity/Q1142488"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1142488",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1142488"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.085784,
+          45.81192
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Comum",
+        "id": "pleiades:383627",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Comum",
+        "pleiades_id": "383627",
+        "pleiades_uri": "https://pleiades.stoa.org/places/383627",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/383627",
+          "https://www.wikidata.org/entity/Q1308"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1308",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1308"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.6507598,
+          44.1767161
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Constanța",
+        "id": "wikidata:Q79808",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Constanța",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "residence": 1
+        },
+        "roles": [
+          "residence"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q79808"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q79808",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q79808"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          32.534572,
+          25.214131
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Contra Latopolin",
+        "id": "pleiades:786007",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Contra Latopolin",
+        "pleiades_id": "786007",
+        "pleiades_uri": "https://pleiades.stoa.org/places/786007",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/786007",
+          "https://www.wikidata.org/entity/Q1878691"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1878691",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1878691"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.0563813,
+          40.847949650000004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Cumae",
+        "id": "pleiades:432808",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Cumae",
+        "pleiades_id": "432808",
+        "pleiades_uri": "https://pleiades.stoa.org/places/432808",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/432808",
+          "https://www.wikidata.org/entity/Q243456"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q243456",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q243456"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.93831935498348,
+          38.76019281854948
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Cyme",
+        "id": "pleiades:550506",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Cyme",
+        "pleiades_id": "550506",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550506",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550506",
+          "https://www.wikidata.org/entity/Q679305"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q679305",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q679305"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.0833,
+          38.4167
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Cynocephalus",
+        "id": "pleiades:543811",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Cynocephalus",
+        "pleiades_id": "543811",
+        "pleiades_uri": "https://pleiades.stoa.org/places/543811",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/543811",
+          "https://www.wikidata.org/entity/Q3008765"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q3008765",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q3008765"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.856538513413255,
+          32.82002662733894
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Cyrene",
+        "id": "pleiades:373778",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Cyrene",
+        "pleiades_id": "373778",
+        "pleiades_uri": "https://pleiades.stoa.org/places/373778",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/373778",
+          "https://www.wikidata.org/entity/Q44112"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q44112",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q44112"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          36.959713206543235,
+          36.74506858426986
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Cyrrus/Hagioupolis",
+        "id": "pleiades:658446",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Cyrrus/Hagioupolis",
+        "pleiades_id": "658446",
+        "pleiades_uri": "https://pleiades.stoa.org/places/658446",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/658446",
+          "https://www.wikidata.org/entity/Q536924"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q536924",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q536924"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.2975,
+          36.535
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Cádiz",
+        "id": "wikidata:Q15682",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Cádiz",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q15682"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q15682",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q15682"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          36.309102,
+          33.511612
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Damascus",
+        "id": "pleiades:678106",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Damascus",
+        "pleiades_id": "678106",
+        "pleiades_uri": "https://pleiades.stoa.org/places/678106",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/678106",
+          "https://www.wikidata.org/entity/Q3766"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q3766",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q3766"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.501169,
+          38.482289
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Delphi",
+        "id": "pleiades:540726",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Delphi",
+        "pleiades_id": "540726",
+        "pleiades_uri": "https://pleiades.stoa.org/places/540726",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/540726",
+          "https://www.wikidata.org/entity/Q75459"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q75459",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q75459"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          31.166666666,
+          30.966666666
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "El Mahalla El Kubra",
+        "id": "wikidata:Q312723",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "El Mahalla El Kubra",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q312723"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q312723",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q312723"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.055256,
+          38.941644
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Elaea",
+        "id": "pleiades:550523",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Elaea",
+        "pleiades_id": "550523",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550523",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550523",
+          "https://www.wikidata.org/entity/Q779669"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q779669",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q779669"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.54527778,
+          38.04138889
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Elefsina",
+        "id": "wikidata:Q204905",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Elefsina",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q204905"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q204905",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q204905"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          21.37435885393905,
+          37.8912684129855
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Elis",
+        "id": "pleiades:570220",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Elis",
+        "pleiades_id": "570220",
+        "pleiades_uri": "https://pleiades.stoa.org/places/570220",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/570220",
+          "https://www.wikidata.org/entity/Q217667"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q217667",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q217667"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.655124669529656,
+          31.096862315417404
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Elousa",
+        "id": "pleiades:687890",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Elousa",
+        "pleiades_id": "687890",
+        "pleiades_uri": "https://pleiades.stoa.org/places/687890",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/687890",
+          "https://www.wikidata.org/entity/Q803986"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q803986",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q803986"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.703275,
+          38.001281
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Epikephisia",
+        "id": "pleiades:579922",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Epikephisia",
+        "pleiades_id": "579922",
+        "pleiades_uri": "https://pleiades.stoa.org/places/579922",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/579922",
+          "https://www.wikidata.org/entity/Q724394"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q724394",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q724394"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.918685500000002,
+          37.9672025
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Erchia",
+        "id": "pleiades:579924",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Erchia",
+        "pleiades_id": "579924",
+        "pleiades_uri": "https://pleiades.stoa.org/places/579924",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/579924",
+          "https://www.wikidata.org/entity/Q13502175"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q13502175",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q13502175"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.935414,
+          39.133148
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Eresos",
+        "id": "pleiades:550533",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Eresos",
+        "pleiades_id": "550533",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550533",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550533",
+          "https://www.wikidata.org/entity/Q1018197"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1018197",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1018197"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.606944444,
+          41.256388888
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Formia",
+        "id": "wikidata:Q128086",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Formia",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q128086"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q128086",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q128086"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.645,
+          37.934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Freattyda",
+        "id": "wikidata:Q5494306",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Freattyda",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q5494306"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q5494306",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q5494306"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.719727,
+          41.887373
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Gabii",
+        "id": "pleiades:422932",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Gabii",
+        "pleiades_id": "422932",
+        "pleiades_uri": "https://pleiades.stoa.org/places/422932",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/422932",
+          "https://www.wikidata.org/entity/Q614510"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q614510",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q614510"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          4.0,
+          44.0
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Gallia Narbonensis",
+        "id": "pleiades:981537",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Gallia Narbonensis",
+        "pleiades_id": "981537",
+        "pleiades_uri": "https://pleiades.stoa.org/places/981537",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/981537",
+          "https://www.wikidata.org/entity/Q26897"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q26897",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q26897"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.871857,
+          38.0165425
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Gargettos",
+        "id": "pleiades:579935",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Gargettos",
+        "pleiades_id": "579935",
+        "pleiades_uri": "https://pleiades.stoa.org/places/579935",
+        "role_counts": {
+          "residence": 1
+        },
+        "roles": [
+          "residence"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/579935",
+          "https://www.wikidata.org/entity/Q12874917"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q12874917",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q12874917"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.25,
+          37.066666666
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Gela",
+        "id": "wikidata:Q39971",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Gela",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q39971"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q39971",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q39971"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.71206265,
+          41.4764273
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Gordo trolo",
+        "id": "wikidata:Q116415",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Gordo trolo",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q116415"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q116415",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q116415"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.998851,
+          39.906135
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Hadrianoi",
+        "id": "wikidata:Q1567560",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Hadrianoi",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q1567560"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1567560",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1567560"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.722354000000003,
+          37.9036115
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Halimous",
+        "id": "pleiades:579941",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Halimous",
+        "pleiades_id": "579941",
+        "pleiades_uri": "https://pleiades.stoa.org/places/579941",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/579941",
+          "https://www.wikidata.org/entity/Q13464895"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q13464895",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q13464895"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.3473828114188,
+          40.80540539392522
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Herculaneum",
+        "id": "pleiades:432873",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Herculaneum",
+        "pleiades_id": "432873",
+        "pleiades_uri": "https://pleiades.stoa.org/places/432873",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/432873",
+          "https://www.wikidata.org/entity/Q178813"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q178813",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q178813"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          29.127859,
+          37.926925
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Hierapolis/Pamukkale",
+        "id": "pleiades:638860",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Hierapolis/Pamukkale",
+        "pleiades_id": "638860",
+        "pleiades_uri": "https://pleiades.stoa.org/places/638860",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/638860",
+          "https://www.wikidata.org/entity/Q7428276"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q7428276",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q7428276"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.331,
+          31.705
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Holy Lavra of Saint Sabbas",
+        "id": "pleiades:687969",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Holy Lavra of Saint Sabbas",
+        "pleiades_id": "687969",
+        "pleiades_uri": "https://pleiades.stoa.org/places/687969",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/687969",
+          "https://www.wikidata.org/entity/Q1059946"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1059946",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1059946"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.333333,
+          36.716667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Ios (island)",
+        "id": "pleiades:599673",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Ios (island)",
+        "pleiades_id": "599673",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599673",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599673",
+          "https://www.wikidata.org/entity/Q216993"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q216993",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q216993"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          -6.043911570235585,
+          37.44186015310173
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Italica",
+        "id": "pleiades:256231",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Italica",
+        "pleiades_id": "256231",
+        "pleiades_uri": "https://pleiades.stoa.org/places/256231",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/256231",
+          "https://www.wikidata.org/entity/Q658893"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q658893",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q658893"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.891397222,
+          32.272280555
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Jerash",
+        "id": "wikidata:Q31565",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Jerash",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q31565"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q31565",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q31565"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.529586,
+          37.161849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Karyanda",
+        "id": "pleiades:599693",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Karyanda",
+        "pleiades_id": "599693",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599693",
+        "role_counts": {
+          "residence": 1
+        },
+        "roles": [
+          "residence"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599693",
+          "https://www.wikidata.org/entity/Q4893908"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q4893908",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q4893908"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.326554915804394,
+          37.61385946999702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Keos (island)",
+        "id": "pleiades:570348",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Keos (island)",
+        "pleiades_id": "570348",
+        "pleiades_uri": "https://pleiades.stoa.org/places/570348",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/570348",
+          "https://www.wikidata.org/entity/Q214109"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q214109",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q214109"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.820645,
+          38.085115
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Kephisia",
+        "id": "pleiades:579972",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Kephisia",
+        "pleiades_id": "579972",
+        "pleiades_uri": "https://pleiades.stoa.org/places/579972",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/579972",
+          "https://www.wikidata.org/entity/Q13415481"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q13415481",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q13415481"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.786619843401766,
+          38.37304775054337
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Klazomenai",
+        "id": "pleiades:550651",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Klazomenai",
+        "pleiades_id": "550651",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550651",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550651",
+          "https://www.wikidata.org/entity/Q536598"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q536598",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q536598"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.163106,
+          35.297847
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Knosos/Col. Iulia Nobilis Cnosos",
+        "id": "pleiades:589872",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Knosos/Col. Iulia Nobilis Cnosos",
+        "pleiades_id": "589872",
+        "pleiades_uri": "https://pleiades.stoa.org/places/589872",
+        "role_counts": {
+          "work": 1
+        },
+        "roles": [
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/589872",
+          "https://www.wikidata.org/entity/Q173527"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q173527",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q173527"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.721885,
+          37.99907
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Kolonos",
+        "id": "pleiades:579985",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Kolonos",
+        "pleiades_id": "579985",
+        "pleiades_uri": "https://pleiades.stoa.org/places/579985",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/579985",
+          "https://www.wikidata.org/entity/Q1235930"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1235930",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1235930"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.266666666,
+          46.0
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Lake Como",
+        "id": "pleiades:383689",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Lake Como",
+        "pleiades_id": "383689",
+        "pleiades_uri": "https://pleiades.stoa.org/places/383689",
+        "role_counts": {
+          "residence": 1
+        },
+        "roles": [
+          "residence"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/383689",
+          "https://www.wikidata.org/entity/Q15523"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q15523",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q15523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.461111111,
+          37.851111111
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Lake Stymphalia",
+        "id": "pleiades:324369908",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Lake Stymphalia",
+        "pleiades_id": "324369908",
+        "pleiades_uri": "https://pleiades.stoa.org/places/324369908",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/324369908",
+          "https://www.wikidata.org/entity/Q1251026"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1251026",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1251026"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.699162,
+          40.346685
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Lamasco",
+        "id": "pleiades:501570",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Lamasco",
+        "pleiades_id": "501570",
+        "pleiades_uri": "https://pleiades.stoa.org/places/501570",
+        "role_counts": {
+          "work": 1
+        },
+        "roles": [
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/501570",
+          "https://www.wikidata.org/entity/Q1229422"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1229422",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1229422"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.998115,
+          37.285478
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Leontini",
+        "id": "pleiades:462279",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Leontini",
+        "pleiades_id": "462279",
+        "pleiades_uri": "https://pleiades.stoa.org/places/462279",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/462279",
+          "https://www.wikidata.org/entity/Q488240"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q488240",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q488240"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.237475540084517,
+          39.17745702212158
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Lesbos (island)",
+        "id": "pleiades:550696",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Lesbos (island)",
+        "pleiades_id": "550696",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550696",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550696",
+          "https://www.wikidata.org/entity/Q128087"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q128087",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q128087"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.3051,
+          45.9581
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Lierna",
+        "id": "wikidata:Q42942",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Lierna",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "residence": 1
+        },
+        "roles": [
+          "residence"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q42942"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q42942",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q42942"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          29.57513525643812,
+          36.6341205843183
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Lycia",
+        "id": "pleiades:638965",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Lycia",
+        "pleiades_id": "638965",
+        "pleiades_uri": "https://pleiades.stoa.org/places/638965",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/638965",
+          "https://www.wikidata.org/entity/Q18927"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q18927",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q18927"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.88,
+          40.58
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Lysimachia",
+        "id": "wikidata:Q517690",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Lysimachia",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q517690"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q517690",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q517690"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          7.90228590473426,
+          36.07761052052089
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Madauros",
+        "id": "pleiades:315065",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Madauros",
+        "pleiades_id": "315065",
+        "pleiades_uri": "https://pleiades.stoa.org/places/315065",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/315065",
+          "https://www.wikidata.org/entity/Q11936307"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q11936307",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q11936307"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          5.382499,
+          43.296854
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Masilia Grecorum",
+        "id": "pleiades:148127",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Masilia Grecorum",
+        "pleiades_id": "148127",
+        "pleiades_uri": "https://pleiades.stoa.org/places/148127",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/148127",
+          "https://www.wikidata.org/entity/Q15141121"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q15141121",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q15141121"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          17.0,
+          38.0
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Mediterranean Sea",
+        "id": "pleiades:1043",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Mediterranean Sea",
+        "pleiades_id": "1043",
+        "pleiades_uri": "https://pleiades.stoa.org/places/1043",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/1043",
+          "https://www.wikidata.org/entity/Q4918"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q4918",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q4918"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.133333333,
+          37.4
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Megalopoli",
+        "id": "wikidata:Q823721",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Megalopoli",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q823721"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q823721",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q823721"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.3423,
+          37.9949
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Megara",
+        "id": "pleiades:674250",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Megara",
+        "pleiades_id": "674250",
+        "pleiades_uri": "https://pleiades.stoa.org/places/674250",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/674250",
+          "https://www.wikidata.org/entity/Q184864"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q184864",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q184864"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.733353,
+          42.658737
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Mesembria",
+        "id": "pleiades:216823",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Mesembria",
+        "pleiades_id": "216823",
+        "pleiades_uri": "https://pleiades.stoa.org/places/216823",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/216823",
+          "https://www.wikidata.org/entity/Q1317936"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1317936",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1317936"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          40.65169471254212,
+          37.69893640060892
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Mesopotamia (region)",
+        "id": "pleiades:874602",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Mesopotamia (region)",
+        "pleiades_id": "874602",
+        "pleiades_uri": "https://pleiades.stoa.org/places/874602",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/874602",
+          "https://www.wikidata.org/entity/Q11767"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q11767",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q11767"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          16.824331523620337,
+          40.38364140322288
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Metapontum",
+        "id": "pleiades:442658",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Metapontum",
+        "pleiades_id": "442658",
+        "pleiades_uri": "https://pleiades.stoa.org/places/442658",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/442658",
+          "https://www.wikidata.org/entity/Q1058770"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1058770",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1058770"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.75,
+          41.266666666
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Minturno",
+        "id": "wikidata:Q128105",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Minturno",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q128105"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q128105",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q128105"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          25.0636,
+          39.8782
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Myrina",
+        "id": "wikidata:Q2310605",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Myrina",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q2310605"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q2310605",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q2310605"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.547048,
+          39.110475
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Mytilene",
+        "id": "pleiades:550763",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Mytilene",
+        "pleiades_id": "550763",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550763",
+        "role_counts": {
+          "work": 1
+        },
+        "roles": [
+          "work"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550763",
+          "https://www.wikidata.org/entity/Q42295059"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q42295059",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q42295059"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.5536,
+          39.1047
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Mytilene",
+        "id": "wikidata:Q189059",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Mytilene",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q189059"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q189059",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q189059"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.38138889,
+          38.39444444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Nazianzus",
+        "id": "wikidata:Q1336978",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Nazianzus",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1,
+          "death": 1
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q1336978"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1336978",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1336978"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          20.7360035,
+          39.0157
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Nicopolis",
+        "id": "pleiades:531013",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Nicopolis",
+        "pleiades_id": "531013",
+        "pleiades_uri": "https://pleiades.stoa.org/places/531013",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/531013",
+          "https://www.wikidata.org/entity/Q943637"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q943637",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q943637"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.13641,
+          45.0703901
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Ostiglia",
+        "id": "wikidata:Q42597",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Ostiglia",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q42597"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q42597",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q42597"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          38.264867215601384,
+          34.552809393769074
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Palmyra",
+        "id": "pleiades:668331",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Palmyra",
+        "pleiades_id": "668331",
+        "pleiades_uri": "https://pleiades.stoa.org/places/668331",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/668331",
+          "https://www.wikidata.org/entity/Q5747"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q5747",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q5747"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          31.745175500000002,
+          26.5648875
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Panopolis/Schmin",
+        "id": "pleiades:756613",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Panopolis/Schmin",
+        "pleiades_id": "756613",
+        "pleiades_uri": "https://pleiades.stoa.org/places/756613",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/756613",
+          "https://www.wikidata.org/entity/Q340572"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q340572",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q340572"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          33.865313811161926,
+          41.35014922282519
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Paphlagonia (region)",
+        "id": "pleiades:845034",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Paphlagonia (region)",
+        "pleiades_id": "845034",
+        "pleiades_uri": "https://pleiades.stoa.org/places/845034",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/845034",
+          "https://www.wikidata.org/entity/Q622032"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q622032",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q622032"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.25287,
+          40.839995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Parthenope/Neapolis",
+        "id": "pleiades:433014",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Parthenope/Neapolis",
+        "pleiades_id": "433014",
+        "pleiades_uri": "https://pleiades.stoa.org/places/433014",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/433014",
+          "https://www.wikidata.org/entity/Q2634"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q2634",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q2634"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.876975,
+          45.409561
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Patavium",
+        "id": "pleiades:393473",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Patavium",
+        "pleiades_id": "393473",
+        "pleiades_uri": "https://pleiades.stoa.org/places/393473",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/393473",
+          "https://www.wikidata.org/entity/Q617"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q617",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q617"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          9.155,
+          45.185280555
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Pavia",
+        "id": "wikidata:Q6259",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Pavia",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q6259"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q6259",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q6259"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.644609,
+          37.937222
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Peiraieus/Piraeus",
+        "id": "pleiades:580062",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Peiraieus/Piraeus",
+        "pleiades_id": "580062",
+        "pleiades_uri": "https://pleiades.stoa.org/places/580062",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/580062",
+          "https://www.wikidata.org/entity/Q13426467"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q13426467",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q13426467"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.184167,
+          39.1325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Pergamum",
+        "id": "pleiades:550812",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Pergamum",
+        "pleiades_id": "550812",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550812",
+        "role_counts": {
+          "residence": 1
+        },
+        "roles": [
+          "residence"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550812",
+          "https://www.wikidata.org/entity/Q18986"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q18986",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q18986"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          30.853258601264926,
+          36.964465605287096
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Perge",
+        "id": "pleiades:639048",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Perge",
+        "pleiades_id": "639048",
+        "pleiades_uri": "https://pleiades.stoa.org/places/639048",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/639048",
+          "https://www.wikidata.org/entity/Q719815"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q719815",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q719815"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          52.89,
+          29.935
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Persepolis",
+        "id": "pleiades:922695",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Persepolis",
+        "pleiades_id": "922695",
+        "pleiades_uri": "https://pleiades.stoa.org/places/922695",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/922695",
+          "https://www.wikidata.org/entity/Q129072"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q129072",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q129072"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          35.441944,
+          30.328611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Petra",
+        "id": "pleiades:697725",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Petra",
+        "pleiades_id": "697725",
+        "pleiades_uri": "https://pleiades.stoa.org/places/697725",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/697725",
+          "https://www.wikidata.org/entity/Q5788"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q5788",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q5788"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.937453,
+          38.928297
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Pitane",
+        "id": "pleiades:550833",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Pitane",
+        "pleiades_id": "550833",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550833",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550833",
+          "https://www.wikidata.org/entity/Q752699"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q752699",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q752699"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.485429,
+          40.74941
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Pompeii",
+        "id": "pleiades:433032",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Pompeii",
+        "pleiades_id": "433032",
+        "pleiades_uri": "https://pleiades.stoa.org/places/433032",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/433032",
+          "https://www.wikidata.org/entity/Q43332"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q43332",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q43332"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.892307500000001,
+          41.8394835
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Praeneste",
+        "id": "pleiades:423013",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Praeneste",
+        "pleiades_id": "423013",
+        "pleiades_uri": "https://pleiades.stoa.org/places/423013",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/423013",
+          "https://www.wikidata.org/entity/Q243133"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q243133",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q243133"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          31.802799,
+          26.477379499999998
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Ptolemais Hermiou/Psoi",
+        "id": "pleiades:756635",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Ptolemais Hermiou/Psoi",
+        "pleiades_id": "756635",
+        "pleiades_uri": "https://pleiades.stoa.org/places/756635",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/756635",
+          "https://www.wikidata.org/entity/Q1302772"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1302772",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1302772"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          44.335618,
+          39.128774
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Q96400594",
+        "id": "wikidata:Q96400594",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Q96400594",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q96400594"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q96400594",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q96400594"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          39.01,
+          35.95
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Raqqa",
+        "id": "wikidata:Q283368",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Raqqa",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q283368"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q283368",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q283368"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          24.02691475199216,
+          38.219285538920836
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Rhamnous",
+        "id": "pleiades:580097",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Rhamnous",
+        "pleiades_id": "580097",
+        "pleiades_uri": "https://pleiades.stoa.org/places/580097",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/580097",
+          "https://www.wikidata.org/entity/Q1768553"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1768553",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1768553"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          36.15,
+          36.2
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Roman Syria",
+        "id": "pleiades:981550",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Roman Syria",
+        "pleiades_id": "981550",
+        "pleiades_uri": "https://pleiades.stoa.org/places/981550",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/981550",
+          "https://www.wikidata.org/entity/Q207118"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q207118",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q207118"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.484338803881972,
+          37.942665122249835
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Salamis (island)",
+        "id": "pleiades:580101",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Salamis (island)",
+        "pleiades_id": "580101",
+        "pleiades_uri": "https://pleiades.stoa.org/places/580101",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/580101",
+          "https://www.wikidata.org/entity/Q202422"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q202422",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q202422"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          26.839125346712173,
+          37.73246007056743
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Samos",
+        "id": "pleiades:599926",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Samos",
+        "pleiades_id": "599926",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599926",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599926",
+          "https://www.wikidata.org/entity/Q156882"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q156882",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q156882"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          38.530357,
+          37.525756
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Samosata",
+        "id": "pleiades:658587",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Samosata",
+        "pleiades_id": "658587",
+        "pleiades_uri": "https://pleiades.stoa.org/places/658587",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/658587",
+          "https://www.wikidata.org/entity/Q1026347"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1026347",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1026347"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          8.96062935971881,
+          40.0663001682793
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Sardinia (island)",
+        "id": "pleiades:472014",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Sardinia (island)",
+        "pleiades_id": "472014",
+        "pleiades_uri": "https://pleiades.stoa.org/places/472014",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/472014",
+          "https://www.wikidata.org/entity/Q1462"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1462",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1462"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.040286,
+          38.488314
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Sardis/Hyde?",
+        "id": "pleiades:550867",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Sardis/Hyde?",
+        "pleiades_id": "550867",
+        "pleiades_uri": "https://pleiades.stoa.org/places/550867",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/550867",
+          "https://www.wikidata.org/entity/Q232615"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q232615",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q232615"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.142155,
+          43.9194
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Sarsina",
+        "id": "pleiades:413306",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Sarsina",
+        "pleiades_id": "413306",
+        "pleiades_uri": "https://pleiades.stoa.org/places/413306",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/413306",
+          "https://www.wikidata.org/entity/Q99956"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q99956",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q99956"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          34.12056,
+          44.94278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Scythia",
+        "id": "pleiades:1273",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Scythia",
+        "pleiades_id": "1273",
+        "pleiades_uri": "https://pleiades.stoa.org/places/1273",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/1273",
+          "https://www.wikidata.org/entity/Q845909"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q845909",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q845909"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          44.517222,
+          33.137222
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Seleucia",
+        "id": "pleiades:894084",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Seleucia",
+        "pleiades_id": "894084",
+        "pleiades_uri": "https://pleiades.stoa.org/places/894084",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/894084",
+          "https://www.wikidata.org/entity/Q1136681"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1136681",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1136681"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.424682546177092,
+          37.08184552460426
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Sparta",
+        "id": "pleiades:570685",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Sparta",
+        "pleiades_id": "570685",
+        "pleiades_uri": "https://pleiades.stoa.org/places/570685",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/570685",
+          "https://www.wikidata.org/entity/Q5690"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q5690",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q5690"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          14.498922719088991,
+          40.702969978473526
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Stabiae",
+        "id": "pleiades:433128",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Stabiae",
+        "pleiades_id": "433128",
+        "pleiades_uri": "https://pleiades.stoa.org/places/433128",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/433128",
+          "https://www.wikidata.org/entity/Q547910"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q547910",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q547910"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          23.79532778498626,
+          40.591786917623004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Stageira",
+        "id": "pleiades:501625",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Stageira",
+        "pleiades_id": "501625",
+        "pleiades_uri": "https://pleiades.stoa.org/places/501625",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/501625",
+          "https://www.wikidata.org/entity/Q846127"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q846127",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q846127"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          13.926198,
+          42.048025
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Sulmona",
+        "id": "wikidata:Q50157",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Sulmona",
+        "pleiades_id": null,
+        "pleiades_uri": null,
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://www.wikidata.org/entity/Q50157"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q50157",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q50157"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          48.256111111,
+          32.189444444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Susa",
+        "id": "pleiades:912936",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Susa",
+        "pleiades_id": "912936",
+        "pleiades_uri": "https://pleiades.stoa.org/places/912936",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/912936",
+          "https://www.wikidata.org/entity/Q180773"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q180773",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q180773"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          12.47361111,
+          41.89527778
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Theatre of Pompey",
+        "id": "pleiades:541950317",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Theatre of Pompey",
+        "pleiades_id": "541950317",
+        "pleiades_uri": "https://pleiades.stoa.org/places/541950317",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/541950317",
+          "https://www.wikidata.org/entity/Q944814"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q944814",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q944814"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          22.952885000000002,
+          40.628342
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Thessalonica",
+        "id": "pleiades:491741",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Thessalonica",
+        "pleiades_id": "491741",
+        "pleiades_uri": "https://pleiades.stoa.org/places/491741",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/491741",
+          "https://www.wikidata.org/entity/Q17151"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q17151",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q17151"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          16.494262352883187,
+          39.71732767319154
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Thurii",
+        "id": "pleiades:452457",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Thurii",
+        "pleiades_id": "452457",
+        "pleiades_uri": "https://pleiades.stoa.org/places/452457",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/452457",
+          "https://www.wikidata.org/entity/Q602564"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q602564",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q602564"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          28.6497375,
+          44.172856499999995
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Tomis",
+        "id": "pleiades:217016",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Tomis",
+        "pleiades_id": "217016",
+        "pleiades_uri": "https://pleiades.stoa.org/places/217016",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/217016",
+          "https://www.wikidata.org/entity/Q2441154"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q2441154",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q2441154"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          27.834603126162058,
+          37.859837924453885
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Tralles/Dia/Seleuceia ad Maeandrum/Kaisareia",
+        "id": "pleiades:599987",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Tralles/Dia/Seleuceia ad Maeandrum/Kaisareia",
+        "pleiades_id": "599987",
+        "pleiades_uri": "https://pleiades.stoa.org/places/599987",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/599987",
+          "https://www.wikidata.org/entity/Q462630"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q462630",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q462630"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.8600625,
+          43.401604000000006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Velathri/Volaterrae",
+        "id": "pleiades:403292",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Velathri/Volaterrae",
+        "pleiades_id": "403292",
+        "pleiades_uri": "https://pleiades.stoa.org/places/403292",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/403292",
+          "https://www.wikidata.org/entity/Q103305"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q103305",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q103305"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          15.156156847539265,
+          40.16050073721131
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Velia/Elea",
+        "id": "pleiades:452488",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Velia/Elea",
+        "pleiades_id": "452488",
+        "pleiades_uri": "https://pleiades.stoa.org/places/452488",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/452488",
+          "https://www.wikidata.org/entity/Q272968"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q272968",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q272968"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          15.82726823923303,
+          40.96889922390714
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Venusia",
+        "id": "pleiades:442847",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Venusia",
+        "pleiades_id": "442847",
+        "pleiades_uri": "https://pleiades.stoa.org/places/442847",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/442847",
+          "https://www.wikidata.org/entity/Q52691"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q52691",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q52691"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          10.99571629313604,
+          45.44215144819305
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Verona",
+        "id": "pleiades:383816",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Verona",
+        "pleiades_id": "383816",
+        "pleiades_uri": "https://pleiades.stoa.org/places/383816",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/383816",
+          "https://www.wikidata.org/entity/Q2028"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q2028",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q2028"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          16.370277777,
+          48.210833333
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Vindobona",
+        "id": "pleiades:128537",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Vindobona",
+        "pleiades_id": "128537",
+        "pleiades_uri": "https://pleiades.stoa.org/places/128537",
+        "role_counts": {
+          "death": 1
+        },
+        "roles": [
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/128537",
+          "https://www.wikidata.org/entity/Q871525"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q871525",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q871525"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          11.985107836434034,
+          42.64802741671531
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 1,
+        "bucket": "C",
+        "bucket_rank": 0,
+        "display_name": "Volsinii",
+        "id": "pleiades:413389",
+        "importance": 1,
+        "minZoom": 7,
+        "name_en": "Volsinii",
+        "pleiades_id": "413389",
+        "pleiades_uri": "https://pleiades.stoa.org/places/413389",
+        "role_counts": {
+          "birth": 1
+        },
+        "roles": [
+          "birth"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/413389",
+          "https://www.wikidata.org/entity/Q1398480"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q1398480",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q1398480"
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

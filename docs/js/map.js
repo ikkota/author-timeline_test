@@ -62,7 +62,7 @@
         { zoom: 99, limit: 400 },
     ];
 
-    const CORE_TAG_MODE = 'all'; // 'greek' | 'roman' | 'all'
+    const CORE_TAG_MODE = 'all'; // 'author_related' | 'greek' | 'roman' | 'all'
 
     function escapeHtml(text) {
         if (!text) return '';
@@ -172,7 +172,7 @@
         placeLayers.major = L.layerGroup();
         placeLayers.mid = L.layerGroup();
         placeLayers.minor = L.layerGroup();
-        placeLayers.sea = L.layerGroup().addTo(map);
+        placeLayers.sea = L.layerGroup();
         placeLayers.physical = L.geoJSON([], {
             pane: 'ancient-features',
             style: feature => stylePhysical(feature)
@@ -183,7 +183,7 @@
         L.control.layers(
             { "Base (no labels)": baseLayer },
             {
-                "Places (cities)": placeLayers.all,
+                "Places of Authors": placeLayers.all,
                 "Physical (rivers/lakes)": placeLayers.physical,
                 "Sea labels": placeLayers.sea
             },
@@ -236,7 +236,7 @@
             const [respGeo, respAuthors, respPlaces, respPhysical] = await Promise.all([
                 fetch(`data/authors_geo_lod.json?${cacheBust}`),
                 fetch(`data/authors.json?${cacheBust}`),
-                fetch(`data/places.geojson?${cacheBust}`),
+                fetch(`data/places_from_authors.geojson?${cacheBust}`),
                 fetch(`data/physical.geojson?${cacheBust}`)
             ]);
 
@@ -643,9 +643,10 @@
     }
 
     function allowedBucketsForZoom(z) {
-        if (z <= 5) return new Set(['S']);
-        if (z <= 6) return new Set(['S', 'A']);
-        return new Set(['S', 'A', 'B']);
+        if (z < 5.8) return new Set(['S']);
+        if (z < 6.4) return new Set(['S', 'A']);
+        if (z < 7) return new Set(['S', 'A', 'B']);
+        return new Set(['S', 'A', 'B', 'C']);
     }
 
     function placeLabelCandidates(features, mapRef) {
@@ -656,7 +657,8 @@
             .filter(f => {
                 const props = f.properties || {};
                 if (!props.bucket || !allowed.has(props.bucket)) return false;
-                if (!coreTagOk(props.core_tags)) return false;
+                const tags = props.tags || props.core_tags;
+                if (!coreTagOk(tags)) return false;
                 const coords = f.geometry?.coordinates || [];
                 if (coords.length < 2) return false;
                 return b.contains([coords[1], coords[0]]);
@@ -675,6 +677,14 @@
         return !(a.x2 < b.x1 || a.x1 > b.x2 || a.y2 < b.y1 || a.y1 > b.y2);
     }
 
+    function countOverlaps(rect, occupied) {
+        let count = 0;
+        for (const r of occupied) {
+            if (rectsOverlap(rect, r)) count += 1;
+        }
+        return count;
+    }
+
     function rectForPoint(pt, labelW, labelH) {
         return {
             x1: pt.x - labelW / 2,
@@ -687,38 +697,40 @@
     function placeWithOffsets(feature, mapRef, occupied, opts = {}) {
         const labelW = opts.labelW ?? 90;
         const labelH = opts.labelH ?? 18;
-        const maxShift = opts.maxShift ?? 14;
+        const forceOffsetOnOverlap = opts.forceOffsetOnOverlap ?? false;
+        const maxRadius = opts.maxRadius ?? 60;
+        const step = opts.step ?? 6;
+        const angleStep = opts.angleStep ?? 45;
         const coords = feature.geometry.coordinates;
         const basePt = mapRef.latLngToContainerPoint([coords[1], coords[0]]);
-        const offsets = [
-            [0, 0],
-            [maxShift, 0],
-            [-maxShift, 0],
-            [0, maxShift],
-            [0, -maxShift],
-            [maxShift, maxShift],
-            [-maxShift, maxShift],
-            [maxShift, -maxShift],
-            [-maxShift, -maxShift],
-        ];
 
-        for (const [dx, dy] of offsets) {
-            const pt = { x: basePt.x + dx, y: basePt.y + dy };
-            const rect = rectForPoint(pt, labelW, labelH);
-            let hit = false;
-            for (const r of occupied) {
-                if (rectsOverlap(rect, r)) {
-                    hit = true;
-                    break;
+        const baseRect = rectForPoint(basePt, labelW, labelH);
+        if (countOverlaps(baseRect, occupied) == 0) {
+            return { pt: basePt, rect: baseRect };
+        }
+
+        let best = { pt: basePt, rect: baseRect, overlaps: countOverlaps(baseRect, occupied), dist: 0 };
+        for (let r = step; r <= maxRadius; r += step) {
+            for (let a = 0; a < 360; a += angleStep) {
+                const rad = (a * Math.PI) / 180;
+                const pt = { x: basePt.x + Math.cos(rad) * r, y: basePt.y + Math.sin(rad) * r };
+                const rect = rectForPoint(pt, labelW, labelH);
+                const overlaps = countOverlaps(rect, occupied);
+                if (overlaps == 0) {
+                    return { pt, rect };
                 }
-            }
-            if (!hit) {
-                return { pt, rect };
+                if (forceOffsetOnOverlap) {
+                    if (overlaps < best.overlaps || (overlaps == best.overlaps && r > best.dist)) {
+                        best = { pt, rect, overlaps, dist: r };
+                    }
+                }
             }
         }
 
-        // If no offset avoids overlap, keep original (S must be placed)
-        return { pt: basePt, rect: rectForPoint(basePt, labelW, labelH) };
+        if (forceOffsetOnOverlap) {
+            return { pt: best.pt, rect: best.rect };
+        }
+        return { pt: basePt, rect: baseRect };
     }
 
     function selectNonOverlappingLabels(candidates, mapRef, opts = {}) {
@@ -775,7 +787,14 @@
 
         const placed = [];
         for (const f of sLabels) {
-            const placedInfo = placeWithOffsets(f, map, occupied, { labelW: 90, labelH: 18 });
+            const placedInfo = placeWithOffsets(f, map, occupied, {
+                labelW: 90,
+                labelH: 18,
+                maxRadius: 72,
+                step: 6,
+                angleStep: 45,
+                forceOffsetOnOverlap: true
+            });
             occupied.push(placedInfo.rect);
             placed.push({ f, pt: placedInfo.pt });
         }
@@ -856,22 +875,7 @@
         });
         placeLayers.physical.addData(filtered);
 
-        // sea labels
-        placeLayers.sea.clearLayers();
-        filtered.forEach(f => {
-            const props = f.properties || {};
-            if (props.feature_type !== 'sea_region' || !props.name_en) return;
-            const coords = centroidOfCoords(f.geometry?.coordinates);
-            if (!coords) return;
-            const icon = L.divIcon({
-                className: 'ancient-label ancient-label-sea',
-                html: `<span>${escapeHtml(props.name_en)}</span>`,
-                iconSize: [0, 0]
-            });
-            placeLayers.sea.addLayer(
-                L.marker([coords[0], coords[1]], { icon, interactive: false, pane: 'ancient-labels' })
-            );
-        });
+        // sea labels disabled
     }
 
     function centroidOfCoords(coords) {
