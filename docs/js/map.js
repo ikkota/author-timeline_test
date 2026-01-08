@@ -11,6 +11,16 @@
     // State
     let map = null;
     let markersLayer = null;
+    let placeLayers = {
+        major: null,
+        mid: null,
+        minor: null,
+        sea: null,
+        physical: null,
+        all: null,
+    };
+    let placeData = [];
+    let physicalData = [];
     let authorsGeo = {};
     let authorsArray = [];
     let authorById = new Map();
@@ -41,35 +51,52 @@
         { name: 'Sparta', lat: 37.0739, lon: 22.4303 },
     ];
 
+    const THRESHOLDS = {
+        places: { low: 4, mid: 7, high: 9 },
+        physical: { low: 4, mid: 6, high: 8 },
+    };
+
+    const PLACE_LIMITS = [
+        { zoom: 6, limit: 200 },  // z<=5 ~200 labels
+        { zoom: 7, limit: 220 },  // z=7 keep tight to avoid overload
+        { zoom: 99, limit: 400 },
+    ];
+
+    const CORE_TAG_MODE = 'all'; // 'greek' | 'roman' | 'all'
+
+    function escapeHtml(text) {
+        if (!text) return '';
+        return String(text)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+    }
+
     // Initialize map
     function initMap() {
         // Create map centered on Mediterranean
         map = L.map('map', {
             center: [38, 20],
-            zoom: 4,
-            minZoom: 3,
-            maxZoom: 10,
-            zoomDelta: 0.1,
-            zoomSnap: 0.1,
+            zoom: 5,
+            minZoom: 5,
+            maxZoom: 7, // semantic cap: avoid modern-detail noise
+            zoomDelta: 0.2,
+            zoomSnap: 0.2,
             wheelPxPerZoomLevel: 240
         });
 
-        // Add CAWM tile layer (Ancient World)
-        const cawmTiles = L.tileLayer('https://cawm.lib.uiowa.edu/tiles/{z}/{x}/{y}.png', {
-            attribution: '&copy; <a href="https://cawm.lib.uiowa.edu/">CAWM</a> (CC BY 4.0)',
+        // Base layers without modern labels
+        const baseLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+            attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service',
             maxZoom: 10,
-            errorTileUrl: '' // Fallback handled below
+            maxNativeZoom: 10,
+            opacity: 0.95
         });
 
-        // Fallback to OpenStreetMap (added below CAWM so CAWM stays visible)
-        const osmTiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            attribution: '&copy; OpenStreetMap contributors'
-        });
-
-        // Add OSM as base layer first
-        osmTiles.addTo(map);
-        // Add CAWM on top (will show CAWM where available, OSM where not)
-        cawmTiles.addTo(map);
+        // Single low-contrast, no-label base to avoid modern labels
+        baseLayer.addTo(map);
 
         // Initialize marker cluster group
         markersLayer = L.markerClusterGroup({
@@ -132,7 +159,46 @@
         });
 
         // Add city labels
-        addCityLabels();
+        // addCityLabels(); // legacy labels; disable to avoid duplicates
+
+        // Init ancient layers
+        placeLayers.major = L.layerGroup();
+        placeLayers.mid = L.layerGroup();
+        placeLayers.minor = L.layerGroup();
+        placeLayers.sea = L.layerGroup().addTo(map);
+        placeLayers.physical = L.geoJSON([], {
+            style: feature => stylePhysical(feature)
+        }).addTo(map);
+        placeLayers.all = L.layerGroup([placeLayers.major, placeLayers.mid, placeLayers.minor]).addTo(map);
+
+        // QA Layer Control
+        L.control.layers(
+            { "Base (no labels)": baseLayer },
+            {
+                "Places (cities)": placeLayers.all,
+                "Physical (rivers/lakes)": placeLayers.physical,
+                "Sea labels": placeLayers.sea
+            },
+            { collapsed: false }
+        ).addTo(map);
+
+        // Zoom indicator (always show current zoom level)
+        const zoomIndicator = L.control({ position: 'bottomleft' });
+        zoomIndicator.onAdd = function () {
+            const div = L.DomUtil.create('div', 'zoom-indicator');
+            div.innerHTML = `z=${map.getZoom()}`;
+            return div;
+        };
+        zoomIndicator.addTo(map);
+        map.on('zoomend', () => {
+            const el = document.querySelector('.zoom-indicator');
+            if (el) el.innerHTML = `z=${map.getZoom()}`;
+        });
+
+        // Redraw labels when the map view changes
+        map.on('zoomend moveend', () => {
+            updateAncientLayers();
+        });
 
         // Load geo data
         loadGeoData();
@@ -158,13 +224,20 @@
     async function loadGeoData() {
         try {
             // Fetch both in parallel
-            const [respGeo, respAuthors] = await Promise.all([
-                fetch('data/authors_geo.json'),
-                fetch('data/authors.json')
+            const cacheBust = `v=${Date.now()}`;
+            const [respGeo, respAuthors, respPlaces, respPhysical] = await Promise.all([
+                fetch(`data/authors_geo_lod.json?${cacheBust}`),
+                fetch(`data/authors.json?${cacheBust}`),
+                fetch(`data/places.geojson?${cacheBust}`),
+                fetch(`data/physical.geojson?${cacheBust}`)
             ]);
 
             authorsGeo = await respGeo.json();
             authorsArray = await respAuthors.json();
+            const places = await respPlaces.json();
+            const physical = await respPhysical.json();
+            placeData = places.features || [];
+            physicalData = physical.features || [];
 
             // Build lookup map for metadata (esp. primary_occupation)
             authorById = new Map(authorsArray.map(a => [a.id, a]));
@@ -173,12 +246,15 @@
 
             // Create all markers
             createAllMarkers();
+            buildPlaceLayers();
+            buildPhysicalLayer();
 
             // Create unknown panel structure
             createUnknownPanel();
 
             // Initial display (show all)
             updateMapMarkers(null);
+            updateAncientLayers();
         } catch (error) {
             console.error('Failed to load data:', error);
         }
@@ -386,7 +462,6 @@
     // Update map markers and Unknown panel based on selected year
     function updateMapMarkers(year) {
         markersLayer.clearLayers();
-
         const yearIndicator = document.getElementById('year-indicator');
 
         const visibleMarkers = allMarkers.filter(m => {
@@ -414,6 +489,7 @@
         updateUnknownPanel(year);
 
         currentYear = year;
+        updateAncientLayers();
     }
 
     function showUnknownPopup(name) {
@@ -528,6 +604,289 @@
             }
         }
     };
+
+    // Helper: minZoom/tier
+    function getMinZoom(props, category) {
+        if (typeof props.minZoom === 'number') return props.minZoom;
+        if (props.tier && THRESHOLDS[category][props.tier] !== undefined) {
+            return THRESHOLDS[category][props.tier];
+        }
+        return THRESHOLDS[category].high;
+    }
+
+    function placeLevel(props) {
+        const mz = getMinZoom(props, 'places');
+        if (mz <= THRESHOLDS.places.low) return 'major';
+        if (mz <= THRESHOLDS.places.mid) return 'mid';
+        return 'minor';
+    }
+
+    function maxPlacesForZoom(z) {
+        for (const { zoom, limit } of PLACE_LIMITS) {
+            if (z < zoom) return limit;
+        }
+        return 1000;
+    }
+
+    function coreTagOk(tags) {
+        if (!Array.isArray(tags) || tags.length === 0) return false;
+        if (CORE_TAG_MODE === 'all') return true;
+        return tags.includes(CORE_TAG_MODE);
+    }
+
+    function allowedBucketsForZoom(z) {
+        if (z <= 5) return new Set(['S']);
+        if (z <= 6) return new Set(['S', 'A']);
+        return new Set(['S', 'A', 'B']);
+    }
+
+    function placeLabelCandidates(features, mapRef) {
+        const b = mapRef.getBounds();
+        const z = mapRef.getZoom();
+        const allowed = allowedBucketsForZoom(z);
+        return features
+            .filter(f => {
+                const props = f.properties || {};
+                if (!props.bucket || !allowed.has(props.bucket)) return false;
+                if (!coreTagOk(props.core_tags)) return false;
+                const coords = f.geometry?.coordinates || [];
+                if (coords.length < 2) return false;
+                return b.contains([coords[1], coords[0]]);
+            })
+            .map(f => {
+                const props = f.properties || {};
+                const importance = props.importance || 0;
+                const bucketRank = props.bucket_rank || 0;
+                const priority = bucketRank * 10000 + importance;
+                return { f, priority };
+            })
+            .sort((a, b) => b.priority - a.priority);
+    }
+
+    function rectsOverlap(a, b) {
+        return !(a.x2 < b.x1 || a.x1 > b.x2 || a.y2 < b.y1 || a.y1 > b.y2);
+    }
+
+    function rectForPoint(pt, labelW, labelH) {
+        return {
+            x1: pt.x - labelW / 2,
+            y1: pt.y - labelH / 2,
+            x2: pt.x + labelW / 2,
+            y2: pt.y + labelH / 2,
+        };
+    }
+
+    function placeWithOffsets(feature, mapRef, occupied, opts = {}) {
+        const labelW = opts.labelW ?? 90;
+        const labelH = opts.labelH ?? 18;
+        const maxShift = opts.maxShift ?? 14;
+        const coords = feature.geometry.coordinates;
+        const basePt = mapRef.latLngToContainerPoint([coords[1], coords[0]]);
+        const offsets = [
+            [0, 0],
+            [maxShift, 0],
+            [-maxShift, 0],
+            [0, maxShift],
+            [0, -maxShift],
+            [maxShift, maxShift],
+            [-maxShift, maxShift],
+            [maxShift, -maxShift],
+            [-maxShift, -maxShift],
+        ];
+
+        for (const [dx, dy] of offsets) {
+            const pt = { x: basePt.x + dx, y: basePt.y + dy };
+            const rect = rectForPoint(pt, labelW, labelH);
+            let hit = false;
+            for (const r of occupied) {
+                if (rectsOverlap(rect, r)) {
+                    hit = true;
+                    break;
+                }
+            }
+            if (!hit) {
+                return { pt, rect };
+            }
+        }
+
+        // If no offset avoids overlap, keep original (S must be placed)
+        return { pt: basePt, rect: rectForPoint(basePt, labelW, labelH) };
+    }
+
+    function selectNonOverlappingLabels(candidates, mapRef, opts = {}) {
+        const maxLabels = opts.maxLabels ?? 200;
+        const labelW = opts.labelW ?? 90;
+        const labelH = opts.labelH ?? 18;
+        const accepted = [];
+        const occupied = [];
+        for (const c of candidates) {
+            if (accepted.length >= maxLabels) break;
+            const coords = c.f.geometry.coordinates;
+            const pt = mapRef.latLngToContainerPoint([coords[1], coords[0]]);
+            const rect = {
+                x1: pt.x - labelW / 2,
+                y1: pt.y - labelH / 2,
+                x2: pt.x + labelW / 2,
+                y2: pt.y + labelH / 2,
+            };
+            let hit = false;
+            for (const r of occupied) {
+                if (rectsOverlap(rect, r)) {
+                    hit = true;
+                    break;
+                }
+            }
+            if (!hit) {
+                occupied.push(rect);
+                accepted.push(c.f);
+            }
+        }
+        return accepted;
+    }
+
+    function buildPlaceLayers() {
+        placeLayers.major.clearLayers();
+        placeLayers.mid.clearLayers();
+        placeLayers.minor.clearLayers();
+        placeLayers.sea.clearLayers();
+
+        const zoom = map.getZoom();
+        const candidates = placeLabelCandidates(placeData, map);
+        const occupied = [];
+        const sLabels = [];
+        const otherLabels = [];
+
+        for (const c of candidates) {
+            const props = c.f.properties || {};
+            if (props.bucket === 'S') {
+                sLabels.push(c.f);
+            } else {
+                otherLabels.push(c.f);
+            }
+        }
+
+        const placed = [];
+        for (const f of sLabels) {
+            const placedInfo = placeWithOffsets(f, map, occupied, { labelW: 90, labelH: 18 });
+            occupied.push(placedInfo.rect);
+            placed.push({ f, pt: placedInfo.pt });
+        }
+
+        // Add non-overlapping A/B labels using remaining slots
+        const remaining = Math.max(0, maxPlacesForZoom(zoom) - placed.length);
+        if (remaining > 0) {
+            for (const f of otherLabels) {
+                if (placed.length >= maxPlacesForZoom(zoom)) break;
+                const coords = f.geometry.coordinates;
+                const pt = map.latLngToContainerPoint([coords[1], coords[0]]);
+                const rect = rectForPoint(pt, 90, 18);
+                let hit = false;
+                for (const r of occupied) {
+                    if (rectsOverlap(rect, r)) {
+                        hit = true;
+                        break;
+                    }
+                }
+                if (!hit) {
+                    occupied.push(rect);
+                    placed.push({ f, pt });
+                }
+            }
+        }
+
+        placed.forEach(({ f, pt }) => {
+            const props = f.properties || {};
+            const level = placeLevel(props);
+            const icon = L.divIcon({
+                className: `ancient-label ancient-label-${level}`,
+                html: `<span>${escapeHtml(props.display_name || props.name_en || '')}</span>`,
+                iconSize: [0, 0]
+            });
+            const latlng = map.containerPointToLatLng([pt.x, pt.y]);
+            const marker = L.marker(latlng, { icon, interactive: false });
+            if (level === 'major') {
+                placeLayers.major.addLayer(marker);
+            } else if (level === 'mid') {
+                placeLayers.mid.addLayer(marker);
+            } else {
+                placeLayers.minor.addLayer(marker);
+            }
+        });
+    }
+
+    function stylePhysical(feature) {
+        const type = feature?.properties?.feature_type;
+        if (type === 'coastline') return { color: '#3b3b3b', weight: 1.1, opacity: 0.7 };
+        if (type === 'river') return { color: '#2f6f8f', weight: 1.2, opacity: 0.95 };
+        if (type === 'lake') {
+            return {
+                color: '#2f6f8f',
+                weight: 0.9,
+                opacity: 0.9,
+                fillColor: '#8fc3d8',
+                fillOpacity: 0.45
+            };
+        }
+        if (type === 'sea_region') {
+            return {
+                color: '#6aa2b8',
+                weight: 0.8,
+                opacity: 0.7,
+                fillColor: '#8fc3d8',
+                fillOpacity: 0.45
+            };
+        }
+        return { color: '#555', weight: 1 };
+    }
+
+    function buildPhysicalLayer() {
+        placeLayers.physical.clearLayers();
+        const zoom = Math.min(map.getZoom(), 7); // further cap physical detail to keep noise down
+        const filtered = physicalData.filter(f => {
+            const props = f.properties || {};
+            return zoom >= getMinZoom(props, 'physical');
+        });
+        placeLayers.physical.addData(filtered);
+
+        // sea labels
+        placeLayers.sea.clearLayers();
+        filtered.forEach(f => {
+            const props = f.properties || {};
+            if (props.feature_type !== 'sea_region' || !props.name_en) return;
+            const coords = centroidOfCoords(f.geometry?.coordinates);
+            if (!coords) return;
+            const icon = L.divIcon({
+                className: 'ancient-label ancient-label-sea',
+                html: `<span>${escapeHtml(props.name_en)}</span>`,
+                iconSize: [0, 0]
+            });
+            placeLayers.sea.addLayer(L.marker([coords[0], coords[1]], { icon, interactive: false }));
+        });
+    }
+
+    function centroidOfCoords(coords) {
+        let sumLat = 0;
+        let sumLon = 0;
+        let count = 0;
+        const walk = item => {
+            if (!Array.isArray(item)) return;
+            if (item.length >= 2 && typeof item[0] === 'number') {
+                sumLon += item[0];
+                sumLat += item[1];
+                count += 1;
+                return;
+            }
+            item.forEach(child => walk(child));
+        };
+        walk(coords);
+        if (!count) return null;
+        return [sumLat / count, sumLon / count];
+    }
+
+    function updateAncientLayers() {
+        buildPlaceLayers();
+        buildPhysicalLayer();
+    }
 
     // Initialize when DOM ready
     if (document.readyState === 'loading') {

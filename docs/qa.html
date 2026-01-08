@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map QA - LOD Check</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="css/qa.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap"
+    />
+  </head>
+  <body>
+    <div id="qa-map"></div>
+
+    <div class="qa-panel">
+      <h1>Map QA</h1>
+      <div class="qa-sub">LOD visibility and declutter check</div>
+
+      <div class="qa-row">
+        <span>Zoom</span>
+        <span id="qa-zoom">--</span>
+      </div>
+      <div class="qa-row">
+        <span>Places</span>
+        <span>
+          <span id="qa-places-count">--</span>
+          <span class="qa-badge">visible <span id="qa-visible-places">0</span></span>
+        </span>
+      </div>
+      <div class="qa-row">
+        <span>Physical</span>
+        <span>
+          <span id="qa-physical-count">--</span>
+          <span class="qa-badge">visible <span id="qa-visible-physical">0</span></span>
+        </span>
+      </div>
+      <div class="qa-row">
+        <span>Sea labels</span>
+        <span>
+          <span id="qa-sea-count">--</span>
+          <span class="qa-badge">visible <span id="qa-visible-sea">0</span></span>
+        </span>
+      </div>
+
+      <label>
+        <input type="checkbox" id="qa-toggle-places" checked />
+        Show places
+      </label>
+      <label>
+        <input type="checkbox" id="qa-toggle-physical" checked />
+        Show physical
+      </label>
+      <label>
+        <input type="checkbox" id="qa-toggle-sea" checked />
+        Show sea labels
+      </label>
+    </div>
+
+    <div class="qa-legend">
+      <div class="qa-item">
+        <span class="qa-swatch" style="background: #3b3b3b;"></span>
+        <span>Coastline</span>
+      </div>
+      <div class="qa-item">
+        <span class="qa-swatch" style="background: #2f6f8f;"></span>
+        <span>Rivers/Lakes</span>
+      </div>
+      <div class="qa-item">
+        <span class="qa-swatch" style="background: #b8d6e2;"></span>
+        <span>Sea regions</span>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="js/qa_map.js"></script>
+  </body>
+</html>

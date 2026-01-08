@@ -1,0 +1,143 @@
+:root {
+  --qa-bg: #f3efe7;
+  --qa-panel-bg: rgba(255, 255, 255, 0.92);
+  --qa-border: #d3cfc7;
+  --qa-text: #2e2a25;
+  --qa-accent: #2f6f8f;
+  --qa-accent-soft: #dce8ee;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "IBM Plex Sans", "Segoe UI", sans-serif;
+  color: var(--qa-text);
+  background: var(--qa-bg);
+}
+
+#qa-map {
+  height: 100%;
+  width: 100%;
+}
+
+.qa-panel {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 1000;
+  min-width: 260px;
+  background: var(--qa-panel-bg);
+  border: 1px solid var(--qa-border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  backdrop-filter: blur(4px);
+}
+
+.qa-panel h1 {
+  font-size: 1rem;
+  margin: 0 0 6px 0;
+  letter-spacing: 0.02em;
+}
+
+.qa-panel .qa-sub {
+  font-size: 0.82rem;
+  color: #56514b;
+  margin-bottom: 10px;
+}
+
+.qa-panel .qa-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  padding: 2px 0;
+}
+
+.qa-panel label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  margin-top: 6px;
+}
+
+.qa-panel input[type="checkbox"] {
+  accent-color: var(--qa-accent);
+}
+
+.qa-panel .qa-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 6px;
+  border-radius: 8px;
+  background: var(--qa-accent-soft);
+  color: var(--qa-accent);
+  font-size: 0.72rem;
+}
+
+.qa-label {
+  pointer-events: none;
+  white-space: nowrap;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9);
+  transform: translate(-50%, -50%);
+}
+
+.qa-label span {
+  display: inline-block;
+  padding: 1px 2px;
+}
+
+.qa-label-major span {
+  font-weight: 700;
+  font-size: 13px;
+  color: #1e1b18;
+}
+
+.qa-label-mid span {
+  font-weight: 600;
+  font-size: 12px;
+  color: #2e2a25;
+  opacity: 0.9;
+}
+
+.qa-label-minor span {
+  font-weight: 500;
+  font-size: 11px;
+  color: #3f3a34;
+  opacity: 0.82;
+}
+
+.qa-label-sea span {
+  font-weight: 600;
+  font-size: 12px;
+  color: #1d4f6e;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.85;
+}
+
+.qa-legend {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  z-index: 1000;
+  background: var(--qa-panel-bg);
+  border: 1px solid var(--qa-border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 0.78rem;
+}
+
+.qa-legend .qa-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.qa-swatch {
+  width: 16px;
+  height: 6px;
+  border-radius: 6px;
+}

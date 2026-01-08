@@ -73,6 +73,18 @@ To update the data:
 3. Run `python enrich_geo.py` (geographic data)
 4. Commit and push updated files in `docs/data/`
 
+## Author Location Patches (Optional)
+
+You can add manual or agent-enriched location patches in `overrides/authors_geo_patch.json`.
+Apply patches during build with:
+
+```
+python scripts/build_geodata.py --apply-author-patches
+```
+
+This produces `docs/data/authors_geo_lod.json` with added locations without modifying
+the original `docs/data/authors_geo.json`.
+
 ## License
 
 This project is released under the **MIT License**.

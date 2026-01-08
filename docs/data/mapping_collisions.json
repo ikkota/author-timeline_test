@@ -1,0 +1,692 @@
+{
+  "items": [
+    {
+      "chosen_pleiades_id": "109337",
+      "pleiades_candidates": [
+        "109337",
+        "413311"
+      ],
+      "qid": "Q1048883",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "383588",
+      "pleiades_candidates": [
+        "383588",
+        "432721"
+      ],
+      "qid": "Q105706880",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "658606",
+      "pleiades_candidates": [
+        "658606",
+        "336554371"
+      ],
+      "qid": "Q1112125",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "628936",
+      "pleiades_candidates": [
+        "628936",
+        "981508"
+      ],
+      "qid": "Q1148125",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "413537087",
+      "pleiades_candidates": [
+        "413537087",
+        "572048102"
+      ],
+      "qid": "Q1149666",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "216887",
+      "pleiades_candidates": [
+        "216887",
+        "981535"
+      ],
+      "qid": "Q1227719",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "438878",
+      "pleiades_candidates": [
+        "438878",
+        "910399260"
+      ],
+      "qid": "Q1235451",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "190863456",
+      "pleiades_candidates": [
+        "190863456",
+        "560299818"
+      ],
+      "qid": "Q1262524",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "795860",
+      "pleiades_candidates": [
+        "795860",
+        "466639527"
+      ],
+      "qid": "Q126492517",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "197260",
+      "pleiades_candidates": [
+        "197260",
+        "481829"
+      ],
+      "qid": "Q1265876",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "319653209",
+      "pleiades_candidates": [
+        "319653209",
+        "914118846"
+      ],
+      "qid": "Q1329616",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "511253",
+      "pleiades_candidates": [
+        "511253",
+        "511254"
+      ],
+      "qid": "Q135746901",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "550771",
+      "pleiades_candidates": [
+        "550771",
+        "550893"
+      ],
+      "qid": "Q1379299",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "98993",
+      "pleiades_candidates": [
+        "98993",
+        "187334"
+      ],
+      "qid": "Q1397676",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "465938",
+      "pleiades_candidates": [
+        "465938",
+        "589886"
+      ],
+      "qid": "Q1481525",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "766402",
+      "pleiades_candidates": [
+        "766402",
+        "795856"
+      ],
+      "qid": "Q1485667",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "609351",
+      "pleiades_candidates": [
+        "609351",
+        "609388"
+      ],
+      "qid": "Q1513790",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "1000",
+      "pleiades_candidates": [
+        "1000",
+        "981525"
+      ],
+      "qid": "Q153553",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "609290",
+      "pleiades_candidates": [
+        "609290",
+        "609570"
+      ],
+      "qid": "Q1566744",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "118605",
+      "pleiades_candidates": [
+        "118605",
+        "393390"
+      ],
+      "qid": "Q157676",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "464208937",
+      "pleiades_candidates": [
+        "464208937",
+        "864970042"
+      ],
+      "qid": "Q1581555",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "250568480",
+      "pleiades_candidates": [
+        "250568480",
+        "960271818"
+      ],
+      "qid": "Q1590891",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "589981",
+      "pleiades_candidates": [
+        "589981",
+        "590029"
+      ],
+      "qid": "Q1650066",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "874637",
+      "pleiades_candidates": [
+        "874637",
+        "241871785"
+      ],
+      "qid": "Q1664378",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "795830",
+      "pleiades_candidates": [
+        "795830",
+        "640960995"
+      ],
+      "qid": "Q168588",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "40253",
+      "pleiades_candidates": [
+        "40253",
+        "938346135"
+      ],
+      "qid": "Q16964645",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "432751",
+      "pleiades_candidates": [
+        "432751",
+        "432752"
+      ],
+      "qid": "Q173292",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "554305",
+      "pleiades_candidates": [
+        "554305",
+        "639040"
+      ],
+      "qid": "Q17462683",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "109117",
+      "pleiades_candidates": [
+        "109117",
+        "138423"
+      ],
+      "qid": "Q1773614",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "863770",
+      "pleiades_candidates": [
+        "863770",
+        "874432"
+      ],
+      "qid": "Q183150",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "530974",
+      "pleiades_candidates": [
+        "530974",
+        "530975"
+      ],
+      "qid": "Q190138",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "541093",
+      "pleiades_candidates": [
+        "541093",
+        "541108"
+      ],
+      "qid": "Q208566",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "638939",
+      "pleiades_candidates": [
+        "638939",
+        "648611",
+        "648612"
+      ],
+      "qid": "Q2167586",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "668355",
+      "pleiades_candidates": [
+        "668355",
+        "674925422"
+      ],
+      "qid": "Q2177952",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "98958",
+      "pleiades_candidates": [
+        "98958",
+        "101192"
+      ],
+      "qid": "Q2283279",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "413076",
+      "pleiades_candidates": [
+        "413076",
+        "413346"
+      ],
+      "qid": "Q242533",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "589736",
+      "pleiades_candidates": [
+        "589736",
+        "589908",
+        "596541756"
+      ],
+      "qid": "Q2532466",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "43496934",
+      "pleiades_candidates": [
+        "43496934",
+        "303050697"
+      ],
+      "qid": "Q2859314",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "805632",
+      "pleiades_candidates": [
+        "805632",
+        "781071240"
+      ],
+      "qid": "Q286426",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "148042",
+      "pleiades_candidates": [
+        "148042",
+        "167702"
+      ],
+      "qid": "Q2943259",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "573396",
+      "pleiades_candidates": [
+        "573396",
+        "573410"
+      ],
+      "qid": "Q29652920",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "68528443",
+      "pleiades_candidates": [
+        "68528443",
+        "685284437"
+      ],
+      "qid": "Q3144282",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "29475",
+      "pleiades_candidates": [
+        "29475",
+        "912809"
+      ],
+      "qid": "Q31945",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "499882359",
+      "pleiades_candidates": [
+        "499882359",
+        "888638014"
+      ],
+      "qid": "Q3517541",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "310265136",
+      "pleiades_candidates": [
+        "310265136",
+        "571649387"
+      ],
+      "qid": "Q3538784",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "384365956",
+      "pleiades_candidates": [
+        "384365956",
+        "541774889"
+      ],
+      "qid": "Q3683400",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "347468514",
+      "pleiades_candidates": [
+        "347468514",
+        "874332557"
+      ],
+      "qid": "Q3801610",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "550583",
+      "pleiades_candidates": [
+        "550583",
+        "550584"
+      ],
+      "qid": "Q382912",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "727185",
+      "pleiades_candidates": [
+        "727185",
+        "730136"
+      ],
+      "qid": "Q3894902",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "39274",
+      "pleiades_candidates": [
+        "39274",
+        "334481"
+      ],
+      "qid": "Q410453",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "138188",
+      "pleiades_candidates": [
+        "138188",
+        "236376"
+      ],
+      "qid": "Q41573",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "648555",
+      "pleiades_candidates": [
+        "648555",
+        "12504073"
+      ],
+      "qid": "Q4818905",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "530833",
+      "pleiades_candidates": [
+        "530833",
+        "530879"
+      ],
+      "qid": "Q5089691",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "711745091",
+      "pleiades_candidates": [
+        "711745091",
+        "876112477"
+      ],
+      "qid": "Q5175126",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "265883",
+      "pleiades_candidates": [
+        "265883",
+        "265884"
+      ],
+      "qid": "Q52631",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "574183541",
+      "pleiades_candidates": [
+        "574183541",
+        "933683602"
+      ],
+      "qid": "Q5276996",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "550650",
+      "pleiades_candidates": [
+        "550650",
+        "550651"
+      ],
+      "qid": "Q536598",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "573188",
+      "pleiades_candidates": [
+        "573188",
+        "573235"
+      ],
+      "qid": "Q5582063",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "560299817",
+      "pleiades_candidates": [
+        "560299817",
+        "780715578"
+      ],
+      "qid": "Q5597783",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "68529623",
+      "pleiades_candidates": [
+        "68529623",
+        "685296232"
+      ],
+      "qid": "Q56258155",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "582868",
+      "pleiades_candidates": [
+        "582868",
+        "487072545"
+      ],
+      "qid": "Q56397345",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "91358",
+      "pleiades_candidates": [
+        "91358",
+        "579047271"
+      ],
+      "qid": "Q57357",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "639034",
+      "pleiades_candidates": [
+        "639034",
+        "1001913"
+      ],
+      "qid": "Q585250",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "727088",
+      "pleiades_candidates": [
+        "727088",
+        "736899"
+      ],
+      "qid": "Q603841",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "540615",
+      "pleiades_candidates": [
+        "540615",
+        "540616"
+      ],
+      "qid": "Q60792270",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "671846979",
+      "pleiades_candidates": [
+        "671846979",
+        "671846980"
+      ],
+      "qid": "Q608198",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "550444",
+      "pleiades_candidates": [
+        "550444",
+        "550445"
+      ],
+      "qid": "Q619432",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "506010320",
+      "pleiades_candidates": [
+        "506010320",
+        "568902179"
+      ],
+      "qid": "Q65827938",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "491689",
+      "pleiades_candidates": [
+        "491689",
+        "541027"
+      ],
+      "qid": "Q7169613",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "638769",
+      "pleiades_candidates": [
+        "638769",
+        "638770"
+      ],
+      "qid": "Q718048",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "550856",
+      "pleiades_candidates": [
+        "550856",
+        "573504"
+      ],
+      "qid": "Q7321268",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "570402",
+      "pleiades_candidates": [
+        "570402",
+        "570403"
+      ],
+      "qid": "Q739779",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "222197",
+      "pleiades_candidates": [
+        "222197",
+        "229592"
+      ],
+      "qid": "Q7680942",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "222245",
+      "pleiades_candidates": [
+        "222245",
+        "229601"
+      ],
+      "qid": "Q8066759",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "207181",
+      "pleiades_candidates": [
+        "207181",
+        "226632"
+      ],
+      "qid": "Q837791",
+      "rule": "smallest_id"
+    },
+    {
+      "chosen_pleiades_id": "236592",
+      "pleiades_candidates": [
+        "236592",
+        "270360"
+      ],
+      "qid": "Q8378",
+      "rule": "smallest_id"
+    }
+  ],
+  "rule": "smallest_id",
+  "total_collisions": 76
+}

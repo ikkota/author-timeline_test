@@ -10,3 +10,9 @@
 
 # And this .gitignore itself
 !.gitignore
+
+# Local walkthrough notes
+WALKTHROUGH.md
+
+# Local planning notes
+plan.md

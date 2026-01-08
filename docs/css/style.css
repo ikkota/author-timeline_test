@@ -10,6 +10,19 @@ body {
     line-height: 1.5;
 }
 
+.leaflet-tile {
+    filter: contrast(95%) brightness(105%) saturate(120%);
+}
+
+.zoom-indicator {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 12px;
+    border-radius: 4px;
+    line-height: 1.2;
+}
+
 #controls {
     font-size: 0.85rem;
 }
@@ -234,6 +247,47 @@ body {
         -1px 1px 0 rgba(255, 255, 255, 0.9);
     white-space: nowrap;
     pointer-events: none;
+}
+
+.ancient-label {
+    pointer-events: none;
+    white-space: nowrap;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.9);
+    transform: translate(-50%, -50%);
+}
+
+.ancient-label span {
+    display: inline-block;
+    padding: 1px 2px;
+}
+
+.ancient-label-major span {
+    font-weight: 700;
+    font-size: 14px;
+    color: #111;
+}
+
+.ancient-label-mid span {
+    font-weight: 600;
+    font-size: 12px;
+    color: #2e2a25;
+    opacity: 0.9;
+}
+
+.ancient-label-minor span {
+    font-weight: 500;
+    font-size: 11px;
+    color: #3f3a34;
+    opacity: 0.82;
+}
+
+.ancient-label-sea span {
+    font-weight: 600;
+    font-size: 14px;
+    color: #555;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    opacity: 0.92;
 }
 
 /* Marker Popup */
