@@ -1091,24 +1091,6 @@
     "locations": [
       {
         "coord": {
-          "lat": 38.4625,
-          "lon": 23.595
-        },
-        "coord_source": "exact",
-        "parent_hops": 0,
-        "place_label": "Q200133",
-        "place_qid": "Q200133",
-        "place_wikidata_uri": "https://www.wikidata.org/entity/Q200133",
-        "rank": "unknown",
-        "source_property": "P19",
-        "time": {
-          "end": null,
-          "from_qualifiers": false,
-          "start": null
-        }
-      },
-      {
-        "coord": {
           "lat": 40.628342,
           "lon": 22.952885000000002
         },
@@ -1131,6 +1113,36 @@
           "P20"
         ],
         "source_property": "P20",
+        "time": {
+          "end": null,
+          "from_qualifiers": false,
+          "start": null
+        }
+      },
+      {
+        "coord": {
+          "lat": 39.680546,
+          "lon": 21.208974
+        },
+        "coord_source": "pleiades",
+        "normalized": true,
+        "parent_hops": 0,
+        "place_label": "Chalkis",
+        "place_label_raw": [
+          "Q200133"
+        ],
+        "place_pleiades_id": "530827",
+        "place_pleiades_uri": "https://pleiades.stoa.org/places/530827",
+        "place_qid": "Q60790559",
+        "place_wikidata_uri": "https://www.wikidata.org/entity/Q60790559",
+        "rank": "unknown",
+        "roles": [
+          "birth"
+        ],
+        "source_properties": [
+          "P19"
+        ],
+        "source_property": "P19",
         "time": {
           "end": null,
           "from_qualifiers": false,
@@ -10210,20 +10222,20 @@
       },
       {
         "coord": {
-          "lat": 38.457139,
-          "lon": 23.621937
+          "lat": 39.680546,
+          "lon": 21.208974
         },
         "coord_source": "pleiades",
         "normalized": true,
         "parent_hops": 0,
-        "place_label": "Chalcis",
+        "place_label": "Chalkis",
         "place_label_raw": [
           "Chalcis"
         ],
-        "place_pleiades_id": "540703",
-        "place_pleiades_uri": "https://pleiades.stoa.org/places/540703",
-        "place_qid": "Q21235810",
-        "place_wikidata_uri": "https://www.wikidata.org/entity/Q21235810",
+        "place_pleiades_id": "530827",
+        "place_pleiades_uri": "https://pleiades.stoa.org/places/530827",
+        "place_qid": "Q60790559",
+        "place_wikidata_uri": "https://www.wikidata.org/entity/Q60790559",
         "rank": "unknown",
         "roles": [
           "birth"
@@ -11728,15 +11740,27 @@
     "locations": [
       {
         "coord": {
-          "lat": 38.4625,
-          "lon": 23.595
+          "lat": 39.680546,
+          "lon": 21.208974
         },
-        "coord_source": "exact",
+        "coord_source": "pleiades",
+        "normalized": true,
         "parent_hops": 0,
-        "place_label": "Q200133",
-        "place_qid": "Q200133",
-        "place_wikidata_uri": "https://www.wikidata.org/entity/Q200133",
+        "place_label": "Chalkis",
+        "place_label_raw": [
+          "Q200133"
+        ],
+        "place_pleiades_id": "530827",
+        "place_pleiades_uri": "https://pleiades.stoa.org/places/530827",
+        "place_qid": "Q60790559",
+        "place_wikidata_uri": "https://www.wikidata.org/entity/Q60790559",
         "rank": "unknown",
+        "roles": [
+          "birth"
+        ],
+        "source_properties": [
+          "P19"
+        ],
         "source_property": "P19",
         "time": {
           "end": null,
@@ -11745,7 +11769,7 @@
         }
       }
     ],
-    "lod_status": "has_wikidata_only",
+    "lod_status": "lod_linked",
     "name": "Lycophron",
     "needs_wikipedia_lookup": false,
     "unknown_reason": null,
@@ -13918,15 +13942,27 @@
     "locations": [
       {
         "coord": {
-          "lat": 38.4625,
-          "lon": 23.595
+          "lat": 39.680546,
+          "lon": 21.208974
         },
-        "coord_source": "exact",
+        "coord_source": "pleiades",
+        "normalized": true,
         "parent_hops": 0,
-        "place_label": "Q200133",
-        "place_qid": "Q200133",
-        "place_wikidata_uri": "https://www.wikidata.org/entity/Q200133",
+        "place_label": "Chalkis",
+        "place_label_raw": [
+          "Q200133"
+        ],
+        "place_pleiades_id": "530827",
+        "place_pleiades_uri": "https://pleiades.stoa.org/places/530827",
+        "place_qid": "Q60790559",
+        "place_wikidata_uri": "https://www.wikidata.org/entity/Q60790559",
         "rank": "unknown",
+        "roles": [
+          "death"
+        ],
+        "source_properties": [
+          "P20"
+        ],
         "source_property": "P20",
         "time": {
           "end": null,
@@ -16480,20 +16516,20 @@
     "locations": [
       {
         "coord": {
-          "lat": 38.457139,
-          "lon": 23.621937
+          "lat": 39.680546,
+          "lon": 21.208974
         },
         "coord_source": "pleiades",
         "normalized": true,
         "parent_hops": 0,
-        "place_label": "Chalcis",
+        "place_label": "Chalkis",
         "place_label_raw": [
           "Chalcis"
         ],
-        "place_pleiades_id": "540703",
-        "place_pleiades_uri": "https://pleiades.stoa.org/places/540703",
-        "place_qid": "Q21235810",
-        "place_wikidata_uri": "https://www.wikidata.org/entity/Q21235810",
+        "place_pleiades_id": "530827",
+        "place_pleiades_uri": "https://pleiades.stoa.org/places/530827",
+        "place_qid": "Q60790559",
+        "place_wikidata_uri": "https://www.wikidata.org/entity/Q60790559",
         "rank": "unknown",
         "roles": [
           "death",

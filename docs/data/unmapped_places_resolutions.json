@@ -105,9 +105,11 @@
     "author_count": 3,
     "role_counts": null,
     "authors": [],
-    "decision": "needs_lookup",
+    "decision": "pleiades",
     "lookup": "pleiades_id",
-    "note": "Resolve by Pleiades search using label variants + author context"
+    "note": "Resolve Q200133 to Pleiades 530827 (Chalcis) and update Wikidata QID",
+    "pleiades_id": "530827",
+    "wikidata_qid": "Q60790559"
   },
   {
     "place_qid": "Q27088966",
@@ -950,5 +952,13 @@
     "decision": "needs_lookup",
     "lookup": "pleiades_id",
     "note": "Resolve by Pleiades search using label variants + author context"
+  },
+  {
+    "place_qid": "Q21235810",
+    "place_label": "Chalcis",
+    "decision": "pleiades",
+    "pleiades_id": "530827",
+    "wikidata_qid": "Q60790559",
+    "note": "Resolve Chalcis Q21235810 to Pleiades 530827 (Chalkis)"
   }
 ]

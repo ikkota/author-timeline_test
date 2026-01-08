@@ -341,6 +341,46 @@
     {
       "geometry": {
         "coordinates": [
+          21.208974,
+          39.680546
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "author_count": 5,
+        "bucket": "S",
+        "bucket_rank": 3,
+        "display_name": "Chalkis",
+        "id": "pleiades:530827",
+        "importance": 5,
+        "minZoom": 4,
+        "name_en": "Chalkis",
+        "pleiades_id": "530827",
+        "pleiades_uri": "https://pleiades.stoa.org/places/530827",
+        "role_counts": {
+          "birth": 3,
+          "death": 2
+        },
+        "roles": [
+          "birth",
+          "death"
+        ],
+        "sameAs": [
+          "https://pleiades.stoa.org/places/530827",
+          "https://www.wikidata.org/entity/Q60790559"
+        ],
+        "source": "authors_geo_lod",
+        "tags": [
+          "author_related"
+        ],
+        "wikidata_qid": "Q60790559",
+        "wikidata_uri": "https://www.wikidata.org/entity/Q60790559"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           26.944483,
           37.68825
         ],
@@ -936,45 +976,6 @@
     {
       "geometry": {
         "coordinates": [
-          23.595,
-          38.4625
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "author_count": 3,
-        "bucket": "A",
-        "bucket_rank": 2,
-        "display_name": "Q200133",
-        "id": "wikidata:Q200133",
-        "importance": 3,
-        "minZoom": 6,
-        "name_en": "Q200133",
-        "pleiades_id": null,
-        "pleiades_uri": null,
-        "role_counts": {
-          "birth": 2,
-          "death": 1
-        },
-        "roles": [
-          "birth",
-          "death"
-        ],
-        "sameAs": [
-          "https://www.wikidata.org/entity/Q200133"
-        ],
-        "source": "authors_geo_lod",
-        "tags": [
-          "author_related"
-        ],
-        "wikidata_qid": "Q200133",
-        "wikidata_uri": "https://www.wikidata.org/entity/Q200133"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           27.97207626591052,
           36.179110443681076
         ],
@@ -1318,46 +1319,6 @@
         ],
         "wikidata_qid": "Q29962",
         "wikidata_uri": "https://www.wikidata.org/entity/Q29962"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          23.621937,
-          38.457139
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "author_count": 2,
-        "bucket": "B",
-        "bucket_rank": 1,
-        "display_name": "Chalcis",
-        "id": "pleiades:540703",
-        "importance": 2,
-        "minZoom": 7,
-        "name_en": "Chalcis",
-        "pleiades_id": "540703",
-        "pleiades_uri": "https://pleiades.stoa.org/places/540703",
-        "role_counts": {
-          "birth": 1,
-          "death": 1
-        },
-        "roles": [
-          "birth",
-          "death"
-        ],
-        "sameAs": [
-          "https://pleiades.stoa.org/places/540703",
-          "https://www.wikidata.org/entity/Q21235810"
-        ],
-        "source": "authors_geo_lod",
-        "tags": [
-          "author_related"
-        ],
-        "wikidata_qid": "Q21235810",
-        "wikidata_uri": "https://www.wikidata.org/entity/Q21235810"
       },
       "type": "Feature"
     },
