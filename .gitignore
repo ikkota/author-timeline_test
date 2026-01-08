@@ -16,3 +16,7 @@ WALKTHROUGH.md
 
 # Local planning notes
 plan.md
+
+# Generated data (local only)
+docs/data/authors_geo.normalized.json
+docs/data/mapping_collisions.json
