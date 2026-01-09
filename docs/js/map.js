@@ -22,8 +22,10 @@
     let placeData = [];
     let physicalData = [];
     let authorsGeo = {};
+    let authorsGeoNormalized = {};
     let authorsArray = [];
     let authorById = new Map();
+    let placeToAuthors = new Map();
     let allMarkers = [];
     let markersByAuthorId = new Map();
     let currentYear = null;
@@ -62,6 +64,8 @@
         { zoom: 99, limit: 400 },
     ];
 
+    const PLACE_POPUP_MAX = 200;
+
     const CORE_TAG_MODE = 'all'; // 'author_related' | 'greek' | 'roman' | 'all'
 
     function escapeHtml(text) {
@@ -72,6 +76,41 @@
             .replace(/>/g, '&gt;')
             .replace(/"/g, '&quot;')
             .replace(/'/g, '&#39;');
+    }
+
+    function formatYear(year) {
+        if (year === null || year === undefined || Number.isNaN(year)) return '?';
+        const n = Number(year);
+        if (!Number.isFinite(n)) return '?';
+        if (n < 0) return `${Math.abs(n)} BC`;
+        if (n === 0) return '0';
+        return `${n} AD`;
+    }
+
+    function placeKeyFromCoords(lat, lon) {
+        if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+        return `coord:${lat.toFixed(5)},${lon.toFixed(5)}`;
+    }
+
+    function placeKeyFromLocation(loc) {
+        if (!loc) return null;
+        if (loc.place_pleiades_id) return `pleiades:${loc.place_pleiades_id}`;
+        if (loc.place_qid) return `qid:${loc.place_qid}`;
+        const coord = loc.coord || {};
+        return placeKeyFromCoords(Number(coord.lat), Number(coord.lon));
+    }
+
+    function placeKeyFromFeature(feature) {
+        if (!feature) return null;
+        const props = feature.properties || {};
+        if (props.place_key) return props.place_key;
+        if (props.pleiades_id) return `pleiades:${props.pleiades_id}`;
+        if (props.wikidata_qid) return `qid:${props.wikidata_qid}`;
+        const coords = feature.geometry?.coordinates || [];
+        if (coords.length >= 2) {
+            return placeKeyFromCoords(Number(coords[1]), Number(coords[0]));
+        }
+        return null;
     }
 
     // Initialize map
@@ -92,7 +131,7 @@
         map.getPane('ancient-features').style.zIndex = 320;
         map.createPane('ancient-labels');
         map.getPane('ancient-labels').style.zIndex = 380;
-        map.getPane('ancient-labels').style.pointerEvents = 'none';
+        map.getPane('ancient-labels').style.pointerEvents = 'auto';
 
         // Base layers without modern labels
         const baseLayer = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
@@ -208,6 +247,14 @@
             updateAncientLayers();
         });
 
+        map.on('popupopen', (e) => {
+            const container = e.popup?.getElement();
+            if (!container) return;
+            if (container.querySelector('.place-popup')) {
+                attachPlacePopupHandlers(container);
+            }
+        });
+
         // Load geo data
         loadGeoData();
     }
@@ -249,6 +296,20 @@
 
             // Build lookup map for metadata (esp. primary_occupation)
             authorById = new Map(authorsArray.map(a => [a.id, a]));
+
+            // Prefer normalized authors for place popups; fallback to lod if missing
+            authorsGeoNormalized = authorsGeo;
+            try {
+                const respNorm = await fetch(`data/authors_geo.normalized.json?${cacheBust}`);
+                if (respNorm.ok) {
+                    authorsGeoNormalized = await respNorm.json();
+                } else {
+                    console.info('authors_geo.normalized.json not found; using authors_geo_lod.json for place popups.');
+                }
+            } catch (err) {
+                console.info('Failed to load authors_geo.normalized.json; using authors_geo_lod.json for place popups.', err);
+            }
+            placeToAuthors = buildPlaceAuthorIndex(authorsGeoNormalized);
 
             console.log(`Loaded geo data for ${Object.keys(authorsGeo).length} authors and metadata for ${authorsArray.length} authors`);
 
@@ -465,6 +526,154 @@
             case 'P20': return 'death';
             default: return prop;
         }
+    }
+
+    function rolesFromLocation(loc) {
+        if (Array.isArray(loc?.roles) && loc.roles.length > 0) {
+            return loc.roles;
+        }
+        if (loc?.source_property) {
+            return [formatProperty(loc.source_property)];
+        }
+        return ['other'];
+    }
+
+    function buildPlaceAuthorIndex(geoSource) {
+        const index = new Map();
+        for (const [qid, author] of Object.entries(geoSource || {})) {
+            const meta = authorById.get(qid);
+            const name = meta?.content || author.name || qid;
+            const start = Number.isFinite(meta?.start) ? meta.start : author.active_range?.start ?? null;
+            const end = Number.isFinite(meta?.end) ? meta.end : author.active_range?.end ?? null;
+
+            for (const loc of author.locations || []) {
+                if (!loc || typeof loc !== 'object') continue;
+                const key = placeKeyFromLocation(loc);
+                if (!key) continue;
+
+                if (!index.has(key)) index.set(key, new Map());
+                const authorMap = index.get(key);
+                if (!authorMap.has(qid)) {
+                    authorMap.set(qid, {
+                        id: qid,
+                        name,
+                        start,
+                        end,
+                        roles: new Set()
+                    });
+                }
+                const entry = authorMap.get(qid);
+                rolesFromLocation(loc).forEach(r => entry.roles.add(r));
+            }
+        }
+        return index;
+    }
+
+    function sortPlaceAuthors(authors) {
+        const rolePriority = { birth: 0, death: 0, work: 1, residence: 1, other: 2 };
+        return authors.sort((a, b) => {
+            const aPriority = Math.min(...a.roles.map(r => rolePriority[r] ?? 3));
+            const bPriority = Math.min(...b.roles.map(r => rolePriority[r] ?? 3));
+            if (aPriority !== bPriority) return aPriority - bPriority;
+            const aStart = Number.isFinite(a.start) ? a.start : 99999;
+            const bStart = Number.isFinite(b.start) ? b.start : 99999;
+            if (aStart !== bStart) return aStart - bStart;
+            return (a.name || '').localeCompare(b.name || '');
+        });
+    }
+
+    function buildPlacePopupContent(placeName, authors) {
+        if (!authors || authors.length === 0) {
+            return `<div class="place-popup"><strong>${escapeHtml(placeName)}</strong><div class="place-popup__empty">No linked authors</div></div>`;
+        }
+        const sorted = sortPlaceAuthors(authors);
+        const limited = sorted.slice(0, PLACE_POPUP_MAX);
+            const rows = limited.map(author => {
+                const roleLabels = Array.from(new Set(author.roles.map(r => r.toLowerCase())))
+                    .filter(r => ['birth', 'death', 'work', 'residence', 'other'].includes(r));
+                const badges = [];
+                if (roleLabels.includes('birth')) {
+                    badges.push(`
+                    <span class="place-popup__year">${escapeHtml(formatYear(author.start))}</span>
+                    <span class="place-popup__badge">birth</span>
+                `);
+                }
+                if (roleLabels.includes('death')) {
+                    badges.push(`
+                    <span class="place-popup__year">${escapeHtml(formatYear(author.end))}</span>
+                    <span class="place-popup__badge">death</span>
+                `);
+                }
+                ['work', 'residence', 'other'].forEach(role => {
+                    if (roleLabels.includes(role)) {
+                        badges.push(`<span class="place-popup__badge place-popup__badge--role">${escapeHtml(role)}</span>`);
+                    }
+                });
+            return `
+                <button type="button" class="place-popup__author" data-author-id="${escapeHtml(author.id)}">
+                    <span class="place-popup__name">${escapeHtml(author.name)}</span>
+                    <span class="place-popup__badges">${badges.join('')}</span>
+                </button>
+            `;
+        }).join('');
+        const more = sorted.length > PLACE_POPUP_MAX
+            ? `<div class="place-popup__more">and ${sorted.length - PLACE_POPUP_MAX} more...</div>`
+            : '';
+        return `
+            <div class="place-popup">
+                <strong>${escapeHtml(placeName)}</strong>
+                <div class="place-popup__list">${rows}</div>
+                ${more}
+            </div>
+        `;
+    }
+
+    function openPlacePopup(feature, latlngOverride) {
+        if (!feature || !map) return;
+        const props = feature.properties || {};
+        const coords = feature.geometry?.coordinates || [];
+        const fallbackLatLng = coords.length >= 2 ? [coords[1], coords[0]] : null;
+        const latlng = latlngOverride || fallbackLatLng;
+        if (!latlng) return;
+        const placeName = props.display_name || props.name_en || 'Unknown place';
+        const placeKey = placeKeyFromFeature(feature);
+        const authorMap = placeKey ? placeToAuthors.get(placeKey) : null;
+        const authors = authorMap
+            ? Array.from(authorMap.values()).map(entry => ({
+                id: entry.id,
+                name: entry.name,
+                start: entry.start,
+                end: entry.end,
+                roles: Array.from(entry.roles || [])
+            }))
+            : [];
+        const html = buildPlacePopupContent(placeName, authors);
+        L.popup({ closeButton: true, autoPan: true })
+            .setLatLng(latlng)
+            .setContent(html)
+            .openOn(map);
+    }
+
+    function attachPlacePopupHandlers(container) {
+        const buttons = container.querySelectorAll('.place-popup__author');
+        if (!buttons.length) return;
+        buttons.forEach(btn => {
+            btn.addEventListener('click', (event) => {
+                event.preventDefault();
+                event.stopPropagation();
+                const qid = btn.getAttribute('data-author-id');
+                if (!qid) return;
+                if (window.mapAPI?.showAuthorPopup) {
+                    window.mapAPI.showAuthorPopup(qid);
+                }
+                if (window.timelineAPI?.focusAuthor) {
+                    const wasLocked = isYearLocked;
+                    isYearLocked = true;
+                    window.timelineAPI.focusAuthor(qid, { preserveWindow: true });
+                    setTimeout(() => { isYearLocked = wasLocked; }, 500);
+                }
+            });
+        });
     }
 
     // Update map markers and Unknown panel based on selected year
@@ -825,18 +1034,23 @@
             const props = f.properties || {};
             const level = placeLevel(props);
             const icon = L.divIcon({
-                className: `ancient-label ancient-label-${level}`,
+                className: `ancient-label ancient-label-${level} ancient-label-clickable`,
                 html: `<span>${escapeHtml(props.display_name || props.name_en || '')}</span>`,
                 iconSize: [0, 0]
             });
             const latlng = map.containerPointToLatLng([pt.x, pt.y]);
-            const marker = L.marker(latlng, { icon, interactive: false, pane: 'ancient-labels' });
+            const marker = L.marker(latlng, { icon, interactive: true, pane: 'ancient-labels' });
+            marker.on('click', () => openPlacePopup(f, marker.getLatLng()));
             if (level === 'major') {
                 placeLayers.major.addLayer(marker);
             } else if (level === 'mid') {
                 placeLayers.mid.addLayer(marker);
             } else {
                 placeLayers.minor.addLayer(marker);
+            }
+            const placeKey = placeKeyFromFeature(f);
+            if (placeKey && !props.place_key) {
+                props.place_key = placeKey;
             }
         });
     }
